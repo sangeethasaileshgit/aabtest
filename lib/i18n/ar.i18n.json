@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ar_SA",
+    "languageName": "Arabic",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "الملف الشخصي",
+    "language": "اللغة",
+    "subscriptionPlan": "خطة الاشتراك",
+    "contactUs": "اتصل بنا",
+    "termsAndConditions": "الشروط والأحكام",
+    "aboutUs": "عنّا",
+    "logout": "تسجيل الخروج",
+    "editProfile": "تعديل الملف الشخصي",
+    "fullName": "الاسم الكامل",
+    "email": "البريد الإلكتروني",
+    "mobileNumber": "رقم الجوال",
+    "address": "العنوان",
+    "postalCode": "الرمز البريدي",
+    "city": "المدينة",
+    "country": "البلد",
+    "state": "المنطقة/الولاية",
+    "password": "كلمة المرور",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "tenant": "المستأجر",
+    "landlord": "المالك",
+    "cancelRenting": "إلغاء الإيجار",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "fromDate": "من تاريخ",
+    "toDate": "إلى تاريخ",
+    "online": "عبر الإنترنت",
+    "bankList": "قائمة البنوك",
+    "withdrawMethod": "طريقة السحب",
+    "uploadPaymentReceipt": "تحميل إيصال الدفع",
+    "offlinePaymentNote(rich)": "ملاحظة: ${note(يتطلب الدفع موافقة يدوية من المسؤول في غضون)} ${duraion(24~48 ساعة.)}",
+    "reviews": "التقييمات",
+    "description": "الوصف",
+    "about": "حول",
+    "propertyTypes": "أنواع العقارات",
+    "features": "الميزات",
+    "floorPlans": "مخططات الطوابق",
+    "buildingDetails": "تفاصيل المبنى",
+    "buildingName": "اسم المبنى",
+    "propertyAddress": "عنوان العقار",
+    "completionYear": "سنة الإنجاز",
+    "lotNumber": "رقم القطعة",
+    "residentialType": "النوع السكني",
+    "furnishings": "المفروشات",
+    "floorRange": "نطاق الطابق",
+    "bedrooms": "غرف النوم",
+    "bathrooms": "حمامات",
+    "propertySize": "حجم العقار",
+    "rentalPeriod": "مدة الإيجار",
+    "securityDeposit": "تأمين الإيداع",
+    "utilityBill": "فواتير الخدمات",
+    "facilities": "المرافق",
+    "amenities": "الخدمات",
+    "expiringReason": "سبب الانتهاء",
+    "tenantDetails": "تفاصيل المستأجر",
+    "typeOfTenant": "نوع المستأجر",
+    "tenantName": "اسم المستأجر",
+    "nidPassport": "بطاقة الهوية/جواز السفر",
+    "nidPassportId": "معرّف @:common.nidPassport",
+    "tenantId": "معرّف المستأجر",
+    "dateOfBirth": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "nominee": "المرشح",
+    "name": "الاسم",
+    "optional": "اختياري",
+    "nomineeName": "اسم @:common.nominee",
+    "nomineeEmail": "بريد @:common.nominee الإلكتروني",
+    "nomineeMobile": {
+      "short": "رقم جوال @:common.nominee",
+      "full": "رقم @:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "جهة اتصال للطوارئ",
+    "relation": "الصلة",
+    "relationWith": "الصلة مع",
+    "relationWithYou": "الصلة @:common.relationWith بك",
+    "company": "الشركة",
+    "companyName": "اسم @:common.company",
+    "companySSMNo": "رقم سجل الشركة @:common.company",
+    "workplace": "مكان العمل",
+    "officePhoneNo": "رقم هاتف المكتب",
+    "officeMobileNo": "رقم @:common.mobileNumber للمكتب",
+    "vehicle": "مركبة",
+    "vehiclesInfo": {
+      "plain": "معلومات المركبات",
+      "optional": "معلومات المركبات (@:common.optional)"
+    },
+    "vehiclesType": "نوع @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "رقم تسجيل المركبة",
+      "short": "رقم التسجيل",
+      "alt": "رقم اللوحة"
+    },
+    "vehicleBrand": "علامة @:common.vehicle التجارية",
+    "rentProperty": "استئجار عقار",
+    "propertyDetails": "تفاصيل العقار",
+    "propertyId": "معرّف العقار",
+    "propertyType": "نوع العقار",
+    "propertyName": "اسم العقار",
+    "paymentDetails": "تفاصيل الدفع",
+    "monthlyRent": "الإيجار الشهري",
+    "thisMonthPayment": "دفع هذا الشهر",
+    "totalPaidRent": "إجمالي الإيجار المدفوع",
+    "dueRent": "الإيجار المستحق",
+    "rentStartDate": "بدء @:common.startDate الإيجار",
+    "rentEndDate": "انتهاء @:common.endDate الإيجار",
+    "status": "الحالة",
+    "rentAgreementPdf": "ملف PDF لاتفاقية الإيجار",
+    "noFile": "لا يوجد ملف",
+    "tenantImageOp": "صورة المستأجر @:common.optional",
+    "addNewVechicle": "إضافة مركبات جديدة",
+    "uploadNidPassport": "تحميل بطاقة الهوية/جواز السفر",
+    "nidPassportUploadNote": "يتم قبول ملفات الصور فقط. الحد الأقصى لحجم الملف هو 2.5 ميجابايت.",
+    "search": "بحث",
+    "sortBy": "فرز حسب",
+    "subscription": "الاشتراك",
+    "downloading": "جارٍ التحميل...",
+    "downloadSuccess": "تم تحميل الملف بنجاح!",
+    "addPropertyBannerTitle": "هل تتطلع إلى تأجير عقارك؟",
+    "application": "طلب التقديم",
+    "tenantHasPaidDeposit": "دفع المستأجر الوديعة.",
+    "askProcessingRentApplication": "هل أنت متأكد من معالجة هذا الطلب لاستئجار عقار؟",
+    "dateAndTime": "التاريخ والوقت",
+    "applicationDetails": "تفاصيل الطلب",
+    "depositStatus": "حالة الإيداع",
+    "uploadRentAgreement": "تحميل اتفاقية الإيجار",
+    "uploadFilePDF": "تحميل ملف (PDF)",
+    "askSelectRentAgreement": "الرجاء تحديد ملف وثيقة الاتفاقية.",
+    "landlordRentAgreementPDF": "ملف PDF لاتفاقية إيجار المالك",
+    "tenantRentAgreementPDF": "ملف PDF لاتفاقية إيجار المستأجر",
+    "landlordApplicationApproveNote(rich)": "ملاحظة: ${note(قم بالموافقة على الطلب فقط بعد أن يقوم المستأجر بالدفع الإيداع.)}",
+    "reasonOfRejection": "سبب الرفض",
+    "youveRejectedThisApplication": "لقد قمت برفض هذا الطلب",
+    "landlordDetails": "تفاصيل المالك",
+    "landlordName": "اسم المالك",
+    "downloadRentAgreement": "تحميل اتفاقية الإيجار",
+    "acceptTermsConditions(rich)": "قبول ${toc(الشروط والأحكام)}",
+    "tenantAgreementSignNote1(rich)": "ملاحظة: ${note(الرجاء تحميل وقراءة الاتفاقية. يرجى إرسال الاتفاقية الموقعة إلى المالك عبر واتساب أو البريد الإلكتروني.)}",
+    "tenantAgreementSignNote2(rich)": "ملاحظة: ${note(يوافق المالك على الطلب، عندما يدفع المستأجر تأمين الإيداع والخدمات ودفع الإيجار لشهر واحد مقدماً.)}",
+    "completeRentAgreementPdf(rich)": "اتفاقية الإيجار (PDF) ${complete(اتفاقية كاملة)}",
+    "tenantApplicationDepositNote(rich)": "ملاحظة : ${note(يوافق المالك على الطلب، عندما يدفع المستأجر تأمين الإيداع والخدمات ودفع الإيجار لشهر واحد مقدماً.)}",
+    "whatsapp": "واتساب",
+    "applicationList": "قائمة الطلبات",
+    "viewDetails": "عرض التفاصيل",
+    "searchHint": "@:common.search...",
+    "home": "الرئيسية",
+    "dashboard": "لوحة القيادة",
+    "tenants": "المستأجرون",
+    "maintenance": "الصيانة",
+    "maintenanceList": "قائمة الصيانة",
+    "maintenanceReport": "تقرير الصيانة",
+    "labor": "العمالة",
+    "applications": "الطلبات",
+    "rentInvitation": "دعوة الإيجار",
+    "payment": "الدفع",
+    "rentPayment": "دفع الإيجار",
+    "depositUtilityPayment": "دفع الإيداع والخدمات",
+    "refundRequest": "طلب استرداد",
+    "withdrawRequest": "طلب سحب",
+    "myProperty": "عقاراتي",
+    "myRent": "إيجاري",
+    "wishlist": "قائمة الرغبات",
+    "properties": "العقارات",
+    "allProperties": "جميع العقارات",
+    "totalPropery": "إجمالي العقارات",
+    "occupied": "مشغول",
+    "vacant": "شاغر",
+    "accounting": "المحاسبة",
+    "totalIncome": "إجمالي الدخل",
+    "totalExpense": "إجمالي المصروفات",
+    "currentBalance": "الرصيد الحالي",
+    "totalWithdrawal": "الإجمالي (السحب)",
+    "totalProperties": "إجمالي العقارات",
+    "totalTenant": "إجمالي المستأجرين",
+    "totalRentPaid": "إجمالي الإيجار المدفوع",
+    "totalRentDue": "إجمالي الإيجار المستحق",
+    "totalApplication": "إجمالي الطلبات",
+    "pendingApplication": "طلب معلق",
+    "processingApplication": "طلب قيد المعالجة",
+    "approveApplication": "طلب موافق عليه",
+    "rejectApplication": "طلب مرفوض",
+    "maintenanceCost": "تكلفة الصيانة",
+    "transactionSummary": "ملخص المعاملات",
+    "maintenanceRequest": "طلب صيانة",
+    "notifications": "الإشعارات",
+    "myProperties": "عقاراتي",
+    "recommendationProperties": "العقارات الموصى بها",
+    "laborList": "قائمة العمالة",
+    "addLabor": "إضافة عمالة",
+    "laborDetails": "تفاصيل العمالة",
+    "laborSalary": "راتب العمالة",
+    "editLabor": "تعديل العمالة",
+    "addNewLabor": "إضافة عمالة جديدة",
+    "enterAmount": "أدخل المبلغ",
+    "maintenanceDetails": "تفاصيل الصيانة",
+    "laborName": "اسم العمالة",
+    "comment": "تعليق",
+    "image": "صورة",
+    "complete": "مكتمل",
+    "details": "التفاصيل",
+    "title": "العنوان",
+    "date": "التاريخ",
+    "reason": "السبب",
+    "edit": "تعديل",
+    "property": "العقار",
+    "completeYourProfile": "أكمل ملفك الشخصي",
+    "profileImage": "صورة الملف الشخصي",
+    "imagePickHint": "صورة JPEG و PNG فقط بحد أقصى لحجم 120x120 بكسل.",
+    "invoiceId": "معرّف الفاتورة",
+    "depositAmount": "مبلغ الإيداع",
+    "landlordPhone": "هاتف المالك",
+    "rentalAdvance": "الإيجار (مقدم)",
+    "totalAmount": "المبلغ الإجمالي",
+    "rentAmount": "مبلغ الإيجار",
+    "adminCharge": "رسوم إدارية",
+    "editAccount": "تعديل الحساب",
+    "addNewAccount": "إضافة حساب جديد",
+    "transactionId": "معرّف المعاملة",
+    "transactionType": "نوع المعاملة",
+    "requestDate": "تاريخ الطلب",
+    "amount": "المبلغ",
+    "fee": "الرسوم",
+    "paymentStatus": "حالة الدفع",
+    "generatedTime": "وقت الإنشاء",
+    "systemGeneratedReportHint(rich)": "هذا تقرير تم إنشاؤه بواسطة النظام لـ ${appName}",
+    "withdrawHistory": "سجل السحب",
+    "history": "السجل",
+    "withdrawAmount": "مبلغ السحب",
+    "availableBalance": "الرصيد المتاح",
+    "withdrawCharge": "رسوم السحب",
+    "paymentMethod": "طريقة الدفع",
+    "requestSendSuccess": "تم إرسال الطلب بنجاح!",
+    "paymentReceiptSubmitSuccess": "تم تقديم إيصال الدفع بنجاح.",
+    "refundReason": "سبب استرداد الأموال",
+    "note": "ملاحظة",
+    "refundReceiveSuccess": "تم استلام استرداد الأموال بنجاح.",
+    "downloadPaymentReceipt": "تحميل إيصال الدفع",
+    "invoice": "الفاتورة",
+    "selectPropertyToSeeInvoice": "حدد العقار لرؤية رقم الفاتورة...",
+    "bankAccName": "اسم الحساب البنكي",
+    "bankName": "اسم البنك",
+    "bankAccNum": "رقم الحساب البنكي",
+    "thankYou": "شكراً لك!",
+    "basicInfo": "المعلومات الأساسية",
+    "descriptionPricing": "الوصف والأسعار",
+    "contact": "الاتصال",
+    "photos": "الصور",
+    "successfullySubmitted": "تم الإرسال بنجاح!",
+    "editProperty": "تعديل العقار",
+    "addNewProperty": "إضافة عقار جديد",
+    "propertyManageRequestSuccess": "تم تقديم إعلانك للمراجعة.",
+    "postAnotherProperty": "نشر عقار آخر",
+    "browseYourProperty": "تصفح عقارك",
+    "stepIndicator(rich)": "الخطوة ${step} من ${totalSteps}",
+    "whatWouldYouLikeToPost": "ماذا تريد أن تنشر؟",
+    "category": "الفئة",
+    "invalidCategory": "فئة غير صالحة",
+    "unitNumber": "رقم الوحدة",
+    "sqft": "قدم مربع",
+    "propertySizeMustBeGreaterThan0": "يجب أن يكون حجم العقار أكبر من صفر",
+    "whatAreTheFacility": "ما هي المرافق؟",
+    "whatAreTheAmenity": "ما هي الخدمات؟",
+    "parkingLot": "موقف سيارات",
+    "houseType": "نوع المنزل",
+    "value": "القيمة",
+    "unitLotSize": "حجم الوحدة / القطعة",
+    "landSize": "حجم الأرض",
+    "acres": "فدان(أفدنة)",
+    "roomSize": "حجم الغرفة",
+    "askTenantPreference": "ما هو تفضيلك للمستأجر؟",
+    "couple": "زوجان",
+    "describeTheProperty": "صف ${propertyType: String}",
+    "adTitle": "عنوان الإعلان",
+    "minimumRentalPeriod": "الحد الأدنى لمدة الإيجار",
+    "whatsappNumber": "رقم @:common.whatsapp",
+    "hideOrDisplayEmail": "إخفاء أو عرض عنوان البريد الإلكتروني",
+    "thankYouForPostingProperty": "شكراً لك على النشر في ${appName: String}!",
+    "propertyList": "قائمة العقارات",
+    "newInviteRent": "دعوة إيجار جديدة",
+    "rentAgreement": "اتفاقية الإيجار",
+    "rentDetails": "تفاصيل الإيجار",
+    "landlordRentInvitationPendingNote(rich)": "ملاحظة: ${note(الرجاء انتظار موافقة المستأجر على الدعوة.)}",
+    "rent": "إيجار",
+    "editTenant": "تعديل المستأجر",
+    "addNewTenant": "إضافة مستأجر جديد",
+    "shareInstallLink": "مشاركة رابط التثبيت",
+    "tenantList": "قائمة المستأجرين",
+    "editMaintenanceRequest": "تعديل طلب الصيانة",
+    "addNewMaintenance": "إضافة صيانة جديدة",
+    "landlordId": "معرّف المالك",
+    "tenantAgrementUnderReviewNote(rich)": "ملاحظة ${note(اتفاقيتك قيد المراجعة. الرجاء الانتظار حتى يوافق المالك على إيجارك.)}",
+    "editReview": "تعديل التقييم",
+    "writeAReview": "كتابة تقييم",
+    "selectRating": "تحديد التقييم",
+    "enterYourOpinion": "أدخل رأيك",
+    "askToEnterReviewMsg": "الرجاء إدخال رسالة تقييم",
+    "pressBackAgainToExit": "اضغط على رجوع مرة أخرى للخروج.",
+    "selectPaymentMethod": "اختر طريقة الدفع",
+    "filter": "تصفية",
+    "perMonth": "/1 شهر",
+    "searchHintWithAppName": "ابحث عن أي شيء في ${appName: String}...",
+    "propertyInfo": "معلومات العقار",
+    "units": "وحدات",
+    "depositPeriod": "فترة الإيداع",
+    "facilitiesList": "قائمة المرافق",
+    "facility": "مرفق",
+    "amenity": "خدمة",
+    "amenitiesList": "قائمة الخدمات",
+    "addNewFacility": "إضافة مرفق جديد",
+    "editFacility": "تعديل مرفق",
+    "facilityName": "اسم المرفق",
+    "amenityName": "اسم الخدمة",
+    "addNewAmenity": "إضافة خدمة جديدة",
+    "editAmenity": "تعديل خدمة",
+    "family": "عائلة",
+    "lateFee": "رسوم التأخير",
+    "lateFeeAfterDays": "رسوم @:common.lateFee بعد (أيام)",
+    "propertyPricing": "تسعير ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "شكراً جزيلاً، لقد قمت للتو بنشر عقارك",
+    "titleAndDescription": "العنوان والوصف",
+    "rentPricing": "تسعير الإيجار",
+    "step": "خطوة",
+    "of": "من",
+    "pricing": "التسعير",
+    "sameRentForAllUnit": "نفس الإيجار لجميع الوحدات",
+    "unit": "وحدة",
+    "pleaseSelectAnUnitFirst": "الرجاء تحديد وحدة أولاً.",
+    "saleAmount": "مبلغ البيع",
+    "selectCategory": "اختر فئة",
+    "pleaseSelectACategory": "الرجاء اختيار فئة",
+    "pleaseEnterAdTitle": "الرجاء إدخال عنوان الإعلان",
+    "addCoverPhoto": "إضافة صورة الغلاف",
+    "findAProperty": "البحث عن عقار",
+    "categories": "الفئات",
+    "recmmendedProperties": "العقارات الموصى بها",
+    "recentSearch": "البحث الحديث",
+    "pleaseEnterYourAccountNumber": "الرجاء إدخال رقم حسابك.",
+    "pleaseSelectALanguageToContinue": "الرجاء تحديد لغة للمتابعة.",
+    "subscribe": "اشترك",
+    "noFacilitiesFound": "لم يتم العثور على مرافق!",
+    "invalidLaborDetailsPleaseTryAgain": "تفاصيل عمالة غير صالحة، الرجاء المحاولة مرة أخرى",
+    "maintenanceWork": "أعمال الصيانة",
+    "selectLabor": "اختر العمالة",
+    "enterMaintenanceCost": "أدخل تكلفة الصيانة",
+    "pleaseEnterMaintenanceCost": "الرجاء إدخال تكلفة الصيانة",
+    "writeComment": "اكتب تعليقًا",
+    "maintenancePending": "صيانة معلقة",
+    "yourEarnings": "أرباحك",
+    "totalPaid": "الإجمالي المدفوع",
+    "linkANewBankAccount": "ربط حساب بنكي جديد",
+    "payoutRequest": "طلب صرف"
+  },
+  "exceptions": {
+    "somethingWentWrong": "حدث خطأ ما، الرجاء المحاولة مرة أخرى",
+    "noNidPassport": "لم يتم تقديم صورة لبطاقة الهوية/جواز السفر.",
+    "noRentPropertyFound": "لم يتم العثور على عقار إيجار لهذا المستأجر.",
+    "noPropertyFoundWithKeyWord": "لم يتم العثور على عقار!\nالرجاء المحاولة بكلمات مفتاحية مختلفة",
+    "noSubscriptionFoundRefreshPage": "لم يتم العثور على خطة اشتراك!\nالرجاء تحديث الصفحة والمحاولة مرة أخرى.",
+    "invalidApiDataRefreshPage": "معلومات ${dataType: String} غير صالحة! الرجاء تحديث الصفحة والمحاولة مرة أخرى.",
+    "invalidDownloadUrl": "رابط تحميل غير صالح!",
+    "failedToSaveFile": "فشل في حفظ الملف! ${error: String}",
+    "errorOpeningFile": "خطأ في فتح الملف! ${error: String}",
+    "noVehicleInfoProvided": "لم يتم تقديم معلومات عن المركبة.",
+    "yourApplicationRejected": "تم رفض طلبك",
+    "noApplicationFoundHint": {
+      "template": "لم يتم العثور على طلب!\nسيتم عرض ${subject: String} هنا عندما تكون متاحة.",
+      "subjects": {
+        "tenant": "طلبك",
+        "landlord": "طلب المستأجر"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "لم يتم العثور على عقار!\nالرجاء محاولة إضافة عقار لرؤيته هنا.",
+      "tenantRecommended": "لم يتم العثور على عقارات موصى بها\nالرجاء المحاولة مرة أخرى لاحقًا.",
+      "tenantAllProperty": "العقارات غير متاحة\nالرجاء المحاولة مرة أخرى لاحقًا."
+    },
+    "noImageProvided": "لم يتم تقديم صورة",
+    "noStatusMaintenantFound": {
+      "landlord": "لم يتم العثور على صيانة ${status}.",
+      "tenant": "لم يتم العثور على صيانة! يمكنك إنشاء طلب صيانة لرؤيته هنا."
+    },
+    "noDepositFound": "لم يتم العثور على تأمين إيداع!\nيمكنك رؤية تأمينات الإيداع عند توفرها",
+    "noRentPaymentFound": "لم يتم العثور على دفعة إيجار!\nيمكنك رؤية دفعات الإيجار عند توفرها",
+    "transactionSummaryApiException": "فشل في الحصول على ملخص المعاملات.",
+    "noWithdrawRequestFound": "لم يتم العثور على طلب!\nالرجاء محاولة إنشاء طلب سحب لرؤيته هنا.",
+    "withdrawRequestNotApproved": "لم تتم الموافقة على طلب السحب هذا!.",
+    "nonZeroError": "الرجاء إدخال مبلغ صالح أكبر من صفر.",
+    "minAmountError": "يجب أن يكون المبلغ على الأقل ${minValue: String}.",
+    "maxAmountError": "يجب ألا يتجاوز المبلغ ${maxValue: String}.",
+    "selectPaymentMethodHint": "الرجاء اختيار طريقة دفع أولاً.",
+    "noStatusRefundReqFound": {
+      "landlord": "لم يتم العثور على طلب استرداد ${status}!\nيمكنك رؤية طلب الاسترداد هنا عندما يكون متاحًا.",
+      "tenant": "لم يتم العثور على طلب استرداد!\nيمكنك إنشاء طلب استرداد لرؤيته هنا."
+    },
+    "refundRequestHint": {
+      "inTenantList": "سيوافق المستأجر على استرداد الأموال عندما يحصل على المال",
+      "tenantReqSuccess": "سنراجع طلب استرداد الأموال ونوافق عليه في غضون 24 ساعة."
+    },
+    "oneToTenRequiredField": "الرجاء اختيار عدد ${value: String}",
+    "invalidDateRange": "نطاق تاريخ غير صالح.",
+    "valueMustBeGreaterThanZero": "يجب أن يكون ${value: String} أكبر من صفر.",
+    "editProperty": {
+      "rentalChange": "عقار الإيجار يتغير. يجب أن يكون صالحًا (ساري المفعول) فقط لدفع الإيجار للشهر التالي.",
+      "deleteOnRent": "عقارك مستأجر بالفعل من قبل مستأجر. لا يمكن حذفه حتى تتم إزالة المستأجر أولاً",
+      "alreayRented": "هذا العقار مستأجر بالفعل. الرجاء المحاولة مرة أخرى لاحقًا.\nأو يمكنك الاتصال بالمالك لمزيد من المعلومات."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "لم يتم العثور على دعوة إيجار!\nالرجاء محاولة إنشاء دعوة إيجار لرؤيتها هنا.",
+      "tenantNoRentInvitation": "لم يتم العثور على دعوة إيجار!\nيمكنك رؤية دعوة الإيجار هنا عندما تكون متاحة."
+    },
+    "notenantFoundList": "لا يوجد مستأجرون!\nالرجاء محاولة إضافة مستأجر لرؤيته هنا.",
+    "noFeaturesProvided": "لم يتم توفير ميزات.",
+    "noNotificationFound": "لا توجد إشعارات متاحة.\nيمكنك رؤية إشعاراتك هنا عندما تكون متاحة.",
+    "noFacilitiesFound": "لم يتم العثور على مرافق.",
+    "noAmenitiesFound": "لم يتم العثور على خدمات!",
+    "noLaborFound": "لم يتم العثور على عمالة\\nالرجاء المحاولة مرة أخرى لاحقًا.",
+    "areYouSureYouWantToRemoveThisUnit": "هل أنت متأكد أنك تريد إزالة هذه الوحدة؟"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "هل أنت متأكد من تسجيل الخروج؟"
+    },
+    "application": {
+      "rejectTitle": "لماذا ترفض هذا الطلب؟",
+      "applicationSent": {
+        "successfully": "تم إرسال الطلب بنجاح!",
+        "sucessDescription": "يمكنك رؤية هذا الطلب في قائمة طلباتك"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "حذف العمالة؟",
+        "description": "هل أنت متأكد من حذف هذه العمالة؟"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "لماذا يتم رفض هذا الطلب؟",
+      "processTitle": "هل أنت متأكد من معالجة طلب الصيانة هذا؟",
+      "completeTitle": "هل تم الانتهاء من العمل؟"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "حذف طريقة السحب؟",
+      "deleteDescription": "هل أنت متأكد من حذف طريقة السحب هذه؟"
+    },
+    "unsavedChanges": {
+      "title": "هل أنت متأكد من العودة؟",
+      "message": "الحقول التي تم تغييرها لن يتم حفظها!"
+    },
+    "property": {
+      "delete": {
+        "title": "حذف العقار؟",
+        "message": "هل أنت متأكد من حذف هذا العقار؟"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "هل أنت متأكد من الموافقة على هذا الإيجار؟",
+        "description": "تأكد من مراجعة الاتفاقية الموقعة من قبل المستأجر."
+      },
+      "tenantAccept": {
+        "title": "هل أنت متأكد من قبول هذه الدعوة؟",
+        "description": "تأكد من تحميل ملف pdf للاتفاقية!"
+      }
+    },
+    "sessionExpired": {
+      "title": "انتهت الجلسة",
+      "message": "انتهت جلستك. الرجاء تسجيل الدخول مرة أخرى",
+      "action": "تسجيل الدخول"
+    },
+    "noInternet": {
+      "title": "لا يوجد اتصال بالإنترنت",
+      "message": "الرجاء التحقق من اتصال شبكة Wi-Fi أو شبكة الجوال والمحاولة مرة أخرى",
+      "action": "حاول مرة أخرى"
+    },
+    "permissionHandler": {
+      "title": "مطلوب إذن!",
+      "message": "تحتاج إلى منح الأذونات في إعدادات التطبيق. هل ترغب في فتح الإعدادات الآن؟"
+    },
+    "imagePicker": {
+      "title": "اختيار الخيار",
+      "gallery": "المعرض",
+      "camera": "الكاميرا"
+    },
+    "verificationDialog": {
+      "title": "تحقق من بريدك الإلكتروني",
+      "message": "لقد أرسلنا رمز تحقق عبر البريد الإلكتروني",
+      "messageWithEmail": "@:prompt.verificationDialog.message إلى ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "مسح الإشعارات؟",
+      "clearMessage": "هل أنت متأكد من مسح جميع الإشعارات؟"
+    },
+    "genericDeletePrompt": {
+      "title": "هل تريد حذف ${item: String} هذا"
+    },
+    "subscriptionModal": {
+      "title": "انتهت صلاحية الاشتراك!",
+      "message": "الرجاء الاشتراك للمتابعة."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "أدخل @:common.fullName",
+      "errors": {
+        "required": "الرجاء إدخال @:common.fullName الخاص بك"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "أدخل @:common.email الخاص بك",
+      "errors": {
+        "required": "الرجاء إدخال عنوان @:common.email الخاص بك",
+        "invalid": "⦸ بريد إلكتروني غير صالح، الرجاء المحاولة مرة أخرى"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "الرجاء إدخال @:common.password الخاص بك",
+        "minLength": "يجب أن تتكون كلمة المرور من ${count} أحرف على الأقل!"
+      }
+    },
+    "confirmPassword": {
+      "label": "تأكيد @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "الرجاء إدخال @:common.password الخاص بك",
+        "notMatched": "كلمة مرور التأكيد غير متطابقة!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "الرجاء إدخال @:common.mobileNumber الخاص بك"
+      }
+    },
+    "address1": {
+      "label": "العنوان 1",
+      "hint": "رقم المنزل واسم الشارع",
+      "errors": {
+        "required": "الرجاء إدخال @:form.address1.label الخاص بك"
+      }
+    },
+    "address2": {
+      "label": "العنوان 2",
+      "hint": "شقة، جناح، وحدة، إلخ",
+      "errors": {
+        "required": "الرجاء إدخال @:form.address2.label الخاص بك"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "أدخل @:common.postalCode",
+      "errors": {
+        "required": "الرجاء إدخال @:common.postalCode الخاص بك"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "أدخل اسم @:common.city.",
+      "errors": {
+        "required": "الرجاء إدخال اسم @:common.city الخاص بك."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "أدخل اسم @:common.state.",
+      "errors": {
+        "required": "الرجاء إدخال اسم @:common.state الخاص بك."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "اختر @:common.country.",
+      "errors": {
+        "required": "الرجاء اختيار @:common.country الخاص بك"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "الرجاء إدخال رمز التحقق (OTP).",
+        "invalid": "الرجاء إدخال رمز التحقق (OTP) الصحيح."
+      }
+    },
+    "title": {
+      "label": "العنوان",
+      "hint": "أدخل العنوان",
+      "errors": {
+        "required": "الرجاء إدخال العنوان"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "اختر @:form.date.label",
+      "errors": {
+        "required": "الرجاء اختيار @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "السبب",
+      "hint": "أدخل السبب",
+      "errors": {
+        "required": "الرجاء إدخال السبب"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "اختر @:common.withdrawMethod",
+      "errors": {
+        "required": "الرجاء اختيار @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "تحميل ${label: String}",
+      "errors": {
+        "required": "الرجاء اختيار ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "أدخل @:form.note.label",
+      "errors": {
+        "required": "الرجاء إدخال @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "اختر @:common.gender",
+      "errors": {
+        "required": "الرجاء اختيار @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "أدخل @:form.anyField.label",
+      "errors": {
+        "required": "الرجاء إدخال @:form.anyField.label",
+        "invalid": "الرجاء إدخال @:form.anyField.label صالح"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "اختر @:form.anyDropdown.label",
+      "errors": {
+        "required": "الرجاء اختيار @:form.anyDropdown.label",
+        "invalid": "الرجاء اختيار @:form.anyDropdown.label صالح"
+      }
+    }
+  },
+  "action": {
+    "next": "التالي",
+    "getStarted": "ابدأ الآن",
+    "skip": "تخطي",
+    "select": "اختيار",
+    "save": "حفظ",
+    "signIn": "تسجيل الدخول",
+    "signUp": "تسجيل جديد",
+    "continue": "متابعة",
+    "clearAll": "مسح الكل",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "إرسال",
+    "pay": "دفع",
+    "remove": "إزالة",
+    "goBack": "رجوع",
+    "buyNow": "اشترِ الآن",
+    "no": "لا",
+    "open": "فتح",
+    "addProperty": "إضافة عقار",
+    "process": "معالجة",
+    "approve": "موافقة",
+    "reject": "رفض",
+    "viewRent": "عرض الإيجار",
+    "openNavigationMenu": "فتح قائمة التنقل",
+    "seeAll": "مشاهدة الكل",
+    "update": "تحديث",
+    "printTransaction": "طباعة المعاملة",
+    "payoutRequest": "طلب صرف",
+    "addNew": "+ إضافة جديد",
+    "sendRequest": "إرسال طلب",
+    "print": "طباعة",
+    "requestForRefund": "طلب استرداد الأموال",
+    "previous": "السابق",
+    "delete": "حذف",
+    "applyProperty": "التقديم على العقار",
+    "viewApplication": "عرض الطلب",
+    "inviteTenant": "دعوة مستأجر",
+    "inviteRent": "دعوة للإيجار",
+    "cancel": "إلغاء",
+    "accept": "قبول",
+    "submit": "إرسال",
+    "yes": "نعم",
+    "okay": "حسناً",
+    "confirm": "تأكيد",
+    "apply": "تطبيق",
+    "reset": "إعادة تعيين",
+    "retry": "إعادة المحاولة",
+    "viewAll": "عرض الكل",
+    "addMore": "إضافة المزيد",
+    "done": "تم"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "ابحث عن عقارك",
+          "description": "لقد جعلنا من السهل العثور على مكان يناسب حياتك — سواء كانت غرفة، شقة، أو منزل."
+        },
+        "data2": {
+          "title": "شقة في المدينة",
+          "description": "نحن نوفر لك الوقت من خلال مطابقتك بسرعة مع العقار المثالي قبل أن يذهب لتتمكن من الاستمتاع بمنزلك الجديد، أو قم بإدراج عقارك الخاص مجانًا."
+        },
+        "data3": {
+          "title": "منزل راحتك",
+          "description": "إذا كنت تبحث عن مكان للعيش، فقم بإلقاء نظرة على منازلنا للإيجار. لدينا مجموعة واسعة من المنازل لتختار من بينها في جميع أنحاء البلاد."
+        }
+      }
+    },
+    "signIn": {
+      "title": "أهلاً بك مرة أخرى",
+      "subtitle": "سجل الدخول الآن لتبدأ رحلة مذهلة.",
+      "extra": {
+        "rememberMe": "تذكرني",
+        "signUpNavigator(rich)": "ليس لديك حساب؟ ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "نسيت كلمة المرور",
+      "subtitle": "أدخل عنوان بريدك الإلكتروني لاستعادة كلمة المرور."
+    },
+    "otpVerification": {
+      "title": "التحقق",
+      "subtitle": "تم إرسال رمز سري مكون من 6 أرقام إلى عنوان بريدك الإلكتروني. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "تم إرسال الرمز في ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(إعادة إرسال الرمز)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "إعادة تعيين كلمة المرور",
+      "subtitle": "أعد تعيين كلمة المرور الخاصة بك للاسترداد وتسجيل الدخول إلى حسابك",
+      "extra": {
+        "dialog": {
+          "title": "تم التغيير بنجاح!",
+          "subtitle": "سجل الدخول بكلمة المرور الجديدة.\n يتم توجيهك إلى صفحة تسجيل الدخول..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "إنشاء حساب",
+      "subtitle": "سجل الآن لتبدأ رحلة مذهلة",
+      "extra": {
+        "signInNavigator(rich)": "لديك حساب؟ ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "من أنت؟",
+      "subtitle": "الرجاء تحديد الخيار أدناه.",
+      "extra": {
+        "landlordTag": "إدارة العقارات الخاصة بك",
+        "tenantTag": "تسجيل الدخول إلى حساب الإيجار الخاص بك"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "الإشعارات"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "رسالة..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "لماذا أنت @:common.cancelRenting؟",
+      "form": {
+        "reason": {
+          "hint": "اكتب السبب",
+          "errors": {
+            "required": "الرجاء إدخال سبب إلغاء الإيجار"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "الدفع دون اتصال",
+      "form": {
+        "paymentNote": {
+          "label": "ملاحظة الدفع (@:common.optional)",
+          "hint": "أدخل بعض النصوص..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "مبلغ الدفع: ${amount}",
+        "accountHolderName": "اسم صاحب الحساب",
+        "accountNumber": "رقم الحساب",
+        "swiftCode": "رمز سويفت (Swift Code)",
+        "branch": "الفرع",
+        "fileTypeHint(rich)": "اختر ملفات بصيغة ${fileType(JPG, PNG,PDF)} أو ${fileType(DOC)} فقط. حجم الملف ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "عرض الفاتورة",
+        "title": "@:common.thankYou",
+        "description": "سنراجع الدفع ونوافق عليه في غضون 24 ساعة."
+      },
+      "fail": {
+        "actionButton": "حاول مجدداً",
+        "title": "عذراً! فشل الدفع",
+        "description": "فشلت معاملتك بسبب خطأ فني."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "الميزات ${fa((المرافق ووسائل الراحة))}",
+        "selectRentalPeriod": "اختر فترة الإيجار",
+        "writeAReview": "+ كتابة تقييم"
+      }
+    },
+    "search": {
+      "appbarTitle": "بحث",
+      "extra": {
+        "hint": "ابحث عن قطع الأراضي، الشقق، الغرف...",
+        "noRecentSearch": "ليس لديك عمليات بحث حديثة."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "اختر خطتك",
+      "extra": {
+        "subscriptionPaymentSuccess": "تم دفع الاشتراك بنجاح.\nيمكنك الوصول إلى الميزات المشترك فيها الآن."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "إجمالي تكلفة الصيانة: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "جميع العقارات",
+      "pending": "معلق",
+      "active": "نشط",
+      "inactive": "غير نشط",
+      "rejected": "مرفوض"
+    },
+    "propertyType": {
+      "rent": "إيجار",
+      "sale": "بيع"
+    },
+    "propertyCategory": {
+      "apartment": "شقة",
+      "house": "منزل",
+      "commercial": "تجاري",
+      "land": "أرض",
+      "room": "غرفة",
+      "unitOrFlat": "وحدة / شقة",
+      "bungalow": "منزل ريفي (Bungalow)",
+      "plot": "قطعة أرض"
+    },
+    "applicationStatus": {
+      "all": "الكل",
+      "pending": "معلق",
+      "processing": "قيد المعالجة",
+      "approved": "موافق عليه",
+      "rejected": "مرفوض"
+    },
+    "myRentStatus": {
+      "pending": "معلق",
+      "processing": "قيد المعالجة",
+      "active": "نشط",
+      "expired": "منتهي الصلاحية",
+      "cancelled": "ملغى"
+    },
+    "maintenanceStatus": {
+      "pending": "معلق",
+      "processing": "قيد المعالجة",
+      "rejected": "مرفوض",
+      "completed": "مكتمل"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "خاص (فرد)",
+      "company": "شركة"
+    },
+    "tenantType": {
+      "newTenant": "مستأجر جديد",
+      "activeTenant": "مستأجر نشط",
+      "expiredTenant": "مستأجر منتهي الصلاحية"
+    },
+    "paymentStatus": {
+      "all": "الكل",
+      "pending": "معلق",
+      "paid": "مدفوع",
+      "unpaid": "غير مدفوع",
+      "rejected": "مرفوض",
+      "refund": "استرداد"
+    },
+    "paymentOptions": {
+      "onlinePayment": "الدفع عبر الإنترنت",
+      "offlinePayment": "الدفع دون اتصال"
+    },
+    "paymentType": {
+      "securityDeposit": "تأمين الإيداع",
+      "rentPayment": "دفع الإيجار",
+      "subscription": "الاشتراك"
+    },
+    "gender": {
+      "male": "ذكر",
+      "female": "أنثى",
+      "other": "آخر"
+    },
+    "ecRelation": {
+      "wife": "زوجة",
+      "parent": "أب/أم",
+      "friend": "صديق",
+      "brother": "أخ",
+      "sister": "أخت",
+      "child": "طفل"
+    },
+    "vehicleType": {
+      "car": "سيارة",
+      "motorcycles": "دراجات نارية",
+      "lorry": "شاحنة"
+    },
+    "sortBy": {
+      "lowToHigh": "من الأقل إلى الأعلى",
+      "highToLow": "من الأعلى إلى الأقل"
+    },
+    "residentialType": {
+      "flat": "شقة (Flat)",
+      "apartment": "شقة (Apartment)",
+      "condominium": "كوندومينيوم",
+      "serviceResidence": "إقامة خدمية",
+      "studio": "استوديو",
+      "duplex": "دوبلكس",
+      "townhouseCondo": "منزل تاون هاوس / كوندومينيوم",
+      "condo": "كوندومينيوم / إقامة خدمية / بنتهاوس",
+      "house": "منازل",
+      "shoplot": "محل تجاري",
+      "sharing": "مشاركة منزل / شقة",
+      "others": "أخرى"
+    },
+    "floorRange": {
+      "high": "مرتفع",
+      "medium": "متوسط",
+      "low": "منخفض"
+    },
+    "furnishings": {
+      "fullyFurnished": "مفروش بالكامل",
+      "partiallyFurnished": "مفروش جزئياً",
+      "notFurnished": "غير مفروش"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "مساحة مكتبية",
+      "retailSpace": "مساحة بيع بالتجزئة",
+      "shopLot": "محل تجاري",
+      "warehouseFactory": "مستودع / مصنع",
+      "hotelResort": "فندق / منتجع",
+      "sofo": "سوفو (SOFO)",
+      "soho": "سوهو (SOHO)",
+      "sovo": "سوفو (SOVO)",
+      "others": "أخرى"
+    },
+    "landPropertyType": {
+      "residential": "سكني",
+      "industrial": "صناعي",
+      "agricultural": "زراعي",
+      "commercial": "تجاري",
+      "mixedDevelopment": "تطوير مختلط",
+      "others": "أخرى"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 أشهر",
+      "oneYear": "1 سنة",
+      "oneAndHalfYears": "1.5 سنة",
+      "twoYears": "2 سنة",
+      "twoAndHalfYears": "2.5 سنة"
+    },
+    "dropdownDateFilter": {
+      "daily": "يومي",
+      "weekly": "أسبوعي",
+      "monthly": "شهري",
+      "yearly": "سنوي",
+      "custom": "مخصص"
+    },
+    "bungalowType": {
+      "modern": "حديث",
+      "cottage": "كوخ",
+      "luxury": "فاخر",
+      "ecoSmart": "صديق للبيئة / ذكي",
+      "beachSide": "على الشاطئ",
+      "others": "أخرى"
+    }
+  }
+}

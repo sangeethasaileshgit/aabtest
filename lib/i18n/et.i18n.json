@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "et_EE",
+    "languageName": "Estonian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profiil",
+    "language": "Keel",
+    "subscriptionPlan": "Liitumisplaan",
+    "contactUs": "Võta meiega ühendust",
+    "termsAndConditions": "Tingimused",
+    "aboutUs": "Meist",
+    "logout": "Logi välja",
+    "editProfile": "Muuda profiili",
+    "fullName": "Täisnimi",
+    "email": "E-post",
+    "mobileNumber": "Mobiilinumber",
+    "address": "Aadress",
+    "postalCode": "Postiindeks",
+    "city": "Linn",
+    "country": "Riik",
+    "state": "Maakond/Osariik",
+    "password": "Parool",
+    "forgotPassword": "Unustasin parooli",
+    "tenant": "Üürnik",
+    "landlord": "Üürileandja",
+    "cancelRenting": "Tühista üürimine",
+    "startDate": "Alguskuupäev",
+    "endDate": "Lõppkuupäev",
+    "fromDate": "Alates kuupäevast",
+    "toDate": "Kuni kuupäevani",
+    "online": "Internetis",
+    "bankList": "Pangaloend",
+    "withdrawMethod": "Väljamakse meetod",
+    "uploadPaymentReceipt": "Laadi üles maksekviitung",
+    "offlinePaymentNote(rich)": "Märkus: ${note(Makse nõuab administraatori käsitsi kinnitust)} ${duraion(24~48 tunni jooksul.)}",
+    "reviews": "Arvustused",
+    "description": "Kirjeldus",
+    "about": "Teave",
+    "propertyTypes": "Kinnisvara tüübid",
+    "features": "Omadused",
+    "floorPlans": "Põrandaplaanid",
+    "buildingDetails": "Hoone detailid",
+    "buildingName": "Hoone nimi",
+    "propertyAddress": "Kinnisvara aadress",
+    "completionYear": "Valmimisaasta",
+    "lotNumber": "Krundi number",
+    "residentialType": "Elamutüüp",
+    "furnishings": "Sisustus",
+    "floorRange": "Korruse vahemik",
+    "bedrooms": "Magamistoad",
+    "bathrooms": "Vannitoad",
+    "propertySize": "Kinnisvara suurus",
+    "rentalPeriod": "Üüriperiood",
+    "securityDeposit": "Tagatisraha",
+    "utilityBill": "Kommunaalarve",
+    "facilities": "Rajatised",
+    "amenities": "Mugavused",
+    "expiringReason": "Aegumise põhjus",
+    "tenantDetails": "Üürniku detailid",
+    "typeOfTenant": "Üürniku tüüp",
+    "tenantName": "Üürniku nimi",
+    "nidPassport": "ID/Pass",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Üürniku ID",
+    "dateOfBirth": "Sünnikuupäev",
+    "gender": "Sugu",
+    "nominee": "Volitatud isik",
+    "name": "Nimi",
+    "optional": "Valikuline",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mob. Nr.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Hädaabikontakt",
+    "relation": "Suhe",
+    "relationWith": "@:common.relation isikuga",
+    "relationWithYou": "@:common.relation Teiega",
+    "company": "Ettevõte",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Äriregistri nr.",
+    "workplace": "Töökoht",
+    "officePhoneNo": "Kontori telefoninumber",
+    "officeMobileNo": "Kontori @:common.mobileNumber",
+    "vehicle": "Sõiduk",
+    "vehiclesInfo": {
+      "plain": "Sõiduki teave",
+      "optional": "Sõiduki teave (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle tüüp",
+    "vehicleRegistrationNo": {
+      "normal": "Sõiduki registreerimisnumber",
+      "short": "Reg. nr.",
+      "alt": "Numbrimärk"
+    },
+    "vehicleBrand": "@:common.vehicle Mark",
+    "rentProperty": "Üüri kinnisvara",
+    "propertyDetails": "Kinnisvara detailid",
+    "propertyId": "Kinnisvara ID",
+    "propertyType": "Kinnisvara tüüp",
+    "propertyName": "Kinnisvara nimi",
+    "paymentDetails": "Makse detailid",
+    "monthlyRent": "Kuuüür",
+    "thisMonthPayment": "Selle kuu makse",
+    "totalPaidRent": "Üüritud summa kokku",
+    "dueRent": "Tasumata üür",
+    "rentStartDate": "Üüri @:common.startDate",
+    "rentEndDate": "Üüri @:common.endDate",
+    "status": "Olek",
+    "rentAgreementPdf": "Üürilepingu PDF",
+    "noFile": "Fail puudub",
+    "tenantImageOp": "Üürniku pilt @:common.optional",
+    "addNewVechicle": "Lisa uus sõiduk",
+    "uploadNidPassport": "Laadi üles ID/Pass",
+    "nidPassportUploadNote": "Vastu võetakse ainult pildifailid. Faili limiit kuni 2.5 MB.",
+    "search": "Otsi",
+    "sortBy": "Sorteeri",
+    "subscription": "Liitumine",
+    "downloading": "Allalaadimine...",
+    "downloadSuccess": "Fail laaditi edukalt alla!",
+    "addPropertyBannerTitle": "Kas soovite oma kinnisvara välja üürida?",
+    "application": "Avaldus",
+    "tenantHasPaidDeposit": "Üürnik on deposiidi tasunud.",
+    "askProcessingRentApplication": "Kas olete kindel, et soovite seda üürimise taotlust töödelda?",
+    "dateAndTime": "Kuupäev ja kellaaeg",
+    "applicationDetails": "Avalduse detailid",
+    "depositStatus": "Deposiidi olek",
+    "uploadRentAgreement": "Laadi üles üürileping",
+    "uploadFilePDF": "Laadi üles fail (PDF)",
+    "askSelectRentAgreement": "Palun valige lepingudokument.",
+    "landlordRentAgreementPDF": "Üürileandja üürilepingu PDF",
+    "tenantRentAgreementPDF": "Üürniku üürilepingu PDF",
+    "landlordApplicationApproveNote(rich)": "Märkus: ${note(Kinnita avaldus alles pärast seda, kui üürnik on deposiidimakse sooritanud.)}",
+    "reasonOfRejection": "Keeldumise põhjus",
+    "youveRejectedThisApplication": "Olete selle avalduse tagasi lükanud",
+    "landlordDetails": "Üürileandja detailid",
+    "landlordName": "Üürileandja nimi",
+    "downloadRentAgreement": "Laadi alla üürileping",
+    "acceptTermsConditions(rich)": "Nõustu ${toc(Tingimustega)}",
+    "tenantAgreementSignNote1(rich)": "Märkus: ${note(Palun laadige alla ja lugege leping. Palun saatke allkirjastatud leping üürileandjale WhatsAppi või e-posti teel.)}",
+    "tenantAgreementSignNote2(rich)": "Märkus: ${note(Üürileandja kinnitab avalduse, kui üürnik tasub tagatisraha, kommunaalkulud ja ühe kuu ettemakse.)}",
+    "completeRentAgreementPdf(rich)": "Üürileping (PDF) ${complete(Täielik leping)}",
+    "tenantApplicationDepositNote(rich)": "Märkus : ${note(Üürileandja kinnitab avalduse, kui üürnik tasub tagatisraha, kommunaalkulud ja ühe kuu ettemakse.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Avaldusteloend",
+    "viewDetails": "Vaata detaile",
+    "searchHint": "@:common.search...",
+    "home": "Avaleht",
+    "dashboard": "Armatuurlaud",
+    "tenants": "Üürnikud",
+    "maintenance": "Hooldus",
+    "maintenanceList": "Hooldusloend",
+    "maintenanceReport": "Hooldusaruanne",
+    "labor": "Tööjõud",
+    "applications": "Avalduse",
+    "rentInvitation": "Üürikutse",
+    "payment": "Makse",
+    "rentPayment": "Üüri makse",
+    "depositUtilityPayment": "Deposiidi ja kommunaalteenuste makse",
+    "refundRequest": "Tagasimakse taotlus",
+    "withdrawRequest": "Väljamakse taotlus",
+    "myProperty": "Minu kinnisvara",
+    "myRent": "Minu üür",
+    "wishlist": "Sooviloend",
+    "properties": "Kinnisvarad",
+    "allProperties": "Kõik kinnisvarad",
+    "totalPropery": "Kinnisvara kokku",
+    "occupied": "Hõivatud",
+    "vacant": "Vaba",
+    "accounting": "Raamatupidamine",
+    "totalIncome": "Sissetulek kokku",
+    "totalExpense": "Kulu kokku",
+    "currentBalance": "Praegune saldo",
+    "totalWithdrawal": "Väljamakse kokku",
+    "totalProperties": "Kinnisvarade kokku",
+    "totalTenant": "Üürnikud kokku",
+    "totalRentPaid": "Makstud üür kokku",
+    "totalRentDue": "Tasumata üür kokku",
+    "totalApplication": "Avalduse kokku",
+    "pendingApplication": "Ootel avaldus",
+    "processingApplication": "Töötlemisel avaldus",
+    "approveApplication": "Kinnitatud avaldus",
+    "rejectApplication": "Tagasilükatud avaldus",
+    "maintenanceCost": "Hoolduskulu",
+    "transactionSummary": "Tehingute kokkuvõte",
+    "maintenanceRequest": "Hooldustaotlus",
+    "notifications": "Teavitused",
+    "myProperties": "Minu kinnisvarad",
+    "recommendationProperties": "Soovitatavad kinnisvarad",
+    "laborList": "Tööjõu loend",
+    "addLabor": "Lisa tööjõud",
+    "laborDetails": "Tööjõu detailid",
+    "laborSalary": "Tööjõu palk",
+    "editLabor": "Muuda tööjõudu",
+    "addNewLabor": "Lisa uus tööjõud",
+    "enterAmount": "Sisesta summa",
+    "maintenanceDetails": "Hoolduse detailid",
+    "laborName": "Tööjõu nimi",
+    "comment": "Kommentaar",
+    "image": "Pilt",
+    "complete": "Lõpetatud",
+    "details": "Detailid",
+    "title": "Pealkiri",
+    "date": "Kuupäev",
+    "reason": "Põhjus",
+    "edit": "Muuda",
+    "property": "Kinnisvara",
+    "completeYourProfile": "Täienda oma profiili",
+    "profileImage": "Profiilipilt",
+    "imagePickHint": "Ainult JPEG & PNG pildifailid maksimaalse suurusega 120x120 pikslit.",
+    "invoiceId": "Arve ID",
+    "depositAmount": "Deposiidi summa",
+    "landlordPhone": "Üürileandja telefon",
+    "rentalAdvance": "Üüri ettemakse",
+    "totalAmount": "Kogusumma",
+    "rentAmount": "Üürisumma",
+    "adminCharge": "Haldustasu",
+    "editAccount": "Muuda kontot",
+    "addNewAccount": "Lisa uus konto",
+    "transactionId": "Tehingu ID",
+    "transactionType": "Tehingu tüüp",
+    "requestDate": "Taotluse kuupäev",
+    "amount": "Summa",
+    "fee": "Tasu",
+    "paymentStatus": "Makse olek",
+    "generatedTime": "Genereeritud aeg",
+    "systemGeneratedReportHint(rich)": "See on süsteemi genereeritud aruanne ${appName}",
+    "withdrawHistory": "Väljamaksete ajalugu",
+    "history": "Ajalugu",
+    "withdrawAmount": "Väljamakse summa",
+    "availableBalance": "Saadavalolev saldo",
+    "withdrawCharge": "Väljamakse tasu",
+    "paymentMethod": "Makseviis",
+    "requestSendSuccess": "Taotlus saadetud edukalt!",
+    "paymentReceiptSubmitSuccess": "Maksekviitung esitati edukalt.",
+    "refundReason": "Tagasimakse põhjus",
+    "note": "Märkus",
+    "refundReceiveSuccess": "Tagasimakse edukalt laekunud.",
+    "downloadPaymentReceipt": "Laadi alla maksekviitung",
+    "invoice": "Arve",
+    "selectPropertyToSeeInvoice": "Vali kinnisvara arve numbri nägemiseks...",
+    "bankAccName": "Pangakonto nimi",
+    "bankName": "Panga nimi",
+    "bankAccNum": "Pangakonto number",
+    "thankYou": "Aitäh!",
+    "basicInfo": "Põhiandmed",
+    "descriptionPricing": "Kirjeldus ja hinnakujundus",
+    "contact": "Kontakt",
+    "photos": "Fotod",
+    "successfullySubmitted": "Edukalt esitatud!",
+    "editProperty": "Muuda kinnisvara",
+    "addNewProperty": "Lisa uus kinnisvara",
+    "propertyManageRequestSuccess": "Teie reklaam on esitatud ülevaatamiseks.",
+    "postAnotherProperty": "Postita veel üks kinnisvara",
+    "browseYourProperty": "Sirvi oma kinnisvara",
+    "stepIndicator(rich)": "Samm ${step} / ${totalSteps}",
+    "whatWouldYouLikeToPost": "Mida sooviksite postitada?",
+    "category": "Kategooria",
+    "invalidCategory": "Kehtetu kategooria",
+    "unitNumber": "Ühiku number",
+    "sqft": "ruutjalga",
+    "propertySizeMustBeGreaterThan0": "Kinnisvara suurus peab olema suurem kui null",
+    "whatAreTheFacility": "Millised on rajatised?",
+    "whatAreTheAmenity": "Millised on mugavused?",
+    "parkingLot": "Parkimiskoht",
+    "houseType": "Maja tüüp",
+    "value": "Väärtus",
+    "unitLotSize": "Ühiku / Krundi suurus",
+    "landSize": "Maa suurus",
+    "acres": "aakrit",
+    "roomSize": "Toa suurus",
+    "askTenantPreference": "Milline on teie üürniku eelistus?",
+    "couple": "Paar",
+    "describeTheProperty": "Kirjeldage ${propertyType: String}",
+    "adTitle": "Kuulutuse pealkiri",
+    "minimumRentalPeriod": "Minimaalne üüriperiood",
+    "whatsappNumber": "@:common.whatsapp number",
+    "hideOrDisplayEmail": "Peida või kuva e-posti aadress",
+    "thankYouForPostingProperty": "Täname postitamise eest ${appName: String}!",
+    "propertyList": "Kinnisvara loend",
+    "newInviteRent": "Uus üürikutse",
+    "rentAgreement": "Üürileping",
+    "rentDetails": "Üüri detailid",
+    "landlordRentInvitationPendingNote(rich)": "Märkus: ${note(Palun oodake, kuni üürnik kutse vastu võtab.)}",
+    "rent": "Üür",
+    "editTenant": "Muuda üürnikku",
+    "addNewTenant": "Lisa uus üürnik",
+    "shareInstallLink": "Jaga installilinki",
+    "tenantList": "Üürnike loend",
+    "editMaintenanceRequest": "Muuda hooldustaotlust",
+    "addNewMaintenance": "Lisa uus hooldus",
+    "landlordId": "Üürileandja ID",
+    "tenantAgrementUnderReviewNote(rich)": "Märkus ${note(Teie leping on ülevaatamisel. Palun oodake, kuni üürileandja teie üürimise kinnitab.)}",
+    "editReview": "Muuda arvustust",
+    "writeAReview": "Kirjuta arvustus",
+    "selectRating": "Vali hinne",
+    "enterYourOpinion": "Sisesta oma arvamus",
+    "askToEnterReviewMsg": "Palun sisestage arvustuse sõnum",
+    "pressBackAgainToExit": "Väljumiseks vajutage uuesti tagasi.",
+    "selectPaymentMethod": "Vali makseviis",
+    "filter": "Filter",
+    "perMonth": "/1 Kuu",
+    "searchHintWithAppName": "Otsi midagi ${appName: String}...",
+    "propertyInfo": "Kinnisvara info",
+    "units": "Ühikud",
+    "depositPeriod": "Deposiidi periood",
+    "facilitiesList": "Rajatiste loend",
+    "facility": "Rajatised",
+    "amenity": "Mugavus",
+    "amenitiesList": "Mugavuste loend",
+    "addNewFacility": "Lisa uus rajatis",
+    "editFacility": "Muuda rajatist",
+    "facilityName": "Rajatise nimi",
+    "amenityName": "Mugavuse nimi",
+    "addNewAmenity": "Lisa uus mugavus",
+    "editAmenity": "Muuda mugavust",
+    "family": "Perekond",
+    "lateFee": "Hilineja tasu",
+    "lateFeeAfterDays": "@:common.lateFee (päeva) möödudes",
+    "propertyPricing": "${propertyType: String} hinnakujundus",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Suur tänu, et just avaldasite oma kinnisvara",
+    "titleAndDescription": "Pealkiri ja kirjeldus",
+    "rentPricing": "Üüri hinnakujundus",
+    "step": "Samm",
+    "of": "JÄRGI",
+    "pricing": "Hinnakujundus",
+    "sameRentForAllUnit": "Sama üür kõigi ühikute jaoks",
+    "unit": "ühik",
+    "pleaseSelectAnUnitFirst": "Palun valige kõigepealt ühik.",
+    "saleAmount": "Müügisumma",
+    "selectCategory": "Vali kategooria",
+    "pleaseSelectACategory": "Palun valige kategooria",
+    "pleaseEnterAdTitle": "Palun sisestage kuulutuse pealkiri",
+    "addCoverPhoto": "Lisa kaanefoto",
+    "findAProperty": "Leia kinnisvara",
+    "categories": "Kategooriad",
+    "recmmendedProperties": "Soovitatavad kinnisvarad",
+    "recentSearch": "Hiljutised otsingud",
+    "pleaseEnterYourAccountNumber": "Palun sisestage oma kontonumber.",
+    "pleaseSelectALanguageToContinue": "Palun valige jätkamiseks keel.",
+    "subscribe": "Telli",
+    "noFacilitiesFound": "Rajatisi ei leitud!",
+    "invalidLaborDetailsPleaseTryAgain": "Kehtetud tööjõu detailid, palun proovige uuesti",
+    "maintenanceWork": "Hooldustöö",
+    "selectLabor": "Vali tööjõud",
+    "enterMaintenanceCost": "Sisesta hoolduskulu",
+    "pleaseEnterMaintenanceCost": "Palun sisestage hoolduskulu",
+    "writeComment": "Kirjuta kommentaar",
+    "maintenancePending": "Hooldus ootel",
+    "yourEarnings": "Teie teenistus",
+    "totalPaid": "Tasutud kokku",
+    "linkANewBankAccount": "Seo uus pangakonto",
+    "payoutRequest": "Väljamakse taotlus"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Midagi läks valesti, proovige uuesti",
+    "noNidPassport": "ID/Passi pilti ei esitatud.",
+    "noRentPropertyFound": "Selle üürniku jaoks üüritavat kinnisvara ei leitud.",
+    "noPropertyFoundWithKeyWord": "Kinnisvara ei leitud!\nPalun proovige teiste märksõnadega",
+    "noSubscriptionFoundRefreshPage": "Liitumisplaani ei leitud!\nPalun värskendage lehte ja proovige uuesti.",
+    "invalidApiDataRefreshPage": "Kehtetu ${dataType: String} teave! Palun värskendage lehte ja proovige uuesti.",
+    "invalidDownloadUrl": "Kehtetu allalaadimis-URL!",
+    "failedToSaveFile": "Faili salvestamine ebaõnnestus! ${error: String}",
+    "errorOpeningFile": "Viga faili avamisel! ${error: String}",
+    "noVehicleInfoProvided": "Sõidukiteavet ei esitatud.",
+    "yourApplicationRejected": "Teie avaldus on tagasi lükatud",
+    "noApplicationFoundHint": {
+      "template": "Avaldust ei leitud!\n${subject: String} kuvatakse siin, kui see on saadaval.",
+      "subjects": {
+        "tenant": "Teie avaldus",
+        "landlord": "Üürniku avaldus"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Kinnisvara ei leitud!\nPalun proovige lisada kinnisvara, et seda siin näha.",
+      "tenantRecommended": "Soovitatavaid kinnisvarasid ei leitud\nPalun proovige hiljem uuesti.",
+      "tenantAllProperty": "Kinnisvarad pole saadaval\nPalun proovige hiljem uuesti."
+    },
+    "noImageProvided": "Pilti ei esitatud",
+    "noStatusMaintenantFound": {
+      "landlord": "Hooldust ${status} ei leitud.",
+      "tenant": "Hooldust ei leitud! Hooldustaotluse nägemiseks võite selle luua siin."
+    },
+    "noDepositFound": "Tagatisraha ei leitud!\nPalun vaadake tagatisraha, kui see on saadaval",
+    "noRentPaymentFound": "Üüri makset ei leitud!\nPalun vaadake üüri makseid, kui need on saadaval",
+    "transactionSummaryApiException": "Tehingute kokkuvõtte saamine ebaõnnestus.",
+    "noWithdrawRequestFound": "Taotlust ei leitud!\nPalun proovige luua väljamakse taotlus, et seda siin näha.",
+    "withdrawRequestNotApproved": "See väljamakse taotlus pole kinnitatud!.",
+    "nonZeroError": "Palun sisestage kehtiv summa, mis on suurem kui null.",
+    "minAmountError": "Summa peab olema vähemalt ${minValue: String}.",
+    "maxAmountError": "Summa ei tohi ületada ${maxValue: String}.",
+    "selectPaymentMethodHint": "Palun valige esmalt makseviis.",
+    "noStatusRefundReqFound": {
+      "landlord": "Tagasimakse taotlust ${status} ei leitud!\nSaate tagasimakse taotlusi siin näha, kui need on saadaval.",
+      "tenant": "Tagasimakse taotlust ei leitud!\nSaate tagasimakse taotluse luua, et seda siin näha."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Üürnik kinnitab tagasimakse, kui ta raha tagasi saab",
+      "tenantReqSuccess": "Me vaatame tagasimakse taotluse üle ja kinnitame selle 24 tunni jooksul."
+    },
+    "oneToTenRequiredField": "Palun valige ${value: String} number",
+    "invalidDateRange": "Kehtetu kuupäevavahemik.",
+    "valueMustBeGreaterThanZero": "${value: String} peab olema suurem kui null.",
+    "editProperty": {
+      "rentalChange": "Üürikinnisvara muutub. See peab kehtima (olema efektiivne) ainult järgmise kuu üürimakse jaoks.",
+      "deleteOnRent": "Teie kinnisvara on juba üürniku poolt üüritud. Seda ei saa kustutada enne, kui üürnik on esmalt eemaldatud",
+      "alreayRented": "See kinnisvara on juba üüritud. Palun proovige hiljem uuesti.\nVõi võite lisateabe saamiseks üürileandjaga ühendust võtta."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Üürikutset ei leitud!\nPalun proovige luua üürikutse, et seda siin näha.",
+      "tenantNoRentInvitation": "Üürikutset ei leitud!\nSaate üürikutseid siin näha, kui need on saadaval."
+    },
+    "notenantFoundList": "Üürnikke pole!\nPalun proovige lisada üürnik, et teda siin näha.",
+    "noFeaturesProvided": "Omadusi ei esitatud.",
+    "noNotificationFound": "Teavitusi pole saadaval.\nSaate oma teavitusi siin näha, kui need on saadaval.",
+    "noFacilitiesFound": "Rajatisi ei leitud.",
+    "noAmenitiesFound": "Mugavusi ei leitud!",
+    "noLaborFound": "Tööjõudu ei leitud\\nPalun proovige hiljem uuesti.",
+    "areYouSureYouWantToRemoveThisUnit": "Kas olete kindel, et soovite selle ühiku eemaldada?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Kas olete kindel, et soovite välja logida?"
+    },
+    "application": {
+      "rejectTitle": "Miks te lükkate selle avalduse tagasi?",
+      "applicationSent": {
+        "successfully": "Avaldus saadetud edukalt!",
+        "sucessDescription": "Saate seda avaldust näha oma avalduste loendis"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Kustuta tööjõud?",
+        "description": "Kas olete kindel, et soovite selle tööjõu kustutada?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Miks lükatakse see taotlus tagasi?",
+      "processTitle": "Kas olete kindel, et töötlete seda hooldustaotlust?",
+      "completeTitle": "Töö lõpetatud?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Kustuta väljamakse meetod?",
+      "deleteDescription": "Kas olete kindel, et soovite selle väljamakse meetodi kustutada?"
+    },
+    "unsavedChanges": {
+      "title": "Kas olete kindel, et soovite tagasi minna?",
+      "message": "Muudetud väljad ei salvestata!"
+    },
+    "property": {
+      "delete": {
+        "title": "Kustuta kinnisvara?",
+        "message": "Kas olete kindel, et soovite selle kinnisvara kustutada?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Kas olete kindel, et kinnitate selle üürimise?",
+        "description": "Veenduge, et olete üle vaadanud üürniku allkirjastatud lepingu."
+      },
+      "tenantAccept": {
+        "title": "Kas olete kindel, et võtate selle kutse vastu?",
+        "description": "Veenduge, et olete lepingu PDF-faili alla laadinud!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Seanss aegus",
+      "message": "Teie seanss on aegunud. Palun logige uuesti sisse",
+      "action": "Logi sisse"
+    },
+    "noInternet": {
+      "title": "Puudub Internetiühendus",
+      "message": "Palun kontrollige oma Wi-Fi või mobiilivõrgu ühendust ja proovige uuesti",
+      "action": "Proovi uuesti"
+    },
+    "permissionHandler": {
+      "title": "Luba on vajalik!",
+      "message": "Teil on vaja anda lubasid rakenduse seadetes. Kas soovite seaded kohe avada?"
+    },
+    "imagePicker": {
+      "title": "Vali valik",
+      "gallery": "Galerii",
+      "camera": "Kaamera"
+    },
+    "verificationDialog": {
+      "title": "Kinnita oma e-post",
+      "message": "Oleme saatnud kinnituskoodi e-kirja teel",
+      "messageWithEmail": "@:prompt.verificationDialog.message aadressile ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Kustuta teavitused?",
+      "clearMessage": "Kas olete kindel, et kustutate kõik teavitused?"
+    },
+    "genericDeletePrompt": {
+      "title": "Kas soovite selle ${item: String} kustutada"
+    },
+    "subscriptionModal": {
+      "title": "Liitumine aegus!",
+      "message": "Palun tellige jätkamiseks."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Sisesta @:common.fullName",
+      "errors": {
+        "required": "Palun sisestage oma @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Sisesta oma @:common.email",
+      "errors": {
+        "required": "Palun sisestage oma @:common.email aadress",
+        "invalid": "⦸ Kehtetu e-post, palun proovige uuesti"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Palun sisestage oma @:common.password",
+        "minLength": "Parool peab olema vähemalt ${count} märki!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Kinnita @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Palun sisestage oma @:common.password",
+        "notMatched": "Kinnita parool ei ühti!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Palun sisestage oma @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Maja number ja tänava nimi",
+      "errors": {
+        "required": "Palun sisestage oma @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Korter, sviit, ühik jne",
+      "errors": {
+        "required": "Palun sisestage oma @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Sisesta @:common.postalCode",
+      "errors": {
+        "required": "Palun sisestage oma @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Sisesta @:common.city nimi.",
+      "errors": {
+        "required": "Palun sisestage oma @:common.city nimi."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Sisesta @:common.state nimi.",
+      "errors": {
+        "required": "Palun sisestage oma @:common.state nimi."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Vali @:common.country.",
+      "errors": {
+        "required": "Palun valige oma @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Palun sisestage OTP.",
+        "invalid": "Palun sisestage õige OTP."
+      }
+    },
+    "title": {
+      "label": "Pealkiri",
+      "hint": "Sisesta pealkiri",
+      "errors": {
+        "required": "Palun sisestage pealkiri"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Vali @:form.date.label",
+      "errors": {
+        "required": "Palun valige @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Põhjus",
+      "hint": "Sisesta põhjus",
+      "errors": {
+        "required": "Palun sisestage põhjus"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Vali @:common.withdrawMethod",
+      "errors": {
+        "required": "Palun valige @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Laadi üles ${label: String}",
+      "errors": {
+        "required": "Palun valige ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Sisesta @:form.note.label",
+      "errors": {
+        "required": "Palun sisestage @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Vali @:common.gender",
+      "errors": {
+        "required": "Palun valige @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Sisesta @:form.anyField.label",
+      "errors": {
+        "required": "Palun sisestage @:form.anyField.label",
+        "invalid": "Palun sisestage kehtiv @:form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Vali @:form.anyDropdown.label",
+      "errors": {
+        "required": "Palun valige @:form.anyDropdown.label",
+        "invalid": "Palun valige kehtiv @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Järgmine",
+    "getStarted": "Alusta",
+    "skip": "Jäta vahele",
+    "select": "Vali",
+    "save": "Salvesta",
+    "signIn": "Logi sisse",
+    "signUp": "Registreeri",
+    "continue": "Jätka",
+    "clearAll": "Kustuta kõik",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Saada",
+    "pay": "Maksa",
+    "remove": "Eemalda",
+    "goBack": "Mine tagasi",
+    "buyNow": "Osta nüüd",
+    "no": "Ei",
+    "open": "Ava",
+    "addProperty": "Lisa kinnisvara",
+    "process": "Töötle",
+    "approve": "Kinnita",
+    "reject": "Lükka tagasi",
+    "viewRent": "Vaata üürimist",
+    "openNavigationMenu": "Ava navigeerimismenüü",
+    "seeAll": "Vaata kõiki",
+    "update": "Uuenda",
+    "printTransaction": "Prindi tehing",
+    "payoutRequest": "Väljamakse taotlus",
+    "addNew": "+ Lisa uus",
+    "sendRequest": "Saada taotlus",
+    "print": "Prindi",
+    "requestForRefund": "Taotle tagasimakset",
+    "previous": "Eelmine",
+    "delete": "Kustuta",
+    "applyProperty": "Taotle kinnisvara",
+    "viewApplication": "Vaata avaldust",
+    "inviteTenant": "Kutsu üürnik",
+    "inviteRent": "Kutsu üürima",
+    "cancel": "Tühista",
+    "accept": "Nõustu",
+    "submit": "Esita",
+    "yes": "Jah",
+    "okay": "Selge",
+    "confirm": "Kinnita",
+    "apply": "Rakenda",
+    "reset": "Lähtesta",
+    "retry": "Proovi uuesti",
+    "viewAll": "Vaata kõiki",
+    "addMore": "Lisa veel",
+    "done": "Valmis"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Leia oma kinnisvara",
+          "description": "Oleme teinud lihtsaks leida koha, mis sobib teie eluga — olgu see siis tuba, korter või maja."
+        },
+        "data2": {
+          "title": "Korter linnas",
+          "description": "Säästame teie aega, sobitades teid kiiresti täiusliku kinnisvaraga, enne kui see on läinud, et saaksite nautida oma uut kodu või tasuta oma kinnisvara üles panna."
+        },
+        "data3": {
+          "title": "Teie mugavuskodu",
+          "description": "Kui otsite elukohta, siis vaadake meie üüritavaid maju. Meil on lai valik maju, mille hulgast saate valida üle kogu riigi."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Tere tulemast tagasi",
+      "subtitle": "Logi sisse kohe, et alustada imelist reisi.",
+      "extra": {
+        "rememberMe": "Mäleta mind",
+        "signUpNavigator(rich)": "Sul ei ole kontot? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Unustasin parooli",
+      "subtitle": "Sisestage oma e-posti aadress parooli taastamiseks."
+    },
+    "otpVerification": {
+      "title": "Kinnitus",
+      "subtitle": "Teie e-posti aadressile on saadetud 6-kohaline PIN-kood. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kood saadetud ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Saada kood uuesti)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Parooli lähtestamine",
+      "subtitle": "Lähtestage oma parool taastamiseks ja logige oma kontole sisse",
+      "extra": {
+        "dialog": {
+          "title": "Edukalt muudetud!",
+          "subtitle": "Logige sisse oma uue parooliga.\n Suunamine sisselogimisse..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Loo konto",
+      "subtitle": "Registreeruge kohe, et alustada imelist reisi",
+      "extra": {
+        "signInNavigator(rich)": "On sul konto? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kes te olete?",
+      "subtitle": "Palun valige allolev valik.",
+      "extra": {
+        "landlordTag": "Halda oma kinnisvara",
+        "tenantTag": "Logi sisse oma üürikontole"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Teavitused"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Sõnum..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Miks te @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Kirjuta põhjus",
+          "errors": {
+            "required": "Palun sisestage üüri tühistamise põhjus"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Võrguväline makse",
+      "form": {
+        "paymentNote": {
+          "label": "Makse märkus (@:common.optional)",
+          "hint": "Sisesta teksti..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Makse summa: ${amount}",
+        "accountHolderName": "Konto omaniku nimi",
+        "accountNumber": "Kontonumber",
+        "swiftCode": "SWIFT-kood",
+        "branch": "Filiaal",
+        "fileTypeHint(rich)": "Vali ainult ${fileType(JPG, PNG,PDF)} Või ${fileType(DOC)} formaadis failid. Faili suurus ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Vaata arvet",
+        "title": "@:common.thankYou",
+        "description": "Me vaatame makse üle ja kinnitame selle 24 tunni jooksul."
+      },
+      "fail": {
+        "actionButton": "Proovi uuesti",
+        "title": "Oih! Makse ebaõnnestus",
+        "description": "Teie tehing ebaõnnestus tehnilise vea tõttu."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Omadused ${fa((Rajatised ja Mugavused))}",
+        "selectRentalPeriod": "Vali üüriperiood",
+        "writeAReview": "+ Kirjuta arvustus"
+      }
+    },
+    "search": {
+      "appbarTitle": "Otsi",
+      "extra": {
+        "hint": "Otsi krunte, kortereid, tube...",
+        "noRecentSearch": "Teil ei ole hiljutisi otsinguid."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Vali oma plaan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Liitumismakse õnnestus.\nNüüd saate tellitud funktsioonidele juurde pääseda."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Hoolduse kogukulu: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Kõik kinnisvarad",
+      "pending": "Ootel",
+      "active": "Aktiivne",
+      "inactive": "Mitteaktiivne",
+      "rejected": "Tagasi lükatud"
+    },
+    "propertyType": {
+      "rent": "Üür",
+      "sale": "Müük"
+    },
+    "propertyCategory": {
+      "apartment": "Korter",
+      "house": "Maja",
+      "commercial": "Äripind",
+      "land": "Maa",
+      "room": "Tuba",
+      "unitOrFlat": "Ühik / Korter",
+      "bungalow": "Bungalo",
+      "plot": "Krunt"
+    },
+    "applicationStatus": {
+      "all": "Kõik",
+      "pending": "Ootel",
+      "processing": "Töötlemisel",
+      "approved": "Kinnitatud",
+      "rejected": "Tagasi lükatud"
+    },
+    "myRentStatus": {
+      "pending": "Ootel",
+      "processing": "Töötlemisel",
+      "active": "Aktiivne",
+      "expired": "Aegunud",
+      "cancelled": "Tühistatud"
+    },
+    "maintenanceStatus": {
+      "pending": "Ootel",
+      "processing": "Töötlemisel",
+      "rejected": "Tagasi lükatud",
+      "completed": "Lõpetatud"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Eraisik (Individuaalne)",
+      "company": "Ettevõte"
+    },
+    "tenantType": {
+      "newTenant": "Uus üürnik",
+      "activeTenant": "Aktiivne üürnik",
+      "expiredTenant": "Aegunud üürnik"
+    },
+    "paymentStatus": {
+      "all": "Kõik",
+      "pending": "Ootel",
+      "paid": "Makstud",
+      "unpaid": "Maksmata",
+      "rejected": "Tagasi lükatud",
+      "refund": "Tagasimakse"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Interneti makse",
+      "offlinePayment": "Võrguväline makse"
+    },
+    "paymentType": {
+      "securityDeposit": "Tagatisraha",
+      "rentPayment": "Üürimakse",
+      "subscription": "Liitumine"
+    },
+    "gender": {
+      "male": "Mees",
+      "female": "Naine",
+      "other": "Muu"
+    },
+    "ecRelation": {
+      "wife": "Naine",
+      "parent": "Vanem",
+      "friend": "Sõber",
+      "brother": "Vend",
+      "sister": "Õde",
+      "child": "Laps"
+    },
+    "vehicleType": {
+      "car": "Auto",
+      "motorcycles": "Mootorrattad",
+      "lorry": "Veoauto"
+    },
+    "sortBy": {
+      "lowToHigh": "Madalast kõrgeni",
+      "highToLow": "Kõrgest madalani"
+    },
+    "residentialType": {
+      "flat": "Korter",
+      "apartment": "Korter",
+      "condominium": "Korteriühistu",
+      "serviceResidence": "Teenindusresidents",
+      "studio": "Stuudio",
+      "duplex": "Kahekorruseline korter",
+      "townhouseCondo": "Ridaelamu korteriühistu",
+      "condo": "Korteriühistu / Teenindusresidents / Katusekorter",
+      "house": "Majad",
+      "shoplot": "Äripind",
+      "sharing": "Maja / Korteri jagamine",
+      "others": "Muud"
+    },
+    "floorRange": {
+      "high": "Kõrge",
+      "medium": "Keskmine",
+      "low": "Madal"
+    },
+    "furnishings": {
+      "fullyFurnished": "Täielikult sisustatud",
+      "partiallyFurnished": "Osaliselt sisustatud",
+      "notFurnished": "Sisustamata"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Büroopind",
+      "retailSpace": "Kaubanduspind",
+      "shopLot": "Äripind",
+      "warehouseFactory": "Ladu / Tehas",
+      "hotelResort": "Hotell / Kuurort",
+      "sofo": "SOFO",
+      "soho": "SOHO",
+      "sovo": "SOVO",
+      "others": "Muud"
+    },
+    "landPropertyType": {
+      "residential": "Elamumaa",
+      "industrial": "Tööstusmaa",
+      "agricultural": "Põllumajandusmaa",
+      "commercial": "Ärimaa",
+      "mixedDevelopment": "Segatüüpi arendus",
+      "others": "Muud"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 kuud",
+      "oneYear": "1 aasta",
+      "oneAndHalfYears": "1,5 aastat",
+      "twoYears": "2 aastat",
+      "twoAndHalfYears": "2,5 aastat"
+    },
+    "dropdownDateFilter": {
+      "daily": "Iga päev",
+      "weekly": "Iga nädal",
+      "monthly": "Iga kuu",
+      "yearly": "Iga aasta",
+      "custom": "Kohandatud"
+    },
+    "bungalowType": {
+      "modern": "Moodne",
+      "cottage": "Suvila",
+      "luxury": "Luksus",
+      "ecoSmart": "Öko / Nutikas",
+      "beachSide": "Rannaäärne",
+      "others": "Muud"
+    }
+  }
+}

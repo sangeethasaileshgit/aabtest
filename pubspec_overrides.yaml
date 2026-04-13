@@ -1,0 +1,9 @@
+dependency_overrides:
+  searchfield:
+    git:
+      url: https://github.com/iamtoricool/searchfield.git
+      ref: fix-issue-248
+  country_code_picker:
+    git:
+      url: https://github.com/mdshakilmia22/CountryCodePicker.git
+      ref: main

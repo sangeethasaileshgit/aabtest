@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "mn_MN",
+    "languageName": "Монгол",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Профайл",
+    "language": "Хэл",
+    "subscriptionPlan": "Захиалгын Төлөвлөгөө",
+    "contactUs": "Бидэнтэй Холбогдох",
+    "termsAndConditions": "Үйлчилгээний Нөхцөл",
+    "aboutUs": "Бидний Тухай",
+    "logout": "Гарах",
+    "editProfile": "Профайл Засах",
+    "fullName": "Бүтэн Нэр",
+    "email": "И-мэйл",
+    "mobileNumber": "Утасны Дугаар",
+    "address": "Хаяг",
+    "postalCode": "Шуудангийн Код",
+    "city": "Хот",
+    "country": "Улс",
+    "state": "Муж/Хот",
+    "password": "Нууц Үг",
+    "forgotPassword": "Нууц үг мартсан",
+    "tenant": "Түрээслэгч",
+    "landlord": "Түрээслүүлэгч",
+    "cancelRenting": "Түрээс Цуцлах",
+    "startDate": "Эхлэх Огноо",
+    "endDate": "Дуусах Огноо",
+    "fromDate": "Огнооноос",
+    "toDate": "Огноо Хүртэл",
+    "online": "Онлайн",
+    "bankList": "Банкны Жагсаалт",
+    "withdrawMethod": "Татан Авалтын Арга",
+    "uploadPaymentReceipt": "Төлбөрийн Баримт Оруулах",
+    "offlinePaymentNote(rich)": "Тэмдэглэл: ${note(Уг төлбөрийг админ гараар баталгаажуулах шаардлагатай)} ${duraion(24~48 цагийн дотор.)}",
+    "reviews": "Сэтгэгдэл",
+    "description": "Тодорхойлолт",
+    "about": "Тухай",
+    "propertyTypes": "Үл Хөдлөх Хөрөнгийн Төрөл",
+    "features": "Онцлог",
+    "floorPlans": "Давхрын Зураг",
+    "buildingDetails": "Барилгын Дэлгэрэнгүй",
+    "buildingName": "Барилгын Нэр",
+    "propertyAddress": "Үл Хөдлөх Хөрөнгийн Хаяг",
+    "completionYear": "Ашиглалтад Оруулсан Жил",
+    "lotNumber": "Лот Дугаар",
+    "residentialType": "Орон Сууцны Төрөл",
+    "furnishings": "Тавилга",
+    "floorRange": "Давхрын Хүрээ",
+    "bedrooms": "Унтлагын Өрөө",
+    "bathrooms": "Угаалгын Өрөө",
+    "propertySize": "Үл Хөдлөх Хөрөнгийн Хэмжээ",
+    "rentalPeriod": "Түрээсийн Хугацаа",
+    "securityDeposit": "Баталгааны Депозит",
+    "utilityBill": "Коммуналын Төлбөр",
+    "facilities": "Тоноглол",
+    "amenities": "Тав Тух",
+    "expiringReason": "Хугацаа Дуусах Шалтгаан",
+    "tenantDetails": "Түрээслэгчийн Дэлгэрэнгүй",
+    "typeOfTenant": "Түрээслэгчийн Төрөл",
+    "tenantName": "Түрээслэгчийн Нэр",
+    "nidPassport": "ИҮД/Паспорт",
+    "nidPassportId": "@:common.nidPassport Дугаар",
+    "tenantId": "Түрээслэгчийн ID",
+    "dateOfBirth": "Төрсөн Огноо",
+    "gender": "Хүйс",
+    "nominee": "Төлөөлөгч",
+    "name": "Нэр",
+    "optional": "Нэмэлт",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Утасны Д.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Яаралтай Холбоо Барих",
+    "relation": "Хамаарал",
+    "relationWith": "@:common.relation Хэнтэй",
+    "relationWithYou": "@:common.relationWith Та",
+    "company": "Компани",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM Дугаар",
+    "workplace": "Ажлын Байр",
+    "officePhoneNo": "Оффисын Утас",
+    "officeMobileNo": "Оффисын @:common.mobileNumber",
+    "vehicle": "Тээврийн Хэрэгсэл",
+    "vehiclesInfo": {
+      "plain": "Тээврийн Хэрэгслийн Мэдээлэл",
+      "optional": "Тээврийн Хэрэгслийн Мэдээлэл (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Төрөл",
+    "vehicleRegistrationNo": {
+      "normal": "Тээврийн Хэрэгслийн Бүртгэлийн Д.",
+      "short": "Бүртгэлийн Д.",
+      "alt": "Дугаар"
+    },
+    "vehicleBrand": "@:common.vehicle Брэнд",
+    "rentProperty": "Үл Хөдлөх Хөрөнгө Түрээслэх",
+    "propertyDetails": "Үл Хөдлөх Хөрөнгийн Дэлгэрэнгүй",
+    "propertyId": "Үл Хөдлөх Хөрөнгийн ID",
+    "propertyType": "Үл Хөдлөх Хөрөнгийн Төрөл",
+    "propertyName": "Үл Хөдлөх Хөрөнгийн Нэр",
+    "paymentDetails": "Төлбөрийн Дэлгэрэнгүй",
+    "monthlyRent": "Сар Бүрийн Түрээс",
+    "thisMonthPayment": "Энэ Сард Төлөх Төлбөр",
+    "totalPaidRent": "Нийт Төлсөн Түрээс",
+    "dueRent": "Өр Түрээс",
+    "rentStartDate": "Түрээс @:common.startDate",
+    "rentEndDate": "Түрээс @:common.endDate",
+    "status": "Төлөв",
+    "rentAgreementPdf": "Түрээсийн Гэрээ PDF",
+    "noFile": "Файл Байхгүй",
+    "tenantImageOp": "Түрээслэгчийн зураг @:common.optional",
+    "addNewVechicle": "Шинэ Тээврийн Хэрэгсэл Нэмэх",
+    "uploadNidPassport": "ИҮД/Паспорт Оруулах",
+    "nidPassportUploadNote": "Зөвхөн зураг хэлбэрийн файл хүлээн авна. Файлын хязгаар 2.5 MB.",
+    "search": "Хайх",
+    "sortBy": "Эрэмбэлэх",
+    "subscription": "Захиалга",
+    "downloading": "Татаж байна...",
+    "downloadSuccess": "Файл амжилттай татагдлаа!",
+    "addPropertyBannerTitle": "Та Үл Хөдлөх Хөрөнгөө Түрээслэхийг Хүсэж Байна Уу?",
+    "application": "Хүсэлт",
+    "tenantHasPaidDeposit": "Түрээслэгч депозитыг төлсөн.",
+    "askProcessingRentApplication": "Та энэ үл хөдлөх хөрөнгө түрээслэх хүсэлтийг боловсруулж байгаадаа итгэлтэй байна уу?",
+    "dateAndTime": "Огноо ба Цаг",
+    "applicationDetails": "Хүсэлтийн Дэлгэрэнгүй",
+    "depositStatus": "Депозитын Төлөв",
+    "uploadRentAgreement": "Түрээсийн Гэрээ Оруулах",
+    "uploadFilePDF": "Файл Оруулах (PDF)",
+    "askSelectRentAgreement": "Гэрээний баримт бичгийн файлыг сонгоно уу.",
+    "landlordRentAgreementPDF": "Түрээслүүлэгчийн Түрээсийн Гэрээ PDF",
+    "tenantRentAgreementPDF": "Түрээслэгчийн Түрээсийн Гэрээ PDF",
+    "landlordApplicationApproveNote(rich)": "Тэмдэглэл: ${note(Түрээслэгч депозитын төлбөр хийсний дараа зөвхөн хүсэлтийг батална.)}",
+    "reasonOfRejection": "Татгалзах Шалтгаан",
+    "youveRejectedThisApplication": "Та энэ хүсэлтээс татгалзсан",
+    "landlordDetails": "Түрээслүүлэгчийн Дэлгэрэнгүй",
+    "landlordName": "Түрээслүүлэгчийн Нэр",
+    "downloadRentAgreement": "Түрээсийн Гэрээ Татах",
+    "acceptTermsConditions(rich)": "${toc(Үйлчилгээний Нөхцөлийг)} Хүлээн Зөвшөөрөх",
+    "tenantAgreementSignNote1(rich)": "Тэмдэглэл: ${note(Гэрээг татаж аваад, уншина уу. Гарын үсэг зурсан гэрээг түрээслүүлэгч рүү WhatsApp эсвэл и-мэйлээр илгээнэ үү.)}",
+    "tenantAgreementSignNote2(rich)": "Тэмдэглэл: ${note(Түрээслэгч баталгаа, коммуналын болон нэг сарын урьдчилгаа түрээсийн төлбөрийг төлсний дараа түрээслүүлэгч хүсэлтийг батална.)}",
+    "completeRentAgreementPdf(rich)": "Түрээсийн Гэрээ (PDF) ${complete(Гэрээг Гүйцээх)}",
+    "tenantApplicationDepositNote(rich)": "Тэмдэглэл : ${note(Түрээслэгч баталгаа, коммуналын болон нэг сарын урьдчилгаа түрээсийн төлбөрийг төлсний дараа түрээслүүлэгч хүсэлтийг батална.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Хүсэлтийн Жагсаалт",
+    "viewDetails": "Дэлгэрэнгүй Харах",
+    "searchHint": "@:common.search...",
+    "home": "Нүүр",
+    "dashboard": "Хяналтын Самбар",
+    "tenants": "Түрээслэгчид",
+    "maintenance": "Засвар Үйлчилгээ",
+    "maintenanceList": "Засвар Үйлчилгээний Жагсаалт",
+    "maintenanceReport": "Засвар Үйлчилгээний Тайлан",
+    "labor": "Ажилчин",
+    "applications": "Хүсэлтүүд",
+    "rentInvitation": "Түрээсийн Урилга",
+    "payment": "Төлбөр",
+    "rentPayment": "Түрээсийн Төлбөр",
+    "depositUtilityPayment": "Депозит ба Коммуналын Төлбөр",
+    "refundRequest": "Буцаан Олголтын Хүсэлт",
+    "withdrawRequest": "Татан Авалтын Хүсэлт",
+    "myProperty": "Миний Үл Хөдлөх Хөрөнгө",
+    "myRent": "Миний Түрээс",
+    "wishlist": "Хүслийн Жагсаалт",
+    "properties": "Үл Хөдлөх Хөрөнгө",
+    "allProperties": "Бүх Үл Хөдлөх Хөрөнгө",
+    "totalPropery": "Нийт Үл Хөдлөх Хөрөнгө",
+    "occupied": "Эзлэгдсэн",
+    "vacant": "Суларсан",
+    "accounting": "Нягтлан Бодох Бүртгэл",
+    "totalIncome": "Нийт Орлого",
+    "totalExpense": "Нийт Зардал",
+    "currentBalance": "Одоогийн Үлдэгдэл",
+    "totalWithdrawal": "Нийт (Татан Авалт)",
+    "totalProperties": "Нийт Үл Хөдлөх Хөрөнгө",
+    "totalTenant": "Нийт Түрээслэгч",
+    "totalRentPaid": "Нийт Төлсөн Түрээс",
+    "totalRentDue": "Нийт Өр Түрээс",
+    "totalApplication": "Нийт Хүсэлт",
+    "pendingApplication": "Хүлээгдэж буй Хүсэлт",
+    "processingApplication": "Боловсруулж буй Хүсэлт",
+    "approveApplication": "Баталсан Хүсэлт",
+    "rejectApplication": "Татгалзсан Хүсэлт",
+    "maintenanceCost": "Засвар Үйлчилгээний Зардал",
+    "transactionSummary": "Гүйлгээний Хураангуй",
+    "maintenanceRequest": "Засвар Үйлчилгээний Хүсэлт",
+    "notifications": "Мэдэгдэл",
+    "myProperties": "Миний Үл Хөдлөх Хөрөнгө",
+    "recommendationProperties": "Санал Болгож Буй Үл Хөдлөх Хөрөнгө",
+    "laborList": "Ажилчдын Жагсаалт",
+    "addLabor": "Ажилчин Нэмэх",
+    "laborDetails": "Ажилчны Дэлгэрэнгүй",
+    "laborSalary": "Ажилчны Цалин",
+    "editLabor": "Ажилчин Засах",
+    "addNewLabor": "Шинэ Ажилчин Нэмэх",
+    "enterAmount": "Дүн Оруулах",
+    "maintenanceDetails": "Засвар Үйлчилгээний Дэлгэрэнгүй",
+    "laborName": "Ажилчны Нэр",
+    "comment": "Сэтгэгдэл",
+    "image": "Зураг",
+    "complete": "Дууссан",
+    "details": "Дэлгэрэнгүй",
+    "title": "Гарчиг",
+    "date": "Огноо",
+    "reason": "Шалтгаан",
+    "edit": "Засах",
+    "property": "Үл Хөдлөх Хөрөнгө",
+    "completeYourProfile": "Профайлаа Гүйцээх",
+    "profileImage": "Профайлын Зураг",
+    "imagePickHint": "Зөвхөн JPEG & PNG форматтай, хамгийн ихдээ 120x120 пикселийн хэмжээтэй зураг.",
+    "invoiceId": "Нэхэмжлэхийн ID",
+    "depositAmount": "Депозитын Дүн",
+    "landlordPhone": "Түрээслүүлэгчийн Утас",
+    "rentalAdvance": "Түрээс (Урьдчилгаа)",
+    "totalAmount": "Нийт Дүн",
+    "rentAmount": "Түрээсийн Дүн",
+    "adminCharge": "Админы Хураамж",
+    "editAccount": "Данс Засах",
+    "addNewAccount": "Шинэ Данс Нэмэх",
+    "transactionId": "Гүйлгээний ID",
+    "transactionType": "Гүйлгээний Төрөл",
+    "requestDate": "Хүсэлт Гаргасан Огноо",
+    "amount": "Дүн",
+    "fee": "Хураамж",
+    "paymentStatus": "Төлбөрийн Төлөв",
+    "generatedTime": "Үүсгэсэн Цаг",
+    "systemGeneratedReportHint(rich)": "Энэ бол ${appName} системийн үүсгэсэн тайлан",
+    "withdrawHistory": "Татан Авалтын Түүх",
+    "history": "Түүх",
+    "withdrawAmount": "Татан Авалтын Дүн",
+    "availableBalance": "Боломжит Үлдэгдэл",
+    "withdrawCharge": "Татан Авалтын Хураамж",
+    "paymentMethod": "Төлбөрийн Арга",
+    "requestSendSuccess": "Хүсэлтийг амжилттай илгээлээ!",
+    "paymentReceiptSubmitSuccess": "Төлбөрийн баримтыг амжилттай илгээлээ.",
+    "refundReason": "Буцаан Олголтын Шалтгаан",
+    "note": "Тэмдэглэл",
+    "refundReceiveSuccess": "Буцаан олголтыг амжилттай хүлээн авлаа.",
+    "downloadPaymentReceipt": "Төлбөрийн Баримт Татах",
+    "invoice": "Нэхэмжлэх",
+    "selectPropertyToSeeInvoice": "Нэхэмжлэхийн дугаарыг харахын тулд үл хөдлөх хөрөнгө сонгоно уу...",
+    "bankAccName": "Банкны Дансны Нэр",
+    "bankName": "Банкны Нэр",
+    "bankAccNum": "Банкны Дансны Дугаар",
+    "thankYou": "Баярлалаа!",
+    "basicInfo": "Үндсэн Мэдээлэл",
+    "descriptionPricing": "Тодорхойлолт ба Үнэ",
+    "contact": "Холбоо Барих",
+    "photos": "Зурагнууд",
+    "successfullySubmitted": "Амжилттай илгээгдлээ!",
+    "editProperty": "Үл Хөдлөх Хөрөнгө Засах",
+    "addNewProperty": "Шинэ Үл Хөдлөх Хөрөнгө Нэмэх",
+    "propertyManageRequestSuccess": "Таны зарыг хяналтад оруулахаар илгээлээ.",
+    "postAnotherProperty": "Өөр Үл Хөдлөх Хөрөнгө Нэмэх",
+    "browseYourProperty": "Өөрийн Үл Хөдлөх Хөрөнгөө Харах",
+    "stepIndicator(rich)": "${totalSteps} алхмын ${step} дахь алхам",
+    "whatWouldYouLikeToPost": "Та юу нийтлэхийг хүсэж байна вэ?",
+    "category": "Ангилал",
+    "invalidCategory": "Буруу Ангилал",
+    "unitNumber": "Нэгжийн Дугаар",
+    "sqft": "кв.фут",
+    "propertySizeMustBeGreaterThan0": "Үл хөдлөх хөрөнгийн хэмжээ тэгээс их байх ёстой",
+    "whatAreTheFacility": "Ямар тоноглол байна вэ?",
+    "whatAreTheAmenity": "Ямар тав тух байна вэ?",
+    "parkingLot": "Машины зогсоол",
+    "houseType": "Байшингийн төрөл",
+    "value": "Утга",
+    "unitLotSize": "Нэгж / Лот Хэмжээ",
+    "landSize": "Газрын Хэмжээ",
+    "acres": "акр",
+    "roomSize": "Өрөөний хэмжээ",
+    "askTenantPreference": "Таны түрээслэгчийн сонголт юу вэ?",
+    "couple": "Хос",
+    "describeTheProperty": "${propertyType: String} -ийг тодорхойлох",
+    "adTitle": "Зар сурталчилгааны Гарчиг",
+    "minimumRentalPeriod": "Хамгийн Бага Түрээсийн Хугацаа",
+    "whatsappNumber": "@:common.whatsapp Дугаар",
+    "hideOrDisplayEmail": "И-мэйл хаягийг нуух эсвэл харуулах",
+    "thankYouForPostingProperty": "Та ${appName: String} дээр нийтэлсэн танд баярлалаа!",
+    "propertyList": "Үл Хөдлөх Хөрөнгийн Жагсаалт",
+    "newInviteRent": "Шинэ Түрээсийн Урилга",
+    "rentAgreement": "Түрээсийн Гэрээ",
+    "rentDetails": "Түрээсийн Дэлгэрэнгүй",
+    "landlordRentInvitationPendingNote(rich)": "Тэмдэглэл: ${note(Түрээслэгчийг урилгыг хүлээн авахыг хүлээнэ үү.)}",
+    "rent": "Түрээс",
+    "editTenant": "Түрээслэгч Засах",
+    "addNewTenant": "Шинэ Түрээслэгч Нэмэх",
+    "shareInstallLink": "Суулгах холбоосыг хуваалцах",
+    "tenantList": "Түрээслэгчийн Жагсаалт",
+    "editMaintenanceRequest": "Засвар Үйлчилгээний Хүсэлт Засах",
+    "addNewMaintenance": "Шинэ Засвар Үйлчилгээ Нэмэх",
+    "landlordId": "Түрээслүүлэгчийн ID",
+    "tenantAgrementUnderReviewNote(rich)": "Тэмдэглэл ${note(Таны гэрээ хяналтад байна. Түрээслүүлэгч таны түрээсийг батлах хүртэл хүлээнэ үү.)}",
+    "editReview": "Сэтгэгдэл Засах",
+    "writeAReview": "Сэтгэгдэл бичих",
+    "selectRating": "Үнэлгээ Сонгох",
+    "enterYourOpinion": "Таны Бодлыг Оруулах",
+    "askToEnterReviewMsg": "Сэтгэгдлийн мессеж оруулна уу",
+    "pressBackAgainToExit": "Гарахын тулд буцах товчийг дахин дарна уу.",
+    "selectPaymentMethod": "Төлбөрийн Аргыг Сонгох",
+    "filter": "Шүүлтүүр",
+    "perMonth": "/1 Сар",
+    "searchHintWithAppName": "${appName: String} -д юу ч хайх...",
+    "propertyInfo": "Үл Хөдлөх Хөрөнгийн Мэдээлэл",
+    "units": "Нэгжүүд",
+    "depositPeriod": "Депозитын Хугацаа",
+    "facilitiesList": "Тоноглолын Жагсаалт",
+    "facility": "Тоноглол",
+    "amenity": "Тав Тух",
+    "amenitiesList": "Тав Тухын Жагсаалт",
+    "addNewFacility": "Шинэ Тоноглол Нэмэх",
+    "editFacility": "Тоноглол Засах",
+    "facilityName": "Тоноглолын Нэр",
+    "amenityName": "Тав Тухын Нэр",
+    "addNewAmenity": "Шинэ Тав Тух Нэмэх",
+    "editAmenity": "Тав Тух Засах",
+    "family": "Гэр Бүл",
+    "lateFee": "Хоцорсон Төлбөр",
+    "lateFeeAfterDays": "@:common.lateFee (Хоногоос) Хойш",
+    "propertyPricing": "${propertyType: String} -ийн Үнэ",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Маш их баярлалаа, та дөнгөж сая үл хөдлөх хөрөнгөө нийтэллээ",
+    "titleAndDescription": "Гарчиг ба Тодорхойлолт",
+    "rentPricing": "Түрээсийн Үнэ",
+    "step": "Алхам",
+    "of": "-ын",
+    "pricing": "Үнэ",
+    "sameRentForAllUnit": "Бүх нэгжид ижил түрээс",
+    "unit": "нэгж",
+    "pleaseSelectAnUnitFirst": "Эхлээд нэгж сонгоно уу.",
+    "saleAmount": "Борлуулалтын Дүн",
+    "selectCategory": "Ангилал Сонгох",
+    "pleaseSelectACategory": "Ангилал сонгоно уу",
+    "pleaseEnterAdTitle": "Зар сурталчилгааны гарчиг оруулна уу",
+    "addCoverPhoto": "Нүүр Зураг Нэмэх",
+    "findAProperty": "Үл хөдлөх хөрөнгө олох",
+    "categories": "Ангиллууд",
+    "recmmendedProperties": "Санал Болгож Буй Үл Хөдлөх Хөрөнгө",
+    "recentSearch": "Сүүлийн Хайлт",
+    "pleaseEnterYourAccountNumber": "Таны дансны дугаарыг оруулна уу.",
+    "pleaseSelectALanguageToContinue": "Үргэлжлүүлэхийн тулд хэл сонгоно уу.",
+    "subscribe": "Захиалах",
+    "noFacilitiesFound": "Тоноглол олдсонгүй!",
+    "invalidLaborDetailsPleaseTryAgain": "Ажилчны буруу мэдээлэл, дахин оролдоно уу",
+    "maintenanceWork": "Засвар үйлчилгээний ажил",
+    "selectLabor": "Ажилчин Сонгох",
+    "enterMaintenanceCost": "Засвар үйлчилгээний зардал оруулах",
+    "pleaseEnterMaintenanceCost": "Засвар үйлчилгээний зардал оруулна уу",
+    "writeComment": "Сэтгэгдэл бичих",
+    "maintenancePending": "Засвар Үйлчилгээ Хүлээгдэж Байна",
+    "yourEarnings": "Таны Орлого",
+    "totalPaid": "Нийт Төлсөн",
+    "linkANewBankAccount": "Шинэ банкны данс холбох",
+    "payoutRequest": "Төлбөр Хүсэх"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Алдаа гарлаа, дахин оролдоно уу",
+    "noNidPassport": "ИҮД/Паспортын зураг оруулаагүй.",
+    "noRentPropertyFound": "Энэ түрээслэгчид зориулсан түрээсийн үл хөдлөх хөрөнгө олдсонгүй.",
+    "noPropertyFoundWithKeyWord": "Үл хөдлөх хөрөнгө олдсонгүй!\nӨөр түлхүүр үгээр дахин оролдоно уу",
+    "noSubscriptionFoundRefreshPage": "Захиалгын төлөвлөгөө олдсонгүй!\nХуудсыг сэргээгээд дахин оролдоно уу.",
+    "invalidApiDataRefreshPage": "Буруу ${dataType: String} мэдээлэл! Хуудсыг сэргээгээд дахин оролдоно уу.",
+    "invalidDownloadUrl": "Буруу татах холбоос!",
+    "failedToSaveFile": "Файлыг хадгалахад алдаа гарлаа! ${error: String}",
+    "errorOpeningFile": "Файлыг нээхэд алдаа гарлаа! ${error: String}",
+    "noVehicleInfoProvided": "Тээврийн хэрэгслийн мэдээлэл оруулаагүй.",
+    "yourApplicationRejected": "Таны Хүсэлтээс Татгалзсан",
+    "noApplicationFoundHint": {
+      "template": "Хүсэлт олдсонгүй!\nБоломжтой үед ${subject: String} энд харагдах болно.",
+      "subjects": {
+        "tenant": "Таны хүсэлт",
+        "landlord": "Түрээслэгчийн хүсэлт"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Үл хөдлөх хөрөнгө олдсонгүй!\nЭнд харахын тулд үл хөдлөх хөрөнгө нэмж үзнэ үү.",
+      "tenantRecommended": "Санал болгож буй үл хөдлөх хөрөнгө олдсонгүй\nДараа дахин оролдоно уу.",
+      "tenantAllProperty": "Үл хөдлөх хөрөнгө боломжгүй\nДараа дахин оролдоно уу."
+    },
+    "noImageProvided": "Зураг Оруулаагүй",
+    "noStatusMaintenantFound": {
+      "landlord": "${status} засвар үйлчилгээ олдсонгүй.",
+      "tenant": "Засвар үйлчилгээ олдсонгүй! Та засвар үйлчилгээний хүсэлт үүсгэж энд харах боломжтой."
+    },
+    "noDepositFound": "Баталгааны депозит олдсонгүй!\nБоломжтой үед баталгааны депозитыг харж болно",
+    "noRentPaymentFound": "Түрээсийн төлбөр олдсонгүй!\nБоломжтой үед түрээсийн төлбөрийг харж болно",
+    "transactionSummaryApiException": "Гүйлгээний хураангуйг авахад алдаа гарлаа.",
+    "noWithdrawRequestFound": "Хүсэлт олдсонгүй!\nЭнд харахын тулд татан авалтын хүсэлт үүсгэж үзнэ үү.",
+    "withdrawRequestNotApproved": "Энэ татан авалтын хүсэлт батлагдаагүй!.",
+    "nonZeroError": "Тэгээс их хүчинтэй дүн оруулна уу.",
+    "minAmountError": "Дүн нь хамгийн багадаа ${minValue: String} байх ёстой.",
+    "maxAmountError": "Дүн ${maxValue: String} -аас хэтрэхгүй байх ёстой.",
+    "selectPaymentMethodHint": "Эхлээд төлбөрийн арга сонгоно уу.",
+    "noStatusRefundReqFound": {
+      "landlord": "${status} буцаан олголтын хүсэлт олдсонгүй!\nБоломжтой үед буцаан олголтын хүсэлтийг энд харж болно.",
+      "tenant": "Буцаан олголтын хүсэлт олдсонгүй!\nТа буцаан олголтын хүсэлт үүсгэж энд харах боломжтой."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Түрээслэгч мөнгөө буцааж авсан үед буцаан олголтыг батална",
+      "tenantReqSuccess": "Бид буцаан олголтын хүсэлтийг хянаж, 24 цагийн дотор батална."
+    },
+    "oneToTenRequiredField": "${value: String} -ийн тоог сонгоно уу",
+    "invalidDateRange": "Буруу огнооны хүрээ.",
+    "valueMustBeGreaterThanZero": "${value: String} тэгээс их байх ёстой.",
+    "editProperty": {
+      "rentalChange": "Түрээсийн үл хөдлөх хөрөнгө өөрчлөгдөж байна. Энэ нь зөвхөн дараагийн сарын түрээсийн төлбөрт хүчинтэй (үр дүнтэй) байх ёстой.",
+      "deleteOnRent": "Таны үл хөдлөх хөрөнгийг түрээслэгч аль хэдийн түрээсэлсэн. Түрээслэгчийг устгахгүйгээр устгах боломжгүй",
+      "alreayRented": "Энэ үл хөдлөх хөрөнгө аль хэдийн түрээслэгдсэн. Дараа дахин оролдоно уу.\nЭсвэл та түрээслүүлэгчтэй холбогдож дэлгэрэнгүй мэдээлэл авч болно."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Түрээсийн урилга олдсонгүй!\nЭнд харахын тулд түрээсийн урилга үүсгэж үзнэ үү.",
+      "tenantNoRentInvitation": "Түрээсийн урилга олдсонгүй!\nБоломжтой үед түрээсийн урилгыг энд харж болно."
+    },
+    "notenantFoundList": "Түрээслэгч байхгүй!\nЭнд харахын тулд түрээслэгч нэмж үзнэ үү.",
+    "noFeaturesProvided": "Онцлог мэдээлэл оруулаагүй.",
+    "noNotificationFound": "Мэдэгдэл боломжгүй.\nБоломжтой үед та өөрийн мэдэгдлийг энд харж болно.",
+    "noFacilitiesFound": "Тоноглол олдсонгүй.",
+    "noAmenitiesFound": "Тав тух олдсонгүй!",
+    "noLaborFound": "Ажилчин олдсонгүй\\nДараа дахин оролдоно уу.",
+    "areYouSureYouWantToRemoveThisUnit": "Та энэ нэгжийг устгахдаа итгэлтэй байна уу?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Та гарахдаа итгэлтэй байна уу?"
+    },
+    "application": {
+      "rejectTitle": "Та яагаад энэ өргөдлийг татгалзаж байна вэ?",
+      "applicationSent": {
+        "successfully": "Өргөдлийг амжилттай илгээлээ!",
+        "sucessDescription": "Та энэ өргөдлийг өөрийн өргөдлийн жагсаалтаас харах боломжтой"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Ажилтан устгах уу?",
+        "description": "Та энэ ажилтныг устгахдаа итгэлтэй байна уу?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Яагаад энэ хүсэлтийг татгалзаж байна вэ?",
+      "processTitle": "Та энэ засвар үйлчилгээний хүсэлтийг боловсруулахдаа итгэлтэй байна уу?",
+      "completeTitle": "Ажил дууссан уу?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Татгалзан авах аргыг устгах уу?",
+      "deleteDescription": "Та энэ татгалзан авах аргыг устгахдаа итгэлтэй байна уу?"
+    },
+    "unsavedChanges": {
+      "title": "Та буцахдаа итгэлтэй байна уу?",
+      "message": "Өөрчлөгдсөн талбарууд хадгалагдахгүй!"
+    },
+    "property": {
+      "delete": {
+        "title": "Үл хөдлөх хөрөнгө устгах уу?",
+        "message": "Та энэ үл хөдлөх хөрөнгийг устгахдаа итгэлтэй байна уу?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Та энэ түрээсийг батлахдаа итгэлтэй байна уу?",
+        "description": "Түрээслэгчтэй байгуулсан гэрээг шалгасан эсэхээ шалгаарай."
+      },
+      "tenantAccept": {
+        "title": "Та энэ урилгыг хүлээн авахдаа итгэлтэй байна уу?",
+        "description": "Та гэрээний pdf файлыг татаж авсан эсэхээ шалгаарай!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Нэвтрэх хугацаа дууссан",
+      "message": "Таны нэвтрэх хугацаа дууссан байна. Дахин нэвтэрнэ үү",
+      "action": "Нэвтрэх"
+    },
+    "noInternet": {
+      "title": "Интернэт холболтгүй",
+      "message": "Өөрийн Wi-Fi болон мобайл сүлжээний холболтоо шалгаад дахин оролдоно уу",
+      "action": "Дахин оролдох"
+    },
+    "permissionHandler": {
+      "title": "Зөвшөөрөл шаардлагатай!",
+      "message": "Та аппын тохиргоонд зөвшөөрөл олгох шаардлагатай. Та одоо тохиргоог нээхийг хүсэж байна уу?"
+    },
+    "imagePicker": {
+      "title": "Сонголт сонгоно уу",
+      "gallery": "Галерей",
+      "camera": "Камер"
+    },
+    "verificationDialog": {
+      "title": "И-мэйлээ баталгаажуулна уу",
+      "message": "Бид баталгаажуулах кодын и-мэйл илгээсэн",
+      "messageWithEmail": "@:prompt.verificationDialog.message руу ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Мэдэгдлүүдийг цэвэрлэх үү?",
+      "clearMessage": "Та бүх мэдэгдлүүдийг цэвэрлэхдээ итгэлтэй байна уу?"
+    },
+    "genericDeletePrompt": {
+      "title": "Та энэ ${item: String} -ийг устгахыг хүсэж байна уу"
+    },
+    "subscriptionModal": {
+      "title": "Захиалгын хугацаа дууссан!",
+      "message": "Үргэлжлүүлэхийн тулд захиална уу."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "@:common.fullName-г оруулна уу",
+      "errors": {
+        "required": "Та өөрийн @:common.fullName-г оруулна уу"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Таны @:common.email-г оруулна уу",
+      "errors": {
+        "required": "Та өөрийн @:common.email хаягийг оруулна уу",
+        "invalid": "⦸ И-мэйл буруу байна, дахин оролдоно уу"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Та өөрийн @:common.password-г оруулна уу",
+        "minLength": "Нууц үг хамгийн багадаа ${count} тэмдэгттэй байх ёстой!"
+      }
+    },
+    "confirmPassword": {
+      "label": "@:common.password-г баталгаажуулах",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Та өөрийн @:common.password-г оруулна уу",
+        "notMatched": "Нууц үгийн баталгаажуулалт таарахгүй байна!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Та өөрийн @:common.mobileNumber-г оруулна уу"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Байшингийн дугаар ба гудамжны нэр",
+      "errors": {
+        "required": "Та @:form.address1.label-г оруулна уу"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Орон сууц, люкс, нэгж гэх мэт",
+      "errors": {
+        "required": "Та @:form.address2.label-г оруулна уу"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "@:common.postalCode-г оруулна уу",
+      "errors": {
+        "required": "Та өөрийн @:common.postalCode-г оруулна уу"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "@:common.city-н нэрийг оруулна уу.",
+      "errors": {
+        "required": "Та өөрийн @:common.city-н нэрийг оруулна уу."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "@:common.state-н нэрийг оруулна уу.",
+      "errors": {
+        "required": "Та өөрийн @:common.state-н нэрийг оруулна уу."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "@:common.country-г сонгоно уу.",
+      "errors": {
+        "required": "Та өөрийн @:common.country-г сонгоно уу"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Та otp-г оруулна уу.",
+        "invalid": "Зөв otp-г оруулна уу."
+      }
+    },
+    "title": {
+      "label": "Гарчиг",
+      "hint": "Гарчиг оруулна уу",
+      "errors": {
+        "required": "Гарчиг оруулна уу"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "@:form.date.label-г сонгоно уу",
+      "errors": {
+        "required": "@:form.date.label-г сонгоно уу"
+      }
+    },
+    "reason": {
+      "label": "Шалтгаан",
+      "hint": "Шалтгаан оруулна уу",
+      "errors": {
+        "required": "Шалтгаан оруулна уу"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "@:common.withdrawMethod-г сонгоно уу",
+      "errors": {
+        "required": "@:common.withdrawMethod-г сонгоно уу"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "${label: String}-г оруулна уу",
+      "errors": {
+        "required": "${label: String}-г сонгоно уу"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "@:form.note.label-г оруулна уу",
+      "errors": {
+        "required": "@:form.note.label-г оруулна уу"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "@:common.gender-г сонгоно уу",
+      "errors": {
+        "required": "@:common.gender-г сонгоно уу"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "@:form.anyField.label-г оруулна уу",
+      "errors": {
+        "required": "@:form.anyField.label-г оруулна уу",
+        "invalid": "Зөв @:form.anyField.label-г оруулна уу"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "@:form.anyDropdown.label-г сонгоно уу",
+      "errors": {
+        "required": "@:form.anyDropdown.label-г сонгоно уу",
+        "invalid": "Зөв @:form.anyDropdown.label-г сонгоно уу"
+      }
+    }
+  },
+  "action": {
+    "next": "Дараах",
+    "getStarted": "Эхлэх",
+    "skip": "Алгасах",
+    "select": "Сонгох",
+    "save": "Хадгалах",
+    "signIn": "Нэвтрэх",
+    "signUp": "Бүртгүүлэх",
+    "continue": "Үргэлжлүүлэх",
+    "clearAll": "Бүгдийг Цэвэрлэх",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Илгээх",
+    "pay": "Төлөх",
+    "remove": "Устгах",
+    "goBack": "Буцах",
+    "buyNow": "Одоо Худалдаж Авах",
+    "no": "Үгүй",
+    "open": "Нээх",
+    "addProperty": "Үл Хөдлөх Хөрөнгө Нэмэх",
+    "process": "Боловсруулах",
+    "approve": "Баталгаажуулах",
+    "reject": "Татгалзах",
+    "viewRent": "Түрээсийг Харах",
+    "openNavigationMenu": "Навигацийн цэсийг нээх",
+    "seeAll": "Бүгдийг Харах",
+    "update": "Шинэчлэх",
+    "printTransaction": "Гүйлгээ Хэвлэх",
+    "payoutRequest": "Төлбөр Хүсэх",
+    "addNew": "+ Шинэ Нэмэх",
+    "sendRequest": "Хүсэлт Илгээх",
+    "print": "Хэвлэх",
+    "requestForRefund": "Буцаан Олголт Хүсэх",
+    "previous": "Өмнөх",
+    "delete": "Устгах",
+    "applyProperty": "Үл Хөдлөх Хөрөнгөнд Хүсэлт Гаргах",
+    "viewApplication": "Хүсэлтийг Харах",
+    "inviteTenant": "Түрээслэгчийг Урих",
+    "inviteRent": "Түрээслэх Урилга",
+    "cancel": "Цуцлах",
+    "accept": "Хүлээн Авах",
+    "submit": "Илгээх",
+    "yes": "Тийм",
+    "okay": "Заа",
+    "confirm": "Баталгаажуулах",
+    "apply": "Хэрэглэх",
+    "reset": "Сэргээх",
+    "retry": "Дахин Оролдох",
+    "viewAll": "Бүгдийг Үзэх",
+    "addMore": "Нэмж Оруулах",
+    "done": "Дууссан"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language (Хэл Сонгох)"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Өөрийн Үл Хөдлөх Хөрөнгөө Олох",
+          "description": "Бид таны амьдралд тохирох байр, орон сууц, эсвэл байшинг олохыг **хялбаршуулсан**."
+        },
+        "data2": {
+          "title": "Хот Доторх Орон Сууц",
+          "description": "Бид алга болохоос өмнө танд **хамгийн тохиромжтой үл хөдлөх хөрөнгийг хурдан олж өгөх** замаар таны цагийг хэмнэж, та шинэ гэртээ таашаал авах, эсвэл өөрийнхийгөө үнэгүй жагсаах боломжтой."
+        },
+        "data3": {
+          "title": "Тав Тухтай Байшин",
+          "description": "Хэрэв та амьдрах газар хайж байгаа бол манай **түрээсийн байшингуудыг үзээрэй**. Бид улс даяар таны сонгох боломжтой өргөн хүрээний байшингуудыг санал болгодог."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Тавтай Морил",
+      "subtitle": "Гайхалтай аялалыг эхлүүлэхийн тулд **одоо нэвтэрнэ үү**.",
+      "extra": {
+        "rememberMe": "Намайг Санах",
+        "signUpNavigator(rich)": "Дансгүй юу? ${getStarted(@:action.getStarted)}-г дарна уу",
+        "forgotPassword": "@:common.forgotPassword (Нууц үг мартсан) уу?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Нууц үг мартсан",
+      "subtitle": "Нууц үгээ сэргээхийн тулд **и-мэйл хаягаа оруулна уу**."
+    },
+    "otpVerification": {
+      "title": "Баталгаажуулалт",
+      "subtitle": "Таны и-мэйл хаяг руу **6 оронтой пин код** илгээсэн. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Код ${minutes}:${seconds} -ийн дотор илгээгдэнэ",
+          "resendCode(rich)": " ${resendCode(Кодыг дахин илгээх)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Нууц үг сэргээх",
+      "subtitle": "Нууц үгээ сэргээж, дансандаа **нэвтэрнэ үү**",
+      "extra": {
+        "dialog": {
+          "title": "Амжилттай өөрчиллөө!",
+          "subtitle": "Шинэ нууц үгээрээ нэвтэрнэ үү.\n Нэвтрэх хэсэг рүү шилжүүлж байна..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Данс Үүсгэх",
+      "subtitle": "Гайхалтай аялалыг эхлүүлэхийн тулд **одоо бүртгүүлнэ үү**",
+      "extra": {
+        "signInNavigator(rich)": "Данстай юу? ${signIn(@:action.signIn)}-г дарна уу"
+      }
+    },
+    "welcome": {
+      "title": "Та хэн бэ?",
+      "subtitle": "Доорх **сонголтыг сонгоно уу**.",
+      "extra": {
+        "landlordTag": "Өөрийн үл хөдлөх хөрөнгөө удирдах",
+        "tenantTag": "Түрээсийн данс руугаа нэвтрэх"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs (Бидний Тухай)"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions (Үйлчилгээний Нөхцөл)"
+    },
+    "notificationList": {
+      "appbarTitle": "Мэдэгдлүүд"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs (Холбоо Барих)",
+      "extra": {
+        "messageHint": "Зурвас..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting (Түрээс Цуцлах)",
+      "title": "Та яагаад @:common.cancelRenting хийж байна вэ?",
+      "form": {
+        "reason": {
+          "hint": "Шалтгаан бичих",
+          "errors": {
+            "required": "Түрээс цуцлах **шалтгааныг оруулна уу**"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails (Дэлгэрэнгүйг Харах)"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Офлайн Төлбөр",
+      "form": {
+        "paymentNote": {
+          "label": "Төлбөрийн Тэмдэглэл (@:common.optional - Заавал биш)",
+          "hint": "Ямар нэгэн текст оруулна уу..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Төлөх Дүн: **${amount}**",
+        "accountHolderName": "Данс Эзэмшигчийн Нэр",
+        "accountNumber": "Дансны Дугаар",
+        "swiftCode": "Свифт Код",
+        "branch": "Салбар",
+        "fileTypeHint(rich)": "Зөвхөн ${fileType(JPG, PNG,PDF)} Эсвэл ${fileType(DOC)} форматын файлуудыг сонгоно уу. Файлын хэмжээ **${fileSize(2000 KB)}**"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Нэхэмжлэхийг Харах",
+        "title": "@:common.thankYou (Баярлалаа)",
+        "description": "Бид төлбөрийг хянаж, **24 цагийн дотор** батална."
+      },
+      "fail": {
+        "actionButton": "Дахин Оролдох",
+        "title": "Уучлаарай! Төлбөр Амжилтгүй Болсон",
+        "description": "Техникийн алдааны улмаас таны гүйлгээ **амжилтгүй боллоо**."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord (Түрээслүүлэгч): **${landlordName}**",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews) (үнэлгээ)}",
+        "features(rich)": "Онцлог ${fa((Facilities & Amenities) (Тоноглол ба Тав Тух))}",
+        "selectRentalPeriod": "Түрээсийн Хугацааг Сонгох",
+        "writeAReview": "+ Сэтгэгдэл бичих"
+      }
+    },
+    "search": {
+      "appbarTitle": "Хайх",
+      "extra": {
+        "hint": "Газар, орон сууц, өрөө хайх...",
+        "noRecentSearch": "**Та саяхан хайлт хийгээгүй байна**."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Төлөвлөгөөгөө Сонгоно уу",
+      "extra": {
+        "subscriptionPaymentSuccess": "Захиалгын төлбөр **амжилттай хийгдлээ**.\nТа одоо захиалсан боломжуудыг ашиглах боломжтой."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Нийт Засвар Үйлчилгээний Зардал: **${amount: string}**",
+      "maintenancePending": "@:common.maintenance (Засвар Үйлчилгээ) @:enums.maintenanceStatus.pending (Хүлээгдэж буй)",
+      "maintenanceProcessing": "@:common.maintenance (Засвар Үйлчилгээ) @:enums.maintenanceStatus.processing (Боловсруулж буй)",
+      "maintenanceCompleted": "@:common.maintenance (Засвар Үйлчилгээ) @:enums.maintenanceStatus.completed (Дууссан)",
+      "maintenanceRejected": "@:common.maintenance (Засвар Үйлчилгээ) @:enums.maintenanceStatus.rejected (Татгалзсан)"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Бүх Үл Хөдлөх Хөрөнгө",
+      "pending": "Хүлээгдэж буй",
+      "active": "Идэвхтэй",
+      "inactive": "Идэвхгүй",
+      "rejected": "Татгалзсан"
+    },
+    "propertyType": {
+      "rent": "Түрээс",
+      "sale": "Худалдах"
+    },
+    "propertyCategory": {
+      "apartment": "Орон Сууц",
+      "house": "Байшин",
+      "commercial": "Арилжааны",
+      "land": "Газар",
+      "room": "Өрөө",
+      "unitOrFlat": "Нэгж / Орон Сууц",
+      "bungalow": "Байшин (Bungalow)",
+      "plot": "Газрын Хэсэг"
+    },
+    "applicationStatus": {
+      "all": "Бүгд",
+      "pending": "Хүлээгдэж буй",
+      "processing": "Боловсруулж буй",
+      "approved": "Баталгаажсан",
+      "rejected": "Татгалзсан"
+    },
+    "myRentStatus": {
+      "pending": "Хүлээгдэж буй",
+      "processing": "Боловсруулж буй",
+      "active": "Идэвхтэй",
+      "expired": "Хугацаа Дууссан",
+      "cancelled": "Цуцалсан"
+    },
+    "maintenanceStatus": {
+      "pending": "Хүлээгдэж буй",
+      "processing": "Боловсруулж буй",
+      "rejected": "Татгалзсан",
+      "completed": "Дууссан"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Хувийн (Хувь Хүн)",
+      "company": "Компани"
+    },
+    "tenantType": {
+      "newTenant": "Шинэ Түрээслэгч",
+      "activeTenant": "Идэвхтэй Түрээслэгч",
+      "expiredTenant": "Хугацаа Дууссан Түрээслэгч"
+    },
+    "paymentStatus": {
+      "all": "Бүгд",
+      "pending": "Хүлээгдэж буй",
+      "paid": "Төлөгдсөн",
+      "unpaid": "Төлөгдөөгүй",
+      "rejected": "Татгалзсан",
+      "refund": "Буцаан Олголт"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Онлайн Төлбөр",
+      "offlinePayment": "Офлайн Төлбөр"
+    },
+    "paymentType": {
+      "securityDeposit": "Баталгааны Депозит",
+      "rentPayment": "Түрээсийн Төлбөр",
+      "subscription": "Захиалга"
+    },
+    "gender": {
+      "male": "Эрэгтэй",
+      "female": "Эмэгтэй",
+      "other": "Бусад"
+    },
+    "ecRelation": {
+      "wife": "Эхнэр",
+      "parent": "Эцэг Эх",
+      "friend": "Найз",
+      "brother": "Ах / Дүү",
+      "sister": "Эгч / Дүү",
+      "child": "Хүүхэд"
+    },
+    "vehicleType": {
+      "car": "Машин",
+      "motorcycles": "Мотоцикль",
+      "lorry": "Ачааны Машин"
+    },
+    "sortBy": {
+      "lowToHigh": "Багаас Их Рүү",
+      "highToLow": "Ихээс Бага Рүү"
+    },
+    "residentialType": {
+      "flat": "Орон Сууц (Flat)",
+      "apartment": "Апартмент",
+      "condominium": "Кондоминиум",
+      "serviceResidence": "Үйлчилгээтэй Орон Сууц",
+      "studio": "Студи",
+      "duplex": "Дуплекс",
+      "townhouseCondo": "Таунхаус Кондо",
+      "condo": "Кондо / Үйлчилгээний Орон Сууц / Пентхаус",
+      "house": "Байшингууд",
+      "shoplot": "Дэлгүүрийн Талбай",
+      "sharing": "Байшин / Орон Сууц Хуваах",
+      "others": "Бусад"
+    },
+    "floorRange": {
+      "high": "Өндөр",
+      "medium": "Дунд",
+      "low": "Бага"
+    },
+    "furnishings": {
+      "fullyFurnished": "Бүрэн Тавилгатай",
+      "partiallyFurnished": "Хагас Тавилгатай",
+      "notFurnished": "Тавилгагүй"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Оффисын Талбай",
+      "retailSpace": "Жижиглэн Худалдааны Талбай",
+      "shopLot": "Дэлгүүрийн Талбай",
+      "warehouseFactory": "Агуулах / Үйлдвэр",
+      "hotelResort": "Зочид Буудал / Амралтын Газар",
+      "sofo": "Софо (SOFO)",
+      "soho": "Сохо (SOHO)",
+      "sovo": "Сово (SOVO)",
+      "others": "Бусад"
+    },
+    "landPropertyType": {
+      "residential": "Орон Сууцны",
+      "industrial": "Аж Үйлдвэрийн",
+      "agricultural": "Хөдөө Аж Ахуйн",
+      "commercial": "Арилжааны",
+      "mixedDevelopment": "Холимог Хөгжлийн",
+      "others": "Бусад"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Сар",
+      "oneYear": "1 Жил",
+      "oneAndHalfYears": "1.5 Жил",
+      "twoYears": "2 Жил",
+      "twoAndHalfYears": "2.5 Жил"
+    },
+    "dropdownDateFilter": {
+      "daily": "Өдөр Тутмын",
+      "weekly": "Долоо Хоногийн",
+      "monthly": "Сар Бүрийн",
+      "yearly": "Жил Бүрийн",
+      "custom": "Өөрчлөн Тохируулсан"
+    },
+    "bungalowType": {
+      "modern": "Орчин Үеийн",
+      "cottage": "Коттеж",
+      "luxury": "Тансаг Зэрэглэлийн",
+      "ecoSmart": "Эко / Ухаалаг",
+      "beachSide": "Далайн Эргийн",
+      "others": "Бусад"
+    }
+  }
+}

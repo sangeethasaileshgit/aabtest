@@ -1,0 +1,1025 @@
+{
+  "@@meta": {
+    "languageCode": "da_DK",
+    "languageName": "Danish",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Sprog",
+    "subscriptionPlan": "Abonnementsplan",
+    "contactUs": "Kontakt os",
+    "termsAndConditions": "Vilkår og betingelser",
+    "aboutUs": "Om os",
+    "logout": "Log ud",
+    "editProfile": "Rediger profil",
+    "fullName": "Fulde navn",
+    "email": "E-mail",
+    "mobileNumber": "Mobilnummer",
+    "address": "Adresse",
+    "postalCode": "Postnummer",
+    "city": "By",
+    "country": "Land",
+    "state": "Stat/Region",
+    "password": "Adgangskode",
+    "forgotPassword": "Glemt adgangskode",
+    "tenant": "Lejer",
+    "landlord": "Udlejer",
+    "cancelRenting": "Annuller lejemål",
+    "startDate": "Startdato",
+    "endDate": "Slutdato",
+    "fromDate": "Fra dato",
+    "toDate": "Til dato",
+    "online": "Online",
+    "bankList": "Bankliste",
+    "withdrawMethod": "Udbetalingsmetode",
+    "uploadPaymentReceipt": "Upload betalingskvittering",
+    "offlinePaymentNote(rich)": "Bemærk: ${note(Betalingen kræver manuel godkendelse af administratoren inden for)} ${duraion(24~48 timer.)}",
+    "reviews": "Anmeldelser",
+    "description": "Beskrivelse",
+    "about": "Om",
+    "propertyTypes": "Ejendomstyper",
+    "features": "Funktioner",
+    "floorPlans": "Plantegninger",
+    "buildingDetails": "Bygningsdetaljer",
+    "buildingName": "Bygningsnavn",
+    "propertyAddress": "Ejendomsadresse",
+    "completionYear": "Færdiggørelsesår",
+    "lotNumber": "Grundnummer",
+    "residentialType": "Boligtype",
+    "furnishings": "Møblering",
+    "floorRange": "Etageområde",
+    "bedrooms": "Soveværelser",
+    "bathrooms": "Badeværelser",
+    "propertySize": "Ejendomsstørrelse",
+    "rentalPeriod": "Lejeperiode",
+    "securityDeposit": "Depositum",
+    "utilityBill": "Forbrugsregning",
+    "facilities": "Faciliteter",
+    "amenities": "Bekvemmeligheder",
+    "expiringReason": "Udløbsårsag",
+    "tenantDetails": "Lejerdetaljer",
+    "typeOfTenant": "Type lejer",
+    "tenantName": "Lejers navn",
+    "nidPassport": "NID/Pas",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Lejer ID",
+    "dateOfBirth": "Fødselsdato",
+    "gender": "Køn",
+    "nominee": "Fuldmægtig",
+    "name": "Navn",
+    "optional": "Valgfrit",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mob. Nr.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Nødkontakt",
+    "relation": "Forhold",
+    "relationWith": "@:common.relation med",
+    "relationWithYou": "@:common.relationWith dig",
+    "company": "Firma",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company CVR-nr.",
+    "workplace": "Arbejdsplads",
+    "officePhoneNo": "Kontortelefonnummer",
+    "officeMobileNo": "Kontor @:common.mobileNumber",
+    "vehicle": "Køretøj",
+    "vehiclesInfo": {
+      "plain": "Køretøjsinformation",
+      "optional": "Køretøjsinformation (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Køretøjets registreringsnummer",
+      "short": "Registreringsnr.",
+      "alt": "Nummerplade nr."
+    },
+    "vehicleBrand": "@:common.vehicle Mærke",
+    "rentProperty": "Udlej ejendom",
+    "propertyDetails": "Ejendomsdetaljer",
+    "propertyId": "Ejendoms ID",
+    "propertyType": "Ejendomstype",
+    "propertyName": "Ejendomsnavn",
+    "paymentDetails": "Betalingsdetaljer",
+    "monthlyRent": "Månedlig husleje",
+    "thisMonthPayment": "Denne måneds betaling",
+    "totalPaidRent": "Samlet betalt husleje",
+    "dueRent": "Skyldig husleje",
+    "rentStartDate": "Leje @:common.startDate",
+    "rentEndDate": "Leje @:common.endDate",
+    "status": "Status",
+    "rentAgreementPdf": "Lejekontrakt PDF",
+    "noFile": "Ingen fil",
+    "tenantImageOp": "Lejerbillede @:common.optional",
+    "addNewVechicle": "Tilføj nyt køretøj",
+    "uploadNidPassport": "Upload NID/Pas",
+    "nidPassportUploadNote": "Kun billedfiler accepteres. Filgrænse op til 2.5 MB.",
+    "search": "Søg",
+    "sortBy": "Sorter efter",
+    "subscription": "Abonnement",
+    "downloading": "Downloader...",
+    "downloadSuccess": "Filen er downloadet!",
+    "addPropertyBannerTitle": "Ønsker du at leje din ejendom ud?",
+    "application": "Ansøgning",
+    "tenantHasPaidDeposit": "Lejer har betalt depositum.",
+    "askProcessingRentApplication": "Er du sikker på, at du vil behandle denne anmodning om udlejning af ejendom?",
+    "dateAndTime": "Dato og tid",
+    "applicationDetails": "Ansøgningsdetaljer",
+    "depositStatus": "Depositionsstatus",
+    "uploadRentAgreement": "Upload lejekontrakt",
+    "uploadFilePDF": "Upload fil (PDF)",
+    "askSelectRentAgreement": "Vælg venligst en aftaledokumentfil.",
+    "landlordRentAgreementPDF": "Udlejers lejekontrakt PDF",
+    "tenantRentAgreementPDF": "Lejers lejekontrakt PDF",
+    "landlordApplicationApproveNote(rich)": "Bemærk: ${note(Godkend kun ansøgningen efter at lejeren har foretaget en depositumsbetaling.)}",
+    "reasonOfRejection": "Årsag til afvisning",
+    "youveRejectedThisApplication": "Du har afvist denne ansøgning",
+    "landlordDetails": "Udlejerdetaljer",
+    "landlordName": "Udlejers navn",
+    "downloadRentAgreement": "Download lejekontrakt",
+    "acceptTermsConditions(rich)": "Accepter ${toc(Vilkår og betingelser)}",
+    "tenantAgreementSignNote1(rich)": "Bemærk: ${note(Download og læs venligst aftalen. Send den underskrevne aftale til udlejeren via WhatsApp eller e-mail.)}",
+    "tenantAgreementSignNote2(rich)": "Bemærk: ${note(Udlejeren godkender ansøgningen, når lejeren har betalt depositum, forbrugsregning og en måneds forudbetalt husleje.)}",
+    "completeRentAgreementPdf(rich)": "Lejekontrakt (PDF) ${complete(Fuldstændig aftale)}",
+    "tenantApplicationDepositNote(rich)": "Bemærk : ${note(Udlejeren godkender ansøgningen, når lejeren har betalt depositum, forbrugsregning og en måneds forudbetalt husleje.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Ansøgningsliste",
+    "viewDetails": "Se detaljer",
+    "searchHint": "@:common.search...",
+    "home": "Hjem",
+    "dashboard": "Dashboard",
+    "tenants": "Lejere",
+    "maintenance": "Vedligeholdelse",
+    "maintenanceList": "Vedligeholdelsesliste",
+    "maintenanceReport": "Vedligeholdelsesrapport",
+    "labor": "Arbejdskraft",
+    "applications": "Ansøgninger",
+    "rentInvitation": "Lejeinvitation",
+    "payment": "Betaling",
+    "rentPayment": "Huslejebetaling",
+    "depositUtilityPayment": "Depositum & Forbrugsbetaling",
+    "refundRequest": "Anmodning om tilbagebetaling",
+    "withdrawRequest": "Anmodning om udbetaling",
+    "myProperty": "Min ejendom",
+    "myRent": "Mit lejemål",
+    "wishlist": "Ønskeliste",
+    "properties": "Ejendomme",
+    "allProperties": "Alle ejendomme",
+    "totalPropery": "Samlet antal ejendomme",
+    "occupied": "Beboet",
+    "vacant": "Ledig",
+    "accounting": "Regnskab",
+    "totalIncome": "Samlet indkomst",
+    "totalExpense": "Samlet udgift",
+    "currentBalance": "Nuværende saldo",
+    "totalWithdrawal": "Samlet (udbetaling)",
+    "totalProperties": "Samlet antal ejendomme",
+    "totalTenant": "Samlet antal lejere",
+    "totalRentPaid": "Samlet betalt husleje",
+    "totalRentDue": "Samlet skyldig husleje",
+    "totalApplication": "Samlet antal ansøgninger",
+    "pendingApplication": "Afventende ansøgning",
+    "processingApplication": "Behandler ansøgning",
+    "approveApplication": "Godkend ansøgning",
+    "rejectApplication": "Afvis ansøgning",
+    "maintenanceCost": "Vedligeholdelsesomkostninger",
+    "transactionSummary": "Transaktionsoversigt",
+    "maintenanceRequest": "Vedligeholdelsesanmodning",
+    "notifications": "Notifikationer",
+    "myProperties": "Mine ejendomme",
+    "recommendationProperties": "Anbefalede ejendomme",
+    "laborList": "Arbejdskraftsliste",
+    "addLabor": "Tilføj arbejdskraft",
+    "laborDetails": "Arbejdskraftdetaljer",
+    "laborSalary": "Arbejdsløn",
+    "editLabor": "Rediger arbejdskraft",
+    "addNewLabor": "Tilføj ny arbejdskraft",
+    "enterAmount": "Indtast beløb",
+    "maintenanceDetails": "Vedligeholdelsesdetaljer",
+    "laborName": "Arbejdskrafts navn",
+    "comment": "Kommentar",
+    "image": "Billede",
+    "complete": "Fuldfør",
+    "details": "Detaljer",
+    "title": "Titel",
+    "date": "Dato",
+    "reason": "Årsag",
+    "edit": "Rediger",
+    "property": "Ejendom",
+    "completeYourProfile": "Fuldfør din profil",
+    "profileImage": "Profilbillede",
+    "imagePickHint": "Kun JPEG & PNG billede med maks. størrelse på 120x120 pixels.",
+    "invoiceId": "Faktura ID",
+    "depositAmount": "Depositumsbeløb",
+    "landlordPhone": "Udlejers telefon",
+    "rentalAdvance": "Leje (forudbetaling)",
+    "totalAmount": "Totalbeløb",
+    "rentAmount": "Huslejebeløb",
+    "adminCharge": "Administrationsgebyr",
+    "editAccount": "Rediger konto",
+    "addNewAccount": "Tilføj ny konto",
+    "transactionId": "Transaktions ID",
+    "transactionType": "Transaktionstype",
+    "requestDate": "Anmodningsdato",
+    "amount": "Beløb",
+    "fee": "Gebyr",
+    "paymentStatus": "Betalingsstatus",
+    "generatedTime": "Genereret tid",
+    "systemGeneratedReportHint(rich)": "Dette er en systemgenereret rapport fra ${appName}",
+    "withdrawHistory": "Udbetalingshistorik",
+    "history": "Historik",
+    "withdrawAmount": "Udbetalingsbeløb",
+    "availableBalance": "Tilgængelig saldo",
+    "withdrawCharge": "Udbetalingsgebyr",
+    "paymentMethod": "Betalingsmetode",
+    "requestSendSuccess": "Anmodning sendt!",
+    "paymentReceiptSubmitSuccess": "Betalingskvittering indsendt.",
+    "refundReason": "Årsag til tilbagebetaling",
+    "note": "Bemærkning",
+    "refundReceiveSuccess": "Tilbagebetaling modtaget.",
+    "downloadPaymentReceipt": "Download betalingskvittering",
+    "invoice": "Faktura",
+    "selectPropertyToSeeInvoice": "Vælg ejendom for at se fakturanummeret...",
+    "bankAccName": "Bankkontonavn",
+    "bankName": "Banknavn",
+    "bankAccNum": "Bankkontonummer",
+    "thankYou": "Tak!",
+    "basicInfo": "Grundlæggende information",
+    "descriptionPricing": "Beskrivelse og prissætning",
+    "contact": "Kontakt",
+    "photos": "Billeder",
+    "successfullySubmitted": "Indsendt!",
+    "editProperty": "Rediger ejendom",
+    "addNewProperty": "Tilføj ny ejendom",
+    "propertyManageRequestSuccess": "Din annonce er indsendt til gennemgang.",
+    "postAnotherProperty": "Slå endnu en ejendom op",
+    "browseYourProperty": "Gennemse din ejendom",
+    "stepIndicator(rich)": "Trin ${step} af ${totalSteps}",
+    "whatWouldYouLikeToPost": "Hvad vil du gerne slå op?",
+    "category": "Kategori",
+    "invalidCategory": "Ugyldig kategori",
+    "unitNumber": "Enhedsnummer",
+    "sqft": "kvm.",
+    "propertySizeMustBeGreaterThan0": "Ejendomsstørrelsen skal være større end nul",
+    "whatAreTheFacility": "Hvad er faciliteterne?",
+    "whatAreTheAmenity": "Hvad er bekvemmelighederne?",
+    "parkingLot": "Parkeringsplads",
+    "houseType": "Hustype",
+    "value": "Værdi",
+    "unitLotSize": "Enheds- / Grundstørrelse",
+    "landSize": "Grundstørrelse",
+    "acres": "acre(s)",
+    "roomSize": "Værelsesstørrelse",
+    "askTenantPreference": "Hvad er din lejerpræference?",
+    "couple": "Par",
+    "describeTheProperty": "Beskriv ${propertyType: String}",
+    "adTitle": "Annoncetitel",
+    "minimumRentalPeriod": "Minimum lejeperiode",
+    "whatsappNumber": "@:common.whatsapp Nummer",
+    "hideOrDisplayEmail": "Skjul eller vis e-mailadresse",
+    "thankYouForPostingProperty": "Tak for dit opslag på ${appName: String}!",
+    "propertyList": "Ejendomsliste",
+    "newInviteRent": "Ny lejeinvitation",
+    "rentAgreement": "Lejekontrakt",
+    "rentDetails": "Lejedetaljer",
+    "landlordRentInvitationPendingNote(rich)": "Bemærk: ${note(Vent venligst på at lejeren accepterer invitationen.)}",
+    "rent": "Leje",
+    "editTenant": "Rediger lejer",
+    "addNewTenant": "Tilføj ny lejer",
+    "shareInstallLink": "Del installationslink",
+    "tenantList": "Lejerliste",
+    "editMaintenanceRequest": "Rediger vedligeholdelsesanmodning",
+    "addNewMaintenance": "Tilføj ny vedligeholdelse",
+    "landlordId": "Udlejer ID",
+    "tenantAgrementUnderReviewNote(rich)": "Bemærk ${note(Din aftale er under gennemgang. Vent venligst, indtil udlejeren godkender din leje.)}",
+    "editReview": "Rediger anmeldelse",
+    "writeAReview": "Skriv en anmeldelse",
+    "selectRating": "Vælg bedømmelse",
+    "enterYourOpinion": "Indtast din mening",
+    "askToEnterReviewMsg": "Indtast venligst en anmeldelsesbesked",
+    "pressBackAgainToExit": "Tryk tilbage igen for at afslutte.",
+    "selectPaymentMethod": "Vælg betalingsmetode",
+    "filter": "Filter",
+    "perMonth": "/1 måned",
+    "searchHintWithAppName": "Søg efter alt i ${appName: String}...",
+    "propertyInfo": "Ejendomsinfo",
+    "units": "Enheder",
+    "depositPeriod": "Depositumsperiode",
+    "facilitiesList": "Facilitetsliste",
+    "facility": "Facilitet",
+    "amenity": "Bekvemmelighed",
+    "amenitiesList": "Bekvemmeligheder Liste",
+    "addNewFacility": "Tilføj ny facilitet",
+    "editFacility": "Rediger facilitet",
+    "facilityName": "Facilitetsnavn",
+    "amenityName": "Bekvemmelighedsnavn",
+    "addNewAmenity": "Tilføj ny bekvemmelighed",
+    "editAmenity": "Rediger bekvemmelighed",
+    "family": "Familie",
+    "lateFee": "Rykkergebyr",
+    "lateFeeAfterDays": "@:common.lateFee efter (dage)",
+    "propertyPricing": "${propertyType: String} Prissætning",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Tusind tak, du har netop offentliggjort din ejendom",
+    "titleAndDescription": "Titel og beskrivelse",
+    "rentPricing": "Lejepris",
+    "step": "Trin",
+    "of": "AF",
+    "pricing": "Prissætning",
+    "sameRentForAllUnit": "Samme leje for alle enheder",
+    "unit": "enhed",
+    "pleaseSelectAnUnitFirst": "Vælg venligst en enhed først.",
+    "saleAmount": "Salgsbeløb",
+    "selectCategory": "Vælg en kategori",
+    "pleaseSelectACategory": "Vælg venligst en kategori",
+    "pleaseEnterAdTitle": "Indtast venligst annoncetitel",
+    "addCoverPhoto": "Tilføj forsidebillede",
+    "findAProperty": "Find en ejendom",
+    "categories": "Kategorier",
+    "recmmendedProperties": "Anbefalede ejendomme",
+    "recentSearch": "Seneste søgning",
+    "pleaseEnterYourAccountNumber": "Indtast venligst dit kontonummer.",
+    "pleaseSelectALanguageToContinue": "Vælg venligst et sprog for at fortsætte.",
+    "subscribe": "Abonnér",
+    "noFacilitiesFound": "Ingen faciliteter fundet!",
+    "invalidLaborDetailsPleaseTryAgain": "Ugyldige arbejdsdetaljer, prøv venligst igen",
+    "maintenanceWork": "Vedligeholdelsesarbejde",
+    "selectLabor": "Vælg arbejdskraft",
+    "enterMaintenanceCost": "Indtast vedligeholdelsesomkostninger",
+    "pleaseEnterMaintenanceCost": "Indtast venligst vedligeholdelsesomkostninger",
+    "writeComment": "Skriv kommentar",
+    "maintenancePending": "Vedligeholdelse afventer",
+    "yourEarnings": "Din indtjening",
+    "totalPaid": "Samlet betalt",
+    "linkANewBankAccount": "Opret forbindelse til en ny bankkonto",
+    "payoutRequest": "Anmodning om udbetaling"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Noget gik galt, prøv venligst igen",
+    "noNidPassport": "Intet NID/Pas billede angivet.",
+    "noRentPropertyFound": "Ingen lejeejendom fundet for denne lejer.",
+    "noPropertyFoundWithKeyWord": "Ingen ejendom fundet!\nPrøv venligst med forskellige søgeord",
+    "noSubscriptionFoundRefreshPage": "Ingen abonnementsplan fundet!\nOpdater siden og prøv igen.",
+    "invalidApiDataRefreshPage": "Ugyldig ${dataType: String} info! Opdater siden og prøv igen.",
+    "invalidDownloadUrl": "Ugyldig download-url!",
+    "failedToSaveFile": "Kunne ikke gemme filen! ${error: String}",
+    "errorOpeningFile": "Fejl ved åbning af filen! ${error: String}",
+    "noVehicleInfoProvided": "Ingen køretøjsinformation angivet.",
+    "yourApplicationRejected": "Din ansøgning er blevet afvist",
+    "noApplicationFoundHint": {
+      "template": "Ingen ansøgning fundet!\n${subject: String} vises her, når den er tilgængelig.",
+      "subjects": {
+        "tenant": "Din ansøgning",
+        "landlord": "Lejers ansøgning"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Ingen ejendom fundet!\nPrøv venligst at tilføje en ejendom for at se den her.",
+      "tenantRecommended": "Ingen anbefalede ejendomme fundet\nPrøv venligst igen senere.",
+      "tenantAllProperty": "Ejendomme er ikke tilgængelige\nPrøv venligst igen senere."
+    },
+    "noImageProvided": "Intet billede angivet",
+    "noStatusMaintenantFound": {
+      "landlord": "Ingen ${status} vedligeholdelse fundet.",
+      "tenant": "Ingen vedligeholdelse fundet! Du kan oprette en vedligeholdelsesanmodning for at se den her."
+    },
+    "noDepositFound": "Intet depositum fundet!\nDu kan se depositummerne, når de er tilgængelige",
+    "noRentPaymentFound": "Ingen huslejebetaling fundet!\nDu kan se huslejebetalingerne, når de er tilgængelige",
+    "transactionSummaryApiException": "Kunne ikke hente transaktionsoversigt.",
+    "noWithdrawRequestFound": "Ingen anmodning fundet!\nPrøv venligst at oprette en udbetalingsanmodning for at se den her.",
+    "withdrawRequestNotApproved": "Denne udbetalingsanmodning er ikke blevet godkendt!.",
+    "nonZeroError": "Indtast venligst et gyldigt beløb større end nul.",
+    "minAmountError": "Beløbet skal være mindst ${minValue: String}.",
+    "maxAmountError": "Beløbet må ikke overstige ${maxValue: String}.",
+    "selectPaymentMethodHint": "Vælg venligst en betalingsmetode først.",
+    "noStatusRefundReqFound": {
+      "landlord": "Ingen ${status} anmodning om tilbagebetaling fundet!\nDu kan se anmodninger om tilbagebetaling her, når de er tilgængelige.",
+      "tenant": "Ingen anmodning om tilbagebetaling fundet!\nDu kan oprette en anmodning om tilbagebetaling for at se den her."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Lejer godkender tilbagebetalingen, når han har fået pengene tilbage",
+      "tenantReqSuccess": "Vi vil gennemgå anmodningen om tilbagebetaling og godkende den inden for 24 timer."
+    },
+    "oneToTenRequiredField": "Vælg venligst antallet af ${value: String}",
+    "invalidDateRange": "Ugyldig datointerval.",
+    "valueMustBeGreaterThanZero": "${value: String} skal være større end nul.",
+    "editProperty": {
+      "rentalChange": "Lejeejendommen ændres. Det må kun være gyldigt (effektivt) for næste måneds huslejebetaling.",
+      "deleteOnRent": "Din ejendom er allerede lejet ud. Kan ikke slette den, før lejeren fjernes først",
+      "alreayRented": "Denne ejendom er allerede udlejet. Prøv venligst igen senere.\nEller du kan kontakte udlejeren for mere information."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Ingen lejeinvitation fundet!\nPrøv venligst at oprette en lejeinvitation for at se den her.",
+      "tenantNoRentInvitation": "Ingen lejeinvitation fundet!\nDu kan se lejeinvitationer her, når de er tilgængelige."
+    },
+    "notenantFoundList": "Ingen lejere!\nPrøv venligst at tilføje en lejer for at se den her.",
+    "noFeaturesProvided": "Ingen funktioner angivet.",
+    "noNotificationFound": "Ingen notifikationer tilgængelige.\nDu kan se dine notifikationer her, når de er tilgængelige.",
+    "noFacilitiesFound": "Ingen faciliteter fundet.",
+    "noAmenitiesFound": "Ingen bekvemmeligheder fundet!",
+    "noLaborFound": "Ingen arbejdskraft fundet\\nPrøv venligst igen senere.",
+    "areYouSureYouWantToRemoveThisUnit": "Er du sikker på, at du vil fjerne denne enhed?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Er du sikker på, at du vil logge ud?"
+    },
+    "application": {
+      "rejectTitle": "Hvorfor afviser du denne ansøgning?",
+      "applicationSent": {
+        "successfully": "Ansøgning sendt!",
+        "sucessDescription": "Du kan se denne ansøgning på din ansøgningsliste"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Slet arbejdskraft?",
+        "description": "Er du sikker på, at du vil slette denne arbejdskraft?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Hvorfor afvises denne anmodning?",
+      "processTitle": "Er du sikker på, at du vil behandle denne vedligeholdelsesanmodning?",
+      "completeTitle": "Arbejde fuldført?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Slet udbetalingsmetode?",
+      "deleteDescription": "Er du sikker på, at du vil slette denne udbetalingsmetode?"
+    },
+    "unsavedChanges": {
+      "title": "Er du sikker på, at du vil gå tilbage?",
+      "message": "Felter, der er ændret, gemmes ikke!"
+    },
+    "property": {
+      "delete": {
+        "title": "Slet ejendom?",
+        "message": "Er du sikker på, at du vil slette denne ejendom?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Er du sikker på, at du vil godkende dette lejemål?",
+        "description": "Sørg for, at du har gennemgået aftalen underskrevet af lejeren."
+      }
+    ,
+      "tenantAccept": {
+        "title": "Er du sikker på, at du vil acceptere denne invitation?",
+        "description": "Sørg for, at du har downloadet aftalens PDF-fil!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Session udløbet",
+      "message": "Din session er udløbet. Log venligst ind igen",
+      "action": "Log ind"
+    },
+    "noInternet": {
+      "title": "Ingen internetforbindelse",
+      "message": "Tjek venligst din Wi-Fi eller mobilnetværksforbindelse og prøv igen",
+      "action": "Prøv igen"
+    },
+    "permissionHandler": {
+      "title": "Tilladelse påkrævet!",
+      "message": "Du skal give tilladelser i appindstillingerne. Vil du åbne indstillingerne nu?"
+    },
+    "imagePicker": {
+      "title": "Vælg mulighed",
+      "gallery": "Galleri",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Bekræft din e-mail",
+      "message": "Vi har sendt en bekræftelseskode-e-mail",
+      "messageWithEmail": "@:prompt.verificationDialog.message til ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Ryd notifikationer?",
+      "clearMessage": "Er du sikker på, at du vil rydde alle notifikationer?"
+    },
+    "genericDeletePrompt": {
+      "title": "Vil du slette denne ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Abonnement udløbet!",
+      "message": "Abonnér venligst for at fortsætte."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Indtast @:common.fullName",
+      "errors": {
+        "required": "Indtast venligst dit @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Indtast din @:common.email",
+      "errors": {
+        "required": "Indtast venligst din @:common.email adresse",
+        "invalid": "⦸ Ugyldig e-mail, prøv venligst igen"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Indtast venligst din @:common.password",
+        "minLength": "Adgangskoden skal være mindst ${count} tegn!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Bekræft @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Indtast venligst din @:common.password",
+        "notMatched": "Bekræftelsesadgangskoden stemmer ikke overens!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Indtast venligst dit @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Husnummer og gadenavn",
+      "errors": {
+        "required": "Indtast venligst din @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Lejlighed, suite, enhed osv.",
+      "errors": {
+        "required": "Indtast venligst din @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Indtast @:common.postalCode",
+      "errors": {
+        "required": "Indtast venligst dit @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Indtast @:common.city navn.",
+      "errors": {
+        "required": "Indtast venligst dit @:common.city navn."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Indtast @:common.state navn.",
+      "errors": {
+        "required": "Indtast venligst dit @:common.state navn."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Vælg @:common.country.",
+      "errors": {
+        "required": "Vælg venligst dit @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Indtast venligst engangskode (OTP).",
+        "invalid": "Indtast venligst korrekt engangskode (OTP)."
+      }
+    },
+    "title": {
+      "label": "Titel",
+      "hint": "Indtast titel",
+      "errors": {
+        "required": "Indtast venligst titel"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Vælg @:form.date.label",
+      "errors": {
+        "required": "Vælg venligst @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Årsag",
+      "hint": "Indtast årsag",
+      "errors": {
+        "required": "Indtast venligst årsag"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Vælg @:common.withdrawMethod",
+      "errors": {
+        "required": "Vælg venligst @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Upload ${label: String}",
+      "errors": {
+        "required": "Vælg venligst ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Indtast @:form.note.label",
+      "errors": {
+        "required": "Indtast venligst @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Vælg @:common.gender",
+      "errors": {
+        "required": "Vælg venligst @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Indtast @:form.anyField.label",
+      "errors": {
+        "required": "Indtast venligst @:form.anyField.label",
+        "invalid": "Indtast venligst gyldig @:form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Vælg @:form.anyDropdown.label",
+      "errors": {
+        "required": "Vælg venligst @:form.anyDropdown.label",
+        "invalid": "Vælg venligst gyldig @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Næste",
+    "getStarted": "Kom i gang",
+    "skip": "Spring over",
+    "select": "Vælg",
+    "save": "Gem",
+    "signIn": "Log ind",
+    "signUp": "Tilmeld",
+    "continue": "Fortsæt",
+    "clearAll": "Ryd alt",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Send",
+    "pay": "Betal",
+    "remove": "Fjern",
+    "goBack": "Gå tilbage",
+    "buyNow": "Køb nu",
+    "no": "Nej",
+    "open": "Åbn",
+    "addProperty": "Tilføj ejendom",
+    "process": "Behandl",
+    "approve": "Godkend",
+    "reject": "Afvis",
+    "viewRent": "Se lejemål",
+    "openNavigationMenu": "Åbn navigationsmenu",
+    "seeAll": "Se alle",
+    "update": "Opdater",
+    "printTransaction": "Udskriv transaktion",
+    "payoutRequest": "Anmodning om udbetaling",
+    "addNew": "+ Tilføj ny",
+    "sendRequest": "Send anmodning",
+    "print": "Udskriv",
+    "requestForRefund": "Anmod om tilbagebetaling",
+    "previous": "Forrige",
+    "delete": "Slet",
+    "applyProperty": "Ansøg om ejendom",
+    "viewApplication": "Se ansøgning",
+    "inviteTenant": "Inviter lejer",
+    "inviteRent": "Inviter til leje",
+    "cancel": "Annuller",
+    "accept": "Accepter",
+    "submit": "Indsend",
+    "yes": "Ja",
+    "okay": "Okay",
+    "confirm": "Bekræft",
+    "apply": "Anvend",
+    "reset": "Nulstil",
+    "retry": "Prøv igen",
+    "viewAll": "Se alle",
+    "addMore": "Tilføj mere",
+    "done": "Færdig"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Find din ejendom",
+          "description": "Vi har gjort det nemt at finde et sted, der passer til dit liv — uanset om det er et værelse, en lejlighed eller et hus."
+        },
+        "data2": {
+          "title": "Lejlighed i byen",
+          "description": "Vi sparer dig tid ved hurtigt at matche dig med den perfekte ejendom, før den er væk, så du kan nyde dit nye hjem, eller list din egen gratis."
+        },
+        "data3": {
+          "title": "Dit komfortable hus",
+          "description": "Hvis du leder efter et sted at bo, så tag et kig på vores huse til leje. Vi har et bredt udvalg af huse, du kan vælge imellem i hele landet."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Velkommen tilbage",
+      "subtitle": "Log ind nu for at begynde en fantastisk rejse.",
+      "extra": {
+        "rememberMe": "Husk mig",
+        "signUpNavigator(rich)": "Har du ikke en konto? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Glemt adgangskode",
+      "subtitle": "Indtast din e-mailadresse for at gendanne din adgangskode."
+    },
+    "otpVerification": {
+      "title": "Verifikation",
+      "subtitle": "6-cifret pinkode er sendt til din e-mailadresse. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kode sendt om ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Send kode igen)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Nulstil adgangskode",
+      "subtitle": "Nulstil din adgangskode for at gendanne og logge ind på din konto",
+      "extra": {
+        "dialog": {
+          "title": "Ændret!",
+          "subtitle": "Log ind med din nye adgangskode.\n Omdirigerer dig til log ind..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Opret en konto",
+      "subtitle": "Tilmeld dig nu for at begynde en fantastisk rejse",
+      "extra": {
+        "signInNavigator(rich)": "Har du en konto? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Hvem er du?",
+      "subtitle": "Vælg venligst muligheden nedenfor.",
+      "extra": {
+        "landlordTag": "Administrer dine egne ejendomme",
+        "tenantTag": "Log ind på din lejerkonto"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Notifikationer"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Besked..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Hvorfor @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Skriv årsag",
+          "errors": {
+            "required": "Indtast venligst årsagen til annullering af lejemålet"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offline betaling",
+      "form": {
+        "paymentNote": {
+          "label": "Betalingsnote (@:common.optional)",
+          "hint": "Indtast noget tekst..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Betalingsbeløb: ${amount}",
+        "accountHolderName": "Kontohavers navn",
+        "accountNumber": "Kontonummer",
+        "swiftCode": "Swift kode",
+        "branch": "Filial",
+        "fileTypeHint(rich)": "Vælg kun filer i formatet ${fileType(JPG, PNG,PDF)} Eller ${fileType(DOC)}. Filstørrelse ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Se faktura",
+        "title": "@:common.thankYou",
+        "description": "Vi gennemgår betalingen og godkender den inden for 24 timer."
+      },
+      "fail": {
+        "actionButton": "Prøv igen",
+        "title": "Ups! Betaling mislykkedes",
+        "description": "Din transaktion er mislykkedes på grund af en teknisk fejl."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Funktioner ${fa((Faciliteter & Bekvemmeligheder))}",
+        "selectRentalPeriod": "Vælg lejeperiode",
+        "writeAReview": "+ Skriv en anmeldelse"
+      }
+    },
+    "search": {
+      "appbarTitle": "Søg",
+      "extra": {
+        "hint": "Søg efter grunde, lejligheder, værelser...",
+        "noRecentSearch": "Du har ingen seneste søgninger."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Vælg din plan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Betaling af abonnement lykkedes.\nDu kan nu få adgang til de abonnerede funktioner."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Samlede vedligeholdelsesomkostninger: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Alle ejendomme",
+      "pending": "Afventer",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "rejected": "Afvist"
+    },
+    "propertyType": {
+      "rent": "Leje",
+      "sale": "Salg"
+    },
+    "propertyCategory": {
+      "apartment": "Lejlighed",
+      "house": "Hus",
+      "commercial": "Erhverv",
+      "land": "Grund",
+      "room": "Værelse",
+      "unitOrFlat": "Enhed / Lejlighed",
+      "bungalow": "Bungalow",
+      "plot": "Parcel"
+    },
+    "applicationStatus": {
+      "all": "Alle",
+      "pending": "Afventer",
+      "processing": "Behandles",
+      "approved": "Godkendt",
+      "rejected": "Afvist"
+    },
+    "myRentStatus": {
+      "pending": "Afventer",
+      "processing": "Behandles",
+      "active": "Aktiv",
+      "expired": "Udløbet",
+      "cancelled": "Annulleret"
+    },
+    "maintenanceStatus": {
+      "pending": "Afventer",
+      "processing": "Behandles",
+      "rejected": "Afvist",
+      "completed": "Fuldført"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privat (Individuel)",
+      "company": "Firma"
+    },
+    "tenantType": {
+      "newTenant": "Ny lejer",
+      "activeTenant": "Aktiv lejer",
+      "expiredTenant": "Udløbet lejer"
+    },
+    "paymentStatus": {
+      "all": "Alle",
+      "pending": "Afventer",
+      "paid": "Betalt",
+      "unpaid": "Ubetalt",
+      "rejected": "Afvist",
+      "refund": "Tilbagebetaling"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Online betaling",
+      "offlinePayment": "Offline betaling"
+    },
+    "paymentType": {
+      "securityDeposit": "Depositum",
+      "rentPayment": "Huslejebetaling",
+      "subscription": "Abonnement"
+    },
+    "gender": {
+      "male": "Mand",
+      "female": "Kvinde",
+      "other": "Andet"
+    },
+    "ecRelation": {
+      "wife": "Kone",
+      "parent": "Forælder",
+      "friend": "Ven",
+      "brother": "Bror",
+      "sister": "Søster",
+      "child": "Barn"
+    },
+    "vehicleType": {
+      "car": "Bil",
+      "motorcycles": "Motorcykler",
+      "lorry": "Lastbil"
+    },
+    "sortBy": {
+      "lowToHigh": "Lav til høj",
+      "highToLow": "Høj til lav"
+    },
+    "residentialType": {
+      "flat": "Lejlighed",
+      "apartment": "Ejerlejlighed",
+      "condominium": "Ejerlejlighed",
+      "serviceResidence": "Servicebolig",
+      "studio": "Studiolejlighed",
+      "duplex": "Dobbelthus",
+      "townhouseCondo": "Rækkehus Ejerlejlighed",
+      "condo": "Ejerlejlighed / Servicebolig / Penthouse",
+      "house": "Huse",
+      "shoplot": "Butikslokale",
+      "sharing": "Deling af hus / lejlighed",
+      "others": "Andre"
+    },
+    "floorRange": {
+      "high": "Høj",
+      "medium": "Medium",
+      "low": "Lav"
+    },
+    "furnishings": {
+      "fullyFurnished": "Fuldt møbleret",
+      "partiallyFurnished": "Delvist møbleret",
+      "notFurnished": "Ikke møbleret"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Kontorlokale",
+      "retailSpace": "Detailhandelslokale",
+      "shopLot": "Butikslokale",
+      "warehouseFactory": "Lager / Fabrik",
+      "hotelResort": "Hotel / Resort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Andre"
+    },
+    "landPropertyType": {
+      "residential": "Beboelse",
+      "industrial": "Industriel",
+      "agricultural": "Landbrugs",
+      "commercial": "Erhverv",
+      "mixedDevelopment": "Blandet udvikling",
+      "others": "Andre"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Måneder",
+      "oneYear": "1 År",
+      "oneAndHalfYears": "1,5 År",
+      "twoYears": "2 År",
+      "twoAndHalfYears": "2,5 År"
+    },
+    "dropdownDateFilter": {
+      "daily": "Dagligt",
+      "weekly": "Ugentligt",
+      "monthly": "Månedligt",
+      "yearly": "Årligt",
+      "custom": "Brugerdefineret"
+    },
+    "bungalowType": {
+      "modern": "Moderne",
+      "cottage": "Sommerhus",
+      "luxury": "Luksus",
+      "ecoSmart": "Øko / Smart",
+      "beachSide": "Ved stranden",
+      "others": "Andre"
+    }
+  }
+}

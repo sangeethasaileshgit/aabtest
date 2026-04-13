@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "fa_IR",
+    "languageName": "Persian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "پروفایل",
+    "language": "زبان",
+    "subscriptionPlan": "طرح اشتراک",
+    "contactUs": "تماس با ما",
+    "termsAndConditions": "شرایط و ضوابط",
+    "aboutUs": "درباره ما",
+    "logout": "خروج",
+    "editProfile": "ویرایش پروفایل",
+    "fullName": "نام کامل",
+    "email": "ایمیل",
+    "mobileNumber": "شماره موبایل",
+    "address": "آدرس",
+    "postalCode": "کد پستی",
+    "city": "شهر",
+    "country": "کشور",
+    "state": "استان/ایالت",
+    "password": "رمز عبور",
+    "forgotPassword": "فراموشی رمز عبور",
+    "tenant": "مستأجر",
+    "landlord": "صاحبخانه",
+    "cancelRenting": "لغو اجاره",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "fromDate": "از تاریخ",
+    "toDate": "تا تاریخ",
+    "online": "آنلاین",
+    "bankList": "لیست بانک‌ها",
+    "withdrawMethod": "روش برداشت",
+    "uploadPaymentReceipt": "بارگذاری رسید پرداخت",
+    "offlinePaymentNote(rich)": "توجه: ${note(پرداخت نیاز به تأیید دستی توسط مدیر در مدت)} ${duraion(۲۴ تا ۴۸ ساعت)} دارد.",
+    "reviews": "نظرات",
+    "description": "توضیحات",
+    "about": "درباره",
+    "propertyTypes": "انواع ملک",
+    "features": "امکانات",
+    "floorPlans": "نقشه‌های طبقات",
+    "buildingDetails": "جزئیات ساختمان",
+    "buildingName": "نام ساختمان",
+    "propertyAddress": "آدرس ملک",
+    "completionYear": "سال تکمیل",
+    "lotNumber": "شماره قطعه",
+    "residentialType": "نوع مسکونی",
+    "furnishings": "مبلمان/تجهیزات",
+    "floorRange": "محدوده طبقه",
+    "bedrooms": "اتاق خواب",
+    "bathrooms": "سرویس بهداشتی",
+    "propertySize": "متراژ ملک",
+    "rentalPeriod": "دوره اجاره",
+    "securityDeposit": "ودیعه تضمینی",
+    "utilityBill": "قبض خدمات",
+    "facilities": "تسهیلات",
+    "amenities": "رفاهیات",
+    "expiringReason": "دلیل انقضا",
+    "tenantDetails": "جزئیات مستأجر",
+    "typeOfTenant": "نوع مستأجر",
+    "tenantName": "نام مستأجر",
+    "nidPassport": "شناسنامه/گذرنامه",
+    "nidPassportId": "شناسه @:common.nidPassport",
+    "tenantId": "شناسه مستأجر",
+    "dateOfBirth": "تاریخ تولد",
+    "gender": "جنسیت",
+    "nominee": "معرف/نامزد",
+    "name": "نام",
+    "optional": "اختیاری",
+    "nomineeName": "نام @:common.nominee",
+    "nomineeEmail": "ایمیل @:common.nominee",
+    "nomineeMobile": {
+      "short": "ش. موبایل @:common.nominee",
+      "full": "شماره موبایل @:common.nominee"
+    },
+    "emergencyContact": "تماس اضطراری",
+    "relation": "نسبت",
+    "relationWith": "نسبت با",
+    "relationWithYou": "نسبت با شما",
+    "company": "شرکت",
+    "companyName": "نام @:common.company",
+    "companySSMNo": "شماره SSM @:common.company",
+    "workplace": "محل کار",
+    "officePhoneNo": "شماره تلفن دفتر",
+    "officeMobileNo": "شماره موبایل دفتر",
+    "vehicle": "وسیله نقلیه",
+    "vehiclesInfo": {
+      "plain": "اطلاعات وسایل نقلیه",
+      "optional": "اطلاعات وسایل نقلیه (@:common.optional)"
+    },
+    "vehiclesType": "نوع @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "شماره پلاک وسیله نقلیه",
+      "short": "شماره پلاک",
+      "alt": "شماره صفحه"
+    },
+    "vehicleBrand": "برند @:common.vehicle",
+    "rentProperty": "اجاره ملک",
+    "propertyDetails": "جزئیات ملک",
+    "propertyId": "شناسه ملک",
+    "propertyType": "نوع ملک",
+    "propertyName": "نام ملک",
+    "paymentDetails": "جزئیات پرداخت",
+    "monthlyRent": "اجاره ماهانه",
+    "thisMonthPayment": "پرداخت این ماه",
+    "totalPaidRent": "کل اجاره پرداخت شده",
+    "dueRent": "اجاره معوقه",
+    "rentStartDate": "تاریخ @:common.startDate اجاره",
+    "rentEndDate": "تاریخ @:common.endDate اجاره",
+    "status": "وضعیت",
+    "rentAgreementPdf": "PDF قرارداد اجاره",
+    "noFile": "بدون فایل",
+    "tenantImageOp": "تصویر مستأجر @:common.optional",
+    "addNewVechicle": "افزودن وسایل نقلیه جدید",
+    "uploadNidPassport": "بارگذاری شناسنامه/گذرنامه",
+    "nidPassportUploadNote": "تنها فایل‌های تصویری پذیرفته می‌شوند. محدودیت حجم فایل تا ۲.۵ مگابایت.",
+    "search": "جستجو",
+    "sortBy": "مرتب سازی بر اساس",
+    "subscription": "اشتراک",
+    "downloading": "در حال دانلود...",
+    "downloadSuccess": "فایل با موفقیت دانلود شد!",
+    "addPropertyBannerTitle": "به دنبال اجاره دادن ملک خود هستید؟",
+    "application": "درخواست",
+    "tenantHasPaidDeposit": "مستأجر ودیعه را پرداخت کرده است.",
+    "askProcessingRentApplication": "آیا از پردازش این درخواست اجاره ملک مطمئن هستید؟",
+    "dateAndTime": "تاریخ و زمان",
+    "applicationDetails": "جزئیات درخواست",
+    "depositStatus": "وضعیت ودیعه",
+    "uploadRentAgreement": "بارگذاری قرارداد اجاره",
+    "uploadFilePDF": "بارگذاری فایل (PDF)",
+    "askSelectRentAgreement": "لطفاً یک فایل سند قرارداد را انتخاب کنید.",
+    "landlordRentAgreementPDF": "PDF قرارداد اجاره صاحبخانه",
+    "tenantRentAgreementPDF": "PDF قرارداد اجاره مستأجر",
+    "landlordApplicationApproveNote(rich)": "توجه: ${note(فقط پس از پرداخت ودیعه توسط مستأجر، درخواست را تأیید کنید.)}",
+    "reasonOfRejection": "دلیل رد",
+    "youveRejectedThisApplication": "شما این درخواست را رد کرده‌اید",
+    "landlordDetails": "جزئیات صاحبخانه",
+    "landlordName": "نام صاحبخانه",
+    "downloadRentAgreement": "دانلود قرارداد اجاره",
+    "acceptTermsConditions(rich)": "پذیرش ${toc(شرایط و ضوابط)}",
+    "tenantAgreementSignNote1(rich)": "توجه: ${note(لطفاً قرارداد را دانلود و مطالعه کنید. لطفاً قرارداد امضا شده را از طریق واتساپ یا ایمیل برای صاحبخانه ارسال کنید.)}",
+    "tenantAgreementSignNote2(rich)": "توجه: ${note(صاحبخانه درخواست را زمانی تأیید می‌کند که مستأجر ودیعه تضمینی، قبض خدمات و اجاره یک ماه پیش‌پرداخت را پرداخت کند.)}",
+    "completeRentAgreementPdf(rich)": "قرارداد اجاره (PDF) ${complete(قرارداد کامل)}",
+    "tenantApplicationDepositNote(rich)": "توجه : ${note(صاحبخانه درخواست را زمانی تأیید می‌کند که مستأجر ودیعه تضمینی، قبض خدمات و اجاره یک ماه پیش‌پرداخت را پرداخت کند.)}",
+    "whatsapp": "واتساپ",
+    "applicationList": "لیست درخواست‌ها",
+    "viewDetails": "مشاهده جزئیات",
+    "searchHint": "جستجو...",
+    "home": "خانه",
+    "dashboard": "داشبورد",
+    "tenants": "مستأجران",
+    "maintenance": "تعمیر و نگهداری",
+    "maintenanceList": "لیست تعمیر و نگهداری",
+    "maintenanceReport": "گزارش تعمیر و نگهداری",
+    "labor": "کارگر/نیروی کار",
+    "applications": "درخواست‌ها",
+    "rentInvitation": "دعوتنامه اجاره",
+    "payment": "پرداخت",
+    "rentPayment": "پرداخت اجاره",
+    "depositUtilityPayment": "پرداخت ودیعه و خدمات",
+    "refundRequest": "درخواست استرداد وجه",
+    "withdrawRequest": "درخواست برداشت",
+    "myProperty": "ملک من",
+    "myRent": "اجاره من",
+    "wishlist": "لیست علاقه‌مندی‌ها",
+    "properties": "املاک",
+    "allProperties": "همه املاک",
+    "totalPropery": "کل املاک",
+    "occupied": "اشغال شده",
+    "vacant": "خالی",
+    "accounting": "حسابداری",
+    "totalIncome": "کل درآمد",
+    "totalExpense": "کل هزینه",
+    "currentBalance": "مانده فعلی",
+    "totalWithdrawal": "کل (برداشت)",
+    "totalProperties": "کل املاک",
+    "totalTenant": "کل مستأجران",
+    "totalRentPaid": "کل اجاره پرداخت شده",
+    "totalRentDue": "کل اجاره معوقه",
+    "totalApplication": "کل درخواست‌ها",
+    "pendingApplication": "درخواست‌های در انتظار",
+    "processingApplication": "درخواست‌های در حال پردازش",
+    "approveApplication": "درخواست‌های تأیید شده",
+    "rejectApplication": "درخواست‌های رد شده",
+    "maintenanceCost": "هزینه تعمیر و نگهداری",
+    "transactionSummary": "خلاصه تراکنش",
+    "maintenanceRequest": "درخواست تعمیر و نگهداری",
+    "notifications": "اعلان‌ها",
+    "myProperties": "املاک من",
+    "recommendationProperties": "املاک پیشنهادی",
+    "laborList": "لیست کارگران",
+    "addLabor": "افزودن کارگر",
+    "laborDetails": "جزئیات کارگر",
+    "laborSalary": "حقوق کارگر",
+    "editLabor": "ویرایش کارگر",
+    "addNewLabor": "افزودن کارگر جدید",
+    "enterAmount": "وارد کردن مبلغ",
+    "maintenanceDetails": "جزئیات تعمیر و نگهداری",
+    "laborName": "نام کارگر",
+    "comment": "نظر",
+    "image": "تصویر",
+    "complete": "کامل",
+    "details": "جزئیات",
+    "title": "عنوان",
+    "date": "تاریخ",
+    "reason": "دلیل",
+    "edit": "ویرایش",
+    "property": "ملک",
+    "completeYourProfile": "تکمیل پروفایل شما",
+    "profileImage": "تصویر پروفایل",
+    "imagePickHint": "فقط تصویر JPEG و PNG با حداکثر اندازه ۱۲۰x۱۲۰ پیکسل.",
+    "invoiceId": "شناسه فاکتور",
+    "depositAmount": "مبلغ ودیعه",
+    "landlordPhone": "تلفن صاحبخانه",
+    "rentalAdvance": "اجاره (پیش پرداخت)",
+    "totalAmount": "مبلغ کل",
+    "rentAmount": "مبلغ اجاره",
+    "adminCharge": "هزینه مدیریت",
+    "editAccount": "ویرایش حساب",
+    "addNewAccount": "افزودن حساب جدید",
+    "transactionId": "شناسه تراکنش",
+    "transactionType": "نوع تراکنش",
+    "requestDate": "تاریخ درخواست",
+    "amount": "مبلغ",
+    "fee": "کارمزد",
+    "paymentStatus": "وضعیت پرداخت",
+    "generatedTime": "زمان تولید",
+    "systemGeneratedReportHint(rich)": "این یک گزارش تولید شده توسط سیستم از ${appName} است",
+    "withdrawHistory": "تاریخچه برداشت",
+    "history": "تاریخچه",
+    "withdrawAmount": "مبلغ برداشت",
+    "availableBalance": "موجودی در دسترس",
+    "withdrawCharge": "هزینه برداشت",
+    "paymentMethod": "روش پرداخت",
+    "requestSendSuccess": "درخواست با موفقیت ارسال شد!",
+    "paymentReceiptSubmitSuccess": "رسید پرداخت با موفقیت ارسال شد.",
+    "refundReason": "دلیل استرداد وجه",
+    "note": "توجه",
+    "refundReceiveSuccess": "استرداد وجه با موفقیت دریافت شد.",
+    "downloadPaymentReceipt": "دانلود رسید پرداخت",
+    "invoice": "فاکتور",
+    "selectPropertyToSeeInvoice": "ملک را برای مشاهده شماره فاکتور انتخاب کنید...",
+    "bankAccName": "نام حساب بانکی",
+    "bankName": "نام بانک",
+    "bankAccNum": "شماره حساب بانکی",
+    "thankYou": "متشکریم!",
+    "basicInfo": "اطلاعات اولیه",
+    "descriptionPricing": "توضیحات و قیمت گذاری",
+    "contact": "تماس",
+    "photos": "عکس‌ها",
+    "successfullySubmitted": "با موفقیت ارسال شد!",
+    "editProperty": "ویرایش ملک",
+    "addNewProperty": "افزودن ملک جدید",
+    "propertyManageRequestSuccess": "آگهی شما برای بررسی ارسال شده است.",
+    "postAnotherProperty": "ارسال ملک دیگر",
+    "browseYourProperty": "مرور ملک شما",
+    "stepIndicator(rich)": "مرحله ${step} از ${totalSteps}",
+    "whatWouldYouLikeToPost": "چه چیزی را می‌خواهید ارسال کنید؟",
+    "category": "دسته بندی",
+    "invalidCategory": "دسته بندی نامعتبر",
+    "unitNumber": "شماره واحد",
+    "sqft": "فوت مربع",
+    "propertySizeMustBeGreaterThan0": "متراژ ملک باید بزرگتر از صفر باشد",
+    "whatAreTheFacility": "تسهیلات چیست؟",
+    "whatAreTheAmenity": "رفاهیات چیست؟",
+    "parkingLot": "پارکینگ",
+    "houseType": "نوع خانه",
+    "value": "مقدار",
+    "unitLotSize": "اندازه واحد / قطعه",
+    "landSize": "اندازه زمین",
+    "acres": "جریب",
+    "roomSize": "متراژ اتاق",
+    "askTenantPreference": "ترجیح شما برای مستأجر چیست؟",
+    "couple": "زوج",
+    "describeTheProperty": "توصیف ${propertyType: String}",
+    "adTitle": "عنوان آگهی",
+    "minimumRentalPeriod": "حداقل دوره اجاره",
+    "whatsappNumber": "شماره @:common.whatsapp",
+    "hideOrDisplayEmail": "پنهان کردن یا نمایش آدرس ایمیل",
+    "thankYouForPostingProperty": "از شما برای ارسال آگهی در ${appName: String} متشکریم!",
+    "propertyList": "لیست املاک",
+    "newInviteRent": "دعوتنامه اجاره جدید",
+    "rentAgreement": "قرارداد اجاره",
+    "rentDetails": "جزئیات اجاره",
+    "landlordRentInvitationPendingNote(rich)": "توجه: ${note(لطفاً منتظر بمانید تا مستأجر دعوتنامه را بپذیرد.)}",
+    "rent": "اجاره",
+    "editTenant": "ویرایش مستأجر",
+    "addNewTenant": "افزودن مستأجر جدید",
+    "shareInstallLink": "اشتراک‌گذاری لینک نصب",
+    "tenantList": "لیست مستأجران",
+    "editMaintenanceRequest": "ویرایش درخواست تعمیر و نگهداری",
+    "addNewMaintenance": "افزودن تعمیر و نگهداری جدید",
+    "landlordId": "شناسه صاحبخانه",
+    "tenantAgrementUnderReviewNote(rich)": "توجه ${note(قرارداد شما در دست بررسی است. لطفاً تا تأیید اجاره توسط صاحبخانه صبر کنید.)}",
+    "editReview": "ویرایش نظر",
+    "writeAReview": "نوشتن نظر",
+    "selectRating": "انتخاب امتیاز",
+    "enterYourOpinion": "نظر خود را وارد کنید",
+    "askToEnterReviewMsg": "لطفاً یک پیام نظر وارد کنید",
+    "pressBackAgainToExit": "برای خروج دوباره دکمه بازگشت را فشار دهید.",
+    "selectPaymentMethod": "انتخاب روش پرداخت",
+    "filter": "فیلتر",
+    "perMonth": "/۱ ماه",
+    "searchHintWithAppName": "هر چیزی را در ${appName: String} جستجو کنید...",
+    "propertyInfo": "اطلاعات ملک",
+    "units": "واحدها",
+    "depositPeriod": "دوره ودیعه",
+    "facilitiesList": "لیست تسهیلات",
+    "facility": "تسهیلات",
+    "amenity": "رفاهیات",
+    "amenitiesList": "لیست رفاهیات",
+    "addNewFacility": "افزودن تسهیلات جدید",
+    "editFacility": "ویرایش تسهیلات",
+    "facilityName": "نام تسهیلات",
+    "amenityName": "نام رفاهیات",
+    "addNewAmenity": "افزودن رفاهیات جدید",
+    "editAmenity": "ویرایش رفاهیات",
+    "family": "خانواده",
+    "lateFee": "جریمه تأخیر",
+    "lateFeeAfterDays": "جریمه تأخیر @:common.lateFee پس از (روز)",
+    "propertyPricing": "قیمت گذاری ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "خیلی ممنون، شما ملک خود را منتشر کردید",
+    "titleAndDescription": "عنوان و توضیحات",
+    "rentPricing": "قیمت گذاری اجاره",
+    "step": "مرحله",
+    "of": "از",
+    "pricing": "قیمت گذاری",
+    "sameRentForAllUnit": "اجاره یکسان برای تمام واحدها",
+    "unit": "واحد",
+    "pleaseSelectAnUnitFirst": "لطفاً ابتدا یک واحد را انتخاب کنید.",
+    "saleAmount": "مبلغ فروش",
+    "selectCategory": "انتخاب دسته بندی",
+    "pleaseSelectACategory": "لطفاً یک دسته بندی را انتخاب کنید",
+    "pleaseEnterAdTitle": "لطفاً عنوان آگهی را وارد کنید",
+    "addCoverPhoto": "افزودن عکس روی جلد",
+    "findAProperty": "پیدا کردن ملک",
+    "categories": "دسته‌بندی‌ها",
+    "recmmendedProperties": "املاک پیشنهادی",
+    "recentSearch": "جستجوهای اخیر",
+    "pleaseEnterYourAccountNumber": "لطفاً شماره حساب خود را وارد کنید.",
+    "pleaseSelectALanguageToContinue": "لطفاً یک زبان را برای ادامه انتخاب کنید.",
+    "subscribe": "اشتراک",
+    "noFacilitiesFound": "هیچ تسهیلاتی یافت نشد!",
+    "invalidLaborDetailsPleaseTryAgain": "جزئیات کارگر نامعتبر است، لطفاً دوباره تلاش کنید",
+    "maintenanceWork": "کار تعمیر و نگهداری",
+    "selectLabor": "انتخاب کارگر",
+    "enterMaintenanceCost": "وارد کردن هزینه تعمیر و نگهداری",
+    "pleaseEnterMaintenanceCost": "لطفاً هزینه تعمیر و نگهداری را وارد کنید",
+    "writeComment": "نوشتن نظر",
+    "maintenancePending": "تعمیر و نگهداری در انتظار",
+    "yourEarnings": "درآمد شما",
+    "totalPaid": "کل پرداخت شده",
+    "linkANewBankAccount": "پیوند دادن حساب بانکی جدید",
+    "payoutRequest": "درخواست پرداخت"
+  },
+  "exceptions": {
+    "somethingWentWrong": "مشکلی پیش آمد، لطفاً دوباره تلاش کنید",
+    "noNidPassport": "تصویر شناسنامه/گذرنامه ارائه نشده است.",
+    "noRentPropertyFound": "هیچ ملک اجاره‌ای برای این مستأجر یافت نشد.",
+    "noPropertyFoundWithKeyWord": "هیچ ملکی یافت نشد!\nلطفاً با کلمات کلیدی دیگری تلاش کنید",
+    "noSubscriptionFoundRefreshPage": "هیچ طرح اشتراکی یافت نشد!\nلطفاً صفحه را تازه کرده و دوباره تلاش کنید.",
+    "invalidApiDataRefreshPage": "اطلاعات ${dataType: String} نامعتبر است! لطفاً صفحه را تازه کرده و دوباره تلاش کنید.",
+    "invalidDownloadUrl": "لینک دانلود نامعتبر است!",
+    "failedToSaveFile": "ذخیره فایل با شکست مواجه شد! ${error: String}",
+    "errorOpeningFile": "خطا در باز کردن فایل! ${error: String}",
+    "noVehicleInfoProvided": "اطلاعاتی در مورد وسیله نقلیه ارائه نشده است.",
+    "yourApplicationRejected": "درخواست شما رد شده است",
+    "noApplicationFoundHint": {
+      "template": "هیچ درخواستی یافت نشد!\n${subject: String} در صورت موجود بودن در اینجا نمایش داده خواهد شد.",
+      "subjects": {
+        "tenant": "درخواست شما",
+        "landlord": "درخواست مستأجر"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "هیچ ملکی یافت نشد!\nلطفاً برای مشاهده در اینجا، یک ملک اضافه کنید.",
+      "tenantRecommended": "هیچ ملک پیشنهادی یافت نشد\nلطفاً بعداً دوباره تلاش کنید.",
+      "tenantAllProperty": "املاک در دسترس نیستند\nلطفاً بعداً دوباره تلاش کنید."
+    },
+    "noImageProvided": "تصویری ارائه نشده است",
+    "noStatusMaintenantFound": {
+      "landlord": "هیچ تعمیر و نگهداری ${status} یافت نشد.",
+      "tenant": "هیچ تعمیر و نگهداری یافت نشد! می‌توانید درخواست تعمیر و نگهداری ایجاد کنید تا آن را در اینجا ببینید."
+    },
+    "noDepositFound": "هیچ ودیعه تضمینی یافت نشد!\nلطفاً ودیعه‌های تضمینی را در صورت موجود بودن ببینید",
+    "noRentPaymentFound": "هیچ پرداخت اجاره‌ای یافت نشد!\nلطفاً پرداخت‌های اجاره را در صورت موجود بودن ببینید",
+    "transactionSummaryApiException": "دریافت خلاصه تراکنش با شکست مواجه شد.",
+    "noWithdrawRequestFound": "هیچ درخواستی یافت نشد!\nلطفاً برای مشاهده در اینجا، یک درخواست برداشت ایجاد کنید.",
+    "withdrawRequestNotApproved": "این درخواست برداشت تأیید نشده است!.",
+    "nonZeroError": "لطفاً مبلغ معتبری بزرگتر از صفر وارد کنید.",
+    "minAmountError": "مبلغ باید حداقل ${minValue: String} باشد.",
+    "maxAmountError": "مبلغ نباید از ${maxValue: String} تجاوز کند.",
+    "selectPaymentMethodHint": "لطفاً ابتدا یک روش پرداخت را انتخاب کنید.",
+    "noStatusRefundReqFound": {
+      "landlord": "هیچ درخواست استرداد وجه ${status} یافت نشد!\nدر صورت موجود بودن، درخواست استرداد وجه را در اینجا مشاهده خواهید کرد.",
+      "tenant": "هیچ درخواست استرداد وجهی یافت نشد!\nمی‌توانید درخواست استرداد وجه ایجاد کنید تا آن را در اینجا ببینید."
+    },
+    "refundRequestHint": {
+      "inTenantList": "مستأجر پس از دریافت وجه، استرداد را تأیید خواهد کرد",
+      "tenantReqSuccess": "ما درخواست استرداد وجه را بررسی و در عرض ۲۴ ساعت تأیید خواهیم کرد."
+    },
+    "oneToTenRequiredField": "لطفاً تعداد ${value: String} را انتخاب کنید",
+    "invalidDateRange": "محدوده تاریخ نامعتبر است.",
+    "valueMustBeGreaterThanZero": "${value: String} باید بزرگتر از صفر باشد.",
+    "editProperty": {
+      "rentalChange": "ملک اجاره‌ای در حال تغییر است. این فقط باید برای پرداخت اجاره ماه بعد معتبر (موثر) باشد.",
+      "deleteOnRent": "ملک شما قبلاً توسط مستأجر اجاره شده است. تا زمانی که مستأجر را حذف نکنید، نمی‌توانید آن را حذف کنید",
+      "alreayRented": "این ملک قبلاً اجاره شده است. لطفاً بعداً دوباره تلاش کنید.\nیا می‌توانید برای اطلاعات بیشتر با صاحبخانه تماس بگیرید."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "هیچ دعوتنامه اجاره‌ای یافت نشد!\nلطفاً برای مشاهده در اینجا، یک دعوتنامه اجاره ایجاد کنید.",
+      "tenantNoRentInvitation": "هیچ دعوتنامه اجاره‌ای یافت نشد!\nمی‌توانید دعوتنامه اجاره را در صورت موجود بودن در اینجا ببینید."
+    },
+    "notenantFoundList": "هیچ مستأجری وجود ندارد!\nلطفاً برای مشاهده در اینجا، یک مستأجر اضافه کنید.",
+    "noFeaturesProvided": "هیچ امکاناتی ارائه نشده است.",
+    "noNotificationFound": "هیچ اعلانی در دسترس نیست.\nمی‌توانید اعلان خود را در صورت موجود بودن در اینجا ببینید.",
+    "noFacilitiesFound": "هیچ تسهیلاتی یافت نشد.",
+    "noAmenitiesFound": "هیچ رفاهیاتی یافت نشد!",
+    "noLaborFound": "هیچ کارگری یافت نشد\\nلطفاً بعداً دوباره تلاش کنید.",
+    "areYouSureYouWantToRemoveThisUnit": "آیا مطمئن هستید که می‌خواهید این واحد را حذف کنید؟"
+  },
+  "prompt": {
+    "logout": {
+      "title": "خروج",
+      "message": "آیا مطمئن هستید که می‌خواهید خارج شوید؟"
+    },
+    "application": {
+      "rejectTitle": "چرا این درخواست را رد می‌کنید؟",
+      "applicationSent": {
+        "successfully": "درخواست با موفقیت ارسال شد!",
+        "sucessDescription": "می‌توانید این درخواست را در لیست درخواست‌های خود ببینید"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "حذف کارگر؟",
+        "description": "آیا مطمئن هستید که می‌خواهید این کارگر را حذف کنید؟"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "چرا این درخواست رد می‌شود؟",
+      "processTitle": "آیا از پردازش این درخواست تعمیر و نگهداری مطمئن هستید؟",
+      "completeTitle": "کار تکمیل شد؟"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "حذف روش برداشت؟",
+      "deleteDescription": "آیا مطمئن هستید که می‌خواهید این روش برداشت را حذف کنید؟"
+    },
+    "unsavedChanges": {
+      "title": "آیا مطمئن هستید که می‌خواهید برگردید؟",
+      "message": "فیلدهایی که تغییر کرده‌اند ذخیره نخواهند شد!"
+    },
+    "property": {
+      "delete": {
+        "title": "حذف ملک؟",
+        "message": "آیا مطمئن هستید که می‌خواهید این ملک را حذف کنید؟"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "آیا مطمئن هستید که این اجاره را تأیید می‌کنید؟",
+        "description": "مطمئن شوید که قرارداد امضا شده توسط مستأجر را بررسی کرده‌اید."
+      },
+      "tenantAccept": {
+        "title": "آیا مطمئن هستید که این دعوتنامه را می‌پذیرید؟",
+        "description": "مطمئن شوید که فایل PDF قرارداد را دانلود کرده‌اید!"
+      }
+    },
+    "sessionExpired": {
+      "title": "جلسه منقضی شد",
+      "message": "جلسه شما منقضی شده است. لطفاً دوباره وارد شوید",
+      "action": "ورود"
+    },
+    "noInternet": {
+      "title": "عدم اتصال به اینترنت",
+      "message": "لطفاً اتصال وای فای یا شبکه تلفن همراه خود را بررسی کرده و دوباره تلاش کنید",
+      "action": "تلاش مجدد"
+    },
+    "permissionHandler": {
+      "title": "مجوز مورد نیاز است!",
+      "message": "باید مجوزها را در تنظیمات برنامه اعطا کنید. آیا می‌خواهید اکنون تنظیمات را باز کنید؟"
+    },
+    "imagePicker": {
+      "title": "انتخاب گزینه",
+      "gallery": "گالری",
+      "camera": "دوربین"
+    },
+    "verificationDialog": {
+      "title": "تأیید ایمیل شما",
+      "message": "ما یک ایمیل حاوی کد تأیید ارسال کرده‌ایم",
+      "messageWithEmail": "ما یک ایمیل حاوی کد تأیید به ${email: String?} ارسال کرده‌ایم"
+    },
+    "notification": {
+      "clearTitle": "پاک کردن اعلان‌ها؟",
+      "clearMessage": "آیا مطمئن هستید که می‌خواهید تمام اعلان‌ها را پاک کنید؟"
+    },
+    "genericDeletePrompt": {
+      "title": "آیا می‌خواهید این ${item: String} را حذف کنید؟"
+    },
+    "subscriptionModal": {
+      "title": "اشتراک منقضی شد!",
+      "message": "لطفاً برای ادامه اشتراک خود را تمدید کنید."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "نام کامل",
+      "hint": "نام کامل را وارد کنید",
+      "errors": {
+        "required": "لطفاً نام کامل خود را وارد کنید"
+      }
+    },
+    "email": {
+      "label": "ایمیل",
+      "hint": "ایمیل خود را وارد کنید",
+      "errors": {
+        "required": "لطفاً آدرس ایمیل خود را وارد کنید",
+        "invalid": "⦸ ایمیل نامعتبر است، لطفاً دوباره تلاش کنید"
+      }
+    },
+    "password": {
+      "label": "رمز عبور",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "لطفاً رمز عبور خود را وارد کنید",
+        "minLength": "رمز عبور باید حداقل ${count} کاراکتر باشد!"
+      }
+    },
+    "confirmPassword": {
+      "label": "تأیید رمز عبور",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "لطفاً رمز عبور خود را وارد کنید",
+        "notMatched": "تأیید رمز عبور مطابقت ندارد!"
+      }
+    },
+    "mobileNumber": {
+      "label": "شماره موبایل",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "لطفاً شماره موبایل خود را وارد کنید"
+      }
+    },
+    "address1": {
+      "label": "آدرس ۱",
+      "hint": "شماره خانه و نام خیابان",
+      "errors": {
+        "required": "لطفاً آدرس ۱ خود را وارد کنید"
+      }
+    },
+    "address2": {
+      "label": "آدرس ۲",
+      "hint": "آپارتمان، سوئیت، واحد و غیره",
+      "errors": {
+        "required": "لطفاً آدرس ۲ خود را وارد کنید"
+      }
+    },
+    "postalCode": {
+      "label": "کد پستی",
+      "hint": "کد پستی را وارد کنید",
+      "errors": {
+        "required": "لطفاً کد پستی خود را وارد کنید"
+      }
+    },
+    "city": {
+      "label": "شهر",
+      "hint": "نام شهر را وارد کنید.",
+      "errors": {
+        "required": "لطفاً نام شهر خود را وارد کنید."
+      }
+    },
+    "state": {
+      "label": "استان/ایالت",
+      "hint": "نام استان/ایالت را وارد کنید.",
+      "errors": {
+        "required": "لطفاً نام استان/ایالت خود را وارد کنید."
+      }
+    },
+    "country": {
+      "label": "کشور",
+      "hint": "کشور را انتخاب کنید.",
+      "errors": {
+        "required": "لطفاً کشور خود را انتخاب کنید"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "لطفاً رمز یکبار مصرف (OTP) را وارد کنید.",
+        "invalid": "لطفاً رمز یکبار مصرف (OTP) صحیح را وارد کنید."
+      }
+    },
+    "title": {
+      "label": "عنوان",
+      "hint": "عنوان را وارد کنید",
+      "errors": {
+        "required": "لطفاً عنوان را وارد کنید"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "انتخاب ${label: String}",
+      "errors": {
+        "required": "لطفاً ${label: String} را انتخاب کنید"
+      }
+    },
+    "reason": {
+      "label": "دلیل",
+      "hint": "دلیل را وارد کنید",
+      "errors": {
+        "required": "لطفاً دلیل را وارد کنید"
+      }
+    },
+    "withdrawMethod": {
+      "label": "روش برداشت",
+      "hint": "روش برداشت را انتخاب کنید",
+      "errors": {
+        "required": "لطفاً روش برداشت را انتخاب کنید"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "بارگذاری ${label: String}",
+      "errors": {
+        "required": "لطفاً ${label: String} را انتخاب کنید"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "وارد کردن ${note: String}",
+      "errors": {
+        "required": "لطفاً ${note: String} را وارد کنید"
+      }
+    },
+    "gender": {
+      "label": "جنسیت",
+      "hint": "جنسیت را انتخاب کنید",
+      "errors": {
+        "required": "لطفاً جنسیت را انتخاب کنید"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "وارد کردن ${label: String}",
+      "errors": {
+        "required": "لطفاً ${label: String} را وارد کنید",
+        "invalid": "لطفاً ${label: String} معتبر را وارد کنید"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "انتخاب ${label: String}",
+      "errors": {
+        "required": "لطفاً ${label: String} را انتخاب کنید",
+        "invalid": "لطفاً ${label: String} معتبر را انتخاب کنید"
+      }
+    }
+  },
+  "action": {
+    "next": "بعدی",
+    "getStarted": "شروع کنید",
+    "skip": "رد شدن",
+    "select": "انتخاب",
+    "save": "ذخیره",
+    "signIn": "ورود",
+    "signUp": "ثبت نام",
+    "continue": "ادامه",
+    "clearAll": "پاک کردن همه",
+    "cancelRenting": "لغو اجاره",
+    "send": "ارسال",
+    "pay": "پرداخت",
+    "remove": "حذف",
+    "goBack": "بازگشت",
+    "buyNow": "خرید اکنون",
+    "no": "خیر",
+    "open": "باز کردن",
+    "addProperty": "افزودن ملک",
+    "process": "پردازش",
+    "approve": "تأیید",
+    "reject": "رد",
+    "viewRent": "مشاهده اجاره",
+    "openNavigationMenu": "باز کردن منوی ناوبری",
+    "seeAll": "مشاهده همه",
+    "update": "به روز رسانی",
+    "printTransaction": "چاپ تراکنش",
+    "payoutRequest": "درخواست پرداخت",
+    "addNew": "+ افزودن جدید",
+    "sendRequest": "ارسال درخواست",
+    "print": "چاپ",
+    "requestForRefund": "درخواست استرداد وجه",
+    "previous": "قبلی",
+    "delete": "حذف",
+    "applyProperty": "درخواست ملک",
+    "viewApplication": "مشاهده درخواست",
+    "inviteTenant": "دعوت مستأجر",
+    "inviteRent": "دعوت به اجاره",
+    "cancel": "لغو",
+    "accept": "پذیرش",
+    "submit": "ارسال",
+    "yes": "بله",
+    "okay": "باشه",
+    "confirm": "تأیید",
+    "apply": "اعمال",
+    "reset": "بازنشانی",
+    "retry": "تلاش مجدد",
+    "viewAll": "مشاهده همه",
+    "addMore": "افزودن بیشتر",
+    "done": "انجام شد"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "ملک خود را پیدا کنید",
+          "description": "ما پیدا کردن مکانی که متناسب با زندگی شما باشد — خواه یک اتاق، آپارتمان یا خانه — را بسیار آسان کرده‌ایم."
+        },
+        "data2": {
+          "title": "آپارتمان در شهر",
+          "description": "ما با تطبیق سریع شما با ملک عالی قبل از اینکه از دست برود، در زمان شما صرفه‌جویی می‌کنیم تا بتوانید از خانه جدید خود لذت ببرید، یا ملک خود را به صورت رایگان لیست کنید."
+        },
+        "data3": {
+          "title": "خانه آسایش شما",
+          "description": "اگر به دنبال مکانی برای زندگی هستید، نگاهی به خانه‌های ما برای اجاره بیندازید. ما طیف گسترده‌ای از خانه‌ها را برای انتخاب در سراسر کشور در اختیار شما قرار می‌دهیم."
+        }
+      }
+    },
+    "signIn": {
+      "title": "خوش آمدید مجدد",
+      "subtitle": "همین حالا وارد شوید تا یک سفر شگفت‌انگیز را آغاز کنید.",
+      "extra": {
+        "rememberMe": "مرا به خاطر بسپار",
+        "signUpNavigator(rich)": "حساب کاربری ندارید؟ ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword؟"
+      }
+    },
+    "forgotPassword": {
+      "title": "فراموشی رمز عبور",
+      "subtitle": "آدرس ایمیل خود را برای بازیابی رمز عبور وارد کنید."
+    },
+    "otpVerification": {
+      "title": "تأیید",
+      "subtitle": "پین ۶ رقمی به آدرس ایمیل شما ارسال شده است. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "ارسال کد در ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(ارسال مجدد کد)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "بازنشانی رمز عبور",
+      "subtitle": "رمز عبور خود را برای بازیابی و ورود به حساب خود بازنشانی کنید",
+      "extra": {
+        "dialog": {
+          "title": "با موفقیت تغییر کرد!",
+          "subtitle": "با رمز عبور جدید خود وارد شوید.\n در حال هدایت به صفحه ورود..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "ایجاد حساب کاربری",
+      "subtitle": "همین حالا ثبت نام کنید تا یک سفر شگفت‌انگیز را آغاز کنید",
+      "extra": {
+        "signInNavigator(rich)": "حساب کاربری دارید؟ ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "شما چه کسی هستید؟",
+      "subtitle": "لطفاً گزینه زیر را انتخاب کنید.",
+      "extra": {
+        "landlordTag": "مدیریت املاک شخصی شما",
+        "tenantTag": "ورود به حساب اجاره شما"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "اعلان‌ها"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "پیام..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "چرا @:common.cancelRenting می‌کنید؟",
+      "form": {
+        "reason": {
+          "hint": "دلیل را بنویسید",
+          "errors": {
+            "required": "لطفاً دلیل لغو اجاره را وارد کنید"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "پرداخت آفلاین",
+      "form": {
+        "paymentNote": {
+          "label": "یادداشت پرداخت (@:common.optional)",
+          "hint": "متنی را وارد کنید..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "مبلغ پرداختی: ${amount}",
+        "accountHolderName": "نام دارنده حساب",
+        "accountNumber": "شماره حساب",
+        "swiftCode": "کد سوئیفت",
+        "branch": "شعبه",
+        "fileTypeHint(rich)": "فقط فایل‌هایی با فرمت ${fileType(JPG, PNG,PDF)} یا ${fileType(DOC)} را انتخاب کنید. حجم فایل ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "مشاهده فاکتور",
+        "title": "@:common.thankYou",
+        "description": "ما پرداخت را بررسی کرده و ظرف ۲۴ ساعت آن را تأیید خواهیم کرد."
+      },
+      "fail": {
+        "actionButton": "دوباره امتحان کنید",
+        "title": "اوه! پرداخت ناموفق بود",
+        "description": "تراکنش شما به دلیل خطای فنی با شکست مواجه شده است."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "امکانات ${fa((تسهیلات و رفاهیات))}",
+        "selectRentalPeriod": "انتخاب دوره اجاره",
+        "writeAReview": "+ نوشتن نظر"
+      }
+    },
+    "search": {
+      "appbarTitle": "جستجو",
+      "extra": {
+        "hint": "جستجو برای قطعات زمین، آپارتمان‌ها، اتاق‌ها...",
+        "noRecentSearch": "شما جستجوی اخیر ندارید."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "طرح خود را انتخاب کنید",
+      "extra": {
+        "subscriptionPaymentSuccess": "پرداخت اشتراک با موفقیت انجام شد.\nاکنون می‌توانید به ویژگی‌های اشتراک دسترسی پیدا کنید."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "هزینه کل نگهداری: ${amount: string}",
+      "maintenancePending": "نگهداری @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "نگهداری @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "نگهداری @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "نگهداری @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "همه املاک",
+      "pending": "در انتظار",
+      "active": "فعال",
+      "inactive": "غیرفعال",
+      "rejected": "رد شده"
+    },
+    "propertyType": {
+      "rent": "اجاره",
+      "sale": "فروش"
+    },
+    "propertyCategory": {
+      "apartment": "آپارتمان",
+      "house": "خانه",
+      "commercial": "تجاری",
+      "land": "زمین",
+      "room": "اتاق",
+      "unitOrFlat": "واحد / آپارتمان",
+      "bungalow": "بنگالو",
+      "plot": "قطعه زمین"
+    },
+    "applicationStatus": {
+      "all": "همه",
+      "pending": "در انتظار",
+      "processing": "در حال پردازش",
+      "approved": "تأیید شده",
+      "rejected": "رد شده"
+    },
+    "myRentStatus": {
+      "pending": "در انتظار",
+      "processing": "در حال پردازش",
+      "active": "فعال",
+      "expired": "منقضی شده",
+      "cancelled": "لغو شده"
+    },
+    "maintenanceStatus": {
+      "pending": "در انتظار",
+      "processing": "در حال پردازش",
+      "rejected": "رد شده",
+      "completed": "تکمیل شده"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "شخصی (فردی)",
+      "company": "شرکت"
+    },
+    "tenantType": {
+      "newTenant": "مستأجر جدید",
+      "activeTenant": "مستأجر فعال",
+      "expiredTenant": "مستأجر منقضی شده"
+    },
+    "paymentStatus": {
+      "all": "همه",
+      "pending": "در انتظار",
+      "paid": "پرداخت شده",
+      "unpaid": "پرداخت نشده",
+      "rejected": "رد شده",
+      "refund": "بازپرداخت"
+    },
+    "paymentOptions": {
+      "onlinePayment": "پرداخت آنلاین",
+      "offlinePayment": "پرداخت آفلاین"
+    },
+    "paymentType": {
+      "securityDeposit": "ودیعه تضمینی",
+      "rentPayment": "پرداخت اجاره",
+      "subscription": "اشتراک"
+    },
+    "gender": {
+      "male": "مرد",
+      "female": "زن",
+      "other": "سایر"
+    },
+    "ecRelation": {
+      "wife": "همسر",
+      "parent": "والدین",
+      "friend": "دوست",
+      "brother": "برادر",
+      "sister": "خواهر",
+      "child": "فرزند"
+    },
+    "vehicleType": {
+      "car": "ماشین",
+      "motorcycles": "موتورسیکلت",
+      "lorry": "کامیون"
+    },
+    "sortBy": {
+      "lowToHigh": "کم به زیاد",
+      "highToLow": "زیاد به کم"
+    },
+    "residentialType": {
+      "flat": "آپارتمان",
+      "apartment": "آپارتمان (بزرگتر)",
+      "condominium": "کاندومینیوم",
+      "serviceResidence": "اقامتگاه خدماتی",
+      "studio": "استودیو",
+      "duplex": "دوبلکس",
+      "townhouseCondo": "کاندومینیوم شهری",
+      "condo": "کاندومینیوم / اقامتگاه خدماتی / پنت هاوس",
+      "house": "خانه‌ها",
+      "shoplot": "مغازه",
+      "sharing": "اشتراک خانه / آپارتمان",
+      "others": "سایر"
+    },
+    "floorRange": {
+      "high": "بالا",
+      "medium": "متوسط",
+      "low": "پایین"
+    },
+    "furnishings": {
+      "fullyFurnished": "کاملاً مبله",
+      "partiallyFurnished": "نیمه مبله",
+      "notFurnished": "بدون مبلمان"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "فضای اداری",
+      "retailSpace": "فضای خرده فروشی",
+      "shopLot": "مغازه",
+      "warehouseFactory": "انبار / کارخانه",
+      "hotelResort": "هتل / استراحتگاه",
+      "sofo": "سوفو (SOFO)",
+      "soho": "سوهو (SOHO)",
+      "sovo": "سوُو (SOVO)",
+      "others": "سایر"
+    },
+    "landPropertyType": {
+      "residential": "مسکونی",
+      "industrial": "صنعتی",
+      "agricultural": "کشاورزی",
+      "commercial": "تجاری",
+      "mixedDevelopment": "توسعه مختلط",
+      "others": "سایر"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "۶ ماه",
+      "oneYear": "۱ سال",
+      "oneAndHalfYears": "۱.۵ سال",
+      "twoYears": "۲ سال",
+      "twoAndHalfYears": "۲.۵ سال"
+    },
+    "dropdownDateFilter": {
+      "daily": "روزانه",
+      "weekly": "هفتگی",
+      "monthly": "ماهانه",
+      "yearly": "سالانه",
+      "custom": "سفارشی"
+    },
+    "bungalowType": {
+      "modern": "مدرن",
+      "cottage": "کلبه",
+      "luxury": "لوکس",
+      "ecoSmart": "اقتصادی / هوشمند",
+      "beachSide": "کنار ساحل",
+      "others": "سایر"
+    }
+  }
+}

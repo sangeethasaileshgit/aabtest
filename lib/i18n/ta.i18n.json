@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ta_IN",
+    "languageName": "Tamil",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "விவரம்",
+    "language": "மொழி",
+    "subscriptionPlan": "சந்தா திட்டம்",
+    "contactUs": "எங்களைத் தொடர்புகொள்ளுங்கள்",
+    "termsAndConditions": "விதிமுறைகள் மற்றும் நிபந்தனைகள்",
+    "aboutUs": "எங்களைப் பற்றி",
+    "logout": "வெளியேறு",
+    "editProfile": "விவரத்தை திருத்து",
+    "fullName": "முழுப் பெயர்",
+    "email": "மின்னஞ்சல்",
+    "mobileNumber": "கைபேசி எண்",
+    "address": "முகவரி",
+    "postalCode": "அஞ்சல் குறியீடு",
+    "city": "நகரம்",
+    "country": "நாடு",
+    "state": "மாநிலம்",
+    "password": "கடவுச்சொல்",
+    "forgotPassword": "கடவுச்சொல்லை மறந்துவிட்டீர்களா",
+    "tenant": "குத்தகைதாரர்",
+    "landlord": "வீட்டு உரிமையாளர்",
+    "cancelRenting": "வாடகையை ரத்துசெய்",
+    "startDate": "தொடக்க தேதி",
+    "endDate": "முடிவு தேதி",
+    "fromDate": "தேதி முதல்",
+    "toDate": "தேதி வரை",
+    "online": "ஆன்லைன்",
+    "bankList": "வங்கி பட்டியல்",
+    "withdrawMethod": "பணம் எடுக்கும் முறை",
+    "uploadPaymentReceipt": "பணம் செலுத்திய ரசீதை பதிவேற்றவும்",
+    "offlinePaymentNote(rich)": "குறிப்பு: ${note(கட்டணத்துக்கு நிர்வாகியால் கைமுறை ஒப்புதல் தேவை)} ${duraion(24~48 மணி நேரத்திற்குள்.)}",
+    "reviews": "விமர்சனங்கள்",
+    "description": "விளக்கம்",
+    "about": "பற்றி",
+    "propertyTypes": "சொத்து வகைகள்",
+    "features": "அம்சங்கள்",
+    "floorPlans": "தள திட்டங்கள்",
+    "buildingDetails": "கட்டிட விவரங்கள்",
+    "buildingName": "கட்டிடத்தின் பெயர்",
+    "propertyAddress": "சொத்தின் முகவரி",
+    "completionYear": "பூர்த்தி செய்யப்பட்ட ஆண்டு",
+    "lotNumber": "லாட் எண்",
+    "residentialType": "குடியிருப்பு வகை",
+    "furnishings": "தளபாடங்கள்",
+    "floorRange": "தரை வரம்பு",
+    "bedrooms": "படுக்கையறைகள்",
+    "bathrooms": "குளியலறைகள்",
+    "propertySize": "சொத்தின் அளவு",
+    "rentalPeriod": "வாடகை காலம்",
+    "securityDeposit": "பாதுகாப்பு வைப்பு",
+    "utilityBill": "பயன்பாட்டு கட்டணம்",
+    "facilities": "வசதிகள்",
+    "amenities": "அடிப்படை வசதிகள்",
+    "expiringReason": "காலாவதியாவதற்கான காரணம்",
+    "tenantDetails": "குத்தகைதாரர் விவரங்கள்",
+    "typeOfTenant": "குத்தகைதாரரின் வகை",
+    "tenantName": "குத்தகைதாரர் பெயர்",
+    "nidPassport": "NID/கடவுச்சீட்டு",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "குத்தகைதாரர் ID",
+    "dateOfBirth": "பிறந்த தேதி",
+    "gender": "பாலினம்",
+    "nominee": "நியமனதாரர்",
+    "name": "பெயர்",
+    "optional": "விருப்பத்தேர்வு",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee கை. எண்.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "அவசர தொடர்பு",
+    "relation": "உறவு",
+    "relationWith": "@:common.relation உடன்",
+    "relationWithYou": "@:common.relationWith நீங்கள்",
+    "company": "நிறுவனம்",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM எண்.",
+    "workplace": "வேலை செய்யும் இடம்",
+    "officePhoneNo": "அலுவலக தொலைபேசி எண்",
+    "officeMobileNo": "அலுவலக @:common.mobileNumber",
+    "vehicle": "வாகனம்",
+    "vehiclesInfo": {
+      "plain": "வாகனங்கள் தகவல்",
+      "optional": "வாகனங்கள் தகவல் (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle வகை",
+    "vehicleRegistrationNo": {
+      "normal": "வாகனப் பதிவு எண்.",
+      "short": "பதிவு எண்.",
+      "alt": "தகடு எண்."
+    },
+    "vehicleBrand": "@:common.vehicle பிராண்ட்",
+    "rentProperty": "வாடகைக்குச் சொத்து",
+    "propertyDetails": "சொத்து விவரங்கள்",
+    "propertyId": "சொத்து ID",
+    "propertyType": "சொத்து வகை",
+    "propertyName": "சொத்தின் பெயர்",
+    "paymentDetails": "கட்டண விவரங்கள்",
+    "monthlyRent": "மாத வாடகை",
+    "thisMonthPayment": "இந்த மாத கட்டணம்",
+    "totalPaidRent": "மொத்தம் செலுத்திய வாடகை",
+    "dueRent": "செலுத்த வேண்டிய வாடகை",
+    "rentStartDate": "வாடகை @:common.startDate",
+    "rentEndDate": "வாடகை @:common.endDate",
+    "status": "நிலை",
+    "rentAgreementPdf": "வாடகை ஒப்பந்த PDF",
+    "noFile": "கோப்பு இல்லை",
+    "tenantImageOp": "குத்தகைதாரர் படம் @:common.optional",
+    "addNewVechicle": "புதிய வாகனங்களைச் சேர்",
+    "uploadNidPassport": "NID/கடவுச்சீட்டை பதிவேற்றவும்",
+    "nidPassportUploadNote": "படக் கோப்பு வகை மட்டுமே ஏற்கப்படும். கோப்பு வரம்பு 2.5 MB வரை.",
+    "search": "தேடல்",
+    "sortBy": "இதன் மூலம் வரிசைப்படுத்து",
+    "subscription": "சந்தா",
+    "downloading": "பதிவிறக்கப்படுகிறது...",
+    "downloadSuccess": "கோப்பு வெற்றிகரமாக பதிவிறக்கப்பட்டது!",
+    "addPropertyBannerTitle": "உங்கள் சொத்தை வாடகைக்கு விட விரும்புகிறீர்களா?",
+    "application": "விண்ணப்பம்",
+    "tenantHasPaidDeposit": "குத்தகைதாரர் வைப்புத் தொகையை செலுத்திவிட்டார்.",
+    "askProcessingRentApplication": "வாடகை சொத்துக்கான இந்தக் கோரிக்கையைச் செயல்படுத்த நீங்கள் உறுதியாக இருக்கிறீர்களா?",
+    "dateAndTime": "தேதி மற்றும் நேரம்",
+    "applicationDetails": "விண்ணப்ப விவரங்கள்",
+    "depositStatus": "வைப்பு நிலை",
+    "uploadRentAgreement": "வாடகை ஒப்பந்தத்தை பதிவேற்றவும்",
+    "uploadFilePDF": "கோப்பை பதிவேற்றவும் (PDF)",
+    "askSelectRentAgreement": "தயவுசெய்து ஒரு ஒப்பந்த ஆவணக் கோப்பைத் தேர்ந்தெடுக்கவும்.",
+    "landlordRentAgreementPDF": "வீட்டு உரிமையாளர் வாடகை ஒப்பந்த PDF",
+    "tenantRentAgreementPDF": "குத்தகைதாரர் வாடகை ஒப்பந்த PDF",
+    "landlordApplicationApproveNote(rich)": "குறிப்பு: ${note(குத்தகைதாரர் வைப்புத் தொகையை செலுத்திய பின்னரே விண்ணப்பத்தை அங்கீகரிக்கவும்.)}",
+    "reasonOfRejection": "நிராகரிப்புக்கான காரணம்",
+    "youveRejectedThisApplication": "நீங்கள் இந்த விண்ணப்பத்தை நிராகரித்துவிட்டீர்கள்",
+    "landlordDetails": "வீட்டு உரிமையாளர் விவரங்கள்",
+    "landlordName": "வீட்டு உரிமையாளர் பெயர்",
+    "downloadRentAgreement": "வாடகை ஒப்பந்தத்தை பதிவிறக்கம் செய்க",
+    "acceptTermsConditions(rich)": "${toc(விதிமுறைகள் மற்றும் நிபந்தனைகளை) ஏற்கவும்}",
+    "tenantAgreementSignNote1(rich)": "குறிப்பு: ${note(தயவுசெய்து ஒப்பந்தத்தை பதிவிறக்கம் செய்து படிக்கவும். கையொப்பமிட்ட ஒப்பந்தத்தை WhatsApp அல்லது மின்னஞ்சல் மூலம் வீட்டு உரிமையாளருக்கு அனுப்பவும்.)}",
+    "tenantAgreementSignNote2(rich)": "குறிப்பு: ${note(குத்தகைதாரர் பாதுகாப்பு, பயன்பாடு மற்றும் ஒரு மாத முன்கூட்டிய வாடகை கட்டணத்தை செலுத்தும் போது வீட்டு உரிமையாளர் விண்ணப்பத்தை அங்கீகரிக்கிறார்.)}",
+    "completeRentAgreementPdf(rich)": "வாடகை ஒப்பந்தம் (PDF) ${complete(முழுமையான ஒப்பந்தம்)}",
+    "tenantApplicationDepositNote(rich)": "குறிப்பு : ${note(குத்தகைதாரர் பாதுகாப்பு, பயன்பாடு மற்றும் ஒரு மாத முன்கூட்டிய வாடகை கட்டணத்தை செலுத்தும் போது வீட்டு உரிமையாளர் விண்ணப்பத்தை அங்கீகரிக்கிறார்.)}",
+    "whatsapp": "வாட்ஸ்அப்",
+    "applicationList": "விண்ணப்ப பட்டியல்",
+    "viewDetails": "விவரங்களைக் காண்க",
+    "searchHint": "@:common.search...",
+    "home": "முகப்பு",
+    "dashboard": "கட்டுப்பாட்டுப் பலகை",
+    "tenants": "குத்தகைதாரர்கள்",
+    "maintenance": "பராமரிப்பு",
+    "maintenanceList": "பராமரிப்பு பட்டியல்",
+    "maintenanceReport": "பராமரிப்பு அறிக்கை",
+    "labor": "வேலை",
+    "applications": "விண்ணப்பங்கள்",
+    "rentInvitation": "வாடகை அழைப்பு",
+    "payment": "கட்டணம்",
+    "rentPayment": "வாடகை கட்டணம்",
+    "depositUtilityPayment": "வைப்பு மற்றும் பயன்பாட்டு கட்டணம்",
+    "refundRequest": "பணம் திரும்பக் கோரிக்கை",
+    "withdrawRequest": "பணம் எடுக்கும் கோரிக்கை",
+    "myProperty": "எனது சொத்து",
+    "myRent": "எனது வாடகை",
+    "wishlist": "விருப்பப்பட்டியல்",
+    "properties": "சொத்துக்கள்",
+    "allProperties": "அனைத்து சொத்துக்கள்",
+    "totalPropery": "மொத்த சொத்து",
+    "occupied": "அதிகரிக்கப்பட்டது",
+    "vacant": "காலியானது",
+    "accounting": "கணக்கியல்",
+    "totalIncome": "மொத்த வருமானம்",
+    "totalExpense": "மொத்த செலவு",
+    "currentBalance": "தற்போதைய இருப்பு",
+    "totalWithdrawal": "மொத்தம் (பணம் எடுத்தல்)",
+    "totalProperties": "மொத்த சொத்துக்கள்",
+    "totalTenant": "மொத்த குத்தகைதாரர்",
+    "totalRentPaid": "மொத்தம் செலுத்திய வாடகை",
+    "totalRentDue": "செலுத்த வேண்டிய மொத்த வாடகை",
+    "totalApplication": "மொத்த விண்ணப்பம்",
+    "pendingApplication": "நிலுவையிலுள்ள விண்ணப்பம்",
+    "processingApplication": "செயல்படுத்தும் விண்ணப்பம்",
+    "approveApplication": "விண்ணப்பத்தை அங்கீகரி",
+    "rejectApplication": "விண்ணப்பத்தை நிராகரி",
+    "maintenanceCost": "பராமரிப்பு செலவு",
+    "transactionSummary": "பரிவர்த்தனை சுருக்கம்",
+    "maintenanceRequest": "பராமரிப்பு கோரிக்கை",
+    "notifications": "அறிவிப்புகள்",
+    "myProperties": "எனது சொத்துக்கள்",
+    "recommendationProperties": "பரிந்துரைக்கப்பட்ட சொத்துக்கள்",
+    "laborList": "வேலை பட்டியல்",
+    "addLabor": "வேலையைச் சேர்",
+    "laborDetails": "வேலை விவரங்கள்",
+    "laborSalary": "வேலை சம்பளம்",
+    "editLabor": "வேலையை திருத்து",
+    "addNewLabor": "புதிய வேலையைச் சேர்",
+    "enterAmount": "தொகையை உள்ளிடுக",
+    "maintenanceDetails": "பராமரிப்பு விவரங்கள்",
+    "laborName": "வேலை பெயர்",
+    "comment": "கருத்து",
+    "image": "படம்",
+    "complete": "முழுமையானது",
+    "details": "விவரங்கள்",
+    "title": "தலைப்பு",
+    "date": "தேதி",
+    "reason": "காரணம்",
+    "edit": "திருத்து",
+    "property": "சொத்து",
+    "completeYourProfile": "உங்கள் விவரத்தை பூர்த்தி செய்க",
+    "profileImage": "விவரப் படம்",
+    "imagePickHint": "அதிகபட்சமாக 120x120 பிக்சல்கள் அளவுள்ள JPEG & PNG படம் மட்டுமே.",
+    "invoiceId": "விலைப்பட்டியல் ID",
+    "depositAmount": "வைப்புத் தொகை",
+    "landlordPhone": "வீட்டு உரிமையாளர் தொலைபேசி",
+    "rentalAdvance": "வாடகை (முன்கூட்டியே)",
+    "totalAmount": "மொத்த தொகை",
+    "rentAmount": "வாடகை தொகை",
+    "adminCharge": "நிர்வாக கட்டணம்",
+    "editAccount": "கணக்கை திருத்து",
+    "addNewAccount": "புதிய கணக்கைச் சேர்",
+    "transactionId": "பரிவர்த்தனை ID",
+    "transactionType": "பரிவர்த்தனை வகை",
+    "requestDate": "கோரிக்கை தேதி",
+    "amount": "தொகை",
+    "fee": "கட்டணம்",
+    "paymentStatus": "கட்டண நிலை",
+    "generatedTime": "உருவாக்கப்பட்ட நேரம்",
+    "systemGeneratedReportHint(rich)": "இது ${appName} ஆல் சிஸ்டம் மூலம் உருவாக்கப்பட்ட அறிக்கை",
+    "withdrawHistory": "பணம் எடுக்கும் வரலாறு",
+    "history": "வரலாறு",
+    "withdrawAmount": "பணம் எடுக்கும் தொகை",
+    "availableBalance": "கிடைக்கக்கூடிய இருப்பு",
+    "withdrawCharge": "பணம் எடுக்கும் கட்டணம்",
+    "paymentMethod": "பணம் செலுத்தும் முறை",
+    "requestSendSuccess": "கோரிக்கை வெற்றிகரமாக அனுப்பப்பட்டது!",
+    "paymentReceiptSubmitSuccess": "பணம் செலுத்திய ரசீது வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது.",
+    "refundReason": "பணம் திரும்பப் பெறும் காரணம்",
+    "note": "குறிப்பு",
+    "refundReceiveSuccess": "பணம் திரும்பப் பெறுதல் வெற்றிகரமாக பெறப்பட்டது.",
+    "downloadPaymentReceipt": "பணம் செலுத்திய ரசீதை பதிவிறக்கம் செய்க",
+    "invoice": "விலைப்பட்டியல்",
+    "selectPropertyToSeeInvoice": "விலைப்பட்டியல் எண்ணைக் காண சொத்தைத் தேர்ந்தெடுக்கவும்...",
+    "bankAccName": "வங்கி கணக்கு பெயர்",
+    "bankName": "வங்கி பெயர்",
+    "bankAccNum": "வங்கி கணக்கு எண்",
+    "thankYou": "நன்றி!",
+    "basicInfo": "அடிப்படை தகவல்",
+    "descriptionPricing": "விளக்கம் மற்றும் விலை நிர்ணயம்",
+    "contact": "தொடர்பு",
+    "photos": "படங்கள்",
+    "successfullySubmitted": "வெற்றிகரமாக சமர்ப்பிக்கப்பட்டது!",
+    "editProperty": "சொத்தை திருத்து",
+    "addNewProperty": "புதிய சொத்தைச் சேர்",
+    "propertyManageRequestSuccess": "உங்கள் விளம்பரம் மதிப்பாய்வுக்காக சமர்ப்பிக்கப்பட்டுள்ளது.",
+    "postAnotherProperty": "மற்றொரு சொத்தை இடுக",
+    "browseYourProperty": "உங்கள் சொத்தை உலாவு",
+    "stepIndicator(rich)": "படி ${step} இன் ${totalSteps}",
+    "whatWouldYouLikeToPost": "நீங்கள் எதை இடுகையிட விரும்புகிறீர்கள்?",
+    "category": "பிரிவு",
+    "invalidCategory": "தவறான பிரிவு",
+    "unitNumber": "அலகு எண்",
+    "sqft": "ச.அடி.",
+    "propertySizeMustBeGreaterThan0": "சொத்தின் அளவு பூஜ்ஜியத்தை விட அதிகமாக இருக்க வேண்டும்",
+    "whatAreTheFacility": "வசதிகள் என்னென்ன?",
+    "whatAreTheAmenity": "அடிப்படை வசதிகள் என்னென்ன?",
+    "parkingLot": "வாகனம் நிறுத்தும் இடம்",
+    "houseType": "வீட்டு வகை",
+    "value": "மதிப்பு",
+    "unitLotSize": "அலகு / லாட் அளவு",
+    "landSize": "நில அளவு",
+    "acres": "ஏக்கர்(கள்)",
+    "roomSize": "அறை அளவு",
+    "askTenantPreference": "உங்கள் குத்தகைதாரர் விருப்பம் என்ன?",
+    "couple": "தம்பதியர்",
+    "describeTheProperty": "${propertyType: String} ஐ விவரிக்கவும்",
+    "adTitle": "விளம்பர தலைப்பு",
+    "minimumRentalPeriod": "குறைந்தபட்ச வாடகை காலம்",
+    "whatsappNumber": "@:common.whatsapp எண்",
+    "hideOrDisplayEmail": "மின்னஞ்சல் முகவரியை மறைக்கவும் அல்லது காண்பிக்கவும்",
+    "thankYouForPostingProperty": "${appName: String} இல் இடுகையிட்டதற்கு நன்றி!",
+    "propertyList": "சொத்து பட்டியல்",
+    "newInviteRent": "புதிய வாடகை அழைப்பு",
+    "rentAgreement": "வாடகை ஒப்பந்தம்",
+    "rentDetails": "வாடகை விவரங்கள்",
+    "landlordRentInvitationPendingNote(rich)": "குறிப்பு: ${note(குத்தகைதாரர் அழைப்பை ஏற்கும் வரை காத்திருக்கவும்.)}",
+    "rent": "வாடகை",
+    "editTenant": "குத்தகைதாரரை திருத்து",
+    "addNewTenant": "புதிய குத்தகைதாரரைச் சேர்",
+    "shareInstallLink": "நிறுவும் இணைப்பை பகிரவும்",
+    "tenantList": "குத்தகைதாரர் பட்டியல்",
+    "editMaintenanceRequest": "பராமரிப்பு கோரிக்கையை திருத்து",
+    "addNewMaintenance": "புதிய பராமரிப்பைச் சேர்",
+    "landlordId": "வீட்டு உரிமையாளர் ID",
+    "tenantAgrementUnderReviewNote(rich)": "குறிப்பு ${note(உங்கள் ஒப்பந்தம் மதிப்பாய்வில் உள்ளது. வீட்டு உரிமையாளர் உங்கள் வாடகையை அங்கீகரிக்கும் வரை காத்திருக்கவும்.)}",
+    "editReview": "மதிப்பாய்வை திருத்து",
+    "writeAReview": "ஒரு மதிப்பாய்வை எழுது",
+    "selectRating": "மதிப்பீட்டைத் தேர்ந்தெடுக்கவும்",
+    "enterYourOpinion": "உங்கள் கருத்தை உள்ளிடுக",
+    "askToEnterReviewMsg": "தயவுசெய்து ஒரு மதிப்பாய்வு செய்தியை உள்ளிடவும்",
+    "pressBackAgainToExit": "வெளியேற மீண்டும் பின்செல்லவும்.",
+    "selectPaymentMethod": "பணம் செலுத்தும் முறையைத் தேர்ந்தெடுக்கவும்",
+    "filter": "வடிகட்டி",
+    "perMonth": "/1 மாதம்",
+    "searchHintWithAppName": "${appName: String} இல் எதையும் தேடவும்...",
+    "propertyInfo": "சொத்து தகவல்",
+    "units": "அலகுகள்",
+    "depositPeriod": "வைப்பு காலம்",
+    "facilitiesList": "வசதிகள் பட்டியல்",
+    "facility": "வசதி",
+    "amenity": "அடிப்படை வசதி",
+    "amenitiesList": "அடிப்படை வசதிகள் பட்டியல்",
+    "addNewFacility": "புதிய வசதியைச் சேர்",
+    "editFacility": "வசதியை திருத்து",
+    "facilityName": "வசதியின் பெயர்",
+    "amenityName": "அடிப்படை வசதியின் பெயர்",
+    "addNewAmenity": "புதிய அடிப்படை வசதியைச் சேர்",
+    "editAmenity": "அடிப்படை வசதியை திருத்து",
+    "family": "குடும்பம்",
+    "lateFee": "தாமத கட்டணம்",
+    "lateFeeAfterDays": "@:common.lateFee க்குப் பிறகு (நாட்கள்)",
+    "propertyPricing": "${propertyType: String} விலை நிர்ணயம்",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "மிக்க நன்றி, நீங்கள் உங்கள் சொத்தை இடுகையிட்டுள்ளீர்கள்",
+    "titleAndDescription": "தலைப்பு மற்றும் விளக்கம்",
+    "rentPricing": "வாடகை விலை நிர்ணயம்",
+    "step": "படி",
+    "of": "இல்",
+    "pricing": "விலை நிர்ணயம்",
+    "sameRentForAllUnit": "அனைத்து அலகுகளுக்கும் ஒரே வாடகை",
+    "unit": "அலகு",
+    "pleaseSelectAnUnitFirst": "தயவுசெய்து முதலில் ஒரு அலகைத் தேர்ந்தெடுக்கவும்.",
+    "saleAmount": "விற்பனை தொகை",
+    "selectCategory": "ஒரு பிரிவைத் தேர்ந்தெடுக்கவும்",
+    "pleaseSelectACategory": "தயவுசெய்து ஒரு பிரிவைத் தேர்ந்தெடுக்கவும்",
+    "pleaseEnterAdTitle": "தயவுசெய்து விளம்பர தலைப்பை உள்ளிடவும்",
+    "addCoverPhoto": "அட்டைப் படத்தை சேர்",
+    "findAProperty": "ஒரு சொத்தைக் கண்டுபிடி",
+    "categories": "பிரிவுகள்",
+    "recmmendedProperties": "பரிந்துரைக்கப்பட்ட சொத்துக்கள்",
+    "recentSearch": "சமீபத்திய தேடல்",
+    "pleaseEnterYourAccountNumber": "தயவுசெய்து உங்கள் கணக்கு எண்ணை உள்ளிடவும்.",
+    "pleaseSelectALanguageToContinue": "தொடர ஒரு மொழியைத் தேர்ந்தெடுக்கவும்.",
+    "subscribe": "சந்தா செலுத்துங்கள்",
+    "noFacilitiesFound": "வசதிகள் எதுவும் காணப்படவில்லை!",
+    "invalidLaborDetailsPleaseTryAgain": "தவறான வேலை விவரங்கள், தயவுசெய்து மீண்டும் முயற்சிக்கவும்",
+    "maintenanceWork": "பராமரிப்பு வேலை",
+    "selectLabor": "வேலையைத் தேர்ந்தெடுக்கவும்",
+    "enterMaintenanceCost": "பராமரிப்பு செலவை உள்ளிடவும்",
+    "pleaseEnterMaintenanceCost": "தயவுசெய்து பராமரிப்பு செலவை உள்ளிடவும்",
+    "writeComment": "கருத்தை எழுதுங்கள்",
+    "maintenancePending": "நிலுவையிலுள்ள பராமரிப்பு",
+    "yourEarnings": "உங்கள் வருவாய்",
+    "totalPaid": "மொத்தம் செலுத்தப்பட்டது",
+    "linkANewBankAccount": "புதிய வங்கிக் கணக்கை இணைக்கவும்",
+    "payoutRequest": "பணம் வழங்கல் கோரிக்கை"
+  },
+  "exceptions": {
+    "somethingWentWrong": "ஏதோ தவறு நடந்தது, தயவுசெய்து மீண்டும் முயற்சிக்கவும்",
+    "noNidPassport": "NID/கடவுச்சீட்டு படம் வழங்கப்படவில்லை.",
+    "noRentPropertyFound": "இந்தக் குத்தகைதாரருக்கு வாடகைச் சொத்து எதுவும் காணப்படவில்லை.",
+    "noPropertyFoundWithKeyWord": "சொத்து எதுவும் காணப்படவில்லை!\nதயவுசெய்து வேறு முக்கிய வார்த்தைகளைக் கொண்டு முயற்சிக்கவும்",
+    "noSubscriptionFoundRefreshPage": "சந்தா திட்டம் எதுவும் காணப்படவில்லை!\nதயவுசெய்து பக்கத்தை புதுப்பித்து மீண்டும் முயற்சிக்கவும்.",
+    "invalidApiDataRefreshPage": "தவறான ${dataType: String} தகவல்! தயவுசெய்து பக்கத்தை புதுப்பித்து மீண்டும் முயற்சிக்கவும்.",
+    "invalidDownloadUrl": "தவறான பதிவிறக்க URL!",
+    "failedToSaveFile": "கோப்பை சேமிக்க முடியவில்லை! ${error: String}",
+    "errorOpeningFile": "கோப்பை திறப்பதில் பிழை! ${error: String}",
+    "noVehicleInfoProvided": "வாகனத் தகவல் எதுவும் வழங்கப்படவில்லை.",
+    "yourApplicationRejected": "உங்கள் விண்ணப்பம் நிராகரிக்கப்பட்டுள்ளது",
+    "noApplicationFoundHint": {
+      "template": "விண்ணப்பம் எதுவும் காணப்படவில்லை!\n${subject: String} கிடைக்கும்போது இங்கே காட்டப்படும்.",
+      "subjects": {
+        "tenant": "உங்கள் விண்ணப்பம்",
+        "landlord": "குத்தகைதாரரின் விண்ணப்பம்"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "சொத்து எதுவும் காணப்படவில்லை!\nஇங்கே காண சொத்தை சேர்த்து முயற்சிக்கவும்.",
+      "tenantRecommended": "பரிந்துரைக்கப்பட்ட சொத்துக்கள் எதுவும் காணப்படவில்லை\nதயவுசெய்து பின்னர் முயற்சிக்கவும்.",
+      "tenantAllProperty": "சொத்துக்கள் கிடைக்கவில்லை\nதயவுசெய்து பின்னர் முயற்சிக்கவும்."
+    },
+    "noImageProvided": "படம் எதுவும் வழங்கப்படவில்லை",
+    "noStatusMaintenantFound": {
+      "landlord": "${status} பராமரிப்பு எதுவும் காணப்படவில்லை.",
+      "tenant": "பராமரிப்பு எதுவும் காணப்படவில்லை! இங்கே பார்க்க நீங்கள் பராமரிப்பு கோரிக்கையை உருவாக்கலாம்."
+    },
+    "noDepositFound": "பாதுகாப்பு வைப்பு எதுவும் காணப்படவில்லை!\nகிடைக்கும்போது பாதுகாப்பு வைப்புகளை நீங்கள் பார்க்கலாம்",
+    "noRentPaymentFound": "வாடகை கட்டணம் எதுவும் காணப்படவில்லை!\nகிடைக்கும்போது வாடகை கட்டணங்களை நீங்கள் பார்க்கலாம்",
+    "transactionSummaryApiException": "பரிவர்த்தனை சுருக்கத்தைப் பெறத் தவறிவிட்டது.",
+    "noWithdrawRequestFound": "கோரிக்கை எதுவும் காணப்படவில்லை!\nஇங்கே காண பணம் எடுக்கும் கோரிக்கையை உருவாக்க முயற்சிக்கவும்.",
+    "withdrawRequestNotApproved": "இந்தப் பணம் எடுக்கும் கோரிக்கை அங்கீகரிக்கப்படவில்லை!.",
+    "nonZeroError": "தயவுசெய்து பூஜ்ஜியத்தை விட அதிகமான சரியான தொகையை உள்ளிடவும்.",
+    "minAmountError": "தொகை குறைந்தது ${minValue: String} ஆக இருக்க வேண்டும்.",
+    "maxAmountError": "தொகை ${maxValue: String} க்கு மேல் இருக்கக்கூடாது.",
+    "selectPaymentMethodHint": "தயவுசெய்து முதலில் பணம் செலுத்தும் முறையைத் தேர்ந்தெடுக்கவும்.",
+    "noStatusRefundReqFound": {
+      "landlord": "${status} பணம் திரும்பக் கோரிக்கை எதுவும் காணப்படவில்லை!\nகிடைக்கும்போது பணம் திரும்பக் கோரிக்கையை இங்கே நீங்கள் பார்க்கலாம்.",
+      "tenant": "பணம் திரும்பக் கோரிக்கை எதுவும் காணப்படவில்லை!\nஇங்கே காண நீங்கள் பணம் திரும்பக் கோரிக்கையை உருவாக்கலாம்."
+    },
+    "refundRequestHint": {
+      "inTenantList": "குத்தகைதாரர் பணத்தை திரும்பப் பெற்றவுடன் பணம் திரும்பப் பெறுதலை அங்கீகரிப்பார்",
+      "tenantReqSuccess": "நாங்கள் பணம் திரும்பக் கோரிக்கையை மதிப்பாய்வு செய்து 24 மணி நேரத்திற்குள் அதை அங்கீகரிப்போம்."
+    },
+    "oneToTenRequiredField": "தயவுசெய்து ${value: String} எண்ணைத் தேர்ந்தெடுக்கவும்",
+    "invalidDateRange": "தவறான தேதி வரம்பு.",
+    "valueMustBeGreaterThanZero": "${value: String} பூஜ்ஜியத்தை விட அதிகமாக இருக்க வேண்டும்.",
+    "editProperty": {
+      "rentalChange": "வாடகை சொத்து மாறுகிறது. இது அடுத்த மாத வாடகை கட்டணத்துக்கு மட்டுமே செல்லுபடியாகும் (பயனுள்ள).",
+      "deleteOnRent": "உங்கள் சொத்து ஏற்கனவே குத்தகைதாரரால் வாடகைக்கு எடுக்கப்பட்டுள்ளது. முதலில் குத்தகைதாரரை அகற்றும் வரை அதை நீக்க முடியாது",
+      "alreayRented": "இந்த சொத்து ஏற்கனவே வாடகைக்கு விடப்பட்டுள்ளது. தயவுசெய்து பின்னர் முயற்சிக்கவும்.\nஅல்லது மேலும் தகவலுக்கு வீட்டு உரிமையாளரைத் தொடர்பு கொள்ளலாம்."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "வாடகை அழைப்பு எதுவும் காணப்படவில்லை!\nஇங்கே காண வாடகை அழைப்பை உருவாக்க முயற்சிக்கவும்.",
+      "tenantNoRentInvitation": "வாடகை அழைப்பு எதுவும் காணப்படவில்லை!\nகிடைக்கும்போது வாடகை அழைப்பை இங்கே நீங்கள் பார்க்கலாம்."
+    },
+    "notenantFoundList": "குத்தகைதாரர்கள் இல்லை!\nஇங்கே காண ஒரு குத்தகைதாரரை சேர்த்து முயற்சிக்கவும்.",
+    "noFeaturesProvided": "அம்சங்கள் எதுவும் வழங்கப்படவில்லை.",
+    "noNotificationFound": "அறிவிப்பு எதுவும் கிடைக்கவில்லை.\nகிடைக்கும்போது உங்கள் அறிவிப்பை இங்கே நீங்கள் பார்க்கலாம்.",
+    "noFacilitiesFound": "வசதிகள் எதுவும் காணப்படவில்லை.",
+    "noAmenitiesFound": "அடிப்படை வசதிகள் எதுவும் காணப்படவில்லை!",
+    "noLaborFound": "வேலை எதுவும் காணப்படவில்லை\\nதயவுசெய்து பின்னர் முயற்சிக்கவும்.",
+    "areYouSureYouWantToRemoveThisUnit": "இந்த அலகை நீங்கள் அகற்ற விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "நீங்கள் வெளியேற விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+    },
+    "application": {
+      "rejectTitle": "இந்த விண்ணப்பத்தை நீங்கள் ஏன் நிராகரிக்கிறீர்கள்?",
+      "applicationSent": {
+        "successfully": "விண்ணப்பம் வெற்றிகரமாக அனுப்பப்பட்டது!",
+        "sucessDescription": "இந்த விண்ணப்பத்தை உங்கள் விண்ணப்பப் பட்டியலில் பார்க்கலாம்"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "வேலையை நீக்கவா?",
+        "description": "இந்த வேலையை நீக்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "இந்தக் கோரிக்கை ஏன் நிராகரிக்கப்படுகிறது?",
+      "processTitle": "இந்த பராமரிப்பு கோரிக்கையைச் செயல்படுத்த நீங்கள் உறுதியாக இருக்கிறீர்களா?",
+      "completeTitle": "வேலை முடிவடைந்ததா?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "பணம் எடுக்கும் முறையை நீக்கவா?",
+      "deleteDescription": "இந்த பணம் எடுக்கும் முறையை நீக்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+    },
+    "unsavedChanges": {
+      "title": "நீங்கள் பின்செல்ல விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?",
+      "message": "மாற்றப்பட்ட புலங்கள் சேமிக்கப்படாது!"
+    },
+    "property": {
+      "delete": {
+        "title": "சொத்தை நீக்கவா?",
+        "message": "இந்தச் சொத்தை நீக்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "இந்த வாடகையை அங்கீகரிக்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?",
+        "description": "குத்தகைதாரரால் கையொப்பமிடப்பட்ட ஒப்பந்தத்தை நீங்கள் மதிப்பாய்வு செய்துள்ளீர்கள் என்பதை உறுதிப்படுத்தவும்."
+      },
+      "tenantAccept": {
+        "title": "இந்த அழைப்பை ஏற்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?",
+        "description": "நீங்கள் ஒப்பந்த PDF கோப்பை பதிவிறக்கம் செய்துள்ளீர்கள் என்பதை உறுதிப்படுத்தவும்!"
+      }
+    },
+    "sessionExpired": {
+      "title": "அமர்வு காலாவதியானது",
+      "message": "உங்கள் அமர்வு காலாவதியாகிவிட்டது. தயவுசெய்து மீண்டும் உள்நுழையவும்",
+      "action": "உள்நுழைக"
+    },
+    "noInternet": {
+      "title": "இணைய இணைப்பு இல்லை",
+      "message": "தயவுசெய்து உங்கள் வைஃபை மொபைல் நெட்வொர்க் இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்",
+      "action": "மீண்டும் முயற்சிக்கவும்"
+    },
+    "permissionHandler": {
+      "title": "அனுமதி தேவை!",
+      "message": "பயன்பாட்டு அமைப்புகளில் நீங்கள் அனுமதிகளை வழங்க வேண்டும். நீங்கள் இப்போது அமைப்புகளைத் திறக்க விரும்புகிறீர்களா?"
+    },
+    "imagePicker": {
+      "title": "விருப்பத்தைத் தேர்ந்தெடுக்கவும்",
+      "gallery": "கேலரி",
+      "camera": "கேமரா"
+    },
+    "verificationDialog": {
+      "title": "உங்கள் மின்னஞ்சலை சரிபார்க்கவும்",
+      "message": "நாங்கள் ஒரு சரிபார்ப்புக் குறியீடு மின்னஞ்சலை அனுப்பியுள்ளோம்",
+      "messageWithEmail": "@:prompt.verificationDialog.message க்கு ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "அறிவிப்புகளை அழிக்கவா?",
+      "clearMessage": "அனைத்து அறிவிப்புகளையும் அழிக்க விரும்புகிறீர்களா என்பது உறுதியாக உள்ளதா?"
+    },
+    "genericDeletePrompt": {
+      "title": "நீங்கள் இந்த ${item: String} ஐ நீக்க விரும்புகிறீர்களா?"
+    },
+    "subscriptionModal": {
+      "title": "சந்தா காலாவதியானது!",
+      "message": "தொடர சந்தா செலுத்துங்கள்."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "@:common.fullName ஐ உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.fullName ஐ உள்ளிடவும்"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "உங்கள் @:common.email ஐ உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.email முகவரியை உள்ளிடவும்",
+        "invalid": "⦸ தவறான மின்னஞ்சல், தயவுசெய்து மீண்டும் முயற்சிக்கவும்"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.password ஐ உள்ளிடவும்",
+        "minLength": "கடவுச்சொல் குறைந்தது ${count} எழுத்துக்களைக் கொண்டிருக்க வேண்டும்!"
+      }
+    },
+    "confirmPassword": {
+      "label": "உறுதிப்படுத்த @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.password ஐ உள்ளிடவும்",
+        "notMatched": "உறுதிப்படுத்திய கடவுச்சொல் பொருந்தவில்லை!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.mobileNumber ஐ உள்ளிடவும்"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "வீட்டு எண் மற்றும் தெருப் பெயர்",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:form.address1.label ஐ உள்ளிடவும்"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "அபார்ட்மெண்ட், சூட், அலகு, முதலியன",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:form.address2.label ஐ உள்ளிடவும்"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "@:common.postalCode ஐ உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.postalCode ஐ உள்ளிடவும்"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "@:common.city பெயரை உள்ளிடவும்.",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.city பெயரை உள்ளிடவும்."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "@:common.state பெயரை உள்ளிடவும்.",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.state பெயரை உள்ளிடவும்."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "@:common.country ஐ தேர்ந்தெடுக்கவும்.",
+      "errors": {
+        "required": "தயவுசெய்து உங்கள் @:common.country ஐ தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "தயவுசெய்து OTP ஐ உள்ளிடவும்.",
+        "invalid": "தயவுசெய்து சரியான OTP ஐ உள்ளிடவும்."
+      }
+    },
+    "title": {
+      "label": "தலைப்பு",
+      "hint": "தலைப்பை உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து தலைப்பை உள்ளிடவும்"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "@:form.date.label ஐ தேர்ந்தெடுக்கவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:form.date.label ஐ தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "reason": {
+      "label": "காரணம்",
+      "hint": "காரணத்தை உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து காரணத்தை உள்ளிடவும்"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "@:common.withdrawMethod ஐ தேர்ந்தெடுக்கவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:common.withdrawMethod ஐ தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "${label: String} ஐ பதிவேற்றவும்",
+      "errors": {
+        "required": "தயவுசெய்து ${label: String} ஐ தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "@:form.note.label ஐ உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:form.note.label ஐ உள்ளிடவும்"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "@:common.gender ஐ தேர்ந்தெடுக்கவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:common.gender ஐ தேர்ந்தெடுக்கவும்"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "@:form.anyField.label ஐ உள்ளிடவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:form.anyField.label ஐ உள்ளிடவும்",
+        "invalid": "தயவுசெய்து சரியான @:form.anyField.label ஐ உள்ளிடவும்"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "@:form.anyDropdown.label ஐ தேர்ந்தெடுக்கவும்",
+      "errors": {
+        "required": "தயவுசெய்து @:form.anyDropdown.label ஐ தேர்ந்தெடுக்கவும்",
+        "invalid": "தயவுசெய்து சரியான @:form.anyDropdown.label ஐ தேர்ந்தெடுக்கவும்"
+      }
+    }
+  },
+  "action": {
+    "next": "அடுத்து",
+    "getStarted": "தொடங்கவும்",
+    "skip": "தவிர்",
+    "select": "தேர்ந்தெடு",
+    "save": "சேமி",
+    "signIn": "உள்நுழைக",
+    "signUp": "பதிவு செய்க",
+    "continue": "தொடரவும்",
+    "clearAll": "அனைத்தையும் அழி",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "அனுப்பு",
+    "pay": "செலுத்து",
+    "remove": "அகற்று",
+    "goBack": "பின்செல்லவும்",
+    "buyNow": "இப்போது வாங்கு",
+    "no": "இல்லை",
+    "open": "திற",
+    "addProperty": "சொத்தைச் சேர்",
+    "process": "செயல்படுத்து",
+    "approve": "அங்கீகரி",
+    "reject": "நிராகரி",
+    "viewRent": "வாடகையைக் காண்க",
+    "openNavigationMenu": "வழிசெலுத்தல் மெனுவைத் திற",
+    "seeAll": "அனைத்தையும் காண்க",
+    "update": "புதுப்பி",
+    "printTransaction": "பரிவர்த்தனையை அச்சிடு",
+    "payoutRequest": "பணம் வழங்கல் கோரிக்கை",
+    "addNew": "+ புதியதைச் சேர்",
+    "sendRequest": "கோரிக்கையை அனுப்பு",
+    "print": "அச்சிடு",
+    "requestForRefund": "பணம் திரும்பக் கோரிக்கை",
+    "previous": "முந்தையது",
+    "delete": "நீக்கு",
+    "applyProperty": "சொத்துக்கு விண்ணப்பி",
+    "viewApplication": "விண்ணப்பத்தைக் காண்க",
+    "inviteTenant": "குத்தகைதாரரை அழை",
+    "inviteRent": "வாடகைக்கு அழை",
+    "cancel": "ரத்துசெய்",
+    "accept": "ஏற்கவும்",
+    "submit": "சமர்ப்பி",
+    "yes": "ஆம்",
+    "okay": "சரி",
+    "confirm": "உறுதிப்படுத்து",
+    "apply": "விண்ணப்பி",
+    "reset": "மீட்டமை",
+    "retry": "மீண்டும் முயற்சி",
+    "viewAll": "அனைத்தையும் காண்க",
+    "addMore": "மேலும் சேர்",
+    "done": "முடிந்தது"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language ஐத் தேர்ந்தெடுக்கவும்"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "உங்கள் சொத்தைக் கண்டுபிடி",
+          "description": "அது ஒரு அறையாக இருந்தாலும், ஒரு அடுக்குமாடி குடியிருப்பாக இருந்தாலும் அல்லது ஒரு வீடாக இருந்தாலும் – உங்கள் வாழ்க்கைக்குப் பொருந்தக்கூடிய இடத்தைக் கண்டுபிடிப்பதை நாங்கள் எளிதாக்கியுள்ளோம்."
+        },
+        "data2": {
+          "title": "நகரத்தில் அபார்ட்மெண்ட்",
+          "description": "அது மறைந்து போவதற்கு முன், சரியான சொத்துடன் உங்களை விரைவாகப் பொருத்துவதன் மூலம் உங்கள் நேரத்தை நாங்கள் மிச்சப்படுத்துகிறோம், இதன் மூலம் நீங்கள் உங்கள் புதிய வீட்டை அனுபவிக்கலாம் அல்லது உங்கள் சொந்த சொத்தை இலவசமாகப் பட்டியலிடலாம்."
+        },
+        "data3": {
+          "title": "உங்கள் வசதியான வீடு",
+          "description": "நீங்கள் வசிப்பதற்கு ஒரு இடத்தைத் தேடுகிறீர்களானால், எங்கள் வாடகை வீடுகளைப் பாருங்கள். நாடு முழுவதும் நீங்கள் தேர்ந்தெடுப்பதற்கு பரந்த அளவிலான வீடுகள் எங்களிடம் உள்ளன."
+        }
+      }
+    },
+    "signIn": {
+      "title": "மீண்டும் வருக",
+      "subtitle": "அற்புதமான பயணத்தைத் தொடங்க இப்போது உள்நுழையவும்.",
+      "extra": {
+        "rememberMe": "என்னை நினைவில் வைத்துக்கொள்",
+        "signUpNavigator(rich)": "கணக்கு இல்லையா? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "கடவுச்சொல்லை மறந்துவிட்டீர்களா",
+      "subtitle": "உங்கள் கடவுச்சொல்லை மீட்டெடுக்க உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்."
+    },
+    "otpVerification": {
+      "title": "சரிபார்ப்பு",
+      "subtitle": "6 இலக்க PIN உங்கள் மின்னஞ்சல் முகவரிக்கு அனுப்பப்பட்டுள்ளது. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "குறியீடு ${minutes}:${seconds} இல் அனுப்பப்பட்டது",
+          "resendCode(rich)": " ${resendCode(மீண்டும் குறியீட்டை அனுப்பு)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "கடவுச்சொல்லை மீட்டமை",
+      "subtitle": "உங்கள் கடவுச்சொல்லை மீட்டமைத்து உங்கள் கணக்கில் உள்நுழையவும்",
+      "extra": {
+        "dialog": {
+          "title": "வெற்றிகரமாக மாற்றப்பட்டது!",
+          "subtitle": "உங்கள் புதிய கடவுச்சொல்லுடன் உள்நுழையவும்.\n உள்நுழைவுக்கு திருப்பி விடுகிறது..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "ஒரு கணக்கை உருவாக்கவும்",
+      "subtitle": "அற்புதமான பயணத்தைத் தொடங்க இப்போது பதிவு செய்க",
+      "extra": {
+        "signInNavigator(rich)": "ஒரு கணக்கு உள்ளதா? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "நீங்கள் யார்?",
+      "subtitle": "கீழே உள்ள விருப்பத்தைத் தேர்ந்தெடுக்கவும்.",
+      "extra": {
+        "landlordTag": "உங்கள் சொந்த சொத்துக்களை நிர்வகிக்கவும்",
+        "tenantTag": "உங்கள் வாடகைக் கணக்கில் உள்நுழைக"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "அறிவிப்புகள்"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "செய்தி..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "நீங்கள் ஏன் @:common.cancelRenting செய்கிறீர்கள்?",
+      "form": {
+        "reason": {
+          "hint": "காரணத்தை எழுது",
+          "errors": {
+            "required": "வாடகை ரத்துக்கான காரணத்தை உள்ளிடவும்"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "ஆஃப்லைன் கட்டணம்",
+      "form": {
+        "paymentNote": {
+          "label": "கட்டணக் குறிப்பு (@:common.optional)",
+          "hint": "சில உரையை உள்ளிடவும்..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "கட்டணத் தொகை: ${amount}",
+        "accountHolderName": "கணக்கு வைத்திருப்பவர் பெயர்",
+        "accountNumber": "கணக்கு எண்",
+        "swiftCode": "ஸ்விஃப்ட் குறியீடு",
+        "branch": "கிளை",
+        "fileTypeHint(rich)": "${fileType(JPG, PNG,PDF)} அல்லது ${fileType(DOC)} வடிவக் கோப்புகளை மட்டுமே தேர்ந்தெடுக்கவும். கோப்பு அளவு ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "விலைப்பட்டியலைக் காண்க",
+        "title": "@:common.thankYou",
+        "description": "நாங்கள் கட்டணத்தை மதிப்பாய்வு செய்து 24 மணி நேரத்திற்குள் அதை அங்கீகரிப்போம்."
+      },
+      "fail": {
+        "actionButton": "மீண்டும் முயற்சி",
+        "title": "ஐயோ! கட்டணம் தோல்வியடைந்தது",
+        "description": "தொழில்நுட்ப பிழை காரணமாக உங்கள் பரிவர்த்தனை தோல்வியடைந்தது."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "அம்சங்கள் ${fa((வசதிகள் மற்றும் அடிப்படை வசதிகள்))}",
+        "selectRentalPeriod": "வாடகை காலத்தைத் தேர்ந்தெடுக்கவும்",
+        "writeAReview": "+ ஒரு விமர்சனம் எழுது"
+      }
+    },
+    "search": {
+      "appbarTitle": "தேடல்",
+      "extra": {
+        "hint": "பகுதிகள், அடுக்குமாடி குடியிருப்புகள், அறைகள்...",
+        "noRecentSearch": "சமீபத்திய தேடல்கள் எதுவும் உங்களிடம் இல்லை."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "உங்கள் திட்டத்தைத் தேர்ந்தெடுக்கவும்",
+      "extra": {
+        "subscriptionPaymentSuccess": "சந்தா கட்டணம் வெற்றிகரமாக முடிந்தது.\nசந்தா செலுத்திய அம்சங்களை இப்போது அணுகலாம்."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "மொத்த பராமரிப்பு செலவு: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "அனைத்து சொத்து",
+      "pending": "நிலுவையில் உள்ளது",
+      "active": "செயலில் உள்ளது",
+      "inactive": "செயலில் இல்லை",
+      "rejected": "நிராகரிக்கப்பட்டது"
+    },
+    "propertyType": {
+      "rent": "வாடகை",
+      "sale": "விற்பனை"
+    },
+    "propertyCategory": {
+      "apartment": "அடுக்குமாடி குடியிருப்பு",
+      "house": "வீடு",
+      "commercial": "வணிகம்",
+      "land": "நிலம்",
+      "room": "அறை",
+      "unitOrFlat": "அலகு / பிளாட்",
+      "bungalow": "பங்களா",
+      "plot": "மனை"
+    },
+    "applicationStatus": {
+      "all": "அனைத்தும்",
+      "pending": "நிலுவையில் உள்ளது",
+      "processing": "செயலாக்கத்தில் உள்ளது",
+      "approved": "அங்கீகரிக்கப்பட்டது",
+      "rejected": "நிராகரிக்கப்பட்டது"
+    },
+    "myRentStatus": {
+      "pending": "நிலுவையில் உள்ளது",
+      "processing": "செயலாக்கத்தில் உள்ளது",
+      "active": "செயலில் உள்ளது",
+      "expired": "காலாவதியானது",
+      "cancelled": "ரத்து செய்யப்பட்டது"
+    },
+    "maintenanceStatus": {
+      "pending": "நிலுவையில் உள்ளது",
+      "processing": "செயலாக்கத்தில் உள்ளது",
+      "rejected": "நிராகரிக்கப்பட்டது",
+      "completed": "பூர்த்தி செய்யப்பட்டது"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "தனிநபர் (தனியார்)",
+      "company": "நிறுவனம்"
+    },
+    "tenantType": {
+      "newTenant": "புதிய குத்தகைதாரர்",
+      "activeTenant": "செயலில் உள்ள குத்தகைதாரர்",
+      "expiredTenant": "காலாவதியான குத்தகைதாரர்"
+    },
+    "paymentStatus": {
+      "all": "அனைத்தும்",
+      "pending": "நிலுவையில் உள்ளது",
+      "paid": "செலுத்தியது",
+      "unpaid": "செலுத்தாதது",
+      "rejected": "நிராகரிக்கப்பட்டது",
+      "refund": "பணம் திரும்பப்பெறுதல்"
+    },
+    "paymentOptions": {
+      "onlinePayment": "ஆன்லைன் கட்டணம்",
+      "offlinePayment": "ஆஃப்லைன் கட்டணம்"
+    },
+    "paymentType": {
+      "securityDeposit": "பாதுகாப்பு வைப்பு",
+      "rentPayment": "வாடகை கட்டணம்",
+      "subscription": "சந்தா"
+    },
+    "gender": {
+      "male": "ஆண்",
+      "female": "பெண்",
+      "other": "மற்றவை"
+    },
+    "ecRelation": {
+      "wife": "மனைவி",
+      "parent": "பெற்றோர்",
+      "friend": "நண்பர்",
+      "brother": "சகோதரர்",
+      "sister": "சகோதரி",
+      "child": "குழந்தை"
+    },
+    "vehicleType": {
+      "car": "கார்",
+      "motorcycles": "மோட்டார் சைக்கிள்கள்",
+      "lorry": "லாரி"
+    },
+    "sortBy": {
+      "lowToHigh": "குறைந்ததில் இருந்து அதிகமானது",
+      "highToLow": "அதிகமானது முதல் குறைந்தது"
+    },
+    "residentialType": {
+      "flat": "பிளாட்",
+      "apartment": "அடுக்குமாடி குடியிருப்பு",
+      "condominium": "கண்டோமினியம்",
+      "serviceResidence": "சேவை குடியிருப்பு",
+      "studio": "ஸ்டுடியோ",
+      "duplex": "டூப்ளக்ஸ்",
+      "townhouseCondo": "டவுன்ஹவுஸ் கண்டோ",
+      "condo": "கண்டோ / சேவை குடியிருப்பு / பென்ட்ஹவுஸ்",
+      "house": "வீடுகள்",
+      "shoplot": "ஷாப்லாட்",
+      "sharing": "வீடு / பிளாட்டைப் பகிர்ந்துகொள்வது",
+      "others": "மற்றவை"
+    },
+    "floorRange": {
+      "high": "உயரம்",
+      "medium": "நடுத்தரம்",
+      "low": "குறைவானது"
+    },
+    "furnishings": {
+      "fullyFurnished": "முழுமையாக தளபாடங்களுடன்",
+      "partiallyFurnished": "பகுதி தளபாடங்களுடன்",
+      "notFurnished": "தளபாடங்கள் இல்லாதது"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "அலுவலக இடம்",
+      "retailSpace": "சில்லறை வணிக இடம்",
+      "shopLot": "கடை லாட்",
+      "warehouseFactory": "கிடங்கு / தொழிற்சாலை",
+      "hotelResort": "ஹோட்டல் / ரிசார்ட்",
+      "sofo": "சோஃபோ",
+      "soho": "சோஹோ",
+      "sovo": "ஸோவோ",
+      "others": "மற்றவை"
+    },
+    "landPropertyType": {
+      "residential": "குடியிருப்பு",
+      "industrial": "தொழில்துறை",
+      "agricultural": "விவசாயம்",
+      "commercial": "வணிகம்",
+      "mixedDevelopment": "கலப்பு மேம்பாடு",
+      "others": "மற்றவை"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 மாதங்கள்",
+      "oneYear": "1 வருடம்",
+      "oneAndHalfYears": "1.5 வருடங்கள்",
+      "twoYears": "2 வருடங்கள்",
+      "twoAndHalfYears": "2.5 வருடங்கள்"
+    },
+    "dropdownDateFilter": {
+      "daily": "தினசரி",
+      "weekly": "வாராந்திர",
+      "monthly": "மாதாந்திர",
+      "yearly": "ஆண்டுதோறும்",
+      "custom": "விருப்பப்படி"
+    },
+    "bungalowType": {
+      "modern": "நவீன",
+      "cottage": "குடிசை",
+      "luxury": "ஆடம்பர",
+      "ecoSmart": "சுற்றுச்சூழல் / ஸ்மார்ட்",
+      "beachSide": "கடற்கரை ஓரம்",
+      "others": "மற்றவை"
+    }
+  }
+}

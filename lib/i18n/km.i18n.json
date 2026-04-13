@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "km_KH",
+    "languageName": "English",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "ប្រវត្តិរូប",
+    "language": "ភាសា",
+    "subscriptionPlan": "ផែនការជាវ",
+    "contactUs": "ទាក់ទងយើង",
+    "termsAndConditions": "លក្ខខណ្ឌ",
+    "aboutUs": "អំពីយើង",
+    "logout": "ចេញ",
+    "editProfile": "កែប្រែប្រវត្តិរូប",
+    "fullName": "ឈ្មោះពេញ",
+    "email": "អ៊ីមែល",
+    "mobileNumber": "លេខទូរស័ព្ទ",
+    "address": "អាសយដ្ឋាន",
+    "postalCode": "លេខកូដប្រៃសណីយ៍",
+    "city": "ទីក្រុង",
+    "country": "ប្រទេស",
+    "state": "រដ្ឋ/ខេត្ត",
+    "password": "ពាក្យសម្ងាត់",
+    "forgotPassword": "ភ្លេចពាក្យសម្ងាត់",
+    "tenant": "អ្នកជួល",
+    "landlord": "ម្ចាស់ផ្ទះ",
+    "cancelRenting": "លុបចោលការជួល",
+    "startDate": "ថ្ងៃចាប់ផ្តើម",
+    "endDate": "ថ្ងៃបញ្ចប់",
+    "fromDate": "ពីថ្ងៃ",
+    "toDate": "ដល់ថ្ងៃ",
+    "online": "លើអ៊ីនធឺណិត",
+    "bankList": "បញ្ជីធនាគារ",
+    "withdrawMethod": "វិធីសាស្រ្តដកប្រាក់",
+    "uploadPaymentReceipt": "ផ្ទុករូបភាពវិក័យប័ត្រទូទាត់",
+    "offlinePaymentNote(rich)": "ចំណាំ: ${note(ការទូទាត់ទាមទារការអនុម័តដោយដៃពីអ្នកគ្រប់គ្រងក្នុងរយៈពេល)} ${duraion(24~48 ម៉ោង។)}",
+    "reviews": "ការវាយតម្លៃ",
+    "description": "ការពិពណ៌នា",
+    "about": "អំពី",
+    "propertyTypes": "ប្រភេទអចលនទ្រព្យ",
+    "features": "លក្ខណៈពិសេស",
+    "floorPlans": "ប្លង់ជាន់",
+    "buildingDetails": "ព័ត៌មានលម្អិតអគារ",
+    "buildingName": "ឈ្មោះអគារ",
+    "propertyAddress": "អាសយដ្ឋានអចលនទ្រព្យ",
+    "completionYear": "ឆ្នាំបញ្ចប់",
+    "lotNumber": "លេខឡូត៍",
+    "residentialType": "ប្រភេទលំនៅដ្ឋាន",
+    "furnishings": "គ្រឿងសង្ហារឹម",
+    "floorRange": "ចន្លោះជាន់",
+    "bedrooms": "បន្ទប់គេង",
+    "bathrooms": "បន្ទប់ទឹក",
+    "propertySize": "ទំហំអចលនទ្រព្យ",
+    "rentalPeriod": "រយៈពេលជួល",
+    "securityDeposit": "ប្រាក់កក់សុវត្ថិភាព",
+    "utilityBill": "វិក័យប័ត្រអគ្គិសនី/ទឹក",
+    "facilities": "គ្រឿងបរិក្ខារ",
+    "amenities": "ភាពងាយស្រួល",
+    "expiringReason": "មូលហេតុផុតកំណត់",
+    "tenantDetails": "ព័ត៌មានលម្អិតអ្នកជួល",
+    "typeOfTenant": "ប្រភេទអ្នកជួល",
+    "tenantName": "ឈ្មោះអ្នកជួល",
+    "nidPassport": "អត្តសញ្ញាណប័ណ្ណ/លិខិតឆ្លងដែន",
+    "nidPassportId": "@:common.nidPassport លេខសំគាល់",
+    "tenantId": "លេខសំគាល់អ្នកជួល",
+    "dateOfBirth": "ថ្ងៃខែឆ្នាំកំណើត",
+    "gender": "ភេទ",
+    "nominee": "អ្នកត្រូវបានតែងតាំង",
+    "name": "ឈ្មោះ",
+    "optional": "ស្រេចចិត្ត",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee លេខទូរស័ព្ទ (Mo. No.)",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "ទំនាក់ទំនងបន្ទាន់",
+    "relation": "ទំនាក់ទំនង",
+    "relationWith": "@:common.relation ជាមួយ",
+    "relationWithYou": "@:common.relationWith អ្នក",
+    "company": "ក្រុមហ៊ុន",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company លេខ SSM",
+    "workplace": "កន្លែងធ្វើការ",
+    "officePhoneNo": "លេខទូរស័ព្ទការិយាល័យ",
+    "officeMobileNo": "ការិយាល័យ @:common.mobileNumber",
+    "vehicle": "យានយន្ត",
+    "vehiclesInfo": {
+      "plain": "ព័ត៌មានយានយន្ត",
+      "optional": "ព័ត៌មានយានយន្ត (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle ប្រភេទ",
+    "vehicleRegistrationNo": {
+      "normal": "លេខចុះបញ្ជីយានយន្ត",
+      "short": "លេខចុះបញ្ជី",
+      "alt": "លេខផ្លាក"
+    },
+    "vehicleBrand": "@:common.vehicle ម៉ាក",
+    "rentProperty": "ជួលអចលនទ្រព្យ",
+    "propertyDetails": "ព័ត៌មានលម្អិតអចលនទ្រព្យ",
+    "propertyId": "លេខសំគាល់អចលនទ្រព្យ",
+    "propertyType": "ប្រភេទអចលនទ្រព្យ",
+    "propertyName": "ឈ្មោះអចលនទ្រព្យ",
+    "paymentDetails": "ព័ត៌មានលម្អិតទូទាត់",
+    "monthlyRent": "ថ្លៃជួលប្រចាំខែ",
+    "thisMonthPayment": "ការទូទាត់ខែនេះ",
+    "totalPaidRent": "ថ្លៃជួលដែលបានទូទាត់សរុប",
+    "dueRent": "ថ្លៃជួលជំពាក់",
+    "rentStartDate": "ជួល @:common.startDate",
+    "rentEndDate": "ជួល @:common.endDate",
+    "status": "ស្ថានភាព",
+    "rentAgreementPdf": "កិច្ចសន្យាជួល PDF",
+    "noFile": "គ្មានឯកសារ",
+    "tenantImageOp": "រូបភាពអ្នកជួល @:common.optional",
+    "addNewVechicle": "បន្ថែមយានយន្តថ្មី",
+    "uploadNidPassport": "ផ្ទុកអត្តសញ្ញាណប័ណ្ណ/លិខិតឆ្លងដែន",
+    "nidPassportUploadNote": "ទទួលយកតែឯកសារប្រភេទរូបភាពប៉ុណ្ណោះ។ កម្រិតឯកសាររហូតដល់ 2.5 មេកាបៃ។",
+    "search": "ស្វែងរក",
+    "sortBy": "តម្រៀបតាម",
+    "subscription": "ការជាវ",
+    "downloading": "កំពុងទាញយក...",
+    "downloadSuccess": "ទាញយកឯកសារបានជោគជ័យ!",
+    "addPropertyBannerTitle": "កំពុងស្វែងរកការជួលអចលនទ្រព្យរបស់អ្នក?",
+    "application": "ពាក្យស្នើសុំ",
+    "tenantHasPaidDeposit": "អ្នកជួលបានបង់ប្រាក់កក់។",
+    "askProcessingRentApplication": "តើអ្នកប្រាកដក្នុងការដំណើរការសំណើនេះសម្រាប់ការជួលអចលនទ្រព្យមែនទេ?",
+    "dateAndTime": "កាលបរិច្ឆេទ & ពេលវេលា",
+    "applicationDetails": "ព័ត៌មានលម្អិតពាក្យស្នើសុំ",
+    "depositStatus": "ស្ថានភាពប្រាក់កក់",
+    "uploadRentAgreement": "ផ្ទុកកិច្ចសន្យាជួល",
+    "uploadFilePDF": "ផ្ទុកឯកសារ (PDF)",
+    "askSelectRentAgreement": "សូមជ្រើសរើសឯកសារកិច្ចសន្យាជួល។",
+    "landlordRentAgreementPDF": "កិច្ចសន្យាជួលម្ចាស់ផ្ទះ PDF",
+    "tenantRentAgreementPDF": "កិច្ចសន្យាជួលអ្នកជួល PDF",
+    "landlordApplicationApproveNote(rich)": "ចំណាំ: ${note(អនុម័តពាក្យស្នើសុំបានតែបន្ទាប់ពីអ្នកជួលធ្វើការទូទាត់ប្រាក់កក់ប៉ុណ្ណោះ។)}",
+    "reasonOfRejection": "មូលហេតុនៃការបដិសេធ",
+    "youveRejectedThisApplication": "អ្នកបានបដិសេធពាក្យស្នើសុំនេះហើយ",
+    "landlordDetails": "ព័ត៌មានលម្អិតម្ចាស់ផ្ទះ",
+    "landlordName": "ឈ្មោះម្ចាស់ផ្ទះ",
+    "downloadRentAgreement": "ទាញយកកិច្ចសន្យាជួល",
+    "acceptTermsConditions(rich)": "ទទួលយក ${toc(លក្ខខណ្ឌ)}",
+    "tenantAgreementSignNote1(rich)": "ចំណាំ: ${note(សូមទាញយកនិងអានកិច្ចសន្យា។ សូមផ្ញើកិច្ចសន្យាដែលបានចុះហត្ថលេខាទៅម្ចាស់ផ្ទះតាមរយៈ WhatsApp ឬអ៊ីមែល។)}",
+    "tenantAgreementSignNote2(rich)": "ចំណាំ: ${note(ម្ចាស់ផ្ទះអនុម័តពាក្យស្នើសុំនៅពេលដែលអ្នកជួលបានបង់ប្រាក់កក់សុវត្ថិភាព ឧបករណ៍ប្រើប្រាស់ និងការទូទាត់ថ្លៃជួលជាមុនមួយខែ។)}",
+    "completeRentAgreementPdf(rich)": "កិច្ចសន្យាជួល (PDF) ${complete(កិច្ចសន្យាពេញលេញ)}",
+    "tenantApplicationDepositNote(rich)": "ចំណាំ : ${note(ម្ចាស់ផ្ទះអនុម័តពាក្យស្នើសុំនៅពេលដែលអ្នកជួលបានបង់ប្រាក់កក់សុវត្ថិភាព ឧបករណ៍ប្រើប្រាស់ និងការទូទាត់ថ្លៃជួលជាមុនមួយខែ។)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "បញ្ជីពាក្យស្នើសុំ",
+    "viewDetails": "មើលព័ត៌មានលម្អិត",
+    "searchHint": "@:common.search...",
+    "home": "ទំព័រដើម",
+    "dashboard": "ផ្ទាំងគ្រប់គ្រង",
+    "tenants": "អ្នកជួល",
+    "maintenance": "ការថែទាំ",
+    "maintenanceList": "បញ្ជីការថែទាំ",
+    "maintenanceReport": "របាយការណ៍ការថែទាំ",
+    "labor": "កម្មករ",
+    "applications": "ពាក្យស្នើសុំ",
+    "rentInvitation": "ការអញ្ជើញជួល",
+    "payment": "ការទូទាត់",
+    "rentPayment": "ការទូទាត់ថ្លៃជួល",
+    "depositUtilityPayment": "ការទូទាត់ប្រាក់កក់ និងឧបករណ៍ប្រើប្រាស់",
+    "refundRequest": "សំណើរសុំបង្វិលសង",
+    "withdrawRequest": "សំណើរសុំដកប្រាក់",
+    "myProperty": "អចលនទ្រព្យរបស់ខ្ញុំ",
+    "myRent": "ការជួលរបស់ខ្ញុំ",
+    "wishlist": "បញ្ជីដែលចង់បាន",
+    "properties": "អចលនទ្រព្យ",
+    "allProperties": "អចលនទ្រព្យទាំងអស់",
+    "totalPropery": "អចលនទ្រព្យសរុប",
+    "occupied": "មានអ្នកជួល",
+    "vacant": "ទំនេរ",
+    "accounting": "គណនេយ្យ",
+    "totalIncome": "ចំណូលសរុប",
+    "totalExpense": "ចំណាយសរុប",
+    "currentBalance": "សមតុល្យបច្ចុប្បន្ន",
+    "totalWithdrawal": "ការដកប្រាក់សរុប",
+    "totalProperties": "អចលនទ្រព្យសរុប",
+    "totalTenant": "អ្នកជួលសរុប",
+    "totalRentPaid": "ថ្លៃជួលបានទូទាត់សរុប",
+    "totalRentDue": "ថ្លៃជួលជំពាក់សរុប",
+    "totalApplication": "ពាក្យស្នើសុំសរុប",
+    "pendingApplication": "ពាក្យស្នើសុំរង់ចាំ",
+    "processingApplication": "ពាក្យស្នើសុំកំពុងដំណើរការ",
+    "approveApplication": "អនុម័តពាក្យស្នើសុំ",
+    "rejectApplication": "បដិសេធពាក្យស្នើសុំ",
+    "maintenanceCost": "តម្លៃថែទាំ",
+    "transactionSummary": "សេចក្តីសង្ខេបប្រតិបត្តិការ",
+    "maintenanceRequest": "សំណើរសុំការថែទាំ",
+    "notifications": "ការជូនដំណឹង",
+    "myProperties": "អចលនទ្រព្យរបស់ខ្ញុំ",
+    "recommendationProperties": "អចលនទ្រព្យណែនាំ",
+    "laborList": "បញ្ជីកម្មករ",
+    "addLabor": "បន្ថែមកម្មករ",
+    "laborDetails": "ព័ត៌មានលម្អិតកម្មករ",
+    "laborSalary": "ប្រាក់ខែកម្មករ",
+    "editLabor": "កែប្រែកម្មករ",
+    "addNewLabor": "បន្ថែមកម្មករថ្មី",
+    "enterAmount": "បញ្ចូលចំនួនទឹកប្រាក់",
+    "maintenanceDetails": "ព័ត៌មានលម្អិតការថែទាំ",
+    "laborName": "ឈ្មោះកម្មករ",
+    "comment": "មតិយោបល់",
+    "image": "រូបភាព",
+    "complete": "បានបញ្ចប់",
+    "details": "ព័ត៌មានលម្អិត",
+    "title": "ចំណងជើង",
+    "date": "កាលបរិច្ឆេទ",
+    "reason": "មូលហេតុ",
+    "edit": "កែប្រែ",
+    "property": "អចលនទ្រព្យ",
+    "completeYourProfile": "បំពេញប្រវត្តិរូបរបស់អ្នក",
+    "profileImage": "រូបភាពប្រវត្តិរូប",
+    "imagePickHint": "រូបភាព JPEG & PNG តែប៉ុណ្ណោះ ដែលមានទំហំអតិបរមា 120x120 ភីកសែល។",
+    "invoiceId": "លេខសំគាល់វិក័យប័ត្រ",
+    "depositAmount": "ចំនួនប្រាក់កក់",
+    "landlordPhone": "ទូរស័ព្ទម្ចាស់ផ្ទះ",
+    "rentalAdvance": "ថ្លៃជួល (ជាមុន)",
+    "totalAmount": "ចំនួនទឹកប្រាក់សរុប",
+    "rentAmount": "ចំនួនថ្លៃជួល",
+    "adminCharge": "ថ្លៃសេវាអ្នកគ្រប់គ្រង",
+    "editAccount": "កែប្រែគណនី",
+    "addNewAccount": "បន្ថែមគណនីថ្មី",
+    "transactionId": "លេខសំគាល់ប្រតិបត្តិការ",
+    "transactionType": "ប្រភេទប្រតិបត្តិការ",
+    "requestDate": "ថ្ងៃស្នើសុំ",
+    "amount": "ចំនួនទឹកប្រាក់",
+    "fee": "ថ្លៃសេវា",
+    "paymentStatus": "ស្ថានភាពទូទាត់",
+    "generatedTime": "ពេលវេលាបង្កើត",
+    "systemGeneratedReportHint(rich)": "នេះគឺជាការបង្កើតរបាយការណ៍ដោយប្រព័ន្ធរបស់ ${appName}",
+    "withdrawHistory": "ប្រវត្តិដកប្រាក់",
+    "history": "ប្រវត្តិ",
+    "withdrawAmount": "ចំនួនទឹកប្រាក់ដក",
+    "availableBalance": "សមតុល្យដែលអាចប្រើបាន",
+    "withdrawCharge": "ថ្លៃសេវាដកប្រាក់",
+    "paymentMethod": "វិធីសាស្រ្តទូទាត់",
+    "requestSendSuccess": "បានផ្ញើសំណើរដោយជោគជ័យ!",
+    "paymentReceiptSubmitSuccess": "បានដាក់វិក័យប័ត្រទូទាត់ដោយជោគជ័យ។",
+    "refundReason": "មូលហេតុបង្វិលសង",
+    "note": "ចំណាំ",
+    "refundReceiveSuccess": "ទទួលបានការបង្វិលសងវិញដោយជោគជ័យ។",
+    "downloadPaymentReceipt": "ទាញយកវិក័យប័ត្រទូទាត់",
+    "invoice": "វិក័យប័ត្រ",
+    "selectPropertyToSeeInvoice": "ជ្រើសរើសអចលនទ្រព្យដើម្បីមើលលេខវិក័យប័ត្រ...",
+    "bankAccName": "ឈ្មោះគណនីធនាគារ",
+    "bankName": "ឈ្មោះធនាគារ",
+    "bankAccNum": "លេខគណនីធនាគារ",
+    "thankYou": "សូមអរគុណ!",
+    "basicInfo": "ព័ត៌មានមូលដ្ឋាន",
+    "descriptionPricing": "ការពិពណ៌នា និងតម្លៃ",
+    "contact": "ទំនាក់ទំនង",
+    "photos": "រូបថត",
+    "successfullySubmitted": "បានដាក់ស្នើដោយជោគជ័យ!",
+    "editProperty": "កែប្រែអចលនទ្រព្យ",
+    "addNewProperty": "បន្ថែមអចលនទ្រព្យថ្មី",
+    "propertyManageRequestSuccess": "ការផ្សាយពាណិជ្ជកម្មរបស់អ្នកត្រូវបានដាក់ស្នើសម្រាប់ការពិនិត្យ។",
+    "postAnotherProperty": "បង្ហោះអចលនទ្រព្យមួយផ្សេងទៀត",
+    "browseYourProperty": "រកមើលអចលនទ្រព្យរបស់អ្នក",
+    "stepIndicator(rich)": "ជំហាន ${step} នៃ ${totalSteps}",
+    "whatWouldYouLikeToPost": "តើអ្នកចង់បង្ហោះអ្វី?",
+    "category": "ប្រភេទ",
+    "invalidCategory": "ប្រភេទមិនត្រឹមត្រូវ",
+    "unitNumber": "លេខឯកតា",
+    "sqft": "ម៉ែត្រការ៉េ (sq.ft.)",
+    "propertySizeMustBeGreaterThan0": "ទំហំអចលនទ្រព្យគួរតែធំជាងសូន្យ",
+    "whatAreTheFacility": "តើមានគ្រឿងបរិក្ខារអ្វីខ្លះ?",
+    "whatAreTheAmenity": "តើមានភាពងាយស្រួលអ្វីខ្លះ?",
+    "parkingLot": "ចំណតរថយន្ត",
+    "houseType": "ប្រភេទផ្ទះ",
+    "value": "តម្លៃ",
+    "unitLotSize": "ឯកតា / ទំហំឡូត៍",
+    "landSize": "ទំហំដី",
+    "acres": "ហិចតា(s)",
+    "roomSize": "ទំហំបន្ទប់",
+    "askTenantPreference": "តើអ្វីជាចំណង់ចំណូលចិត្តរបស់អ្នកជួល?",
+    "couple": "គូស្នេហ៍",
+    "describeTheProperty": "ពិពណ៌នាអំពី ${propertyType: String}",
+    "adTitle": "ចំណងជើងផ្សាយពាណិជ្ជកម្ម",
+    "minimumRentalPeriod": "រយៈពេលជួលអប្បបរមា",
+    "whatsappNumber": "@:common.whatsapp លេខ",
+    "hideOrDisplayEmail": "លាក់ ឬបង្ហាញអាសយដ្ឋានអ៊ីមែល",
+    "thankYouForPostingProperty": "សូមអរគុណសម្រាប់ការបង្ហោះនៅលើ ${appName: String}!",
+    "propertyList": "បញ្ជីអចលនទ្រព្យ",
+    "newInviteRent": "ការអញ្ជើញជួលថ្មី",
+    "rentAgreement": "កិច្ចសន្យាជួល",
+    "rentDetails": "ព័ត៌មានលម្អិតការជួល",
+    "landlordRentInvitationPendingNote(rich)": "ចំណាំ: ${note(សូមរង់ចាំឱ្យអ្នកជួលទទួលយកការអញ្ជើញ។)}",
+    "rent": "ជួល",
+    "editTenant": "កែប្រែអ្នកជួល",
+    "addNewTenant": "បន្ថែមអ្នកជួលថ្មី",
+    "shareInstallLink": "ចែករំលែកតំណដំឡើង",
+    "tenantList": "បញ្ជីអ្នកជួល",
+    "editMaintenanceRequest": "កែប្រែសំណើរសុំការថែទាំ",
+    "addNewMaintenance": "បន្ថែមការថែទាំថ្មី",
+    "landlordId": "លេខសំគាល់ម្ចាស់ផ្ទះ",
+    "tenantAgrementUnderReviewNote(rich)": "ចំណាំ ${note(កិច្ចសន្យារបស់អ្នកកំពុងស្ថិតក្រោមការពិនិត្យ។ សូមរង់ចាំរហូតដល់ម្ចាស់ផ្ទះអនុម័តការជួលរបស់អ្នក។)}",
+    "editReview": "កែប្រែការវាយតម្លៃ",
+    "writeAReview": "សរសេរការវាយតម្លៃ",
+    "selectRating": "ជ្រើសរើសចំណាត់ថ្នាក់",
+    "enterYourOpinion": "បញ្ចូលមតិរបស់អ្នក",
+    "askToEnterReviewMsg": "សូមបញ្ចូលសារវាយតម្លៃ",
+    "pressBackAgainToExit": "ចុចត្រលប់មកវិញម្តងទៀតដើម្បីចេញ។",
+    "selectPaymentMethod": "ជ្រើសរើសវិធីសាស្រ្តទូទាត់",
+    "filter": "តម្រង",
+    "perMonth": "/1 ខែ",
+    "searchHintWithAppName": "ស្វែងរកអ្វីទាំងអស់នៅក្នុង ${appName: String}...",
+    "propertyInfo": "ព័ត៌មានអចលនទ្រព្យ",
+    "units": "ឯកតា",
+    "depositPeriod": "រយៈពេលដាក់ប្រាក់កក់",
+    "facilitiesList": "បញ្ជីគ្រឿងបរិក្ខារ",
+    "facility": "គ្រឿងបរិក្ខារ",
+    "amenity": "ភាពងាយស្រួល",
+    "amenitiesList": "បញ្ជីភាពងាយស្រួល",
+    "addNewFacility": "បន្ថែមគ្រឿងបរិក្ខារថ្មី",
+    "editFacility": "កែប្រែគ្រឿងបរិក្ខារ",
+    "facilityName": "ឈ្មោះគ្រឿងបរិក្ខារ",
+    "amenityName": "ឈ្មោះភាពងាយស្រួល",
+    "addNewAmenity": "បន្ថែមភាពងាយស្រួលថ្មី",
+    "editAmenity": "កែប្រែភាពងាយស្រួល",
+    "family": "គ្រួសារ",
+    "lateFee": "ថ្លៃយឺតយ៉ាវ",
+    "lateFeeAfterDays": "@:common.lateFee បន្ទាប់ពី (ថ្ងៃ)",
+    "propertyPricing": "តម្លៃ ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "សូមអរគុណច្រើនដែលអ្នកទើបតែបានផ្សព្វផ្សាយអចលនទ្រព្យរបស់អ្នក",
+    "titleAndDescription": "ចំណងជើង និងការពិពណ៌នា",
+    "rentPricing": "តម្លៃជួល",
+    "step": "ជំហាន",
+    "of": "នៃ",
+    "pricing": "តម្លៃ",
+    "sameRentForAllUnit": "ថ្លៃជួលដូចគ្នាសម្រាប់គ្រប់ឯកតា",
+    "unit": "ឯកតា",
+    "pleaseSelectAnUnitFirst": "សូមជ្រើសរើសឯកតាសិន។",
+    "saleAmount": "ចំនួនលក់",
+    "selectCategory": "ជ្រើសរើសប្រភេទ",
+    "pleaseSelectACategory": "សូមជ្រើសរើសប្រភេទមួយ",
+    "pleaseEnterAdTitle": "សូមបញ្ចូលចំណងជើងផ្សាយពាណិជ្ជកម្ម",
+    "addCoverPhoto": "បន្ថែមរូបថតគម្រប",
+    "findAProperty": "ស្វែងរកអចលនទ្រព្យ",
+    "categories": "ប្រភេទ",
+    "recmmendedProperties": "អចលនទ្រព្យដែលបានណែនាំ",
+    "recentSearch": "ការស្វែងរកថ្មីៗ",
+    "pleaseEnterYourAccountNumber": "សូមបញ្ចូលលេខគណនីរបស់អ្នក។",
+    "pleaseSelectALanguageToContinue": "សូមជ្រើសរើសភាសាដើម្បីបន្ត។",
+    "subscribe": "ជាវ",
+    "noFacilitiesFound": "មិនមានគ្រឿងបរិក្ខារត្រូវបានរកឃើញទេ!",
+    "invalidLaborDetailsPleaseTryAgain": "ព័ត៌មានលម្អិតកម្មករមិនត្រឹមត្រូវ សូមព្យាយាមម្តងទៀត",
+    "maintenanceWork": "ការងារថែទាំ",
+    "selectLabor": "ជ្រើសរើសកម្មករ",
+    "enterMaintenanceCost": "បញ្ចូលតម្លៃថែទាំ",
+    "pleaseEnterMaintenanceCost": "សូមបញ្ចូលតម្លៃថែទាំ",
+    "writeComment": "សរសេរមតិយោបល់",
+    "maintenancePending": "ការថែទាំកំពុងរង់ចាំ",
+    "yourEarnings": "ចំណូលរបស់អ្នក",
+    "totalPaid": "សរុបបានបង់",
+    "linkANewBankAccount": "ភ្ជាប់គណនីធនាគារថ្មី",
+    "payoutRequest": "សំណើរសុំទូទាត់"
+  },
+  "exceptions": {
+    "somethingWentWrong": "មានអ្វីមួយខុសប្រក្រតី សូមព្យាយាមម្តងទៀត",
+    "noNidPassport": "មិនមានរូបភាពអត្តសញ្ញាណប័ណ្ណ/លិខិតឆ្លងដែនត្រូវបានផ្តល់ទេ។",
+    "noRentPropertyFound": "មិនមានអចលនទ្រព្យជួលត្រូវបានរកឃើញសម្រាប់អ្នកជួលនេះទេ។",
+    "noPropertyFoundWithKeyWord": "មិនមានអចលនទ្រព្យត្រូវបានរកឃើញ!\nសូមព្យាយាមដោយប្រើពាក្យគន្លឹះផ្សេងទៀត",
+    "noSubscriptionFoundRefreshPage": "មិនមានផែនការជាវត្រូវបានរកឃើញទេ!\nសូមផ្ទុកទំព័រឡើងវិញហើយព្យាយាមម្តងទៀត។",
+    "invalidApiDataRefreshPage": "ព័ត៌មាន ${dataType: String} មិនត្រឹមត្រូវ! សូមផ្ទុកទំព័រឡើងវិញហើយព្យាយាមម្តងទៀត។",
+    "invalidDownloadUrl": "តំណទាញយកមិនត្រឹមត្រូវ!",
+    "failedToSaveFile": "បរាជ័យក្នុងការរក្សាទុកឯកសារ! ${error: String}",
+    "errorOpeningFile": "មានកំហុសក្នុងការបើកឯកសារ! ${error: String}",
+    "noVehicleInfoProvided": "មិនមានព័ត៌មានយានយន្តត្រូវបានផ្តល់ទេ។",
+    "yourApplicationRejected": "ពាក្យស្នើសុំរបស់អ្នកត្រូវបានបដិសេធ",
+    "noApplicationFoundHint": {
+      "template": "មិនមានពាក្យស្នើសុំត្រូវបានរកឃើញទេ!\n${subject: String} នឹងត្រូវបានបង្ហាញនៅទីនេះនៅពេលមាន។",
+      "subjects": {
+        "tenant": "ពាក្យស្នើសុំរបស់អ្នក",
+        "landlord": "ពាក្យស្នើសុំរបស់អ្នកជួល"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "មិនមានអចលនទ្រព្យត្រូវបានរកឃើញទេ!\nសូមព្យាយាមបន្ថែមអចលនទ្រព្យដើម្បីមើលនៅទីនេះ។",
+      "tenantRecommended": "មិនមានអចលនទ្រព្យដែលបានណែនាំត្រូវបានរកឃើញទេ\nសូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
+      "tenantAllProperty": "អចលនទ្រព្យមិនមានទេ\nសូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។"
+    },
+    "noImageProvided": "មិនមានរូបភាពត្រូវបានផ្តល់",
+    "noStatusMaintenantFound": {
+      "landlord": "មិនមានការថែទាំ ${status} ត្រូវបានរកឃើញទេ។",
+      "tenant": "មិនមានការថែទាំត្រូវបានរកឃើញទេ! អ្នកអាចបង្កើតសំណើរសុំការថែទាំដើម្បីមើលនៅទីនេះ។"
+    },
+    "noDepositFound": "មិនមានប្រាក់កក់សុវត្ថិភាពត្រូវបានរកឃើញទេ!\nអ្នកអាចមើលប្រាក់កក់សុវត្ថិភាពនៅពេលមាន",
+    "noRentPaymentFound": "មិនមានការទូទាត់ថ្លៃជួលត្រូវបានរកឃើញទេ!\nអ្នកអាចមើលការទូទាត់ថ្លៃជួលនៅពេលមាន",
+    "transactionSummaryApiException": "បរាជ័យក្នុងការទទួលបានសេចក្តីសង្ខេបប្រតិបត្តិការ។",
+    "noWithdrawRequestFound": "មិនមានសំណើរត្រូវបានរកឃើញទេ!\nសូមព្យាយាមបង្កើតសំណើរសុំដកប្រាក់ដើម្បីមើលនៅទីនេះ។",
+    "withdrawRequestNotApproved": "សំណើរសុំដកប្រាក់នេះមិនទាន់ត្រូវបានអនុម័តទេ។",
+    "nonZeroError": "សូមបញ្ចូលចំនួនទឹកប្រាក់ត្រឹមត្រូវដែលធំជាងសូន្យ។",
+    "minAmountError": "ចំនួនទឹកប្រាក់ត្រូវតែមានយ៉ាងហោចណាស់ ${minValue: String}។",
+    "maxAmountError": "ចំនួនទឹកប្រាក់មិនត្រូវលើសពី ${maxValue: String} ទេ។",
+    "selectPaymentMethodHint": "សូមជ្រើសរើសវិធីសាស្រ្តទូទាត់សិន។",
+    "noStatusRefundReqFound": {
+      "landlord": "មិនមានសំណើរសុំបង្វិលសង ${status} ត្រូវបានរកឃើញទេ!\nអ្នកអាចមើលសំណើរសុំបង្វិលសងនៅទីនេះនៅពេលមាន។",
+      "tenant": "មិនមានសំណើរសុំបង្វិលសងត្រូវបានរកឃើញទេ!\nអ្នកអាចបង្កើតសំណើរសុំបង្វិលសងដើម្បីមើលនៅទីនេះ។"
+    },
+    "refundRequestHint": {
+      "inTenantList": "អ្នកជួលនឹងអនុម័តការបង្វិលសងនៅពេលដែលគាត់បានទទួលប្រាក់មកវិញ",
+      "tenantReqSuccess": "យើងនឹងពិនិត្យមើលសំណើរសុំបង្វិលសង & អនុម័តវាក្នុងរយៈពេល ២៤ ម៉ោង។"
+    },
+    "oneToTenRequiredField": "សូមជ្រើសរើសចំនួន ${value: String}",
+    "invalidDateRange": "ចន្លោះកាលបរិច្ឆេទមិនត្រឹមត្រូវ។",
+    "valueMustBeGreaterThanZero": "${value: String} ត្រូវតែធំជាងសូន្យ។",
+    "editProperty": {
+      "rentalChange": "អចលនទ្រព្យជួលកំពុងផ្លាស់ប្តូរ។ វាត្រូវតែមានសុពលភាព (មានប្រសិទ្ធភាព) សម្រាប់ការទូទាត់ថ្លៃជួលខែបន្ទាប់តែប៉ុណ្ណោះ។",
+      "deleteOnRent": "អចលនទ្រព្យរបស់អ្នកត្រូវបានជួលដោយអ្នកជួលរួចហើយ។ មិនអាចលុបវាបានទេរហូតដល់ដកអ្នកជួលចេញសិន",
+      "alreayRented": "អចលនទ្រព្យនេះត្រូវបានជួលរួចហើយ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។\nឬអ្នកអាចទាក់ទងម្ចាស់ផ្ទះសម្រាប់ព័ត៌មានបន្ថែម។"
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "មិនមានការអញ្ជើញជួលត្រូវបានរកឃើញទេ!\nសូមព្យាយាមបង្កើតការអញ្ជើញជួលដើម្បីមើលនៅទីនេះ។",
+      "tenantNoRentInvitation": "មិនមានការអញ្ជើញជួលត្រូវបានរកឃើញទេ!\nអ្នកអាចមើលការអញ្ជើញជួលនៅទីនេះនៅពេលមាន។"
+    },
+    "notenantFoundList": "មិនមានអ្នកជួលទេ!\nសូមព្យាយាមបន្ថែមអ្នកជួលដើម្បីមើលនៅទីនេះ។",
+    "noFeaturesProvided": "មិនមានលក្ខណៈពិសេសត្រូវបានផ្តល់ទេ។",
+    "noNotificationFound": "មិនមានការជូនដំណឹងទេ។\nអ្នកអាចមើលការជូនដំណឹងរបស់អ្នកនៅទីនេះនៅពេលមាន។",
+    "noFacilitiesFound": "មិនមានគ្រឿងបរិក្ខារត្រូវបានរកឃើញទេ។",
+    "noAmenitiesFound": "មិនមានភាពងាយស្រួលត្រូវបានរកឃើញទេ!",
+    "noLaborFound": "មិនមានកម្មករត្រូវបានរកឃើញទេ\\nសូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។",
+    "areYouSureYouWantToRemoveThisUnit": "តើអ្នកប្រាកដថាចង់ដកឯកតានេះចេញទេ?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "តើអ្នកប្រាកដថាចង់ចេញទេ?"
+    },
+    "application": {
+      "rejectTitle": "ហេតុអ្វីបានជាអ្នកបដិសេធពាក្យស្នើសុំនេះ?",
+      "applicationSent": {
+        "successfully": "បានផ្ញើពាក្យស្នើសុំដោយជោគជ័យ!",
+        "sucessDescription": "អ្នកអាចមើលពាក្យស្នើសុំនេះនៅក្នុងបញ្ជីពាក្យស្នើសុំរបស់អ្នក"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "លុបកម្មករ?",
+        "description": "តើអ្នកប្រាកដថាចង់លុបកម្មករនេះទេ?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "ហេតុអ្វីបានជាសំណើនេះត្រូវបានបដិសេធ?",
+      "processTitle": "តើអ្នកប្រាកដថាដំណើរការសំណើរសុំការថែទាំនេះទេ?",
+      "completeTitle": "ការងារបានបញ្ចប់?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "លុបវិធីសាស្រ្តដកប្រាក់?",
+      "deleteDescription": "តើអ្នកប្រាកដថាចង់លុបវិធីសាស្រ្តដកប្រាក់នេះទេ?"
+    },
+    "unsavedChanges": {
+      "title": "តើអ្នកប្រាកដថាចង់ត្រលប់ក្រោយទេ?",
+      "message": "វាលដែលបានផ្លាស់ប្តូរនឹងមិនត្រូវបានរក្សាទុកទេ!"
+    },
+    "property": {
+      "delete": {
+        "title": "លុបអចលនទ្រព្យ?",
+        "message": "តើអ្នកប្រាកដថាចង់លុបអចលនទ្រព្យនេះទេ?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "តើអ្នកប្រាកដថាចង់អនុម័តការជួលនេះទេ?",
+        "description": "ត្រូវប្រាកដថាអ្នកបានពិនិត្យមើលកិច្ចសន្យាដែលបានចុះហត្ថលេខាដោយអ្នកជួល។"
+      },
+      "tenantAccept": {
+        "title": "តើអ្នកប្រាកដថាចង់ទទួលយកការអញ្ជើញនេះទេ?",
+        "description": "ត្រូវប្រាកដថាអ្នកបានទាញយកឯកសារកិច្ចសន្យា PDF ហើយ!"
+      }
+    },
+    "sessionExpired": {
+      "title": "សម័យផុតកំណត់",
+      "message": "សម័យរបស់អ្នកបានផុតកំណត់ហើយ។ សូមចូលម្តងទៀត",
+      "action": "ចូល"
+    },
+    "noInternet": {
+      "title": "គ្មានការតភ្ជាប់អ៊ីនធឺណិត",
+      "message": "សូមពិនិត្យមើលការតភ្ជាប់បណ្តាញទូរស័ព្ទចល័ត Wi-Fi របស់អ្នកហើយព្យាយាមម្តងទៀត",
+      "action": "ព្យាយាមម្តងទៀត"
+    },
+    "permissionHandler": {
+      "title": "ត្រូវការការអនុញ្ញាត!",
+      "message": "អ្នកត្រូវផ្តល់ការអនុញ្ញាតនៅក្នុងការកំណត់កម្មវិធី។ តើអ្នកចង់បើកការកំណត់ឥឡូវនេះទេ?"
+    },
+    "imagePicker": {
+      "title": "ជ្រើសរើសជម្រើស",
+      "gallery": "វិចិត្រសាល",
+      "camera": "កាមេរ៉ា"
+    },
+    "verificationDialog": {
+      "title": "ផ្ទៀងផ្ទាត់អ៊ីមែលរបស់អ្នក",
+      "message": "យើងបានផ្ញើអ៊ីមែលកូដផ្ទៀងផ្ទាត់",
+      "messageWithEmail": "@:prompt.verificationDialog.message ទៅ ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "សម្អាតការជូនដំណឹង?",
+      "clearMessage": "តើអ្នកប្រាកដថាចង់សម្អាតការជូនដំណឹងទាំងអស់ទេ?"
+    },
+    "genericDeletePrompt": {
+      "title": "តើអ្នកចង់លុប ${item: String} នេះទេ"
+    },
+    "subscriptionModal": {
+      "title": "ការជាវបានផុតកំណត់!",
+      "message": "សូមជាវដើម្បីបន្ត។"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "បញ្ចូល @:common.fullName",
+      "errors": {
+        "required": "សូមបញ្ចូល @:common.fullName របស់អ្នក"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "បញ្ចូល @:common.email របស់អ្នក",
+      "errors": {
+        "required": "សូមបញ្ចូលអាសយដ្ឋាន @:common.email របស់អ្នក",
+        "invalid": "⦸ អ៊ីមែលមិនត្រឹមត្រូវ សូមព្យាយាមម្តងទៀត"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "សូមបញ្ចូល @:common.password របស់អ្នក",
+        "minLength": "ពាក្យសម្ងាត់ត្រូវតែមានយ៉ាងហោចណាស់ ${count} តួអក្សរ!"
+      }
+    },
+    "confirmPassword": {
+      "label": "បញ្ជាក់ @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "សូមបញ្ចូល @:common.password របស់អ្នក",
+        "notMatched": "បញ្ជាក់ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "សូមបញ្ចូល @:common.mobileNumber របស់អ្នក"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "លេខផ្ទះនិងឈ្មោះផ្លូវ",
+      "errors": {
+        "required": "សូមបញ្ចូល @:form.address1.label របស់អ្នក"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "អាផាតមិន, ឈុត, ឯកតា, ល",
+      "errors": {
+        "required": "សូមបញ្ចូល @:form.address2.label របស់អ្នក"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "បញ្ចូល @:common.postalCode",
+      "errors": {
+        "required": "សូមបញ្ចូល @:common.postalCode របស់អ្នក"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "បញ្ចូលឈ្មោះ @:common.city ។",
+      "errors": {
+        "required": "សូមបញ្ចូលឈ្មោះ @:common.city របស់អ្នក។"
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "បញ្ចូលឈ្មោះ @:common.state ។",
+      "errors": {
+        "required": "សូមបញ្ចូលឈ្មោះ @:common.state របស់អ្នក។"
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "ជ្រើសរើស @:common.country ។",
+      "errors": {
+        "required": "សូមជ្រើសរើស @:common.country របស់អ្នក"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "សូមបញ្ចូលលេខ OTP ។",
+        "invalid": "សូមបញ្ចូលលេខ OTP ត្រឹមត្រូវ។"
+      }
+    },
+    "title": {
+      "label": "ចំណងជើង",
+      "hint": "បញ្ចូលចំណងជើង",
+      "errors": {
+        "required": "សូមបញ្ចូលចំណងជើង"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "ជ្រើសរើស @:form.date.label",
+      "errors": {
+        "required": "សូមជ្រើសរើស @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "មូលហេតុ",
+      "hint": "បញ្ចូលមូលហេតុ",
+      "errors": {
+        "required": "សូមបញ្ចូលមូលហេតុ"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "ជ្រើសរើស @:common.withdrawMethod",
+      "errors": {
+        "required": "សូមជ្រើសរើស @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "ផ្ទុក ${label: String}",
+      "errors": {
+        "required": "សូមជ្រើសរើស ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "បញ្ចូល @:form.note.label",
+      "errors": {
+        "required": "សូមបញ្ចូល @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "ជ្រើសរើស @:common.gender",
+      "errors": {
+        "required": "សូមជ្រើសរើស @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "បញ្ចូល @:form.anyField.label",
+      "errors": {
+        "required": "សូមបញ្ចូល @:form.anyField.label",
+        "invalid": "សូមបញ្ចូល @:form.anyField.label ត្រឹមត្រូវ"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "ជ្រើសរើស @:form.anyDropdown.label",
+      "errors": {
+        "required": "សូមជ្រើសរើស @:form.anyDropdown.label",
+        "invalid": "សូមជ្រើសរើស @:form.anyDropdown.label ត្រឹមត្រូវ"
+      }
+    }
+  },
+  "action": {
+    "next": "បន្ទាប់",
+    "getStarted": "ចាប់ផ្តើម",
+    "skip": "រំលង",
+    "select": "ជ្រើសរើស",
+    "save": "រក្សាទុក",
+    "signIn": "ចូល",
+    "signUp": "ចុះឈ្មោះ",
+    "continue": "បន្ត",
+    "clearAll": "សម្អាតទាំងអស់",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "ផ្ញើ",
+    "pay": "បង់",
+    "remove": "លុបចេញ",
+    "goBack": "ត្រលប់ក្រោយ",
+    "buyNow": "ទិញឥឡូវនេះ",
+    "no": "ទេ",
+    "open": "បើក",
+    "addProperty": "បន្ថែមអចលនទ្រព្យ",
+    "process": "ដំណើរការ",
+    "approve": "អនុម័ត",
+    "reject": "បដិសេធ",
+    "viewRent": "មើលការជួល",
+    "openNavigationMenu": "បើកម៉ឺនុយរុករក",
+    "seeAll": "មើលទាំងអស់",
+    "update": "ធ្វើបច្ចុប្បន្នភាព",
+    "printTransaction": "បោះពុម្ពប្រតិបត្តិការ",
+    "payoutRequest": "សំណើរសុំទូទាត់",
+    "addNew": "+ បន្ថែមថ្មី",
+    "sendRequest": "ផ្ញើសំណើរ",
+    "print": "បោះពុម្ព",
+    "requestForRefund": "ស្នើសុំបង្វិលសង",
+    "previous": "មុន",
+    "delete": "លុប",
+    "applyProperty": "ដាក់ពាក្យសុំអចលនទ្រព្យ",
+    "viewApplication": "មើលពាក្យស្នើសុំ",
+    "inviteTenant": "អញ្ជើញអ្នកជួល",
+    "inviteRent": "អញ្ជើញជួល",
+    "cancel": "លុបចោល",
+    "accept": "ទទួលយក",
+    "submit": "ដាក់ស្នើ",
+    "yes": "បាទ/ចាស",
+    "okay": "យល់ព្រម",
+    "confirm": "បញ្ជាក់",
+    "apply": "ដាក់ពាក្យ",
+    "reset": "កំណត់ឡើងវិញ",
+    "retry": "ព្យាយាមម្តងទៀត",
+    "viewAll": "មើលទាំងអស់",
+    "addMore": "បន្ថែមទៀត",
+    "done": "រួចរាល់"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "ស្វែងរកអចលនទ្រព្យរបស់អ្នក",
+          "description": "យើងបានធ្វើឱ្យវាងាយស្រួលក្នុងការស្វែងរកកន្លែងដែលសមនឹងជីវិតរបស់អ្នក — មិនថាជាបន្ទប់ អាផាតមិន ឬផ្ទះនោះទេ។"
+        },
+        "data2": {
+          "title": "អាផាតមិនក្នុងទីក្រុង",
+          "description": "យើងសន្សំសំចៃពេលវេលារបស់អ្នកដោយផ្គូផ្គងអ្នកយ៉ាងឆាប់រហ័សជាមួយអចលនទ្រព្យដ៏ល្អឥតខ្ចោះមុនពេលវាបាត់ទៅ ដូច្នេះអ្នកអាចរីករាយនឹងផ្ទះថ្មីរបស់អ្នក ឬចុះបញ្ជីផ្ទាល់ខ្លួនរបស់អ្នកដោយឥតគិតថ្លៃ។"
+        },
+        "data3": {
+          "title": "ផ្ទះលំនៅដ្ឋានដ៏សុខស្រួលរបស់អ្នក",
+          "description": "ប្រសិនបើអ្នកកំពុងស្វែងរកកន្លែងរស់នៅ សូមក្រឡេកមើលផ្ទះរបស់យើងសម្រាប់ជួល។ យើងមានជម្រើសផ្ទះយ៉ាងទូលំទូលាយសម្រាប់អ្នកដើម្បីជ្រើសរើសពីទូទាំងប្រទេស។"
+        }
+      }
+    },
+    "signIn": {
+      "title": "សូមស្វាគមន៍ត្រលប់មកវិញ",
+      "subtitle": "ចូលឥឡូវនេះដើម្បីចាប់ផ្តើមដំណើរដ៏អស្ចារ្យ។",
+      "extra": {
+        "rememberMe": "ចងចាំខ្ញុំ",
+        "signUpNavigator(rich)": "មិនមានគណនី? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "ភ្លេចពាក្យសម្ងាត់",
+      "subtitle": "បញ្ចូលអាសយដ្ឋានអ៊ីមែលរបស់អ្នកដើម្បីទាញយកពាក្យសម្ងាត់របស់អ្នកមកវិញ។"
+    },
+    "otpVerification": {
+      "title": "ការផ្ទៀងផ្ទាត់",
+      "subtitle": "លេខសម្ងាត់ 6 ខ្ទង់ត្រូវបានផ្ញើទៅអាសយដ្ឋានអ៊ីមែលរបស់អ្នក។ ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "កូដផ្ញើក្នុង ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(ផ្ញើកូដម្តងទៀត)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+      "subtitle": "កំណត់ពាក្យសម្ងាត់របស់អ្នកឡើងវិញដើម្បីទាញយកមកវិញ និងចូលគណនីរបស់អ្នក",
+      "extra": {
+        "dialog": {
+          "title": "បានផ្លាស់ប្តូរដោយជោគជ័យ!",
+          "subtitle": "ចូលដោយប្រើពាក្យសម្ងាត់ថ្មីរបស់អ្នក។\n កំពុងបញ្ជូនអ្នកទៅកាន់ការចូល..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "បង្កើតគណនី",
+      "subtitle": "ចុះឈ្មោះឥឡូវនេះដើម្បីចាប់ផ្តើមដំណើរដ៏អស្ចារ្យ",
+      "extra": {
+        "signInNavigator(rich)": "មានគណនីហើយ? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "តើអ្នកជានរណា?",
+      "subtitle": "សូមជ្រើសរើសជម្រើសខាងក្រោម។",
+      "extra": {
+        "landlordTag": "គ្រប់គ្រងអចលនទ្រព្យផ្ទាល់ខ្លួនរបស់អ្នក",
+        "tenantTag": "ចូលគណនីជួលរបស់អ្នក"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "ការជូនដំណឹង"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "សារ..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "ហេតុអ្វីបានជាអ្នក @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "សរសេរមូលហេតុ",
+          "errors": {
+            "required": "សូមបញ្ចូលមូលហេតុសម្រាប់ការលុបចោលការជួល"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "ការទូទាត់ក្រៅបណ្តាញ",
+      "form": {
+        "paymentNote": {
+          "label": "ចំណាំការទូទាត់ (@:common.optional)",
+          "hint": "បញ្ចូលអត្ថបទខ្លះ..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "ចំនួនទឹកប្រាក់ត្រូវបង់: ${amount}",
+        "accountHolderName": "ឈ្មោះម្ចាស់គណនី",
+        "accountNumber": "លេខគណនី",
+        "swiftCode": "លេខកូដ Swift",
+        "branch": "សាខា",
+        "fileTypeHint(rich)": "ជ្រើសរើសឯកសារទម្រង់ ${fileType(JPG, PNG,PDF)} ឬ ${fileType(DOC)} ប៉ុណ្ណោះ។ ទំហំឯកសារ ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "មើលវិក័យប័ត្រ",
+        "title": "@:common.thankYou",
+        "description": "យើងនឹងពិនិត្យមើលការទូទាត់ & អនុម័តវាក្នុងរយៈពេល ២៤ ម៉ោង។"
+      },
+      "fail": {
+        "actionButton": "ព្យាយាមម្តងទៀត",
+        "title": "អូ! ការទូទាត់បរាជ័យ",
+        "description": "ប្រតិបត្តិការរបស់អ្នកបានបរាជ័យដោយសារកំហុសបច្ចេកទេសមួយចំនួន។"
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "លក្ខណៈពិសេស ${fa((គ្រឿងបរិក្ខារ & ភាពងាយស្រួល))}",
+        "selectRentalPeriod": "ជ្រើសរើសរយៈពេលជួល",
+        "writeAReview": "+ សរសេរការវាយតម្លៃ"
+      }
+    },
+    "search": {
+      "appbarTitle": "ស្វែងរក",
+      "extra": {
+        "hint": "ស្វែងរកដីឡូត៍ ផ្ទះល្វែង បន្ទប់...",
+        "noRecentSearch": "អ្នកមិនមានការស្វែងរកថ្មីៗទេ។"
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "ជ្រើសរើសផែនការរបស់អ្នក",
+      "extra": {
+        "subscriptionPaymentSuccess": "ការទូទាត់ការជាវបានជោគជ័យ។\nអ្នកអាចចូលប្រើមុខងារដែលបានជាវឥឡូវនេះ។"
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "តម្លៃថែទាំសរុប: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "អចលនទ្រព្យទាំងអស់",
+      "pending": "កំពុងរង់ចាំ",
+      "active": "សកម្ម",
+      "inactive": "អសកម្ម",
+      "rejected": "បដិសេធ"
+    },
+    "propertyType": {
+      "rent": "ជួល",
+      "sale": "លក់"
+    },
+    "propertyCategory": {
+      "apartment": "អាផាតមិន",
+      "house": "ផ្ទះ",
+      "commercial": "ពាណិជ្ជកម្ម",
+      "land": "ដី",
+      "room": "បន្ទប់",
+      "unitOrFlat": "ឯកតា / ផ្ទះល្វែង",
+      "bungalow": "បឹងកាឡូ",
+      "plot": "ដីឡូត៍"
+    },
+    "applicationStatus": {
+      "all": "ទាំងអស់",
+      "pending": "កំពុងរង់ចាំ",
+      "processing": "កំពុងដំណើរការ",
+      "approved": "បានអនុម័ត",
+      "rejected": "បដិសេធ"
+    },
+    "myRentStatus": {
+      "pending": "កំពុងរង់ចាំ",
+      "processing": "កំពុងដំណើរការ",
+      "active": "សកម្ម",
+      "expired": "ផុតកំណត់",
+      "cancelled": "បានលុបចោល"
+    },
+    "maintenanceStatus": {
+      "pending": "កំពុងរង់ចាំ",
+      "processing": "កំពុងដំណើរការ",
+      "rejected": "បដិសេធ",
+      "completed": "បានបញ្ចប់"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "ឯកជន (បុគ្គល)",
+      "company": "ក្រុមហ៊ុន"
+    },
+    "tenantType": {
+      "newTenant": "អ្នកជួលថ្មី",
+      "activeTenant": "អ្នកជួលសកម្ម",
+      "expiredTenant": "អ្នកជួលផុតកំណត់"
+    },
+    "paymentStatus": {
+      "all": "ទាំងអស់",
+      "pending": "កំពុងរង់ចាំ",
+      "paid": "បានបង់",
+      "unpaid": "មិនទាន់បង់",
+      "rejected": "បដិសេធ",
+      "refund": "បង្វិលសង"
+    },
+    "paymentOptions": {
+      "onlinePayment": "ការទូទាត់លើអ៊ីនធឺណិត",
+      "offlinePayment": "ការទូទាត់ក្រៅបណ្តាញ"
+    },
+    "paymentType": {
+      "securityDeposit": "ប្រាក់កក់សុវត្ថិភាព",
+      "rentPayment": "ការទូទាត់ថ្លៃជួល",
+      "subscription": "ការជាវ"
+    },
+    "gender": {
+      "male": "ប្រុស",
+      "female": "ស្រី",
+      "other": "ផ្សេងៗ"
+    },
+    "ecRelation": {
+      "wife": "ភរិយា",
+      "parent": "ឪពុកម្តាយ",
+      "friend": "មិត្តភ័ក្តិ",
+      "brother": "បងប្អូនប្រុស",
+      "sister": "បងប្អូនស្រី",
+      "child": "កូន"
+    },
+    "vehicleType": {
+      "car": "រថយន្ត",
+      "motorcycles": "ម៉ូតូ",
+      "lorry": "ឡានដឹកទំនិញ"
+    },
+    "sortBy": {
+      "lowToHigh": "ទាបទៅខ្ពស់",
+      "highToLow": "ខ្ពស់ទៅទាប"
+    },
+    "residentialType": {
+      "flat": "ផ្ទះល្វែង",
+      "apartment": "អាផាតមិន",
+      "condominium": "ខុនដូ",
+      "serviceResidence": "លំនៅដ្ឋានសេវាកម្ម",
+      "studio": "ស្ទូឌីយោ",
+      "duplex": "ឌុយផ្លិច",
+      "townhouseCondo": "ខុនដូផ្ទះល្វែង",
+      "condo": "ខុនដូ / លំនៅដ្ឋានសេវាកម្ម / ផេនហោស៍",
+      "house": "ផ្ទះ",
+      "shoplot": "ហាងលក់ទំនិញ",
+      "sharing": "ការចែករំលែកផ្ទះ / ផ្ទះល្វែង",
+      "others": "ផ្សេងៗ"
+    },
+    "floorRange": {
+      "high": "ខ្ពស់",
+      "medium": "មធ្យម",
+      "low": "ទាប"
+    },
+    "furnishings": {
+      "fullyFurnished": "បំពាក់គ្រឿងសង្ហារឹមពេញលេញ",
+      "partiallyFurnished": "បំពាក់គ្រឿងសង្ហារឹមមួយផ្នែក",
+      "notFurnished": "មិនមានគ្រឿងសង្ហារឹម"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "ទំហំការិយាល័យ",
+      "retailSpace": "ទំហំលក់រាយ",
+      "shopLot": "ហាងលក់ទំនិញ",
+      "warehouseFactory": "ឃ្លាំង / រោងចក្រ",
+      "hotelResort": "សណ្ឋាគារ / រីសត",
+      "sofo": "សូហ្វូ (Sofo)",
+      "soho": "សូហូ (Soho)",
+      "sovo": "សូវ៉ូ (Sovo)",
+      "others": "ផ្សេងៗ"
+    },
+    "landPropertyType": {
+      "residential": "លំនៅដ្ឋាន",
+      "industrial": "ឧស្សាហកម្ម",
+      "agricultural": "កសិកម្ម",
+      "commercial": "ពាណិជ្ជកម្ម",
+      "mixedDevelopment": "ការអភិវឌ្ឍចម្រុះ",
+      "others": "ផ្សេងៗ"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "៦ ខែ",
+      "oneYear": "១ ឆ្នាំ",
+      "oneAndHalfYears": "១.៥ ឆ្នាំ",
+      "twoYears": "២ ឆ្នាំ",
+      "twoAndHalfYears": "២.៥ ឆ្នាំ"
+    },
+    "dropdownDateFilter": {
+      "daily": "ប្រចាំថ្ងៃ",
+      "weekly": "ប្រចាំសប្តាហ៍",
+      "monthly": "ប្រចាំខែ",
+      "yearly": "ប្រចាំឆ្នាំ",
+      "custom": "តាមតម្រូវការ"
+    },
+    "bungalowType": {
+      "modern": "ទំនើប",
+      "cottage": "ផ្ទះសំណាក់តូច",
+      "luxury": "ប្រណីត",
+      "ecoSmart": "អេកូ / ឆ្លាតវៃ",
+      "beachSide": "ក្បែរឆ្នេរ",
+      "others": "ផ្សេងៗ"
+    }
+  }
+}

@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ro_RO",
+    "languageName": "Romanian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Limbă",
+    "subscriptionPlan": "Plan de Abonament",
+    "contactUs": "Contactați-ne",
+    "termsAndConditions": "Termeni și Condiții",
+    "aboutUs": "Despre Noi",
+    "logout": "Deconectare",
+    "editProfile": "Editați Profilul",
+    "fullName": "Numele Complet",
+    "email": "E-mail",
+    "mobileNumber": "Număr de Telefon Mobil",
+    "address": "Adresă",
+    "postalCode": "Cod Poștal",
+    "city": "Oraș",
+    "country": "Țară",
+    "state": "Județ/Stat",
+    "password": "Parolă",
+    "forgotPassword": "Ați uitat parola",
+    "tenant": "Chiriaș",
+    "landlord": "Proprietar",
+    "cancelRenting": "Anulați Închirierea",
+    "startDate": "Data de Început",
+    "endDate": "Data de Sfârșit",
+    "fromDate": "De la Data",
+    "toDate": "Până la Data",
+    "online": "Online",
+    "bankList": "Listă Bănci",
+    "withdrawMethod": "Metodă de Retragere",
+    "uploadPaymentReceipt": "Încărcați Chitanța de Plată",
+    "offlinePaymentNote(rich)": "Notă: ${note(Plata necesită aprobare manuală de către administrator în decurs de)} ${duraion(24~48 de ore.)}",
+    "reviews": "Recenzii",
+    "description": "Descriere",
+    "about": "Despre",
+    "propertyTypes": "Tipuri de Proprietăți",
+    "features": "Caracteristici",
+    "floorPlans": "Planuri de Etaj",
+    "buildingDetails": "Detalii Clădire",
+    "buildingName": "Numele Clădirii",
+    "propertyAddress": "Adresa Proprietății",
+    "completionYear": "Anul Finalizării",
+    "lotNumber": "Număr Lot",
+    "residentialType": "Tip Rezidențial",
+    "furnishings": "Mobilier",
+    "floorRange": "Interval Etaj",
+    "bedrooms": "Dormitoare",
+    "bathrooms": "Băi",
+    "propertySize": "Dimensiunea Proprietății",
+    "rentalPeriod": "Perioada de Închiriere",
+    "securityDeposit": "Garanție",
+    "utilityBill": "Factură Utilități",
+    "facilities": "Facilități",
+    "amenities": "Dotări",
+    "expiringReason": "Motivul Expirării",
+    "tenantDetails": "Detalii Chiriaș",
+    "typeOfTenant": "Tip de Chiriaș",
+    "tenantName": "Numele Chiriașului",
+    "nidPassport": "CI/Pașaport",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID Chiriaș",
+    "dateOfBirth": "Data Nașterii",
+    "gender": "Gen",
+    "nominee": "Candidat",
+    "name": "Nume",
+    "optional": "Opțional",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Nr. Tel. Mobil",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Contact de Urgență",
+    "relation": "Relație",
+    "relationWith": "@:common.relation Cu",
+    "relationWithYou": "@:common.relationWith Dvs.",
+    "company": "Companie",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Nr. SSM",
+    "workplace": "Loc de Muncă",
+    "officePhoneNo": "Număr de Telefon Birou",
+    "officeMobileNo": "Birou @:common.mobileNumber",
+    "vehicle": "Vehicul",
+    "vehiclesInfo": {
+      "plain": "Informații Vehicule",
+      "optional": "Informații Vehicule (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Tip",
+    "vehicleRegistrationNo": {
+      "normal": "Nr. de Înmatriculare a Vehiculului",
+      "short": "Nr. de Înmatriculare",
+      "alt": "Nr. Plăcuță"
+    },
+    "vehicleBrand": "@:common.vehicle Marcă",
+    "rentProperty": "Închiriați Proprietatea",
+    "propertyDetails": "Detalii Proprietate",
+    "propertyId": "ID Proprietate",
+    "propertyType": "Tip Proprietate",
+    "propertyName": "Numele Proprietății",
+    "paymentDetails": "Detalii Plată",
+    "monthlyRent": "Chirie Lunară",
+    "thisMonthPayment": "Plata din Această Lună",
+    "totalPaidRent": "Chirie Totală Plătită",
+    "dueRent": "Chirie Restantă",
+    "rentStartDate": "Închiriere @:common.startDate",
+    "rentEndDate": "Închiriere @:common.endDate",
+    "status": "Stare",
+    "rentAgreementPdf": "Contract de Închiriere PDF",
+    "noFile": "Niciun Fișier",
+    "tenantImageOp": "Imagine Chiriaș @:common.optional",
+    "addNewVechicle": "Adăugați Vehicule Noi",
+    "uploadNidPassport": "Încărcați CI/Pașaport",
+    "nidPassportUploadNote": "Se vor accepta doar imagini. Limită de fișier de până la 2,5 MB.",
+    "search": "Căutare",
+    "sortBy": "Sortare După",
+    "subscription": "Abonament",
+    "downloading": "Se descarcă...",
+    "downloadSuccess": "Fișier descărcat cu succes!",
+    "addPropertyBannerTitle": "Doriți Să Vă Închiriați Proprietatea?",
+    "application": "Cerere",
+    "tenantHasPaidDeposit": "Chiriașul a plătit garanția.",
+    "askProcessingRentApplication": "Sunteți sigur că procesați această cerere de închiriere a proprietății?",
+    "dateAndTime": "Data și Ora",
+    "applicationDetails": "Detalii Cerere",
+    "depositStatus": "Stare Garanție",
+    "uploadRentAgreement": "Încărcați Contractul de Închiriere",
+    "uploadFilePDF": "Încărcați Fișier (PDF)",
+    "askSelectRentAgreement": "Vă rugăm să selectați un fișier document de acord.",
+    "landlordRentAgreementPDF": "Contract de Închiriere Proprietar PDF",
+    "tenantRentAgreementPDF": "Contract de Închiriere Chiriaș PDF",
+    "landlordApplicationApproveNote(rich)": "Notă: ${note(Aprobați cererea numai după ce chiriașul efectuează plata garanției.)}",
+    "reasonOfRejection": "Motivul Respingurii",
+    "youveRejectedThisApplication": "Ați respins această cerere",
+    "landlordDetails": "Detalii Proprietar",
+    "landlordName": "Numele Proprietarului",
+    "downloadRentAgreement": "Descărcați Contractul de Închiriere",
+    "acceptTermsConditions(rich)": "Acceptați ${toc(Termenii și Condițiile)}",
+    "tenantAgreementSignNote1(rich)": "Notă: ${note(Vă rugăm să descărcați și să citiți acordul. Vă rugăm să trimiteți acordul semnat proprietarului prin WhatsApp sau e-mail.)}",
+    "tenantAgreementSignNote2(rich)": "Notă: ${note(Proprietarul aprobă cererea, atunci când chiriașul plătește garanția, utilitățile și plata chiriei în avans pentru o lună.)}",
+    "completeRentAgreementPdf(rich)": "Contract de Închiriere (PDF) ${complete(Acord Complet)}",
+    "tenantApplicationDepositNote(rich)": "Notă : ${note(Proprietarul aprobă cererea, atunci când chiriașul plătește garanția, utilitățile și plata chiriei în avans pentru o lună.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Listă Cereri",
+    "viewDetails": "Vizualizați Detaliile",
+    "searchHint": "@:common.search...",
+    "home": "Acasă",
+    "dashboard": "Tablou de Bord",
+    "tenants": "Chiriași",
+    "maintenance": "Mentenanță",
+    "maintenanceList": "Listă Mentenanță",
+    "maintenanceReport": "Raport Mentenanță",
+    "labor": "Muncitor",
+    "applications": "Cereri",
+    "rentInvitation": "Invitație de Închiriere",
+    "payment": "Plată",
+    "rentPayment": "Plată Chirie",
+    "depositUtilityPayment": "Plată Garanție și Utilități",
+    "refundRequest": "Cerere de Rambursare",
+    "withdrawRequest": "Cerere de Retragere",
+    "myProperty": "Proprietatea Mea",
+    "myRent": "Închirierea Mea",
+    "wishlist": "Listă de Dorințe",
+    "properties": "Proprietăți",
+    "allProperties": "Toate Proprietățile",
+    "totalPropery": "Total Proprietăți",
+    "occupied": "Ocupat",
+    "vacant": "Liber",
+    "accounting": "Contabilitate",
+    "totalIncome": "Venit Total",
+    "totalExpense": "Cheltuială Totală",
+    "currentBalance": "Sold Curent",
+    "totalWithdrawal": "Total (Retrageri)",
+    "totalProperties": "Total Proprietăți",
+    "totalTenant": "Total Chiriași",
+    "totalRentPaid": "Total Chirie Plătită",
+    "totalRentDue": "Total Chirie Restantă",
+    "totalApplication": "Total Cereri",
+    "pendingApplication": "Cereri în Așteptare",
+    "processingApplication": "Cereri în Procesare",
+    "approveApplication": "Cereri Aprobate",
+    "rejectApplication": "Cereri Respinse",
+    "maintenanceCost": "Cost Mentenanță",
+    "transactionSummary": "Rezumat Tranzacție",
+    "maintenanceRequest": "Cerere de Mentenanță",
+    "notifications": "Notificări",
+    "myProperties": "Proprietățile Mele",
+    "recommendationProperties": "Proprietăți Recomandate",
+    "laborList": "Listă Muncitori",
+    "addLabor": "Adăugați Muncitor",
+    "laborDetails": "Detalii Muncitor",
+    "laborSalary": "Salariu Muncitor",
+    "editLabor": "Editați Muncitor",
+    "addNewLabor": "Adăugați Muncitor Nou",
+    "enterAmount": "Introduceți Suma",
+    "maintenanceDetails": "Detalii Mentenanță",
+    "laborName": "Nume Muncitor",
+    "comment": "Comentariu",
+    "image": "Imagine",
+    "complete": "Finalizare",
+    "details": "Detalii",
+    "title": "Titlu",
+    "date": "Data",
+    "reason": "Motiv",
+    "edit": "Editați",
+    "property": "Proprietate",
+    "completeYourProfile": "Completați Profilul Dvs.",
+    "profileImage": "Imagine de Profil",
+    "imagePickHint": "Doar imagine JPEG & PNG cu dimensiunea max. de 120x120 pixeli.",
+    "invoiceId": "ID Factură",
+    "depositAmount": "Valoare Garanție",
+    "landlordPhone": "Telefon Proprietar",
+    "rentalAdvance": "Chirie (Avans)",
+    "totalAmount": "Suma Totală",
+    "rentAmount": "Valoarea Chiriei",
+    "adminCharge": "Taxă Administrativă",
+    "editAccount": "Editați Contul",
+    "addNewAccount": "Adăugați Cont Nou",
+    "transactionId": "ID Tranzacție",
+    "transactionType": "Tip Tranzacție",
+    "requestDate": "Data Cererii",
+    "amount": "Sumă",
+    "fee": "Taxă",
+    "paymentStatus": "Stare Plată",
+    "generatedTime": "Ora Generării",
+    "systemGeneratedReportHint(rich)": "Acesta este un raport generat de sistem al ${appName}",
+    "withdrawHistory": "Istoric Retrageri",
+    "history": "Istoric",
+    "withdrawAmount": "Sumă Retrasă",
+    "availableBalance": "Sold Disponibil",
+    "withdrawCharge": "Taxă de Retragere",
+    "paymentMethod": "Metodă de Plată",
+    "requestSendSuccess": "Cerere trimisă cu succes!",
+    "paymentReceiptSubmitSuccess": "Chitanța de plată a fost trimisă cu succes.",
+    "refundReason": "Motivul Rambursării",
+    "note": "Notă",
+    "refundReceiveSuccess": "Rambursare primită cu succes.",
+    "downloadPaymentReceipt": "Descărcați Chitanța de Plată",
+    "invoice": "Factură",
+    "selectPropertyToSeeInvoice": "Selectați proprietatea pentru a vedea numărul facturii...",
+    "bankAccName": "Numele Contului Bancar",
+    "bankName": "Numele Băncii",
+    "bankAccNum": "Numărul Contului Bancar",
+    "thankYou": "Vă Mulțumim!",
+    "basicInfo": "Informații de Bază",
+    "descriptionPricing": "Descriere și Prețuri",
+    "contact": "Contact",
+    "photos": "Fotografii",
+    "successfullySubmitted": "Trimis cu succes!",
+    "editProperty": "Editați Proprietatea",
+    "addNewProperty": "Adăugați Proprietate Nouă",
+    "propertyManageRequestSuccess": "Anunțul dvs. a fost trimis pentru revizuire.",
+    "postAnotherProperty": "Postați O Altă Proprietate",
+    "browseYourProperty": "Vizualizați Proprietatea Dvs.",
+    "stepIndicator(rich)": "Pasul ${step} din ${totalSteps}",
+    "whatWouldYouLikeToPost": "Ce Ați Dori Să Postați?",
+    "category": "Categorie",
+    "invalidCategory": "Categorie Invalidă",
+    "unitNumber": "Număr Unitate",
+    "sqft": "mp",
+    "propertySizeMustBeGreaterThan0": "Dimensiunea proprietății trebuie să fie mai mare decât zero",
+    "whatAreTheFacility": "Care sunt facilitățile?",
+    "whatAreTheAmenity": "Care sunt dotările?",
+    "parkingLot": "Loc de Parcare",
+    "houseType": "Tip de casă",
+    "value": "Valoare",
+    "unitLotSize": "Dimensiunea Unității / Lotului",
+    "landSize": "Dimensiunea Terenului",
+    "acres": "acri",
+    "roomSize": "Dimensiunea camerei",
+    "askTenantPreference": "Care este preferința dvs. de chiriaș?",
+    "couple": "Cuplu",
+    "describeTheProperty": "Descrieți ${propertyType: String}",
+    "adTitle": "Titlul Anunțului",
+    "minimumRentalPeriod": "Perioada Minimă de Închiriere",
+    "whatsappNumber": "@:common.whatsapp Număr",
+    "hideOrDisplayEmail": "Ascundeți sau afișați adresa de e-mail",
+    "thankYouForPostingProperty": "Vă mulțumim că ați postat pe ${appName: String}!",
+    "propertyList": "Listă Proprietăți",
+    "newInviteRent": "Invitație Nouă de Închiriere",
+    "rentAgreement": "Contract de Închiriere",
+    "rentDetails": "Detalii Închiriere",
+    "landlordRentInvitationPendingNote(rich)": "Notă: ${note(Vă rugăm să așteptați ca chiriașul să accepte invitația.)}",
+    "rent": "Chirie",
+    "editTenant": "Editați Chiriașul",
+    "addNewTenant": "Adăugați Chiriaș Nou",
+    "shareInstallLink": "Distribuiți linkul de instalare",
+    "tenantList": "Listă Chiriași",
+    "editMaintenanceRequest": "Editați Cererea de Mentenanță",
+    "addNewMaintenance": "Adăugați Mentenanță Nouă",
+    "landlordId": "ID Proprietar",
+    "tenantAgrementUnderReviewNote(rich)": "Notă ${note(Acordul dvs. este în curs de revizuire. Vă rugăm să așteptați până când proprietarul vă aprobă închirierea.)}",
+    "editReview": "Editați Recenzia",
+    "writeAReview": "Scrieți o recenzie",
+    "selectRating": "Selectați Evaluarea",
+    "enterYourOpinion": "Introduceți Opinia Dvs.",
+    "askToEnterReviewMsg": "Vă rugăm să introduceți un mesaj de recenzie",
+    "pressBackAgainToExit": "Apăsați din nou înapoi pentru a ieși.",
+    "selectPaymentMethod": "Selectați Metoda de Plată",
+    "filter": "Filtru",
+    "perMonth": "/1 Lună",
+    "searchHintWithAppName": "Căutați orice în ${appName: String}...",
+    "propertyInfo": "Informații Proprietate",
+    "units": "Unități",
+    "depositPeriod": "Perioada de Garanție",
+    "facilitiesList": "Listă Facilități",
+    "facility": "Facilitate",
+    "amenity": "Dotare",
+    "amenitiesList": "Listă Dotări",
+    "addNewFacility": "Adăugați Facilitate Nouă",
+    "editFacility": "Editați Facilitatea",
+    "facilityName": "Numele Facilității",
+    "amenityName": "Numele Dotării",
+    "addNewAmenity": "Adăugați Dotare Nouă",
+    "editAmenity": "Editați Dotarea",
+    "family": "Familie",
+    "lateFee": "Taxă de Întârziere",
+    "lateFeeAfterDays": "@:common.lateFee După (Zile)",
+    "propertyPricing": "Prețuri ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Vă mulțumim mult, tocmai ați publicat proprietatea dvs.",
+    "titleAndDescription": "Titlu și Descriere",
+    "rentPricing": "Prețuri Chirie",
+    "step": "Pas",
+    "of": "DIN",
+    "pricing": "Prețuri",
+    "sameRentForAllUnit": "Aceeași chirie pentru toată unitatea",
+    "unit": "unitate",
+    "pleaseSelectAnUnitFirst": "Vă rugăm să selectați o unitate mai întâi.",
+    "saleAmount": "Suma Vânzării",
+    "selectCategory": "Selectați o Categorie",
+    "pleaseSelectACategory": "Vă rugăm să selectați o categorie",
+    "pleaseEnterAdTitle": "Vă rugăm să introduceți titlul anunțului",
+    "addCoverPhoto": "Adăugați Fotografie de Copertă",
+    "findAProperty": "Găsiți o proprietate",
+    "categories": "Categorii",
+    "recmmendedProperties": "Proprietăți Recomandate",
+    "recentSearch": "Căutări Recente",
+    "pleaseEnterYourAccountNumber": "Vă rugăm să introduceți numărul contului dvs.",
+    "pleaseSelectALanguageToContinue": "Vă rugăm să selectați o limbă pentru a continua.",
+    "subscribe": "Abonați-vă",
+    "noFacilitiesFound": "Nu s-au găsit facilități!",
+    "invalidLaborDetailsPleaseTryAgain": "Detalii muncitor invalide, vă rugăm să încercați din nou",
+    "maintenanceWork": "Lucrare de mentenanță",
+    "selectLabor": "Selectați Muncitorul",
+    "enterMaintenanceCost": "Introduceți costul de mentenanță",
+    "pleaseEnterMaintenanceCost": "Vă rugăm să introduceți costul de mentenanță",
+    "writeComment": "Scrieți un comentariu",
+    "maintenancePending": "Mentenanță în Așteptare",
+    "yourEarnings": "Câștigurile Dvs.",
+    "totalPaid": "Total Plătit",
+    "linkANewBankAccount": "Asociați un cont bancar nou",
+    "payoutRequest": "Cerere de Plată"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Ceva nu a mers bine, vă rugăm să încercați din nou",
+    "noNidPassport": "Nu a fost furnizată nicio imagine CI/Pașaport.",
+    "noRentPropertyFound": "Nu a fost găsită nicio proprietate de închiriat pentru acest chiriaș.",
+    "noPropertyFoundWithKeyWord": "Nicio proprietate găsită!\nVă rugăm să încercați cu alte cuvinte cheie",
+    "noSubscriptionFoundRefreshPage": "Nu a fost găsit niciun plan de abonament!\nVă rugăm să reîmprospătați pagina și să încercați din nou.",
+    "invalidApiDataRefreshPage": "Informații ${dataType: String} invalide! Vă rugăm să reîmprospătați pagina și să încercați din nou.",
+    "invalidDownloadUrl": "URL de descărcare invalid!",
+    "failedToSaveFile": "Salvarea fișierului a eșuat! ${error: String}",
+    "errorOpeningFile": "Eroare la deschiderea fișierului! ${error: String}",
+    "noVehicleInfoProvided": "Nu au fost furnizate informații despre vehicul.",
+    "yourApplicationRejected": "Cererea Dvs. a fost respinsă",
+    "noApplicationFoundHint": {
+      "template": "Nicio cerere găsită!\n${subject: String} va fi afișată aici când va fi disponibilă.",
+      "subjects": {
+        "tenant": "Cererea Dvs.",
+        "landlord": "Cererea Chiriașului"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nicio proprietate găsită!\nVă rugăm să încercați să adăugați o proprietate pentru a o vedea aici.",
+      "tenantRecommended": "Nu au fost găsite Proprietăți Recomandate\nVă rugăm să încercați din nou mai târziu.",
+      "tenantAllProperty": "Proprietățile nu sunt disponibile\nVă rugăm să încercați din nou mai târziu."
+    },
+    "noImageProvided": "Nicio Imagine Furnizată",
+    "noStatusMaintenantFound": {
+      "landlord": "Nu a fost găsită nicio mentenanță cu starea ${status}.",
+      "tenant": "Nicio mentenanță găsită! Puteți crea o cerere de mentenanță pentru a o vedea aici."
+    },
+    "noDepositFound": "Nicio garanție găsită!\nVă rugăm să puteți vedea garanțiile când sunt disponibile",
+    "noRentPaymentFound": "Nicio plată de chirie găsită!\nVă rugăm să puteți vedea plățile de chirie când sunt disponibile",
+    "transactionSummaryApiException": "Obținerea rezumatului tranzacției a eșuat.",
+    "noWithdrawRequestFound": "Nicio cerere găsită!\nVă rugăm să încercați să creați o cerere de retragere pentru a o vedea aici.",
+    "withdrawRequestNotApproved": "Această cerere de retragere nu a fost aprobată!.",
+    "nonZeroError": "Vă rugăm să introduceți o sumă validă mai mare decât zero.",
+    "minAmountError": "Suma trebuie să fie de cel puțin ${minValue: String}.",
+    "maxAmountError": "Suma nu trebuie să depășească ${maxValue: String}.",
+    "selectPaymentMethodHint": "Vă rugăm să selectați mai întâi o metodă de plată.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nicio cerere de rambursare cu starea ${status} găsită!\nPuteți vedea cererea de rambursare aici când este disponibilă.",
+      "tenant": "Nicio cerere de rambursare găsită! Puteți crea o cerere de rambursare pentru a o vedea aici."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Chiriașul va aproba rambursarea când va primi banii înapoi",
+      "tenantReqSuccess": "Vom revizui cererea de Rambursare și o vom aproba în decurs de 24 de ore."
+    },
+    "oneToTenRequiredField": "Vă rugăm să selectați numărul de ${value: String}",
+    "invalidDateRange": "Interval de date invalid.",
+    "valueMustBeGreaterThanZero": "${value: String} trebuie să fie mai mare decât zero.",
+    "editProperty": {
+      "rentalChange": "Proprietatea de închiriere se schimbă. Trebuie să fie valabilă (efectivă) doar pentru plata chiriei lunii următoare.",
+      "deleteOnRent": "Proprietatea Dvs. este deja închiriată de chiriaș. Nu o puteți șterge până nu eliminați chiriașul mai întâi",
+      "alreayRented": "Această proprietate este deja închiriată. Vă rugăm să încercați din nou mai târziu.\nSau puteți contacta proprietarul pentru mai multe informații."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nicio invitație de închiriere găsită!\nVă rugăm să încercați să creați o invitație de închiriere pentru a o vedea aici.",
+      "tenantNoRentInvitation": "Nicio invitație de închiriere găsită!\nPuteți vedea invitația de închiriere aici când este disponibilă."
+    },
+    "notenantFoundList": "Niciun chiriaș!\nVă rugăm să încercați să adăugați un chiriaș pentru a-l vedea aici.",
+    "noFeaturesProvided": "Nu au fost furnizate caracteristici.",
+    "noNotificationFound": "Nicio notificare disponibilă.\nPuteți vedea notificarea Dvs. aici când este disponibilă.",
+    "noFacilitiesFound": "Nu au fost găsite facilități.",
+    "noAmenitiesFound": "Nu au fost găsite dotări!",
+    "noLaborFound": "Nu a fost găsit niciun muncitor\\nVă rugăm să încercați din nou mai târziu.",
+    "areYouSureYouWantToRemoveThisUnit": "Sunteți sigur că doriți să eliminați această unitate?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Sunteți sigur că doriți să vă deconectați?"
+    },
+    "application": {
+      "rejectTitle": "De ce respingeți această cerere?",
+      "applicationSent": {
+        "successfully": "Cerere trimisă cu succes!",
+        "sucessDescription": "Puteți vedea această cerere în lista dvs. de cereri"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Ștergeți Muncitorul?",
+        "description": "Sunteți sigur că doriți să ștergeți acest muncitor?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "De ce este respinsă această cerere?",
+      "processTitle": "Sunteți sigur că doriți să Procesati această cerere de Mentenanță?",
+      "completeTitle": "Lucrare finalizată?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Ștergeți Metoda de Retragere?",
+      "deleteDescription": "Sunteți sigur că doriți să ștergeți această metodă de retragere?"
+    },
+    "unsavedChanges": {
+      "title": "Sunteți sigur că doriți să reveniți?",
+      "message": "Câmpurile care au fost modificate nu vor fi salvate!"
+    },
+    "property": {
+      "delete": {
+        "title": "Ștergeți Proprietatea?",
+        "message": "Sunteți sigur că doriți să ștergeți această proprietate?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Sunteți sigur că doriți să aprobați această închiriere?",
+        "description": "Asigurați-vă că ați revizuit acordul semnat de chiriaș."
+      },
+      "tenantAccept": {
+        "title": "Sunteți sigur că doriți să acceptați această invitație?",
+        "description": "Asigurați-vă că ați descărcat fișierul PDF al acordului!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sesiune expirată",
+      "message": "Sesiunea dvs. a expirat. Vă rugăm să vă conectați din nou",
+      "action": "Conectați-vă"
+    },
+    "noInternet": {
+      "title": "Fără Conexiune la Internet",
+      "message": "Vă rugăm să verificați conexiunea la rețeaua mobilă Wi-Fi și să încercați din nou",
+      "action": "Încercați Din Nou"
+    },
+    "permissionHandler": {
+      "title": "Permisiune necesară!",
+      "message": "Trebuie să acordați permisiuni în setările aplicației. Doriți să deschideți setările acum?"
+    },
+    "imagePicker": {
+      "title": "Selectați Opțiunea",
+      "gallery": "Galerie",
+      "camera": "Cameră"
+    },
+    "verificationDialog": {
+      "title": "Verificați E-mailul Dvs.",
+      "message": "Am trimis un e-mail cu codul de verificare",
+      "messageWithEmail": "@:prompt.verificationDialog.message la ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Ștergeți notificările?",
+      "clearMessage": "Sunteți sigur că doriți să ștergeți toate notificările?"
+    },
+    "genericDeletePrompt": {
+      "title": "Doriți să ștergeți acest ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Abonament Expirat!",
+      "message": "Vă rugăm să vă abonați pentru a continua."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Introduceți @:common.fullName",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Introduceți @:common.email",
+      "errors": {
+        "required": "Vă rugăm să introduceți adresa dvs. de @:common.email",
+        "invalid": "⦸ E-mail Invalid, Vă rugăm să Încercați Din Nou"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:common.password",
+        "minLength": "Parola trebuie să aibă cel puțin ${count} caractere!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Confirmați @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:common.password",
+        "notMatched": "Parola de confirmare nu se potrivește!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Numărul casei și numele străzii",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Apartament, suită, unitate, etc.",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Introduceți @:common.postalCode",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Introduceți numele @:common.city.",
+      "errors": {
+        "required": "Vă rugăm să introduceți numele @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Introduceți numele @:common.state.",
+      "errors": {
+        "required": "Vă rugăm să introduceți numele @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Selectați @:common.country.",
+      "errors": {
+        "required": "Vă rugăm să selectați @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Vă rugăm să introduceți OTP-ul.",
+        "invalid": "Vă rugăm să introduceți OTP-ul corect."
+      }
+    },
+    "title": {
+      "label": "Titlu",
+      "hint": "Introduceți titlul",
+      "errors": {
+        "required": "Vă rugăm să introduceți titlul"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Selectați @:form.date.label",
+      "errors": {
+        "required": "Vă rugăm să selectați @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Motiv",
+      "hint": "Introduceți motivul",
+      "errors": {
+        "required": "Vă rugăm să introduceți motivul"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Selectați @:common.withdrawMethod",
+      "errors": {
+        "required": "Vă rugăm să selectați @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Încărcați ${label: String}",
+      "errors": {
+        "required": "Vă rugăm să selectați ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Introduceți @:form.note.label",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Selectați @:common.gender",
+      "errors": {
+        "required": "Vă rugăm să selectați @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Introduceți @:form.anyField.label",
+      "errors": {
+        "required": "Vă rugăm să introduceți @:form.anyField.label",
+        "invalid": "Vă rugăm să introduceți @:form.anyField.label valid"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Selectați @:form.anyDropdown.label",
+      "errors": {
+        "required": "Vă rugăm să selectați @:form.anyDropdown.label",
+        "invalid": "Vă rugăm să selectați @:form.anyDropdown.label valid"
+      }
+    }
+  },
+  "action": {
+    "next": "Următorul",
+    "getStarted": "Începeți",
+    "skip": "Omiteți",
+    "select": "Selectați",
+    "save": "Salvați",
+    "signIn": "Conectați-vă",
+    "signUp": "Înregistrați-vă",
+    "continue": "Continuați",
+    "clearAll": "Ștergeți Tot",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Trimiteți",
+    "pay": "Plătiți",
+    "remove": "Eliminați",
+    "goBack": "Înapoi",
+    "buyNow": "Cumpărați Acum",
+    "no": "Nu",
+    "open": "Deschideți",
+    "addProperty": "Adăugați Proprietate",
+    "process": "Procesați",
+    "approve": "Aprobați",
+    "reject": "Respingeți",
+    "viewRent": "Vizualizați Închirierea",
+    "openNavigationMenu": "Deschideți meniul de navigare",
+    "seeAll": "Vedeți Tot",
+    "update": "Actualizați",
+    "printTransaction": "Imprimați Tranzacția",
+    "payoutRequest": "Cerere de Plată",
+    "addNew": "+ Adăugați Nou",
+    "sendRequest": "Trimiteți Cererea",
+    "print": "Imprimați",
+    "requestForRefund": "Cerere de Rambursare",
+    "previous": "Anteriorul",
+    "delete": "Ștergeți",
+    "applyProperty": "Aplicați pentru Proprietate",
+    "viewApplication": "Vizualizați Cererea",
+    "inviteTenant": "Invitați Chiriaș",
+    "inviteRent": "Invitați la Închiriere",
+    "cancel": "Anulați",
+    "accept": "Acceptați",
+    "submit": "Trimiteți",
+    "yes": "Da",
+    "okay": "OK",
+    "confirm": "Confirmați",
+    "apply": "Aplicați",
+    "reset": "Resetați",
+    "retry": "Încercați Din Nou",
+    "viewAll": "Vizualizați Tot",
+    "addMore": "Adăugați Mai Mult",
+    "done": "Gata"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Găsiți Proprietatea Dvs.",
+          "description": "Am făcut ca găsirea unui loc care se potrivește vieții dvs. să fie foarte ușoară — fie că este o cameră, un apartament sau o casă."
+        },
+        "data2": {
+          "title": "Apartament în Oraș",
+          "description": "Vă economisim timp, potrivindu-vă rapid cu proprietatea perfectă înainte ca aceasta să dispară, astfel încât să vă puteți bucura de noua dvs. casă, sau listați-o pe a dvs. gratuit."
+        },
+        "data3": {
+          "title": "Casa Dvs. Confortabilă",
+          "description": "Dacă sunteți în căutarea unui loc de locuit, aruncați o privire la casele noastre de închiriat. Avem o gamă largă de case din care să alegeți, din toată țara."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Bun Venit Înapoi",
+      "subtitle": "Conectați-vă acum pentru a începe o călătorie uimitoare.",
+      "extra": {
+        "rememberMe": "Reține-mă",
+        "signUpNavigator(rich)": "Nu aveți cont? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Ați uitat parola",
+      "subtitle": "Introduceți adresa dvs. de e-mail pentru a vă recupera parola."
+    },
+    "otpVerification": {
+      "title": "Verificare",
+      "subtitle": "Un pin de 6 cifre a fost trimis la adresa dvs. de e-mail. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Cod trimis în ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Retrimiteți codul)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Resetați parola",
+      "subtitle": "Resetați parola pentru recuperare și conectați-vă la contul dvs.",
+      "extra": {
+        "dialog": {
+          "title": "Schimbat cu succes!",
+          "subtitle": "Conectați-vă cu noua dvs. parolă.\n Vă redirecționăm către Conectare..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Creați Un Cont",
+      "subtitle": "Înregistrați-vă acum pentru a începe o călătorie uimitoare",
+      "extra": {
+        "signInNavigator(rich)": "Aveți un cont? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Cine sunteți?",
+      "subtitle": "Vă rugăm să selectați opțiunea de mai jos.",
+      "extra": {
+        "landlordTag": "Gestionați-vă propriile proprietăți",
+        "tenantTag": "Conectați-vă la contul dvs. de închiriere"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Notificări"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Mesaj..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "De ce @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Scrieți motivul",
+          "errors": {
+            "required": "Vă rugăm să introduceți motivul anulării închirierii"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Plată Offline",
+      "form": {
+        "paymentNote": {
+          "label": "Notă de Plată (@:common.optional)",
+          "hint": "Introduceți un text..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Suma de Plată: ${amount}",
+        "accountHolderName": "Numele Titularului de Cont",
+        "accountNumber": "Numărul de Cont",
+        "swiftCode": "Cod SWIFT",
+        "branch": "Sucursală",
+        "fileTypeHint(rich)": "Alegeți doar fișiere în format ${fileType(JPG, PNG,PDF)} sau ${fileType(DOC)}. Dimensiunea fișierului ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Vizualizați Factura",
+        "title": "@:common.thankYou",
+        "description": "Vom revizui plata și o vom aproba în decurs de 24 de ore."
+      },
+      "fail": {
+        "actionButton": "Încercați Din Nou",
+        "title": "Ups! Plata a Eșuat",
+        "description": "Tranzacția dvs. a eșuat din cauza unei erori tehnice."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Caracteristici ${fa((Facilități și Dotări))}",
+        "selectRentalPeriod": "Selectați Perioada de Închiriere",
+        "writeAReview": "+ Scrieți o recenzie"
+      }
+    },
+    "search": {
+      "appbarTitle": "Căutare",
+      "extra": {
+        "hint": "Căutați loturi, apartamente, camere...",
+        "noRecentSearch": "Nu aveți căutări recente."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Alegeți Planul Dvs.",
+      "extra": {
+        "subscriptionPaymentSuccess": "Plata abonamentului a fost efectuată cu succes.\nPuteți accesa acum funcțiile la care sunteți abonat."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Cost Total de Mentenanță: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Toate Proprietățile",
+      "pending": "În Așteptare",
+      "active": "Activă",
+      "inactive": "Inactivă",
+      "rejected": "Respinsă"
+    },
+    "propertyType": {
+      "rent": "De Închiriat",
+      "sale": "De Vânzare"
+    },
+    "propertyCategory": {
+      "apartment": "Apartament",
+      "house": "Casă",
+      "commercial": "Comercial",
+      "land": "Teren",
+      "room": "Cameră",
+      "unitOrFlat": "Unitate / Apartament",
+      "bungalow": "Bungalou",
+      "plot": "Lot"
+    },
+    "applicationStatus": {
+      "all": "Toate",
+      "pending": "În Așteptare",
+      "processing": "În Procesare",
+      "approved": "Aprobată",
+      "rejected": "Respinsă"
+    },
+    "myRentStatus": {
+      "pending": "În Așteptare",
+      "processing": "În Procesare",
+      "active": "Activ",
+      "expired": "Expirat",
+      "cancelled": "Anulat"
+    },
+    "maintenanceStatus": {
+      "pending": "În Așteptare",
+      "processing": "În Procesare",
+      "rejected": "Respinsă",
+      "completed": "Finalizată"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Persoană Fizică",
+      "company": "Companie"
+    },
+    "tenantType": {
+      "newTenant": "Chiriaș Nou",
+      "activeTenant": "Chiriaș Activ",
+      "expiredTenant": "Chiriaș Expirat"
+    },
+    "paymentStatus": {
+      "all": "Toate",
+      "pending": "În Așteptare",
+      "paid": "Plătită",
+      "unpaid": "Neplătită",
+      "rejected": "Respinsă",
+      "refund": "Rambursare"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Plată Online",
+      "offlinePayment": "Plată Offline"
+    },
+    "paymentType": {
+      "securityDeposit": "Garanție",
+      "rentPayment": "Plată Chirie",
+      "subscription": "Abonament"
+    },
+    "gender": {
+      "male": "Masculin",
+      "female": "Feminin",
+      "other": "Altele"
+    },
+    "ecRelation": {
+      "wife": "Soție",
+      "parent": "Părinte",
+      "friend": "Prieten",
+      "brother": "Frate",
+      "sister": "Soră",
+      "child": "Copil"
+    },
+    "vehicleType": {
+      "car": "Mașină",
+      "motorcycles": "Motociclete",
+      "lorry": "Camion"
+    },
+    "sortBy": {
+      "lowToHigh": "De la Mic la Mare",
+      "highToLow": "De la Mare la Mic"
+    },
+    "residentialType": {
+      "flat": "Apartament",
+      "apartment": "Apartament",
+      "condominium": "Condominiu",
+      "serviceResidence": "Reședință cu Servicii",
+      "studio": "Garsonieră",
+      "duplex": "Duplex",
+      "townhouseCondo": "Casă înșiruită/Condominiu",
+      "condo": "Condominiu / Reședință cu Servicii / Penthouse",
+      "house": "Case",
+      "shoplot": "Spațiu Comercial",
+      "sharing": "Cameră/Apartament la Comun",
+      "others": "Altele"
+    },
+    "floorRange": {
+      "high": "Superior",
+      "medium": "Mediu",
+      "low": "Inferior"
+    },
+    "furnishings": {
+      "fullyFurnished": "Complet Mobilat",
+      "partiallyFurnished": "Parțial Mobilat",
+      "notFurnished": "Nemobilat"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Spațiu de Birouri",
+      "retailSpace": "Spațiu de Vânzare cu Amănuntul",
+      "shopLot": "Spațiu Comercial",
+      "warehouseFactory": "Depozit / Fabrică",
+      "hotelResort": "Hotel / Complex Turistic",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Altele"
+    },
+    "landPropertyType": {
+      "residential": "Rezidențial",
+      "industrial": "Industrial",
+      "agricultural": "Agricol",
+      "commercial": "Comercial",
+      "mixedDevelopment": "Dezvoltare Mixtă",
+      "others": "Altele"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Luni",
+      "oneYear": "1 An",
+      "oneAndHalfYears": "1.5 Ani",
+      "twoYears": "2 Ani",
+      "twoAndHalfYears": "2.5 Ani"
+    },
+    "dropdownDateFilter": {
+      "daily": "Zilnic",
+      "weekly": "Săptămânal",
+      "monthly": "Lunar",
+      "yearly": "Anual",
+      "custom": "Personalizat"
+    },
+    "bungalowType": {
+      "modern": "Modern",
+      "cottage": "Vila",
+      "luxury": "De Lux",
+      "ecoSmart": "Eco / Inteligent",
+      "beachSide": "Lângă Plajă",
+      "others": "Altele"
+    }
+  }
+}

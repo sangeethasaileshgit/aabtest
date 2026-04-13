@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "nl_NL",
+    "languageName": "Dutch",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profiel",
+    "language": "Taal",
+    "subscriptionPlan": "Abonnement",
+    "contactUs": "Contact opnemen",
+    "termsAndConditions": "Algemene Voorwaarden",
+    "aboutUs": "Over ons",
+    "logout": "Uitloggen",
+    "editProfile": "Profiel bewerken",
+    "fullName": "Volledige Naam",
+    "email": "E-mail",
+    "mobileNumber": "Mobiel Nummer",
+    "address": "Adres",
+    "postalCode": "Postcode",
+    "city": "Stad",
+    "country": "Land",
+    "state": "Provincie",
+    "password": "Wachtwoord",
+    "forgotPassword": "Wachtwoord vergeten",
+    "tenant": "Huurder",
+    "landlord": "Verhuurder",
+    "cancelRenting": "Huur annuleren",
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "fromDate": "Vanaf Datum",
+    "toDate": "Tot Datum",
+    "online": "Online",
+    "bankList": "Banklijst",
+    "withdrawMethod": "Opnamemethode",
+    "uploadPaymentReceipt": "Upload Betalingsbewijs",
+    "offlinePaymentNote(rich)": "Opmerking: ${note(De betaling vereist handmatige goedkeuring door de beheerder binnen)} ${duraion(24~48 uur.)}",
+    "reviews": "Beoordelingen",
+    "description": "Beschrijving",
+    "about": "Over",
+    "propertyTypes": "Soorten Vastgoed",
+    "features": "Kenmerken",
+    "floorPlans": "Plattegronden",
+    "buildingDetails": "Gebouwdetails",
+    "buildingName": "Naam Gebouw",
+    "propertyAddress": "Vastgoedadres",
+    "completionYear": "Opleveringsjaar",
+    "lotNumber": "Kavelnummer",
+    "residentialType": "Type Woning",
+    "furnishings": "Inrichting",
+    "floorRange": "Verdiepingsbereik",
+    "bedrooms": "Slaapkamers",
+    "bathrooms": "Badkamers",
+    "propertySize": "Grootte Vastgoed",
+    "rentalPeriod": "Huurperiode",
+    "securityDeposit": "Borg",
+    "utilityBill": "Nutsvoorzieningen",
+    "facilities": "Faciliteiten",
+    "amenities": "Voorzieningen",
+    "expiringReason": "Reden van Verloop",
+    "tenantDetails": "Huurderdetails",
+    "typeOfTenant": "Type Huurder",
+    "tenantName": "Naam Huurder",
+    "nidPassport": "ID/Paspoort",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Huurder ID",
+    "dateOfBirth": "Geboortedatum",
+    "gender": "Geslacht",
+    "nominee": "Gevolmachtigde",
+    "name": "Naam",
+    "optional": "Optioneel",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Mob. Nr.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Noodcontact",
+    "relation": "Relatie",
+    "relationWith": "@:common.relation Met",
+    "relationWithYou": "@:common.relationWith U",
+    "company": "Bedrijf",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company KvK Nr.",
+    "workplace": "Werkplek",
+    "officePhoneNo": "Telefoonnummer Kantoor",
+    "officeMobileNo": "Kantoor @:common.mobileNumber",
+    "vehicle": "Voertuig",
+    "vehiclesInfo": {
+      "plain": "Voertuiginformatie",
+      "optional": "Voertuiginformatie (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Type",
+    "vehicleRegistrationNo": {
+      "normal": "Voertuig Registratienr.",
+      "short": "Registratienr.",
+      "alt": "Kentekenplaat Nr."
+    },
+    "vehicleBrand": "@:common.vehicle Merk",
+    "rentProperty": "Vastgoed Verhuren",
+    "propertyDetails": "Vastgoeddetails",
+    "propertyId": "Vastgoed ID",
+    "propertyType": "Type Vastgoed",
+    "propertyName": "Naam Vastgoed",
+    "paymentDetails": "Betalingsdetails",
+    "monthlyRent": "Maandelijkse Huur",
+    "thisMonthPayment": "Betaling Deze Maand",
+    "totalPaidRent": "Totaal Betaalde Huur",
+    "dueRent": "Verschuldigde Huur",
+    "rentStartDate": "Huur @:common.startDate",
+    "rentEndDate": "Huur @:common.endDate",
+    "status": "Status",
+    "rentAgreementPdf": "Huurcontract PDF",
+    "noFile": "Geen Bestand",
+    "tenantImageOp": "Afbeelding Huurder @:common.optional",
+    "addNewVechicle": "Nieuw Voertuig Toevoegen",
+    "uploadNidPassport": "Upload ID/Paspoort",
+    "nidPassportUploadNote": "Alleen bestandstype afbeelding wordt geaccepteerd. Bestandsgrootte max. 2.5 MB.",
+    "search": "Zoeken",
+    "sortBy": "Sorteren op",
+    "subscription": "Abonnement",
+    "downloading": "Bezig met downloaden...",
+    "downloadSuccess": "Bestand succesvol gedownload!",
+    "addPropertyBannerTitle": "Wilt u uw vastgoed verhuren?",
+    "application": "Aanvraag",
+    "tenantHasPaidDeposit": "Huurder heeft de borg betaald.",
+    "askProcessingRentApplication": "Weet u zeker dat u deze aanvraag voor huurvastgoed wilt verwerken?",
+    "dateAndTime": "Datum & Tijd",
+    "applicationDetails": "Aanvraagdetails",
+    "depositStatus": "Borgstatus",
+    "uploadRentAgreement": "Upload Huurcontract",
+    "uploadFilePDF": "Upload Bestand (PDF)",
+    "askSelectRentAgreement": "Selecteer een documentbestand van het contract.",
+    "landlordRentAgreementPDF": "Huurcontract Verhuurder PDF",
+    "tenantRentAgreementPDF": "Huurcontract Huurder PDF",
+    "landlordApplicationApproveNote(rich)": "Opmerking: ${note(Keur de aanvraag alleen goed nadat de huurder een borgbetaling heeft gedaan.)}",
+    "reasonOfRejection": "Reden van Afwijzing",
+    "youveRejectedThisApplication": "U hebt deze aanvraag afgewezen",
+    "landlordDetails": "Verhuurderdetails",
+    "landlordName": "Naam Verhuurder",
+    "downloadRentAgreement": "Download Huurcontract",
+    "acceptTermsConditions(rich)": "Accepteer ${toc(Algemene Voorwaarden)}",
+    "tenantAgreementSignNote1(rich)": "Opmerking: ${note(Download en lees het contract. Stuur het ondertekende contract naar de verhuurder via WhatsApp of e-mail.)}",
+    "tenantAgreementSignNote2(rich)": "Opmerking: ${note(De verhuurder keurt de aanvraag goed wanneer de huurder de borg, nutsvoorzieningen en een maand vooruitbetaalde huur betaalt.)}",
+    "completeRentAgreementPdf(rich)": "Huurcontract (PDF) ${complete(Volledig Contract)}",
+    "tenantApplicationDepositNote(rich)": "Opmerking : ${note(De verhuurder keurt de aanvraag goed wanneer de huurder de borg, nutsvoorzieningen en een maand vooruitbetaalde huur betaalt.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Aanvraaglijst",
+    "viewDetails": "Details bekijken",
+    "searchHint": "@:common.search...",
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "tenants": "Huurders",
+    "maintenance": "Onderhoud",
+    "maintenanceList": "Onderhoudslijst",
+    "maintenanceReport": "Onderhoudsrapport",
+    "labor": "Arbeider",
+    "applications": "Aanvragen",
+    "rentInvitation": "Huuruitnodiging",
+    "payment": "Betaling",
+    "rentPayment": "Huur betaling",
+    "depositUtilityPayment": "Borg & Nutsbetaling",
+    "refundRequest": "Terugbetalingsverzoek",
+    "withdrawRequest": "Opnameverzoek",
+    "myProperty": "Mijn Vastgoed",
+    "myRent": "Mijn Huur",
+    "wishlist": "Verlanglijst",
+    "properties": "Vastgoed",
+    "allProperties": "Alle Vastgoed",
+    "totalPropery": "Totaal Vastgoed",
+    "occupied": "Bezet",
+    "vacant": "Vrij",
+    "accounting": "Boekhouding",
+    "totalIncome": "Totale Inkomsten",
+    "totalExpense": "Totale Uitgaven",
+    "currentBalance": "Huidig Saldo",
+    "totalWithdrawal": "Totaal (Opname)",
+    "totalProperties": "Totaal Vastgoed",
+    "totalTenant": "Totaal Huurders",
+    "totalRentPaid": "Totaal Betaalde Huur",
+    "totalRentDue": "Totaal Verschuldigde Huur",
+    "totalApplication": "Totaal Aanvragen",
+    "pendingApplication": "In Afwachting van Aanvraag",
+    "processingApplication": "Aanvraag in Verwerking",
+    "approveApplication": "Aanvraag Goedgekeurd",
+    "rejectApplication": "Aanvraag Afgewezen",
+    "maintenanceCost": "Onderhoudskosten",
+    "transactionSummary": "Transactieoverzicht",
+    "maintenanceRequest": "Onderhoudsaanvraag",
+    "notifications": "Meldingen",
+    "myProperties": "Mijn Vastgoed",
+    "recommendationProperties": "Aanbevolen Vastgoed",
+    "laborList": "Arbeiderslijst",
+    "addLabor": "Arbeider Toevoegen",
+    "laborDetails": "Arbeiderdetails",
+    "laborSalary": "Salaris Arbeider",
+    "editLabor": "Arbeider Bewerken",
+    "addNewLabor": "Nieuwe Arbeider Toevoegen",
+    "enterAmount": "Bedrag Invoeren",
+    "maintenanceDetails": "Onderhoudsdetails",
+    "laborName": "Naam Arbeider",
+    "comment": "Opmerking",
+    "image": "Afbeelding",
+    "complete": "Voltooid",
+    "details": "Details",
+    "title": "Titel",
+    "date": "Datum",
+    "reason": "Reden",
+    "edit": "Bewerken",
+    "property": "Vastgoed",
+    "completeYourProfile": "Voltooi Uw Profiel",
+    "profileImage": "Profielafbeelding",
+    "imagePickHint": "Alleen JPEG & PNG Afbeelding met max. grootte van 120x120 pixels.",
+    "invoiceId": "Factuur ID",
+    "depositAmount": "Borgbedrag",
+    "landlordPhone": "Telefoon Verhuurder",
+    "rentalAdvance": "Huur (Vooruitbetaling)",
+    "totalAmount": "Totaalbedrag",
+    "rentAmount": "Huurprijs",
+    "adminCharge": "Administratiekosten",
+    "editAccount": "Account Bewerken",
+    "addNewAccount": "Nieuw Account Toevoegen",
+    "transactionId": "Transactie ID",
+    "transactionType": "Transactietype",
+    "requestDate": "Aanvraagdatum",
+    "amount": "Bedrag",
+    "fee": "Kosten",
+    "paymentStatus": "Betalingsstatus",
+    "generatedTime": "Gegenereerde Tijd",
+    "systemGeneratedReportHint(rich)": "Dit is een door het systeem gegenereerd rapport van ${appName}",
+    "withdrawHistory": "Opnamegeschiedenis",
+    "history": "Geschiedenis",
+    "withdrawAmount": "Opnamebedrag",
+    "availableBalance": "Beschikbaar Saldo",
+    "withdrawCharge": "Opnamekosten",
+    "paymentMethod": "Betaalmethode",
+    "requestSendSuccess": "Aanvraag succesvol verzonden!",
+    "paymentReceiptSubmitSuccess": "Betalingsbewijs succesvol ingediend.",
+    "refundReason": "Reden voor Terugbetaling",
+    "note": "Opmerking",
+    "refundReceiveSuccess": "Terugbetaling succesvol ontvangen.",
+    "downloadPaymentReceipt": "Download Betalingsbewijs",
+    "invoice": "Factuur",
+    "selectPropertyToSeeInvoice": "Selecteer vastgoed om het factuurnummer te zien...",
+    "bankAccName": "Naam Bankrekening",
+    "bankName": "Naam Bank",
+    "bankAccNum": "Bankrekeningnummer",
+    "thankYou": "Dank U!",
+    "basicInfo": "Basis Informatie",
+    "descriptionPricing": "Beschrijving & Prijzen",
+    "contact": "Contact",
+    "photos": "Foto's",
+    "successfullySubmitted": "Succesvol ingediend!",
+    "editProperty": "Vastgoed Bewerken",
+    "addNewProperty": "Nieuw Vastgoed Toevoegen",
+    "propertyManageRequestSuccess": "Uw advertentie is ingediend ter beoordeling.",
+    "postAnotherProperty": "Nog een Vastgoed Plaatsen",
+    "browseYourProperty": "Blader Door Uw Vastgoed",
+    "stepIndicator(rich)": "Stap ${step} van ${totalSteps}",
+    "whatWouldYouLikeToPost": "Wat wilt u plaatsen?",
+    "category": "Categorie",
+    "invalidCategory": "Ongeldige Categorie",
+    "unitNumber": "Eenheidsnummer",
+    "sqft": "m²",
+    "propertySizeMustBeGreaterThan0": "De grootte van het vastgoed moet groter zijn dan nul",
+    "whatAreTheFacility": "Wat zijn de faciliteiten?",
+    "whatAreTheAmenity": "Wat zijn de voorzieningen?",
+    "parkingLot": "Parkeerplaats",
+    "houseType": "Type Huis",
+    "value": "Waarde",
+    "unitLotSize": "Eenheid / Kavelgrootte",
+    "landSize": "Grootte Land",
+    "acres": "acre(s)",
+    "roomSize": "Grootte Kamer",
+    "askTenantPreference": "Wat is uw huurdersvoorkeur?",
+    "couple": "Koppel",
+    "describeTheProperty": "Beschrijf het ${propertyType: String}",
+    "adTitle": "Advertentietitel",
+    "minimumRentalPeriod": "Minimale Huurperiode",
+    "whatsappNumber": "@:common.whatsapp Nummer",
+    "hideOrDisplayEmail": "E-mailadres verbergen of weergeven",
+    "thankYouForPostingProperty": "Bedankt voor het plaatsen op ${appName: String}!",
+    "propertyList": "Vastgoedlijst",
+    "newInviteRent": "Nieuwe Huuruitnodiging",
+    "rentAgreement": "Huurcontract",
+    "rentDetails": "Huurdetails",
+    "landlordRentInvitationPendingNote(rich)": "Opmerking: ${note(Wacht alstublieft tot de huurder de uitnodiging accepteert.)}",
+    "rent": "Huur",
+    "editTenant": "Huurder Bewerken",
+    "addNewTenant": "Nieuwe Huurder Toevoegen",
+    "shareInstallLink": "Deel Installatielink",
+    "tenantList": "Huurderslijst",
+    "editMaintenanceRequest": "Onderhoudsaanvraag Bewerken",
+    "addNewMaintenance": "Nieuw Onderhoud Toevoegen",
+    "landlordId": "Verhuurder ID",
+    "tenantAgrementUnderReviewNote(rich)": "Opmerking ${note(Uw contract is in behandeling. Wacht alstublieft totdat de verhuurder uw huur goedkeurt.)}",
+    "editReview": "Beoordeling Bewerken",
+    "writeAReview": "Schrijf een beoordeling",
+    "selectRating": "Selecteer Beoordeling",
+    "enterYourOpinion": "Voer Uw Mening In",
+    "askToEnterReviewMsg": "Voer alstublieft een beoordelingsbericht in",
+    "pressBackAgainToExit": "Druk nogmaals op terug om af te sluiten.",
+    "selectPaymentMethod": "Selecteer Betaalmethode",
+    "filter": "Filter",
+    "perMonth": "/1 Maand",
+    "searchHintWithAppName": "Zoek alles in ${appName: String}...",
+    "propertyInfo": "Vastgoedinformatie",
+    "units": "Eenheden",
+    "depositPeriod": "Borgperiode",
+    "facilitiesList": "Faciliteitenlijst",
+    "facility": "Faciliteit",
+    "amenity": "Voorziening",
+    "amenitiesList": "Voorzieningenlijst",
+    "addNewFacility": "Nieuwe Faciliteit Toevoegen",
+    "editFacility": "Faciliteit Bewerken",
+    "facilityName": "Naam Faciliteit",
+    "amenityName": "Naam Voorziening",
+    "addNewAmenity": "Nieuwe Voorziening Toevoegen",
+    "editAmenity": "Voorziening Bewerken",
+    "family": "Familie",
+    "lateFee": "Boete bij Late Betaling",
+    "lateFeeAfterDays": "@:common.lateFee Na (Dagen)",
+    "propertyPricing": "${propertyType: String} Prijzen",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Hartelijk dank, u hebt zojuist uw vastgoed gepubliceerd",
+    "titleAndDescription": "Titel & Beschrijving",
+    "rentPricing": "Huurprijzen",
+    "step": "Stap",
+    "of": "VAN",
+    "pricing": "Prijzen",
+    "sameRentForAllUnit": "Zelfde huur voor alle eenheden",
+    "unit": "eenheid",
+    "pleaseSelectAnUnitFirst": "Selecteer alstublieft eerst een eenheid.",
+    "saleAmount": "Verkoopbedrag",
+    "selectCategory": "Selecteer een Categorie",
+    "pleaseSelectACategory": "Selecteer alstublieft een categorie",
+    "pleaseEnterAdTitle": "Voer alstublieft een advertentietitel in",
+    "addCoverPhoto": "Omslagfoto Toevoegen",
+    "findAProperty": "Vastgoed Zoeken",
+    "categories": "Categorieën",
+    "recmmendedProperties": "Aanbevolen Vastgoed",
+    "recentSearch": "Recente Zoekopdrachten",
+    "pleaseEnterYourAccountNumber": "Voer alstublieft uw rekeningnummer in.",
+    "pleaseSelectALanguageToContinue": "Selecteer alstublieft een taal om verder te gaan.",
+    "subscribe": "Abonneren",
+    "noFacilitiesFound": "Geen faciliteiten gevonden!",
+    "invalidLaborDetailsPleaseTryAgain": "Ongeldige arbeidersdetails, probeer het opnieuw",
+    "maintenanceWork": "Onderhoudswerk",
+    "selectLabor": "Selecteer Arbeider",
+    "enterMaintenanceCost": "Voer onderhoudskosten in",
+    "pleaseEnterMaintenanceCost": "Voer alstublieft onderhoudskosten in",
+    "writeComment": "Schrijf opmerking",
+    "maintenancePending": "Onderhoud In Afwachting",
+    "yourEarnings": "Uw Inkomsten",
+    "totalPaid": "Totaal Betaald",
+    "linkANewBankAccount": "Nieuwe bankrekening koppelen",
+    "payoutRequest": "Uitbetalingsverzoek"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Er is iets fout gegaan, probeer het opnieuw",
+    "noNidPassport": "Geen ID/Paspoort afbeelding verstrekt.",
+    "noRentPropertyFound": "Geen huurvastgoed gevonden voor deze huurder.",
+    "noPropertyFoundWithKeyWord": "Geen vastgoed gevonden!\nProbeer het met andere trefwoorden",
+    "noSubscriptionFoundRefreshPage": "Geen abonnementsplan gevonden!\nVernieuw de pagina en probeer het opnieuw.",
+    "invalidApiDataRefreshPage": "Ongeldige ${dataType: String} info! Vernieuw de pagina en probeer het opnieuw.",
+    "invalidDownloadUrl": "Ongeldige download-URL!",
+    "failedToSaveFile": "Opslaan van het bestand is mislukt! ${error: String}",
+    "errorOpeningFile": "Fout bij het openen van het bestand! ${error: String}",
+    "noVehicleInfoProvided": "Geen voertuiginformatie verstrekt.",
+    "yourApplicationRejected": "Uw aanvraag is afgewezen",
+    "noApplicationFoundHint": {
+      "template": "Geen aanvraag gevonden!\n${subject: String} wordt hier weergegeven wanneer beschikbaar.",
+      "subjects": {
+        "tenant": "Uw aanvraag",
+        "landlord": "Aanvraag van huurder"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Geen vastgoed gevonden!\nProbeer vastgoed toe te voegen om het hier te zien.",
+      "tenantRecommended": "Geen Aanbevolen Vastgoed gevonden\nProbeer het later opnieuw.",
+      "tenantAllProperty": "Vastgoed niet beschikbaar\nProbeer het later opnieuw."
+    },
+    "noImageProvided": "Geen Afbeelding Verstrekt",
+    "noStatusMaintenantFound": {
+      "landlord": "Geen ${status} onderhoud gevonden.",
+      "tenant": "Geen onderhoud gevonden! U kunt een onderhoudsaanvraag aanmaken om het hier te zien."
+    },
+    "noDepositFound": "Geen borg gevonden!\nU kunt de borg hier zien wanneer beschikbaar",
+    "noRentPaymentFound": "Geen huurbetaling gevonden!\nU kunt de huurbetalingen hier zien wanneer beschikbaar",
+    "transactionSummaryApiException": "Niet gelukt om transactieoverzicht te krijgen.",
+    "noWithdrawRequestFound": "Geen aanvraag gevonden!\nProbeer een opnameverzoek aan te maken om het hier te zien.",
+    "withdrawRequestNotApproved": "Dit opnameverzoek is niet goedgekeurd!.",
+    "nonZeroError": "Voer een geldig bedrag in dat groter is dan nul.",
+    "minAmountError": "Het bedrag moet minstens ${minValue: String} zijn.",
+    "maxAmountError": "Het bedrag mag niet meer bedragen dan ${maxValue: String}.",
+    "selectPaymentMethodHint": "Selecteer eerst een betaalmethode.",
+    "noStatusRefundReqFound": {
+      "landlord": "Geen ${status} terugbetalingsverzoek gevonden!\nU kunt terugbetalingsverzoeken hier zien wanneer beschikbaar.",
+      "tenant": "Geen terugbetalingsverzoek gevonden!\nU kunt een terugbetalingsverzoek aanmaken om het hier te zien."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Huurder zal de terugbetaling goedkeuren wanneer hij/zij het geld terug heeft",
+      "tenantReqSuccess": "We zullen het terugbetalingsverzoek beoordelen en binnen 24 uur goedkeuren."
+    },
+    "oneToTenRequiredField": "Selecteer het nummer van ${value: String}",
+    "invalidDateRange": "Ongeldig datumbereik.",
+    "valueMustBeGreaterThanZero": "${value: String} moet groter zijn dan nul.",
+    "editProperty": {
+      "rentalChange": "Huurvastgoed wordt gewijzigd. Dit mag alleen geldig (effectief) zijn voor de huurbetaling van de volgende maand.",
+      "deleteOnRent": "Uw vastgoed is al verhuurd door de huurder. Kan het pas verwijderen nadat u eerst de huurder hebt verwijderd",
+      "alreayRented": "Dit vastgoed is al verhuurd. Probeer het later opnieuw.\nOf u kunt contact opnemen met de verhuurder voor meer informatie."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Geen huuruitnodiging gevonden!\nProbeer een huuruitnodiging aan te maken om het hier te zien.",
+      "tenantNoRentInvitation": "Geen huuruitnodiging gevonden!\nU kunt huuruitnodigingen hier zien wanneer beschikbaar."
+    },
+    "notenantFoundList": "Geen huurders!\nProbeer een huurder toe te voegen om het hier te zien.",
+    "noFeaturesProvided": "Geen kenmerken verstrekt.",
+    "noNotificationFound": "Geen melding beschikbaar.\nU kunt uw melding hier zien wanneer beschikbaar.",
+    "noFacilitiesFound": "Geen faciliteiten gevonden.",
+    "noAmenitiesFound": "Geen voorzieningen gevonden!",
+    "noLaborFound": "Geen arbeider gevonden\\nProbeer het later opnieuw.",
+    "areYouSureYouWantToRemoveThisUnit": "Weet u zeker dat u deze eenheid wilt verwijderen?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Weet u zeker dat u wilt uitloggen?"
+    },
+    "application": {
+      "rejectTitle": "Waarom wijst u deze aanvraag af?",
+      "applicationSent": {
+        "successfully": "Aanvraag succesvol verzonden!",
+        "sucessDescription": "U kunt deze aanvraag in uw aanvraaglijst zien"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Arbeider Verwijderen?",
+        "description": "Weet u zeker dat u deze arbeider wilt verwijderen?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Waarom wordt dit verzoek afgewezen?",
+      "processTitle": "Weet u zeker dat u dit Onderhoudsverzoek wilt Verwerken?",
+      "completeTitle": "Werk voltooid?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Opnamemethode Verwijderen?",
+      "deleteDescription": "Weet u zeker dat u deze opnamemethode wilt verwijderen?"
+    },
+    "unsavedChanges": {
+      "title": "Weet u zeker dat u terug wilt gaan?",
+      "message": "Velden die zijn gewijzigd, worden niet opgeslagen!"
+    },
+    "property": {
+      "delete": {
+        "title": "Vastgoed Verwijderen?",
+        "message": "Weet u zeker dat u dit vastgoed wilt verwijderen?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Weet u zeker dat u deze huur wilt goedkeuren?",
+        "description": "Zorg ervoor dat u het door de huurder ondertekende contract hebt beoordeeld."
+      },
+      "tenantAccept": {
+        "title": "Weet u zeker dat u deze uitnodiging wilt accepteren?",
+        "description": "Zorg ervoor dat u het contract pdf-bestand hebt gedownload!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sessie verlopen",
+      "message": "Uw sessie is verlopen. Gelieve opnieuw in te loggen",
+      "action": "Inloggen"
+    },
+    "noInternet": {
+      "title": "Geen Internetverbinding",
+      "message": "Controleer uw Wi-Fi of mobiele netwerkverbinding en probeer het opnieuw",
+      "action": "Opnieuw Proberen"
+    },
+    "permissionHandler": {
+      "title": "Toestemming vereist!",
+      "message": "U moet toestemmingen verlenen in de app-instellingen. Wilt u de instellingen nu openen?"
+    },
+    "imagePicker": {
+      "title": "Selecteer Optie",
+      "gallery": "Galerij",
+      "camera": "Camera"
+    },
+    "verificationDialog": {
+      "title": "Bevestig Uw E-mail",
+      "message": "We hebben een e-mail met een verificatiecode verzonden",
+      "messageWithEmail": "@:prompt.verificationDialog.message naar ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Meldingen wissen?",
+      "clearMessage": "Weet u zeker dat u alle meldingen wilt wissen?"
+    },
+    "genericDeletePrompt": {
+      "title": "Wilt u deze ${item: String} verwijderen"
+    },
+    "subscriptionModal": {
+      "title": "Abonnement Verlopen!",
+      "message": "Gelieve u te abonneren om door te gaan."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Voer @:common.fullName in",
+      "errors": {
+        "required": "Voer uw @:common.fullName in"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Voer uw @:common.email in",
+      "errors": {
+        "required": "Voer uw @:common.email adres in",
+        "invalid": "⦸ Ongeldig e-mailadres, probeer het opnieuw"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Voer uw @:common.password in",
+        "minLength": "Wachtwoord moet minstens ${count} karakters lang zijn!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Bevestig @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Voer uw @:common.password in",
+        "notMatched": "Bevestig wachtwoord komt niet overeen!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Voer uw @:common.mobileNumber in"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Huisnummer en straatnaam",
+      "errors": {
+        "required": "Voer uw @:form.address1.label in"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Appartement, suite, eenheid, enz.",
+      "errors": {
+        "required": "Voer uw @:form.address2.label in"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Voer @:common.postalCode in",
+      "errors": {
+        "required": "Voer uw @:common.postalCode in"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Voer @:common.city naam in.",
+      "errors": {
+        "required": "Voer uw @:common.city naam in."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Voer @:common.state naam in.",
+      "errors": {
+        "required": "Voer uw @:common.state naam in."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Selecteer @:common.country.",
+      "errors": {
+        "required": "Selecteer uw @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Voer de otp in.",
+        "invalid": "Voer de juiste otp in."
+      }
+    },
+    "title": {
+      "label": "Titel",
+      "hint": "Voer titel in",
+      "errors": {
+        "required": "Voer titel in"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Selecteer @:form.date.label",
+      "errors": {
+        "required": "Selecteer @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Reden",
+      "hint": "Voer reden in",
+      "errors": {
+        "required": "Voer reden in"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Selecteer @:common.withdrawMethod",
+      "errors": {
+        "required": "Selecteer @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Upload ${label: String}",
+      "errors": {
+        "required": "Selecteer ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Voer @:form.note.label in",
+      "errors": {
+        "required": "Voer @:form.note.label in"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Selecteer @:common.gender",
+      "errors": {
+        "required": "Selecteer @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Voer @:form.anyField.label in",
+      "errors": {
+        "required": "Voer @:form.anyField.label in",
+        "invalid": "Voer een geldige @:form.anyField.label in"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Selecteer @:form.anyDropdown.label",
+      "errors": {
+        "required": "Selecteer @:form.anyDropdown.label",
+        "invalid": "Selecteer een geldige @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Volgende",
+    "getStarted": "Aan de slag",
+    "skip": "Overslaan",
+    "select": "Selecteren",
+    "save": "Opslaan",
+    "signIn": "Inloggen",
+    "signUp": "Aanmelden",
+    "continue": "Doorgaan",
+    "clearAll": "Alles wissen",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Verzenden",
+    "pay": "Betalen",
+    "remove": "Verwijderen",
+    "goBack": "Teruggaan",
+    "buyNow": "Nu Kopen",
+    "no": "Nee",
+    "open": "Openen",
+    "addProperty": "Vastgoed Toevoegen",
+    "process": "Verwerken",
+    "approve": "Goedkeuren",
+    "reject": "Afwijzen",
+    "viewRent": "Huur Bekijken",
+    "openNavigationMenu": "Navigatiemenu openen",
+    "seeAll": "Alles Zien",
+    "update": "Bijwerken",
+    "printTransaction": "Transactie Printen",
+    "payoutRequest": "Uitbetalingsverzoek",
+    "addNew": "+ Nieuwe Toevoegen",
+    "sendRequest": "Verzoek Verzenden",
+    "print": "Printen",
+    "requestForRefund": "Verzoek om Terugbetaling",
+    "previous": "Vorige",
+    "delete": "Verwijderen",
+    "applyProperty": "Vastgoed Aanvragen",
+    "viewApplication": "Aanvraag Bekijken",
+    "inviteTenant": "Huurder Uitnodigen",
+    "inviteRent": "Huur Uitnodigen",
+    "cancel": "Annuleren",
+    "accept": "Accepteren",
+    "submit": "Indienen",
+    "yes": "Ja",
+    "okay": "Oké",
+    "confirm": "Bevestigen",
+    "apply": "Toepassen",
+    "reset": "Resetten",
+    "retry": "Opnieuw Proberen",
+    "viewAll": "Alles Bekijken",
+    "addMore": "Meer Toevoegen",
+    "done": "Klaar"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Vind Uw Vastgoed",
+          "description": "We hebben het heel eenvoudig gemaakt om een plek te vinden die bij uw leven past — of het nu een kamer, een appartement of een huis is."
+        },
+        "data2": {
+          "title": "Appartement In De Stad",
+          "description": "We besparen u tijd door u snel te matchen met het perfecte vastgoed voordat het weg is, zodat u van uw nieuwe huis kunt genieten, of uw eigen vastgoed gratis kunt aanbieden."
+        },
+        "data3": {
+          "title": "Uw Comfortabele Huis",
+          "description": "Als u op zoek bent naar een plek om te wonen, bekijk dan onze huurhuizen. We hebben een breed scala aan huizen waaruit u kunt kiezen in het hele land."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Welkom Terug",
+      "subtitle": "Log nu in om een geweldige reis te beginnen.",
+      "extra": {
+        "rememberMe": "Onthoud Mij",
+        "signUpNavigator(rich)": "Heeft u geen account? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord vergeten",
+      "subtitle": "Voer uw e-mailadres in om uw wachtwoord te herstellen."
+    },
+    "otpVerification": {
+      "title": "Verificatie",
+      "subtitle": "6-cijferige pincode is verzonden naar uw e-mailadres. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Code verzonden over ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Code opnieuw verzenden)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Wachtwoord herstellen",
+      "subtitle": "Herstel uw wachtwoord voor herstel en meld u aan bij uw account",
+      "extra": {
+        "dialog": {
+          "title": "Succesvol gewijzigd!",
+          "subtitle": "Meld u aan met uw nieuwe wachtwoord.\n U wordt doorgestuurd naar Inloggen..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Maak Een Account Aan",
+      "subtitle": "Meld u nu aan om een geweldige reis te beginnen",
+      "extra": {
+        "signInNavigator(rich)": "Heeft u al een account? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Wie bent u?",
+      "subtitle": "Selecteer alstublieft de onderstaande optie.",
+      "extra": {
+        "landlordTag": "Beheer uw eigen vastgoed",
+        "tenantTag": "Log in op uw huuraccount"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Meldingen"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Bericht..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Waarom annuleert u @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Reden schrijven",
+          "errors": {
+            "required": "Voer alstublieft de reden voor huurannulering in"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Offline Betaling",
+      "form": {
+        "paymentNote": {
+          "label": "Betalingsopmerking (@:common.optional)",
+          "hint": "Voer tekst in..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Te Betalen Bedrag: ${amount}",
+        "accountHolderName": "Naam Rekeninghouder",
+        "accountNumber": "Rekeningnummer",
+        "swiftCode": "Swift Code",
+        "branch": "Filiaal",
+        "fileTypeHint(rich)": "Kies alleen ${fileType(JPG, PNG,PDF)} of ${fileType(DOC)} formaat bestanden. Bestandsgrootte ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Factuur Bekijken",
+        "title": "@:common.thankYou",
+        "description": "We zullen de betaling beoordelen en binnen 24 uur goedkeuren."
+      },
+      "fail": {
+        "actionButton": "Opnieuw Proberen",
+        "title": "Oeps! Betaling Mislukt",
+        "description": "Uw transactie is mislukt als gevolg van een technische fout."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Kenmerken ${fa((Faciliteiten & Voorzieningen))}",
+        "selectRentalPeriod": "Selecteer Huurperiode",
+        "writeAReview": "+ Schrijf een beoordeling"
+      }
+    },
+    "search": {
+      "appbarTitle": "Zoeken",
+      "extra": {
+        "hint": "Zoek naar kavels, flats, kamers...",
+        "noRecentSearch": "U heeft geen recente zoekopdrachten."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Kies uw Plan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Abonnementsbetaling succesvol.\nU kunt nu toegang krijgen tot de geabonneerde functies."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Totale Onderhoudskosten: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Alle Vastgoed",
+      "pending": "In Afwachting",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "rejected": "Afgewezen"
+    },
+    "propertyType": {
+      "rent": "Huur",
+      "sale": "Verkoop"
+    },
+    "propertyCategory": {
+      "apartment": "Appartement",
+      "house": "Huis",
+      "commercial": "Commercieel",
+      "land": "Land",
+      "room": "Kamer",
+      "unitOrFlat": "Eenheid / Flat",
+      "bungalow": "Bungalow",
+      "plot": "Kavel"
+    },
+    "applicationStatus": {
+      "all": "Alle",
+      "pending": "In Afwachting",
+      "processing": "Bezig met verwerken",
+      "approved": "Goedgekeurd",
+      "rejected": "Afgewezen"
+    },
+    "myRentStatus": {
+      "pending": "In Afwachting",
+      "processing": "Bezig met verwerken",
+      "active": "Actief",
+      "expired": "Verlopen",
+      "cancelled": "Geannuleerd"
+    },
+    "maintenanceStatus": {
+      "pending": "In Afwachting",
+      "processing": "Bezig met verwerken",
+      "rejected": "Afgewezen",
+      "completed": "Voltooid"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Particulier (Individu)",
+      "company": "Bedrijf"
+    },
+    "tenantType": {
+      "newTenant": "Nieuwe Huurder",
+      "activeTenant": "Actieve Huurder",
+      "expiredTenant": "Verlopen Huurder"
+    },
+    "paymentStatus": {
+      "all": "Alle",
+      "pending": "In Afwachting",
+      "paid": "Betaald",
+      "unpaid": "Onbetaald",
+      "rejected": "Afgewezen",
+      "refund": "Terugbetaling"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Online Betaling",
+      "offlinePayment": "Offline Betaling"
+    },
+    "paymentType": {
+      "securityDeposit": "Borg",
+      "rentPayment": "Huur betaling",
+      "subscription": "Abonnement"
+    },
+    "gender": {
+      "male": "Man",
+      "female": "Vrouw",
+      "other": "Anders"
+    },
+    "ecRelation": {
+      "wife": "Echtgenote",
+      "parent": "Ouder",
+      "friend": "Vriend",
+      "brother": "Broer",
+      "sister": "Zus",
+      "child": "Kind"
+    },
+    "vehicleType": {
+      "car": "Auto",
+      "motorcycles": "Motoren",
+      "lorry": "Vrachtwagen"
+    },
+    "sortBy": {
+      "lowToHigh": "Laag naar Hoog",
+      "highToLow": "Hoog naar Laag"
+    },
+    "residentialType": {
+      "flat": "Flat",
+      "apartment": "Appartement",
+      "condominium": "Condominium",
+      "serviceResidence": "Service Residentie",
+      "studio": "Studio",
+      "duplex": "Duplex",
+      "townhouseCondo": "Rijtjeshuis Condo",
+      "condo": "Condo / Service Residentie / Penthouse",
+      "house": "Huizen",
+      "shoplot": "Winkelpand",
+      "sharing": "Delen van een huis / flat",
+      "others": "Andere"
+    },
+    "floorRange": {
+      "high": "Hoog",
+      "medium": "Midden",
+      "low": "Laag"
+    },
+    "furnishings": {
+      "fullyFurnished": "Volledig Gemeubileerd",
+      "partiallyFurnished": "Gedeeltelijk Gemeubileerd",
+      "notFurnished": "Niet Gemeubileerd"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Kantoorruimte",
+      "retailSpace": "Winkelruimte",
+      "shopLot": "Winkelpand",
+      "warehouseFactory": "Magazijn / Fabriek",
+      "hotelResort": "Hotel / Resort",
+      "sofo": "SOHO (Small Office Home Office)",
+      "soho": "SOFO (Small Office Flexi Office)",
+      "sovo": "SOVO (Small Office Virtual Office)",
+      "others": "Andere"
+    },
+    "landPropertyType": {
+      "residential": "Residentieel",
+      "industrial": "Industrieel",
+      "agricultural": "Agrarisch",
+      "commercial": "Commercieel",
+      "mixedDevelopment": "Gemengde Ontwikkeling",
+      "others": "Andere"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Maanden",
+      "oneYear": "1 Jaar",
+      "oneAndHalfYears": "1,5 Jaar",
+      "twoYears": "2 Jaar",
+      "twoAndHalfYears": "2,5 Jaar"
+    },
+    "dropdownDateFilter": {
+      "daily": "Dagelijks",
+      "weekly": "Wekelijks",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "custom": "Aangepast"
+    },
+    "bungalowType": {
+      "modern": "Modern",
+      "cottage": "Cottage",
+      "luxury": "Luxe",
+      "ecoSmart": "Eco / Slim",
+      "beachSide": "Aan het strand",
+      "others": "Andere"
+    }
+  }
+}

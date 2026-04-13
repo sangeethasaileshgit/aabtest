@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ru_RU",
+    "languageName": "Russian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Профиль",
+    "language": "Язык",
+    "subscriptionPlan": "План Подписки",
+    "contactUs": "Свяжитесь с нами",
+    "termsAndConditions": "Условия и положения",
+    "aboutUs": "О нас",
+    "logout": "Выйти",
+    "editProfile": "Редактировать профиль",
+    "fullName": "Полное имя",
+    "email": "Электронная почта",
+    "mobileNumber": "Номер телефона",
+    "address": "Адрес",
+    "postalCode": "Почтовый индекс",
+    "city": "Город",
+    "country": "Страна",
+    "state": "Регион/Область",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль",
+    "tenant": "Арендатор",
+    "landlord": "Арендодатель",
+    "cancelRenting": "Отменить аренду",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "fromDate": "С даты",
+    "toDate": "По дату",
+    "online": "Онлайн",
+    "bankList": "Список банков",
+    "withdrawMethod": "Метод вывода средств",
+    "uploadPaymentReceipt": "Загрузить квитанцию об оплате",
+    "offlinePaymentNote(rich)": "Примечание: ${note(Оплата требует ручного одобрения администратором в течение)} ${duraion(24-48 часов.)}",
+    "reviews": "Отзывы",
+    "description": "Описание",
+    "about": "О проекте",
+    "propertyTypes": "Типы недвижимости",
+    "features": "Особенности",
+    "floorPlans": "Планировки этажей",
+    "buildingDetails": "Детали здания",
+    "buildingName": "Название здания",
+    "propertyAddress": "Адрес недвижимости",
+    "completionYear": "Год постройки",
+    "lotNumber": "Номер участка",
+    "residentialType": "Тип жилья",
+    "furnishings": "Меблировка",
+    "floorRange": "Диапазон этажей",
+    "bedrooms": "Спальни",
+    "bathrooms": "Ванные комнаты",
+    "propertySize": "Размер недвижимости",
+    "rentalPeriod": "Период аренды",
+    "securityDeposit": "Страховой депозит",
+    "utilityBill": "Счет за коммунальные услуги",
+    "facilities": "Удобства",
+    "amenities": "Благоустройство",
+    "expiringReason": "Причина истечения срока",
+    "tenantDetails": "Данные арендатора",
+    "typeOfTenant": "Тип арендатора",
+    "tenantName": "Имя арендатора",
+    "nidPassport": "УДОЛ/Паспорт",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID арендатора",
+    "dateOfBirth": "Дата рождения",
+    "gender": "Пол",
+    "nominee": "Преемник",
+    "name": "Имя",
+    "optional": "Необязательно",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Моб. номер",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Контакт для экстренной связи",
+    "relation": "Отношение",
+    "relationWith": "@:common.relation С",
+    "relationWithYou": "@:common.relationWith Вами",
+    "company": "Компания",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Номер SSM",
+    "workplace": "Место работы",
+    "officePhoneNo": "Номер офисного телефона",
+    "officeMobileNo": "Офисный @:common.mobileNumber",
+    "vehicle": "Транспортное средство",
+    "vehiclesInfo": {
+      "plain": "Информация о транспортных средствах",
+      "optional": "Информация о транспортных средствах (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Тип",
+    "vehicleRegistrationNo": {
+      "normal": "Регистрационный номер ТС",
+      "short": "Рег. номер",
+      "alt": "Номерной знак"
+    },
+    "vehicleBrand": "@:common.vehicle Марка",
+    "rentProperty": "Арендовать недвижимость",
+    "propertyDetails": "Детали недвижимости",
+    "propertyId": "ID недвижимости",
+    "propertyType": "Тип недвижимости",
+    "propertyName": "Название недвижимости",
+    "paymentDetails": "Детали платежа",
+    "monthlyRent": "Ежемесячная аренда",
+    "thisMonthPayment": "Платеж за этот месяц",
+    "totalPaidRent": "Общая оплаченная аренда",
+    "dueRent": "Просроченная аренда",
+    "rentStartDate": "Аренда @:common.startDate",
+    "rentEndDate": "Аренда @:common.endDate",
+    "status": "Статус",
+    "rentAgreementPdf": "Договор аренды PDF",
+    "noFile": "Нет файла",
+    "tenantImageOp": "Фото арендатора @:common.optional",
+    "addNewVechicle": "Добавить новое транспортное средство",
+    "uploadNidPassport": "Загрузить УДОЛ/Паспорт",
+    "nidPassportUploadNote": "Принимаются только файлы-изображения. Ограничение файла до 2,5 МБ.",
+    "search": "Поиск",
+    "sortBy": "Сортировать по",
+    "subscription": "Подписка",
+    "downloading": "Загрузка...",
+    "downloadSuccess": "Файл успешно загружен!",
+    "addPropertyBannerTitle": "Хотите сдать свою недвижимость в аренду?",
+    "application": "Заявка",
+    "tenantHasPaidDeposit": "Арендатор оплатил депозит.",
+    "askProcessingRentApplication": "Вы уверены, что хотите обработать этот запрос на аренду недвижимости?",
+    "dateAndTime": "Дата и время",
+    "applicationDetails": "Детали заявки",
+    "depositStatus": "Статус депозита",
+    "uploadRentAgreement": "Загрузить договор аренды",
+    "uploadFilePDF": "Загрузить файл (PDF)",
+    "askSelectRentAgreement": "Пожалуйста, выберите файл документа договора.",
+    "landlordRentAgreementPDF": "Договор аренды арендодателя PDF",
+    "tenantRentAgreementPDF": "Договор аренды арендатора PDF",
+    "landlordApplicationApproveNote(rich)": "Примечание: ${note(Одобряйте заявку только после того, как арендатор внесет депозит.)}",
+    "reasonOfRejection": "Причина отказа",
+    "youveRejectedThisApplication": "Вы отклонили эту заявку",
+    "landlordDetails": "Данные арендодателя",
+    "landlordName": "Имя арендодателя",
+    "downloadRentAgreement": "Скачать договор аренды",
+    "acceptTermsConditions(rich)": "Принять ${toc(Условия и положения)}",
+    "tenantAgreementSignNote1(rich)": "Примечание: ${note(Пожалуйста, скачайте и прочтите договор. Отправьте подписанный договор арендодателю через WhatsApp или по электронной почте.)}",
+    "tenantAgreementSignNote2(rich)": "Примечание: ${note(Арендодатель одобряет заявку, когда арендатор оплачивает страховой депозит, коммунальные услуги и арендную плату за один месяц вперед.)}",
+    "completeRentAgreementPdf(rich)": "Договор аренды (PDF) ${complete(Полный договор)}",
+    "tenantApplicationDepositNote(rich)": "Примечание: ${note(Арендодатель одобряет заявку, когда арендатор оплачивает страховой депозит, коммунальные услуги и арендную плату за один месяц вперед.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Список заявок",
+    "viewDetails": "Посмотреть детали",
+    "searchHint": "@:common.search...",
+    "home": "Главная",
+    "dashboard": "Панель управления",
+    "tenants": "Арендаторы",
+    "maintenance": "Обслуживание",
+    "maintenanceList": "Список обслуживания",
+    "maintenanceReport": "Отчет об обслуживании",
+    "labor": "Рабочий",
+    "applications": "Заявки",
+    "rentInvitation": "Приглашение к аренде",
+    "payment": "Оплата",
+    "rentPayment": "Оплата аренды",
+    "depositUtilityPayment": "Депозит и оплата коммунальных услуг",
+    "refundRequest": "Запрос на возврат средств",
+    "withdrawRequest": "Запрос на вывод средств",
+    "myProperty": "Моя недвижимость",
+    "myRent": "Моя аренда",
+    "wishlist": "Список желаемого",
+    "properties": "Недвижимость",
+    "allProperties": "Вся недвижимость",
+    "totalPropery": "Всего недвижимости",
+    "occupied": "Занято",
+    "vacant": "Свободно",
+    "accounting": "Бухгалтерия",
+    "totalIncome": "Общий доход",
+    "totalExpense": "Общие расходы",
+    "currentBalance": "Текущий баланс",
+    "totalWithdrawal": "Всего (выведено)",
+    "totalProperties": "Всего недвижимости",
+    "totalTenant": "Всего арендаторов",
+    "totalRentPaid": "Общая оплаченная аренда",
+    "totalRentDue": "Общая просроченная аренда",
+    "totalApplication": "Всего заявок",
+    "pendingApplication": "Ожидающие заявки",
+    "processingApplication": "Обрабатываемые заявки",
+    "approveApplication": "Одобренные заявки",
+    "rejectApplication": "Отклоненные заявки",
+    "maintenanceCost": "Стоимость обслуживания",
+    "transactionSummary": "Сводка транзакций",
+    "maintenanceRequest": "Запрос на обслуживание",
+    "notifications": "Уведомления",
+    "myProperties": "Моя недвижимость",
+    "recommendationProperties": "Рекомендованные объекты",
+    "laborList": "Список рабочих",
+    "addLabor": "Добавить рабочего",
+    "laborDetails": "Детали о рабочем",
+    "laborSalary": "Зарплата рабочего",
+    "editLabor": "Редактировать рабочего",
+    "addNewLabor": "Добавить нового рабочего",
+    "enterAmount": "Введите сумму",
+    "maintenanceDetails": "Детали обслуживания",
+    "laborName": "Имя рабочего",
+    "comment": "Комментарий",
+    "image": "Изображение",
+    "complete": "Завершено",
+    "details": "Детали",
+    "title": "Заголовок",
+    "date": "Дата",
+    "reason": "Причина",
+    "edit": "Редактировать",
+    "property": "Недвижимость",
+    "completeYourProfile": "Заполните свой профиль",
+    "profileImage": "Изображение профиля",
+    "imagePickHint": "Только изображения JPEG и PNG с максимальным размером 120x120 пикселей.",
+    "invoiceId": "ID счета",
+    "depositAmount": "Сумма депозита",
+    "landlordPhone": "Телефон арендодателя",
+    "rentalAdvance": "Аренда (аванс)",
+    "totalAmount": "Общая сумма",
+    "rentAmount": "Сумма аренды",
+    "adminCharge": "Административный сбор",
+    "editAccount": "Редактировать аккаунт",
+    "addNewAccount": "Добавить новый аккаунт",
+    "transactionId": "ID транзакции",
+    "transactionType": "Тип транзакции",
+    "requestDate": "Дата запроса",
+    "amount": "Сумма",
+    "fee": "Комиссия",
+    "paymentStatus": "Статус платежа",
+    "generatedTime": "Время генерации",
+    "systemGeneratedReportHint(rich)": "Это системно сгенерированный отчет ${appName}",
+    "withdrawHistory": "История вывода средств",
+    "history": "История",
+    "withdrawAmount": "Сумма вывода",
+    "availableBalance": "Доступный баланс",
+    "withdrawCharge": "Комиссия за вывод",
+    "paymentMethod": "Метод оплаты",
+    "requestSendSuccess": "Запрос успешно отправлен!",
+    "paymentReceiptSubmitSuccess": "Квитанция об оплате успешно отправлена.",
+    "refundReason": "Причина возврата средств",
+    "note": "Примечание",
+    "refundReceiveSuccess": "Возврат средств успешно получен.",
+    "downloadPaymentReceipt": "Скачать квитанцию об оплате",
+    "invoice": "Счет-фактура",
+    "selectPropertyToSeeInvoice": "Выберите недвижимость, чтобы увидеть номер счета...",
+    "bankAccName": "Имя владельца банковского счета",
+    "bankName": "Название банка",
+    "bankAccNum": "Номер банковского счета",
+    "thankYou": "Спасибо!",
+    "basicInfo": "Основная информация",
+    "descriptionPricing": "Описание и цены",
+    "contact": "Контакты",
+    "photos": "Фотографии",
+    "successfullySubmitted": "Успешно отправлено!",
+    "editProperty": "Редактировать недвижимость",
+    "addNewProperty": "Добавить новую недвижимость",
+    "propertyManageRequestSuccess": "Ваше объявление было отправлено на проверку.",
+    "postAnotherProperty": "Разместить еще одну недвижимость",
+    "browseYourProperty": "Просмотреть вашу недвижимость",
+    "stepIndicator(rich)": "Шаг ${step} из ${totalSteps}",
+    "whatWouldYouLikeToPost": "Что бы вы хотели разместить?",
+    "category": "Категория",
+    "invalidCategory": "Неверная категория",
+    "unitNumber": "Номер блока",
+    "sqft": "кв.фут.",
+    "propertySizeMustBeGreaterThan0": "Размер недвижимости должен быть больше нуля",
+    "whatAreTheFacility": "Какие есть удобства?",
+    "whatAreTheAmenity": "Какие есть благоустройства?",
+    "parkingLot": "Парковочное место",
+    "houseType": "Тип дома",
+    "value": "Значение",
+    "unitLotSize": "Размер блока / участка",
+    "landSize": "Размер земли",
+    "acres": "акр(ов)",
+    "roomSize": "Размер комнаты",
+    "askTenantPreference": "Каковы ваши предпочтения относительно арендатора?",
+    "couple": "Пара",
+    "describeTheProperty": "Опишите ${propertyType: String}",
+    "adTitle": "Заголовок объявления",
+    "minimumRentalPeriod": "Минимальный период аренды",
+    "whatsappNumber": "@:common.whatsapp Номер",
+    "hideOrDisplayEmail": "Скрыть или показать адрес электронной почты",
+    "thankYouForPostingProperty": "Спасибо за размещение на ${appName: String}!",
+    "propertyList": "Список недвижимости",
+    "newInviteRent": "Новое приглашение к аренде",
+    "rentAgreement": "Договор аренды",
+    "rentDetails": "Детали аренды",
+    "landlordRentInvitationPendingNote(rich)": "Примечание: ${note(Пожалуйста, дождитесь, пока арендатор примет приглашение.)}",
+    "rent": "Аренда",
+    "editTenant": "Редактировать арендатора",
+    "addNewTenant": "Добавить нового арендатора",
+    "shareInstallLink": "Поделиться ссылкой для установки",
+    "tenantList": "Список арендаторов",
+    "editMaintenanceRequest": "Редактировать запрос на обслуживание",
+    "addNewMaintenance": "Добавить новое обслуживание",
+    "landlordId": "ID арендодателя",
+    "tenantAgrementUnderReviewNote(rich)": "Примечание ${note(Ваш договор находится на рассмотрении. Пожалуйста, подождите, пока арендодатель одобрит вашу аренду.)}",
+    "editReview": "Редактировать отзыв",
+    "writeAReview": "Написать отзыв",
+    "selectRating": "Выберите рейтинг",
+    "enterYourOpinion": "Введите ваше мнение",
+    "askToEnterReviewMsg": "Пожалуйста, введите сообщение для отзыва",
+    "pressBackAgainToExit": "Нажмите 'Назад' еще раз, чтобы выйти.",
+    "selectPaymentMethod": "Выберите метод оплаты",
+    "filter": "Фильтр",
+    "perMonth": "/1 Месяц",
+    "searchHintWithAppName": "Искать что-либо в ${appName: String}...",
+    "propertyInfo": "Информация о недвижимости",
+    "units": "Блоки",
+    "depositPeriod": "Период депозита",
+    "facilitiesList": "Список удобств",
+    "facility": "Удобство",
+    "amenity": "Благоустройство",
+    "amenitiesList": "Список благоустройств",
+    "addNewFacility": "Добавить новое удобство",
+    "editFacility": "Редактировать удобство",
+    "facilityName": "Название удобства",
+    "amenityName": "Название благоустройства",
+    "addNewAmenity": "Добавить новое благоустройство",
+    "editAmenity": "Редактировать благоустройство",
+    "family": "Семья",
+    "lateFee": "Штраф за просрочку",
+    "lateFeeAfterDays": "@:common.lateFee Через (Дней)",
+    "propertyPricing": "Цены ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Большое спасибо, вы только что опубликовали свою недвижимость",
+    "titleAndDescription": "Заголовок и описание",
+    "rentPricing": "Цены на аренду",
+    "step": "Шаг",
+    "of": "ИЗ",
+    "pricing": "Цены",
+    "sameRentForAllUnit": "Одинаковая аренда для всех блоков",
+    "unit": "блок",
+    "pleaseSelectAnUnitFirst": "Пожалуйста, выберите сначала блок.",
+    "saleAmount": "Сумма продажи",
+    "selectCategory": "Выберите категорию",
+    "pleaseSelectACategory": "Пожалуйста, выберите категорию",
+    "pleaseEnterAdTitle": "Пожалуйста, введите заголовок объявления",
+    "addCoverPhoto": "Добавить обложку",
+    "findAProperty": "Найти недвижимость",
+    "categories": "Категории",
+    "recmmendedProperties": "Рекомендованные объекты",
+    "recentSearch": "Недавний поиск",
+    "pleaseEnterYourAccountNumber": "Пожалуйста, введите номер вашего счета.",
+    "pleaseSelectALanguageToContinue": "Пожалуйста, выберите язык, чтобы продолжить.",
+    "subscribe": "Подписаться",
+    "noFacilitiesFound": "Удобства не найдены!",
+    "invalidLaborDetailsPleaseTryAgain": "Неверные данные рабочего, попробуйте снова",
+    "maintenanceWork": "Работы по обслуживанию",
+    "selectLabor": "Выберите рабочего",
+    "enterMaintenanceCost": "Введите стоимость обслуживания",
+    "pleaseEnterMaintenanceCost": "Пожалуйста, введите стоимость обслуживания",
+    "writeComment": "Напишите комментарий",
+    "maintenancePending": "Обслуживание в ожидании",
+    "yourEarnings": "Ваш доход",
+    "totalPaid": "Всего оплачено",
+    "linkANewBankAccount": "Привязать новый банковский счет",
+    "payoutRequest": "Запрос на выплату"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Что-то пошло не так, пожалуйста, попробуйте еще раз",
+    "noNidPassport": "Изображение УДОЛ/Паспорта не предоставлено.",
+    "noRentPropertyFound": "Не найдена недвижимость в аренде для этого арендатора.",
+    "noPropertyFoundWithKeyWord": "Недвижимость не найдена!\nПожалуйста, попробуйте с другими ключевыми словами",
+    "noSubscriptionFoundRefreshPage": "План подписки не найден!\nПожалуйста, обновите страницу и попробуйте еще раз.",
+    "invalidApiDataRefreshPage": "Неверные данные ${dataType: String}! Пожалуйста, обновите страницу и попробуйте еще раз.",
+    "invalidDownloadUrl": "Неверный URL для скачивания!",
+    "failedToSaveFile": "Не удалось сохранить файл! ${error: String}",
+    "errorOpeningFile": "Ошибка при открытии файла! ${error: String}",
+    "noVehicleInfoProvided": "Не предоставлена информация о транспортном средстве.",
+    "yourApplicationRejected": "Ваша заявка была отклонена",
+    "noApplicationFoundHint": {
+      "template": "Заявки не найдены!\n${subject: String} будут отображены здесь, когда станут доступны.",
+      "subjects": {
+        "tenant": "Ваша заявка",
+        "landlord": "Заявка арендатора"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Недвижимость не найдена!\nПожалуйста, попробуйте добавить недвижимость, чтобы увидеть ее здесь.",
+      "tenantRecommended": "Рекомендованные объекты не найдены\nПожалуйста, попробуйте позже.",
+      "tenantAllProperty": "Недвижимость недоступна\nПожалуйста, попробуйте позже."
+    },
+    "noImageProvided": "Изображение не предоставлено",
+    "noStatusMaintenantFound": {
+      "landlord": "Не найдено обслуживание со статусом ${status}.",
+      "tenant": "Обслуживание не найдено! Вы можете создать запрос на обслуживание, чтобы увидеть его здесь."
+    },
+    "noDepositFound": "Страховой депозит не найден!\nВы сможете увидеть страховые депозиты, когда они станут доступны",
+    "noRentPaymentFound": "Оплата аренды не найдена!\nВы сможете увидеть платежи по аренде, когда они станут доступны",
+    "transactionSummaryApiException": "Не удалось получить сводку транзакций.",
+    "noWithdrawRequestFound": "Запросов не найдено!\nПожалуйста, попробуйте создать запрос на вывод средств, чтобы увидеть его здесь.",
+    "withdrawRequestNotApproved": "Этот запрос на вывод средств не был одобрен!.",
+    "nonZeroError": "Пожалуйста, введите действительную сумму, большую нуля.",
+    "minAmountError": "Сумма должна быть не менее ${minValue: String}.",
+    "maxAmountError": "Сумма не должна превышать ${maxValue: String}.",
+    "selectPaymentMethodHint": "Пожалуйста, сначала выберите способ оплаты.",
+    "noStatusRefundReqFound": {
+      "landlord": "Не найдено запросов на возврат средств со статусом ${status}!\nВы сможете увидеть запрос на возврат средств здесь, когда он станет доступен.",
+      "tenant": "Запросы на возврат средств не найдены!\nВы можете создать запрос на возврат средств, чтобы увидеть его здесь."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Арендатор одобрит возврат средств, когда получит деньги обратно",
+      "tenantReqSuccess": "Мы рассмотрим запрос на возврат средств и одобрим его в течение 24 часов."
+    },
+    "oneToTenRequiredField": "Пожалуйста, выберите количество ${value: String}",
+    "invalidDateRange": "Неверный диапазон дат.",
+    "valueMustBeGreaterThanZero": "${value: String} должно быть больше нуля.",
+    "editProperty": {
+      "rentalChange": "Изменяется арендная недвижимость. Изменение должно быть действительным (вступить в силу) только для арендного платежа за следующий месяц.",
+      "deleteOnRent": "Ваша недвижимость уже сдана арендатору. Ее нельзя удалить, пока вы не удалите арендатора.",
+      "alreayRented": "Эта недвижимость уже сдана в аренду. Пожалуйста, попробуйте еще раз позже.\nИли вы можете связаться с арендодателем для получения дополнительной информации."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Приглашения к аренде не найдены!\nПожалуйста, попробуйте создать приглашение к аренде, чтобы увидеть его здесь.",
+      "tenantNoRentInvitation": "Приглашения к аренде не найдены!\nВы сможете увидеть приглашения к аренде здесь, когда они станут доступны."
+    },
+    "notenantFoundList": "Арендаторы не найдены!\nПожалуйста, попробуйте добавить арендатора, чтобы увидеть его здесь.",
+    "noFeaturesProvided": "Особенности не предоставлены.",
+    "noNotificationFound": "Уведомления отсутствуют.\nВы сможете увидеть свои уведомления здесь, когда они станут доступны.",
+    "noFacilitiesFound": "Удобства не найдены.",
+    "noAmenitiesFound": "Благоустройства не найдены!",
+    "noLaborFound": "Рабочие не найдены\\nПожалуйста, попробуйте еще раз позже.",
+    "areYouSureYouWantToRemoveThisUnit": "Вы уверены, что хотите удалить этот блок?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Вы уверены, что хотите выйти?"
+    },
+    "application": {
+      "rejectTitle": "Почему вы отклоняете эту заявку?",
+      "applicationSent": {
+        "successfully": "Заявка успешно отправлена!",
+        "sucessDescription": "Вы можете увидеть эту заявку в списке своих заявок"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Удалить работника?",
+        "description": "Вы уверены, что хотите удалить этого работника?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Почему этот запрос отклоняется?",
+      "processTitle": "Вы уверены, что обрабатываете этот запрос на техническое обслуживание?",
+      "completeTitle": "Работа завершена?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Удалить метод вывода средств?",
+      "deleteDescription": "Вы уверены, что хотите удалить этот метод вывода средств?"
+    },
+    "unsavedChanges": {
+      "title": "Вы уверены, что хотите вернуться?",
+      "message": "Измененные поля не будут сохранены!"
+    },
+    "property": {
+      "delete": {
+        "title": "Удалить объект недвижимости?",
+        "message": "Вы уверены, что хотите удалить этот объект недвижимости?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Вы уверены, что хотите одобрить эту аренду?",
+        "description": "Убедитесь, что вы ознакомились с соглашением, подписанным арендатором."
+      },
+      "tenantAccept": {
+        "title": "Вы уверены, что хотите принять это приглашение?",
+        "description": "Убедитесь, что вы загрузили PDF-файл соглашения!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Сессия истекла",
+      "message": "Срок действия вашей сессии истек. Пожалуйста, войдите снова",
+      "action": "Войти"
+    },
+    "noInternet": {
+      "title": "Нет подключения к Интернету",
+      "message": "Пожалуйста, проверьте подключение к Wi-Fi или мобильной сети и повторите попытку",
+      "action": "Повторить попытку"
+    },
+    "permissionHandler": {
+      "title": "Требуется разрешение!",
+      "message": "Вам необходимо предоставить разрешения в настройках приложения. Хотите открыть настройки сейчас?"
+    },
+    "imagePicker": {
+      "title": "Выберите вариант",
+      "gallery": "Галерея",
+      "camera": "Камера"
+    },
+    "verificationDialog": {
+      "title": "Подтвердите свой адрес электронной почты",
+      "message": "Мы отправили электронное письмо с кодом подтверждения",
+      "messageWithEmail": "@:prompt.verificationDialog.message на ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Очистить уведомления?",
+      "clearMessage": "Вы уверены, что хотите очистить все уведомления?"
+    },
+    "genericDeletePrompt": {
+      "title": "Вы хотите удалить этот ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Срок подписки истек!",
+      "message": "Пожалуйста, подпишитесь, чтобы продолжить."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Введите @:common.fullName",
+      "errors": {
+        "required": "Пожалуйста, введите @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Введите @:common.email",
+      "errors": {
+        "required": "Пожалуйста, введите ваш адрес @:common.email",
+        "invalid": "⦸ Неверный адрес электронной почты, пожалуйста, попробуйте еще раз"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:common.password",
+        "minLength": "Пароль должен содержать не менее ${count} символов!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Подтвердите @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:common.password",
+        "notMatched": "Пароль подтверждения не совпадает!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Номер дома и название улицы",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Квартира, люкс, блок и т.д.",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Введите @:common.postalCode",
+      "errors": {
+        "required": "Пожалуйста, введите ваш @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Введите название @:common.city.",
+      "errors": {
+        "required": "Пожалуйста, введите название @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Введите название @:common.state.",
+      "errors": {
+        "required": "Пожалуйста, введите название @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Выберите @:common.country.",
+      "errors": {
+        "required": "Пожалуйста, выберите вашу @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Пожалуйста, введите одноразовый пароль.",
+        "invalid": "Пожалуйста, введите правильный одноразовый пароль."
+      }
+    },
+    "title": {
+      "label": "Заголовок",
+      "hint": "Введите заголовок",
+      "errors": {
+        "required": "Пожалуйста, введите заголовок"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Выберите @:form.date.label",
+      "errors": {
+        "required": "Пожалуйста, выберите @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Причина",
+      "hint": "Введите причину",
+      "errors": {
+        "required": "Пожалуйста, введите причину"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Выберите @:common.withdrawMethod",
+      "errors": {
+        "required": "Пожалуйста, выберите @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Загрузите ${label: String}",
+      "errors": {
+        "required": "Пожалуйста, выберите ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Введите @:form.note.label",
+      "errors": {
+        "required": "Пожалуйста, введите @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Выберите @:common.gender",
+      "errors": {
+        "required": "Пожалуйста, выберите @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Введите @:form.anyField.label",
+      "errors": {
+        "required": "Пожалуйста, введите @:form.anyField.label",
+        "invalid": "Пожалуйста, введите действительный @:form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Выберите @:form.anyDropdown.label",
+      "errors": {
+        "required": "Пожалуйста, выберите @:form.anyDropdown.label",
+        "invalid": "Пожалуйста, выберите действительный @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Далее",
+    "getStarted": "Начать",
+    "skip": "Пропустить",
+    "select": "Выбрать",
+    "save": "Сохранить",
+    "signIn": "Войти",
+    "signUp": "Зарегистрироваться",
+    "continue": "Продолжить",
+    "clearAll": "Очистить все",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Отправить",
+    "pay": "Оплатить",
+    "remove": "Удалить",
+    "goBack": "Назад",
+    "buyNow": "Купить сейчас",
+    "no": "Нет",
+    "open": "Открыть",
+    "addProperty": "Добавить недвижимость",
+    "process": "Обработать",
+    "approve": "Одобрить",
+    "reject": "Отклонить",
+    "viewRent": "Просмотреть аренду",
+    "openNavigationMenu": "Открыть меню навигации",
+    "seeAll": "Смотреть все",
+    "update": "Обновить",
+    "printTransaction": "Распечатать транзакцию",
+    "payoutRequest": "Запрос на выплату",
+    "addNew": "+ Добавить новый",
+    "sendRequest": "Отправить запрос",
+    "print": "Распечатать",
+    "requestForRefund": "Запрос на возврат средств",
+    "previous": "Предыдущий",
+    "delete": "Удалить",
+    "applyProperty": "Подать заявку на недвижимость",
+    "viewApplication": "Просмотреть заявку",
+    "inviteTenant": "Пригласить арендатора",
+    "inviteRent": "Пригласить к аренде",
+    "cancel": "Отменить",
+    "accept": "Принять",
+    "submit": "Отправить",
+    "yes": "Да",
+    "okay": "ОК",
+    "confirm": "Подтвердить",
+    "apply": "Подать заявку",
+    "reset": "Сбросить",
+    "retry": "Повторить",
+    "viewAll": "Просмотреть все",
+    "addMore": "Добавить еще",
+    "done": "Готово"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Найдите свою недвижимость",
+          "description": "Мы упростили поиск места, которое подходит вашей жизни — будь то комната, квартира или дом."
+        },
+        "data2": {
+          "title": "Квартира в городе",
+          "description": "Мы экономим ваше время, быстро подбирая вам идеальную недвижимость, прежде чем она исчезнет, чтобы вы могли наслаждаться своим новым домом или разместить свое объявление бесплатно."
+        },
+        "data3": {
+          "title": "Ваш комфортный дом",
+          "description": "Если вы ищете место для жизни, ознакомьтесь с нашими домами в аренду. У нас есть широкий выбор домов по всей стране."
+        }
+      }
+    },
+    "signIn": {
+      "title": "С возвращением",
+      "subtitle": "Войдите сейчас, чтобы начать удивительное путешествие.",
+      "extra": {
+        "rememberMe": "Запомнить меня",
+        "signUpNavigator(rich)": "Нет аккаунта? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Забыли пароль",
+      "subtitle": "Введите свой адрес электронной почты, чтобы восстановить пароль."
+    },
+    "otpVerification": {
+      "title": "Верификация",
+      "subtitle": "6-значный пин-код был отправлен на ваш адрес электронной почты. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Код отправлен через ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Отправить код повторно)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Сброс пароля",
+      "subtitle": "Сбросьте свой пароль для восстановления и входа в ваш аккаунт",
+      "extra": {
+        "dialog": {
+          "title": "Успешно изменено!",
+          "subtitle": "Войдите с вашим новым паролем.\n Перенаправляем вас на страницу входа..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Создать аккаунт",
+      "subtitle": "Зарегистрируйтесь сейчас, чтобы начать удивительное путешествие",
+      "extra": {
+        "signInNavigator(rich)": "Уже есть аккаунт? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Кто вы?",
+      "subtitle": "Пожалуйста, выберите вариант ниже.",
+      "extra": {
+        "landlordTag": "Управляйте собственной недвижимостью",
+        "tenantTag": "Войдите в свой арендный аккаунт"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Уведомления"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Сообщение..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Почему вы @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Напишите причину",
+          "errors": {
+            "required": "Пожалуйста, введите причину отмены аренды"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Оплата оффлайн",
+      "form": {
+        "paymentNote": {
+          "label": "Примечание к платежу (@:common.optional)",
+          "hint": "Введите текст..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Сумма к оплате: ${amount}",
+        "accountHolderName": "Имя владельца счета",
+        "accountNumber": "Номер счета",
+        "swiftCode": "SWIFT-код",
+        "branch": "Отделение",
+        "fileTypeHint(rich)": "Выберите только файлы формата ${fileType(JPG, PNG,PDF)} или ${fileType(DOC)}. Размер файла ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Просмотреть счет",
+        "title": "@:common.thankYou",
+        "description": "Мы проверим платеж и одобрим его в течение 24 часов."
+      },
+      "fail": {
+        "actionButton": "Повторить попытку",
+        "title": "Упс! Оплата не удалась",
+        "description": "Ваша транзакция не удалась из-за технической ошибки."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Особенности ${fa((Удобства и Благоустройство))}",
+        "selectRentalPeriod": "Выберите период аренды",
+        "writeAReview": "+ Написать отзыв"
+      }
+    },
+    "search": {
+      "appbarTitle": "Поиск",
+      "extra": {
+        "hint": "Искать участки, квартиры, комнаты...",
+        "noRecentSearch": "У вас нет недавних поисковых запросов."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Выберите свой план",
+      "extra": {
+        "subscriptionPaymentSuccess": "Оплата подписки прошла успешно.\nТеперь вы можете получить доступ к функциям подписки."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Общая стоимость обслуживания: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Вся недвижимость",
+      "pending": "Ожидает",
+      "active": "Активно",
+      "inactive": "Неактивно",
+      "rejected": "Отклонено"
+    },
+    "propertyType": {
+      "rent": "Аренда",
+      "sale": "Продажа"
+    },
+    "propertyCategory": {
+      "apartment": "Апартаменты",
+      "house": "Дом",
+      "commercial": "Коммерческая недвижимость",
+      "land": "Земельный участок",
+      "room": "Комната",
+      "unitOrFlat": "Квартира / Юнит",
+      "bungalow": "Бунгало",
+      "plot": "Участок"
+    },
+    "applicationStatus": {
+      "all": "Все",
+      "pending": "Ожидает",
+      "processing": "В обработке",
+      "approved": "Одобрено",
+      "rejected": "Отклонено"
+    },
+    "myRentStatus": {
+      "pending": "Ожидает",
+      "processing": "В обработке",
+      "active": "Активно",
+      "expired": "Истекший",
+      "cancelled": "Отменено"
+    },
+    "maintenanceStatus": {
+      "pending": "Ожидает",
+      "processing": "В обработке",
+      "rejected": "Отклонено",
+      "completed": "Завершено"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Частное лицо (Индивидуальное)",
+      "company": "Компания"
+    },
+    "tenantType": {
+      "newTenant": "Новый арендатор",
+      "activeTenant": "Действующий арендатор",
+      "expiredTenant": "Срок аренды истек"
+    },
+    "paymentStatus": {
+      "all": "Все",
+      "pending": "Ожидает",
+      "paid": "Оплачено",
+      "unpaid": "Не оплачено",
+      "rejected": "Отклонено",
+      "refund": "Возврат"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Онлайн-платеж",
+      "offlinePayment": "Офлайн-платеж"
+    },
+    "paymentType": {
+      "securityDeposit": "Страховой депозит",
+      "rentPayment": "Арендный платеж",
+      "subscription": "Подписка"
+    },
+    "gender": {
+      "male": "Мужской",
+      "female": "Женский",
+      "other": "Другой"
+    },
+    "ecRelation": {
+      "wife": "Жена",
+      "parent": "Родитель",
+      "friend": "Друг",
+      "brother": "Брат",
+      "sister": "Сестра",
+      "child": "Ребенок"
+    },
+    "vehicleType": {
+      "car": "Автомобиль",
+      "motorcycles": "Мотоциклы",
+      "lorry": "Грузовик"
+    },
+    "sortBy": {
+      "lowToHigh": "От низкого к высокому",
+      "highToLow": "От высокого к низкому"
+    },
+    "residentialType": {
+      "flat": "Квартира",
+      "apartment": "Апартаменты",
+      "condominium": "Кондоминиум",
+      "serviceResidence": "Апартаменты с обслуживанием",
+      "studio": "Студия",
+      "duplex": "Дуплекс",
+      "townhouseCondo": "Таунхаус (кондо)",
+      "condo": "Кондо / Апартаменты с обслуживанием / Пентхаус",
+      "house": "Дом",
+      "shoplot": "Торговое помещение",
+      "sharing": "Совместная аренда дома / Квартиры",
+      "others": "Другое"
+    },
+    "floorRange": {
+      "high": "Высокий",
+      "medium": "Средний",
+      "low": "Низкий"
+    },
+    "furnishings": {
+      "fullyFurnished": "Полностью меблировано",
+      "partiallyFurnished": "Частично меблировано",
+      "notFurnished": "Без мебели"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Офисное помещение",
+      "retailSpace": "Торговое помещение",
+      "shopLot": "Торговый лот",
+      "warehouseFactory": "Склад / Фабрика",
+      "hotelResort": "Отель / Курорт",
+      "sofo": "Sofo (Офис с гибким назначением)",
+      "soho": "Soho (Малый офис, домашний офис)",
+      "sovo": "Sovo (Виртуальный офис с обслуживанием)",
+      "others": "Другое"
+    },
+    "landPropertyType": {
+      "residential": "Жилой",
+      "industrial": "Промышленный",
+      "agricultural": "Сельскохозяйственный",
+      "commercial": "Коммерческий",
+      "mixedDevelopment": "Смешанная застройка",
+      "others": "Другое"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 месяцев",
+      "oneYear": "1 год",
+      "oneAndHalfYears": "1,5 года",
+      "twoYears": "2 года",
+      "twoAndHalfYears": "2,5 года"
+    },
+    "dropdownDateFilter": {
+      "daily": "Ежедневно",
+      "weekly": "Еженедельно",
+      "monthly": "Ежемесячно",
+      "yearly": "Ежегодно",
+      "custom": "Пользовательский"
+    },
+    "bungalowType": {
+      "modern": "Современный",
+      "cottage": "Коттедж",
+      "luxury": "Люкс",
+      "ecoSmart": "Эко / Умный",
+      "beachSide": "Пляжный",
+      "others": "Другое"
+    }
+  }
+}

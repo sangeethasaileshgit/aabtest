@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "lo_LA",
+    "languageName": "ລາວ",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "ໂປຣໄຟລ໌",
+    "language": "ພາສາ",
+    "subscriptionPlan": "ແຜນການສະໝັກໃຊ້",
+    "contactUs": "ຕິດຕໍ່ພວກເຮົາ",
+    "termsAndConditions": "ເງື່ອນໄຂ ແລະ ຂໍ້ຕົກລົງ",
+    "aboutUs": "ກ່ຽວກັບພວກເຮົາ",
+    "logout": "ອອກຈາກລະບົບ",
+    "editProfile": "ແກ້ໄຂໂປຣໄຟລ໌",
+    "fullName": "ຊື່ເຕັມ",
+    "email": "ອີເມວ",
+    "mobileNumber": "ເບີໂທລະສັບມືຖື",
+    "address": "ທີ່ຢູ່",
+    "postalCode": "ລະຫັດໄປສະນີ",
+    "city": "ເມືອງ",
+    "country": "ປະເທດ",
+    "state": "ແຂວງ/ລັດ",
+    "password": "ລະຫັດຜ່ານ",
+    "forgotPassword": "ລືມລະຫັດຜ່ານ",
+    "tenant": "ຜູ້ເຊົ່າ",
+    "landlord": "ເຈົ້າຂອງທີ່ດິນ/ເຮືອນ",
+    "cancelRenting": "ຍົກເລີກການເຊົ່າ",
+    "startDate": "ວັນທີເລີ່ມຕົ້ນ",
+    "endDate": "ວັນທີສິ້ນສຸດ",
+    "fromDate": "ຈາກວັນທີ",
+    "toDate": "ເຖິງວັນທີ",
+    "online": "ອອນລາຍ",
+    "bankList": "ລາຍການທະນາຄານ",
+    "withdrawMethod": "ວິທີການຖອນເງິນ",
+    "uploadPaymentReceipt": "ອັບໂຫລດໃບຮັບເງິນ",
+    "offlinePaymentNote(rich)": "ໝາຍເຫດ: ${note(ການຊຳລະເງິນຕ້ອງໄດ້ຮັບການອະນຸມັດດ້ວຍຕົນເອງໂດຍຜູ້ຄຸມລະບົບພາຍໃນ)} ${duraion(24~48 ຊົ່ວໂມງ.)}",
+    "reviews": "ການທົບທວນ",
+    "description": "ລາຍລະອຽດ",
+    "about": "ກ່ຽວກັບ",
+    "propertyTypes": "ປະເພດອະສັງຫາລິມະຊັບ",
+    "features": "ຄຸນສົມບັດ",
+    "floorPlans": "ແຜນຜັງຊັ້ນ",
+    "buildingDetails": "ລາຍລະອຽດອາຄານ",
+    "buildingName": "ຊື່ອາຄານ",
+    "propertyAddress": "ທີ່ຢູ່ອະສັງຫາລິມະຊັບ",
+    "completionYear": "ປີທີ່ສ້າງສຳເລັດ",
+    "lotNumber": "ເລກທີດິນ",
+    "residentialType": "ປະເພດທີ່ຢູ່ອາໄສ",
+    "furnishings": "ເຄື່ອງເຟີນີເຈີ",
+    "floorRange": "ລະດັບຊັ້ນ",
+    "bedrooms": "ຫ້ອງນອນ",
+    "bathrooms": "ຫ້ອງນໍ້າ",
+    "propertySize": "ຂະໜາດອະສັງຫາລິມະຊັບ",
+    "rentalPeriod": "ໄລຍະເວລາເຊົ່າ",
+    "securityDeposit": "ເງິນປະກັນ",
+    "utilityBill": "ໃບບິນຄ່າສາທາລະນູປະໂພກ",
+    "facilities": "ສິ່ງອຳນວຍຄວາມສະດວກ",
+    "amenities": "ເຄື່ອງອຳນວຍຄວາມສະດວກ",
+    "expiringReason": "ເຫດຜົນໝົດອາຍຸ",
+    "tenantDetails": "ລາຍລະອຽດຜູ້ເຊົ່າ",
+    "typeOfTenant": "ປະເພດຜູ້ເຊົ່າ",
+    "tenantName": "ຊື່ຜູ້ເຊົ່າ",
+    "nidPassport": "NID/ໜັງສືຜ່ານແດນ",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ລະຫັດຜູ້ເຊົ່າ",
+    "dateOfBirth": "ວັນເດືອນປີເກີດ",
+    "gender": "ເພດ",
+    "nominee": "ຜູ້ຖືກແຕ່ງຕັ້ງ",
+    "name": "ຊື່",
+    "optional": "ທາງເລືອກ",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee ເບີໂທ. ສັ້ນ",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "ຜູ້ຕິດຕໍ່ສຸກເສີນ",
+    "relation": "ຄວາມສຳພັນ",
+    "relationWith": "@:common.relation ກັບ",
+    "relationWithYou": "@:common.relationWith ທ່ານ",
+    "company": "ບໍລິສັດ",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company ເລກທີ SSM",
+    "workplace": "ບ່ອນເຮັດວຽກ",
+    "officePhoneNo": "ເບີໂທລະສັບຫ້ອງການ",
+    "officeMobileNo": "ຫ້ອງການ @:common.mobileNumber",
+    "vehicle": "ຍານພາຫະນະ",
+    "vehiclesInfo": {
+      "plain": "ຂໍ້ມູນຍານພາຫະນະ",
+      "optional": "ຂໍ້ມູນຍານພາຫະນະ (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle ປະເພດ",
+    "vehicleRegistrationNo": {
+      "normal": "ເລກທະບຽນຍານພາຫະນະ",
+      "short": "ເລກທະບຽນ",
+      "alt": "ປ້າຍທະບຽນ"
+    },
+    "vehicleBrand": "@:common.vehicle ຍີ່ຫໍ້",
+    "rentProperty": "ເຊົ່າອະສັງຫາລິມະຊັບ",
+    "propertyDetails": "ລາຍລະອຽດອະສັງຫາລິມະຊັບ",
+    "propertyId": "ລະຫັດອະສັງຫາລິມະຊັບ",
+    "propertyType": "ປະເພດອະສັງຫາລິມະຊັບ",
+    "propertyName": "ຊື່ອະສັງຫາລິມະຊັບ",
+    "paymentDetails": "ລາຍລະອຽດການຊຳລະເງິນ",
+    "monthlyRent": "ຄ່າເຊົ່າລາຍເດືອນ",
+    "thisMonthPayment": "ການຊຳລະເດືອນນີ້",
+    "totalPaidRent": "ຄ່າເຊົ່າທີ່ຈ່າຍທັງໝົດ",
+    "dueRent": "ຄ່າເຊົ່າທີ່ຄ້າງ",
+    "rentStartDate": "ເຊົ່າ @:common.startDate",
+    "rentEndDate": "ເຊົ່າ @:common.endDate",
+    "status": "ສະຖານະ",
+    "rentAgreementPdf": "ສັນຍາເຊົ່າ (PDF)",
+    "noFile": "ບໍ່ມີໄຟລ໌",
+    "tenantImageOp": "ຮູບພາບຜູ້ເຊົ່າ @:common.optional",
+    "addNewVechicle": "ເພີ່ມຍານພາຫະນະໃໝ່",
+    "uploadNidPassport": "ອັບໂຫລດ NID/ໜັງສືຜ່ານແດນ",
+    "nidPassportUploadNote": "ຈະຮັບສະເພາະໄຟລ໌ຮູບພາບເທົ່ານັ້ນ. ຂີດຈຳກັດໄຟລ໌ສູງສຸດ 2.5 MB.",
+    "search": "ຄົ້ນຫາ",
+    "sortBy": "ຈັດລຽງຕາມ",
+    "subscription": "ສະໝັກໃຊ້",
+    "downloading": "ກຳລັງດາວໂຫລດ...",
+    "downloadSuccess": "ດາວໂຫລດໄຟລ໌ສຳເລັດແລ້ວ!",
+    "addPropertyBannerTitle": "ກຳລັງຊອກຫາຄົນມາເຊົ່າອະສັງຫາລິມະຊັບຂອງທ່ານບໍ?",
+    "application": "ຄຳຮ້ອງສະໝັກ",
+    "tenantHasPaidDeposit": "ຜູ້ເຊົ່າໄດ້ຈ່າຍເງິນປະກັນແລ້ວ.",
+    "askProcessingRentApplication": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະດຳເນີນການຄຳຮ້ອງສະໝັກເຊົ່າອະສັງຫາລິມະຊັບນີ້?",
+    "dateAndTime": "ວັນທີ ແລະ ເວລາ",
+    "applicationDetails": "ລາຍລະອຽດຄຳຮ້ອງສະໝັກ",
+    "depositStatus": "ສະຖານະເງິນປະກັນ",
+    "uploadRentAgreement": "ອັບໂຫລດສັນຍາເຊົ່າ",
+    "uploadFilePDF": "ອັບໂຫລດໄຟລ໌ (PDF)",
+    "askSelectRentAgreement": "ກະລຸນາເລືອກເອກະສານສັນຍາ.",
+    "landlordRentAgreementPDF": "ສັນຍາເຊົ່າຂອງເຈົ້າຂອງອະສັງຫາລິມະຊັບ (PDF)",
+    "tenantRentAgreementPDF": "ສັນຍາເຊົ່າຂອງຜູ້ເຊົ່າ (PDF)",
+    "landlordApplicationApproveNote(rich)": "ໝາຍເຫດ: ${note(ອະນຸມັດຄໍາຮ້ອງສະຫມັກຫຼັງຈາກຜູ້ເຊົ່າໄດ້ຊໍາລະເງິນປະກັນແລ້ວເທົ່ານັ້ນ.)}",
+    "reasonOfRejection": "ເຫດຜົນທີ່ຖືກປະຕິເສດ",
+    "youveRejectedThisApplication": "ທ່ານໄດ້ປະຕິເສດຄໍາຮ້ອງສະຫມັກນີ້",
+    "landlordDetails": "ລາຍລະອຽດເຈົ້າຂອງອະສັງຫາລິມະຊັບ",
+    "landlordName": "ຊື່ເຈົ້າຂອງອະສັງຫາລິມະຊັບ",
+    "downloadRentAgreement": "ດາວໂຫລດສັນຍາເຊົ່າ",
+    "acceptTermsConditions(rich)": "ຍອມຮັບ ${toc(ເງື່ອນໄຂ & ຂໍ້ຕົກລົງ)}",
+    "tenantAgreementSignNote1(rich)": "ໝາຍເຫດ: ${note(ກະລຸນາດາວໂຫຼດ ແລະ ອ່ານສັນຍາ. ກະລຸນາສົ່ງສັນຍາທີ່ເຊັນແລ້ວໃຫ້ເຈົ້າຂອງອະສັງຫາລິມະຊັບຜ່ານ WhatsApp ຫຼື ອີເມວ.)}",
+    "tenantAgreementSignNote2(rich)": "ໝາຍເຫດ: ${note(ເຈົ້າຂອງອະສັງຫາລິມະຊັບຈະອະນຸມັດຄຳຮ້ອງສະໝັກ, ເມື່ອຜູ້ເຊົ່າຈ່າຍເງິນປະກັນ, ຄ່າສາທາລະນູປະໂພກ, ແລະ ຄ່າເຊົ່າລ່ວງໜ້າໜຶ່ງເດືອນ.)}",
+    "completeRentAgreementPdf(rich)": "ສັນຍາເຊົ່າ (PDF) ${complete(ສັນຍາສຳເລັດ)}",
+    "tenantApplicationDepositNote(rich)": "ໝາຍເຫດ: ${note(ເຈົ້າຂອງອະສັງຫາລິມະຊັບຈະອະນຸມັດຄຳຮ້ອງສະໝັກ, ເມື່ອຜູ້ເຊົ່າຈ່າຍເງິນປະກັນ, ຄ່າສາທາລະນູປະໂພກ, ແລະ ຄ່າເຊົ່າລ່ວງໜ້າໜຶ່ງເດືອນ.)}",
+    "whatsapp": "ວັອດແອັບ",
+    "applicationList": "ລາຍການຄຳຮ້ອງສະໝັກ",
+    "viewDetails": "ເບິ່ງລາຍລະອຽດ",
+    "searchHint": "@:common.search...",
+    "home": "ໜ້າຫຼັກ",
+    "dashboard": "ແຜງຄວບຄຸມ",
+    "tenants": "ຜູ້ເຊົ່າ",
+    "maintenance": "ບໍາລຸງຮັກສາ",
+    "maintenanceList": "ລາຍການບໍາລຸງຮັກສາ",
+    "maintenanceReport": "ລາຍງານບໍາລຸງຮັກສາ",
+    "labor": "ກຳມະກອນ",
+    "applications": "ຄຳຮ້ອງສະໝັກ",
+    "rentInvitation": "ຄຳເຊີນເຊົ່າ",
+    "payment": "ການຊໍາລະເງິນ",
+    "rentPayment": "ການຊໍາລະຄ່າເຊົ່າ",
+    "depositUtilityPayment": "ເງິນປະກັນ & ຄ່າສາທາລະນູປະໂພກ",
+    "refundRequest": "ຄໍາຮ້ອງຂໍຄືນເງິນ",
+    "withdrawRequest": "ຄໍາຮ້ອງຂໍຖອນເງິນ",
+    "myProperty": "ອະສັງຫາລິມະຊັບຂອງຂ້ອຍ",
+    "myRent": "ການເຊົ່າຂອງຂ້ອຍ",
+    "wishlist": "ລາຍການທີ່ມັກ",
+    "properties": "ອະສັງຫາລິມະຊັບ",
+    "allProperties": "ອະສັງຫາລິມະຊັບທັງໝົດ",
+    "totalPropery": "ອະສັງຫາລິມະຊັບທັງໝົດ",
+    "occupied": "ມີຜູ້ຢູ່",
+    "vacant": "ຫວ່າງ",
+    "accounting": "ບັນຊີ",
+    "totalIncome": "ລາຍຮັບທັງໝົດ",
+    "totalExpense": "ຄ່າໃຊ້ຈ່າຍທັງໝົດ",
+    "currentBalance": "ຍອດເງິນປະຈຸບັນ",
+    "totalWithdrawal": "ລວມ (ການຖອນເງິນ)",
+    "totalProperties": "ອະສັງຫາລິມະຊັບທັງໝົດ",
+    "totalTenant": "ຜູ້ເຊົ່າທັງໝົດ",
+    "totalRentPaid": "ຄ່າເຊົ່າທີ່ຈ່າຍທັງໝົດ",
+    "totalRentDue": "ຄ່າເຊົ່າທີ່ຄ້າງທັງໝົດ",
+    "totalApplication": "ຄຳຮ້ອງສະໝັກທັງໝົດ",
+    "pendingApplication": "ຄຳຮ້ອງສະໝັກທີ່ລໍຖ້າ",
+    "processingApplication": "ຄຳຮ້ອງສະໝັກທີ່ກຳລັງດຳເນີນການ",
+    "approveApplication": "ຄຳຮ້ອງສະໝັກທີ່ຖືກອະນຸມັດ",
+    "rejectApplication": "ຄຳຮ້ອງສະໝັກທີ່ຖືກປະຕິເສດ",
+    "maintenanceCost": "ຄ່າບໍາລຸງຮັກສາ",
+    "transactionSummary": "ສະຫຼຸບການເຮັດທຸລະກຳ",
+    "maintenanceRequest": "ຄໍາຮ້ອງຂໍບໍາລຸງຮັກສາ",
+    "notifications": "ການແຈ້ງເຕືອນ",
+    "myProperties": "ອະສັງຫາລິມະຊັບຂອງຂ້ອຍ",
+    "recommendationProperties": "ອະສັງຫາລິມະຊັບແນະນຳ",
+    "laborList": "ລາຍການກຳມະກອນ",
+    "addLabor": "ເພີ່ມກຳມະກອນ",
+    "laborDetails": "ລາຍລະອຽດກຳມະກອນ",
+    "laborSalary": "ເງິນເດືອນກຳມະກອນ",
+    "editLabor": "ແກ້ໄຂກຳມະກອນ",
+    "addNewLabor": "ເພີ່ມກຳມະກອນໃໝ່",
+    "enterAmount": "ໃສ່ຈຳນວນເງິນ",
+    "maintenanceDetails": "ລາຍລະອຽດການບໍາລຸງຮັກສາ",
+    "laborName": "ຊື່ກຳມະກອນ",
+    "comment": "ຄໍາເຫັນ",
+    "image": "ຮູບພາບ",
+    "complete": "ສຳເລັດ",
+    "details": "ລາຍລະອຽດ",
+    "title": "ຫົວຂໍ້",
+    "date": "ວັນທີ",
+    "reason": "ເຫດຜົນ",
+    "edit": "ແກ້ໄຂ",
+    "property": "ອະສັງຫາລິມະຊັບ",
+    "completeYourProfile": "ສຳເລັດໂປຣໄຟລ໌ຂອງທ່ານ",
+    "profileImage": "ຮູບໂປຣໄຟລ໌",
+    "imagePickHint": "ສະເພາະຮູບພາບ JPEG & PNG ທີ່ມີຂະໜາດສູງສຸດ 120x120 ພິກເຊລ.",
+    "invoiceId": "ລະຫັດໃບແຈ້ງໜີ້",
+    "depositAmount": "ຈຳນວນເງິນປະກັນ",
+    "landlordPhone": "ເບີໂທລະສັບເຈົ້າຂອງອະສັງຫາລິມະຊັບ",
+    "rentalAdvance": "ຄ່າເຊົ່າ (ລ່ວງໜ້າ)",
+    "totalAmount": "ຈຳນວນເງິນທັງໝົດ",
+    "rentAmount": "ຈຳນວນຄ່າເຊົ່າ",
+    "adminCharge": "ຄ່າບໍລິການຜູ້ຄຸມລະບົບ",
+    "editAccount": "ແກ້ໄຂບັນຊີ",
+    "addNewAccount": "ເພີ່ມບັນຊີໃໝ່",
+    "transactionId": "ລະຫັດທຸລະກຳ",
+    "transactionType": "ປະເພດທຸລະກຳ",
+    "requestDate": "ວັນທີຮ້ອງຂໍ",
+    "amount": "ຈຳນວນ",
+    "fee": "ຄ່າທຳນຽມ",
+    "paymentStatus": "ສະຖານະການຊຳລະເງິນ",
+    "generatedTime": "ເວລາສ້າງ",
+    "systemGeneratedReportHint(rich)": "ນີ້ແມ່ນລາຍງານທີ່ສ້າງໂດຍລະບົບຂອງ ${appName}",
+    "withdrawHistory": "ປະຫວັດການຖອນເງິນ",
+    "history": "ປະຫວັດ",
+    "withdrawAmount": "ຈຳນວນເງິນຖອນ",
+    "availableBalance": "ຍອດເງິນທີ່ສາມາດໃຊ້ໄດ້",
+    "withdrawCharge": "ຄ່າທຳນຽມການຖອນ",
+    "paymentMethod": "ວິທີການຊຳລະເງິນ",
+    "requestSendSuccess": "ສົ່ງຄຳຮ້ອງຂໍສຳເລັດແລ້ວ!",
+    "paymentReceiptSubmitSuccess": "ສົ່ງໃບຮັບເງິນສຳເລັດແລ້ວ.",
+    "refundReason": "ເຫດຜົນການຄືນເງິນ",
+    "note": "ໝາຍເຫດ",
+    "refundReceiveSuccess": "ໄດ້ຮັບການຄືນເງິນສຳເລັດແລ້ວ.",
+    "downloadPaymentReceipt": "ດາວໂຫລດໃບຮັບເງິນ",
+    "invoice": "ໃບແຈ້ງໜີ້",
+    "selectPropertyToSeeInvoice": "ເລືອກອະສັງຫາລິມະຊັບເພື່ອເບິ່ງເລກໃບແຈ້ງໜີ້...",
+    "bankAccName": "ຊື່ບັນຊີທະນາຄານ",
+    "bankName": "ຊື່ທະນາຄານ",
+    "bankAccNum": "ເລກບັນຊີທະນາຄານ",
+    "thankYou": "ຂອບໃຈ!",
+    "basicInfo": "ຂໍ້ມູນພື້ນຖານ",
+    "descriptionPricing": "ລາຍລະອຽດ & ລາຄາ",
+    "contact": "ຕິດຕໍ່",
+    "photos": "ຮູບພາບ",
+    "successfullySubmitted": "ສົ່ງສຳເລັດແລ້ວ!",
+    "editProperty": "ແກ້ໄຂອະສັງຫາລິມະຊັບ",
+    "addNewProperty": "ເພີ່ມອະສັງຫາລິມະຊັບໃໝ່",
+    "propertyManageRequestSuccess": "ໂຄສະນາຂອງທ່ານໄດ້ຖືກສົ່ງເພື່ອທົບທວນແລ້ວ.",
+    "postAnotherProperty": "ລົງໂຄສະນາອະສັງຫາລິມະຊັບອື່ນ",
+    "browseYourProperty": "ເບິ່ງອະສັງຫາລິມະຊັບຂອງທ່ານ",
+    "stepIndicator(rich)": "ຂັ້ນຕອນທີ ${step} ຈາກ ${totalSteps}",
+    "whatWouldYouLikeToPost": "ທ່ານຕ້ອງການລົງໂຄສະນາຫຍັງ?",
+    "category": "ປະເພດ",
+    "invalidCategory": "ປະເພດບໍ່ຖືກຕ້ອງ",
+    "unitNumber": "ເລກທີໜ່ວຍ",
+    "sqft": "ຕາລາງຟຸດ.",
+    "propertySizeMustBeGreaterThan0": "ຂະໜາດອະສັງຫາລິມະຊັບຄວນໃຫຍ່ກວ່າສູນ",
+    "whatAreTheFacility": "ສິ່ງອຳນວຍຄວາມສະດວກມີຫຍັງແດ່?",
+    "whatAreTheAmenity": "ເຄື່ອງອຳນວຍຄວາມສະດວກມີຫຍັງແດ່?",
+    "parkingLot": "ບ່ອນຈອດລົດ",
+    "houseType": "ປະເພດເຮືອນ",
+    "value": "ມູນຄ່າ",
+    "unitLotSize": "ຂະໜາດໜ່ວຍ / ຕອນ",
+    "landSize": "ຂະໜາດທີ່ດິນ",
+    "acres": "ເອເຄີ",
+    "roomSize": "ຂະໜາດຫ້ອງ",
+    "askTenantPreference": "ທ່ານມັກຜູ້ເຊົ່າແບບໃດ?",
+    "couple": "ຄູ່ຮັກ",
+    "describeTheProperty": "ອະທິບາຍ ${propertyType: String}",
+    "adTitle": "ຫົວຂໍ້ໂຄສະນາ",
+    "minimumRentalPeriod": "ໄລຍະເວລາເຊົ່າຂັ້ນຕໍ່າ",
+    "whatsappNumber": "@:common.whatsapp ເບີໂທ",
+    "hideOrDisplayEmail": "ເຊື່ອງ ຫຼື ສະແດງທີ່ຢູ່ອີເມວ",
+    "thankYouForPostingProperty": "ຂອບໃຈທີ່ໂພສອະສັງຫາລິມະຊັບໃນ ${appName: String}!",
+    "propertyList": "ລາຍການອະສັງຫາລິມະຊັບ",
+    "newInviteRent": "ຄຳເຊີນເຊົ່າໃໝ່",
+    "rentAgreement": "ສັນຍາເຊົ່າ",
+    "rentDetails": "ລາຍລະອຽດການເຊົ່າ",
+    "landlordRentInvitationPendingNote(rich)": "ໝາຍເຫດ: ${note(ກະລຸນາລໍຖ້າໃຫ້ຜູ້ເຊົ່າຕົກລົງຮັບຄຳເຊີນ.)}",
+    "rent": "ຄ່າເຊົ່າ",
+    "editTenant": "ແກ້ໄຂຜູ້ເຊົ່າ",
+    "addNewTenant": "ເພີ່ມຜູ້ເຊົ່າໃໝ່",
+    "shareInstallLink": "ແບ່ງປັນລິ້ງການຕິດຕັ້ງ",
+    "tenantList": "ລາຍການຜູ້ເຊົ່າ",
+    "editMaintenanceRequest": "ແກ້ໄຂຄໍາຮ້ອງຂໍບໍາລຸງຮັກສາ",
+    "addNewMaintenance": "ເພີ່ມການບໍາລຸງຮັກສາໃໝ່",
+    "landlordId": "ລະຫັດເຈົ້າຂອງອະສັງຫາລິມະຊັບ",
+    "tenantAgrementUnderReviewNote(rich)": "ໝາຍເຫດ ${note(ສັນຍາຂອງທ່ານກຳລັງຖືກທົບທວນ. ກະລຸນາລໍຖ້າໃຫ້ເຈົ້າຂອງອະສັງຫາລິມະຊັບອະນຸມັດການເຊົ່າຂອງທ່ານ.)}",
+    "editReview": "ແກ້ໄຂການທົບທວນ",
+    "writeAReview": "ຂຽນການທົບທວນ",
+    "selectRating": "ເລືອກຄະແນນ",
+    "enterYourOpinion": "ໃສ່ຄວາມຄິດເຫັນຂອງທ່ານ",
+    "askToEnterReviewMsg": "ກະລຸນາໃສ່ຂໍ້ຄວາມທົບທວນ",
+    "pressBackAgainToExit": "ກົດກັບຄືນອີກຄັ້ງເພື່ອອອກ.",
+    "selectPaymentMethod": "ເລືອກວິທີການຊໍາລະເງິນ",
+    "filter": "ກອງ",
+    "perMonth": "/ຕໍ່ເດືອນ",
+    "searchHintWithAppName": "ຄົ້ນຫາທຸກຢ່າງໃນ ${appName: String}...",
+    "propertyInfo": "ຂໍ້ມູນອະສັງຫາລິມະຊັບ",
+    "units": "ໜ່ວຍ",
+    "depositPeriod": "ໄລຍະເວລາເງິນປະກັນ",
+    "facilitiesList": "ລາຍການສິ່ງອຳນວຍຄວາມສະດວກ",
+    "facility": "ສິ່ງອຳນວຍຄວາມສະດວກ",
+    "amenity": "ເຄື່ອງອຳນວຍຄວາມສະດວກ",
+    "amenitiesList": "ລາຍການເຄື່ອງອຳນວຍຄວາມສະດວກ",
+    "addNewFacility": "ເພີ່ມສິ່ງອຳນວຍຄວາມສະດວກໃໝ່",
+    "editFacility": "ແກ້ໄຂສິ່ງອຳນວຍຄວາມສະດວກ",
+    "facilityName": "ຊື່ສິ່ງອຳນວຍຄວາມສະດວກ",
+    "amenityName": "ຊື່ເຄື່ອງອຳນວຍຄວາມສະດວກ",
+    "addNewAmenity": "ເພີ່ມເຄື່ອງອຳນວຍຄວາມສະດວກໃໝ່",
+    "editAmenity": "ແກ້ໄຂເຄື່ອງອຳນວຍຄວາມສະດວກ",
+    "family": "ຄອບຄົວ",
+    "lateFee": "ຄ່າທຳນຽມຊ້າ",
+    "lateFeeAfterDays": "@:common.lateFee ຫຼັງ (ວັນ)",
+    "propertyPricing": "${propertyType: String} ລາຄາ",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "ຂອບໃຈຫຼາຍໆ ທ່ານຫາກໍໂພສອະສັງຫາລິມະຊັບຂອງທ່ານແລ້ວ",
+    "titleAndDescription": "ຫົວຂໍ້ & ລາຍລະອຽດ",
+    "rentPricing": "ລາຄາຄ່າເຊົ່າ",
+    "step": "ຂັ້ນຕອນ",
+    "of": "ຂອງ",
+    "pricing": "ລາຄາ",
+    "sameRentForAllUnit": "ຄ່າເຊົ່າເທົ່າກັນສໍາລັບທຸກຫນ່ວຍ",
+    "unit": "ໜ່ວຍ",
+    "pleaseSelectAnUnitFirst": "ກະລຸນາເລືອກໜ່ວຍກ່ອນ.",
+    "saleAmount": "ຈຳນວນຂາຍ",
+    "selectCategory": "ເລືອກປະເພດ",
+    "pleaseSelectACategory": "ກະລຸນາເລືອກປະເພດ",
+    "pleaseEnterAdTitle": "ກະລຸນາໃສ່ຫົວຂໍ້ໂຄສະນາ",
+    "addCoverPhoto": "ເພີ່ມຮູບໜ້າປົກ",
+    "findAProperty": "ຊອກຫາອະສັງຫາລິມະຊັບ",
+    "categories": "ປະເພດ",
+    "recmmendedProperties": "ອະສັງຫາລິມະຊັບທີ່ແນະນຳ",
+    "recentSearch": "ການຄົ້ນຫາຫຼ້າສຸດ",
+    "pleaseEnterYourAccountNumber": "ກະລຸນາໃສ່ເລກບັນຊີຂອງທ່ານ.",
+    "pleaseSelectALanguageToContinue": "ກະລຸນາເລືອກພາສາເພື່ອສືບຕໍ່.",
+    "subscribe": "ສະໝັກໃຊ້",
+    "noFacilitiesFound": "ບໍ່ພົບສິ່ງອຳນວຍຄວາມສະດວກ!",
+    "invalidLaborDetailsPleaseTryAgain": "ລາຍລະອຽດກຳມະກອນບໍ່ຖືກຕ້ອງ, ກະລຸນາລອງໃໝ່",
+    "maintenanceWork": "ວຽກງານບໍາລຸງຮັກສາ",
+    "selectLabor": "ເລືອກກຳມະກອນ",
+    "enterMaintenanceCost": "ໃສ່ຄ່າບໍາລຸງຮັກສາ",
+    "pleaseEnterMaintenanceCost": "ກະລຸນາໃສ່ຄ່າບໍາລຸງຮັກສາ",
+    "writeComment": "ຂຽນຄໍາເຫັນ",
+    "maintenancePending": "ການບຳລຸງຮັກສາທີ່ລໍຖ້າ",
+    "yourEarnings": "ລາຍໄດ້ຂອງທ່ານ",
+    "totalPaid": "ຈ່າຍທັງໝົດ",
+    "linkANewBankAccount": "ເຊື່ອມຕໍ່ບັນຊີທະນາຄານໃໝ່",
+    "payoutRequest": "ຄໍາຮ້ອງຂໍຈ່າຍເງິນອອກ"
+  },
+  "exceptions": {
+    "somethingWentWrong": "ມີບາງຢ່າງຜິດພາດ, ກະລຸນາລອງໃໝ່",
+    "noNidPassport": "ບໍ່ໄດ້ໃຫ້ຮູບພາບ NID/ໜັງສືຜ່ານແດນ.",
+    "noRentPropertyFound": "ບໍ່ພົບອະສັງຫາລິມະຊັບໃຫ້ເຊົ່າສຳລັບຜູ້ເຊົ່າຜູ້ນີ້.",
+    "noPropertyFoundWithKeyWord": "ບໍ່ພົບອະສັງຫາລິມະຊັບ!\nກະລຸນາລອງຄົ້ນຫາດ້ວຍຄຳສັບອື່ນ",
+    "noSubscriptionFoundRefreshPage": "ບໍ່ພົບແຜນການສະໝັກໃຊ້!\nກະລຸນາໂຫຼດໜ້າຄືນໃໝ່ ແລະ ລອງໃໝ່.",
+    "invalidApiDataRefreshPage": "ຂໍ້ມູນ ${dataType: String} ບໍ່ຖືກຕ້ອງ! ກະລຸນາໂຫຼດໜ້າຄືນໃໝ່ ແລະ ລອງໃໝ່.",
+    "invalidDownloadUrl": "ລິ້ງດາວໂຫລດບໍ່ຖືກຕ້ອງ!",
+    "failedToSaveFile": "ບໍ່ສາມາດບັນທຶກໄຟລ໌ໄດ້! ${error: String}",
+    "errorOpeningFile": "ເກີດຂໍ້ຜິດພາດໃນການເປີດໄຟລ໌! ${error: String}",
+    "noVehicleInfoProvided": "ບໍ່ໄດ້ໃຫ້ຂໍ້ມູນຍານພາຫະນະ.",
+    "yourApplicationRejected": "ຄຳຮ້ອງສະໝັກຂອງທ່ານໄດ້ຖືກປະຕິເສດ",
+    "noApplicationFoundHint": {
+      "template": "ບໍ່ພົບຄຳຮ້ອງສະໝັກ!\n${subject: String} ຈະສະແດງຢູ່ນີ້ເມື່ອມີ.",
+      "subjects": {
+        "tenant": "ຄຳຮ້ອງສະໝັກຂອງທ່ານ",
+        "landlord": "ຄຳຮ້ອງສະໝັກຂອງຜູ້ເຊົ່າ"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "ບໍ່ພົບອະສັງຫາລິມະຊັບ!\nກະລຸນາລອງເພີ່ມອະສັງຫາລິມະຊັບເພື່ອເບິ່ງຢູ່ນີ້.",
+      "tenantRecommended": "ບໍ່ພົບອະສັງຫາລິມະຊັບແນະນຳ\nກະລຸນາລອງໃໝ່ພາຍຫຼັງ.",
+      "tenantAllProperty": "ອະສັງຫາລິມະຊັບບໍ່ພ້ອມໃຫ້ບໍລິການ\nກະລຸນາລອງໃໝ່ພາຍຫຼັງ."
+    },
+    "noImageProvided": "ບໍ່ໄດ້ໃຫ້ຮູບພາບ",
+    "noStatusMaintenantFound": {
+      "landlord": "ບໍ່ພົບການບໍາລຸງຮັກສາ ${status}.",
+      "tenant": "ບໍ່ພົບການບໍາລຸງຮັກສາ! ທ່ານສາມາດສ້າງຄຳຮ້ອງຂໍບໍາລຸງຮັກສາເພື່ອເບິ່ງຢູ່ນີ້."
+    },
+    "noDepositFound": "ບໍ່ພົບເງິນປະກັນ!\nທ່ານສາມາດເບິ່ງເງິນປະກັນເມື່ອມີ.",
+    "noRentPaymentFound": "ບໍ່ພົບການຊຳລະຄ່າເຊົ່າ!\nທ່ານສາມາດເບິ່ງການຊຳລະຄ່າເຊົ່າເມື່ອມີ.",
+    "transactionSummaryApiException": "ບໍ່ສາມາດດຶງຂໍ້ມູນສະຫຼຸບການເຮັດທຸລະກຳໄດ້.",
+    "noWithdrawRequestFound": "ບໍ່ພົບຄຳຮ້ອງຂໍ!\nກະລຸນາລອງສ້າງຄຳຮ້ອງຂໍຖອນເງິນເພື່ອເບິ່ງຢູ່ນີ້.",
+    "withdrawRequestNotApproved": "ຄຳຮ້ອງຂໍຖອນເງິນນີ້ບໍ່ໄດ້ຮັບການອະນຸມັດ!.",
+    "nonZeroError": "ກະລຸນາໃສ່ຈຳນວນທີ່ຖືກຕ້ອງຫຼາຍກວ່າສູນ.",
+    "minAmountError": "ຈຳນວນຕ້ອງມີຢ່າງໜ້ອຍ ${minValue: String}.",
+    "maxAmountError": "ຈຳນວນຕ້ອງບໍ່ເກີນ ${maxValue: String}.",
+    "selectPaymentMethodHint": "ກະລຸນາເລືອກວິທີການຊຳລະເງິນກ່ອນ.",
+    "noStatusRefundReqFound": {
+      "landlord": "ບໍ່ພົບຄຳຮ້ອງຂໍຄືນເງິນ ${status}!\nທ່ານສາມາດເບິ່ງຄຳຮ້ອງຂໍຄືນເງິນຢູ່ນີ້ເມື່ອມີ.",
+      "tenant": "ບໍ່ພົບຄຳຮ້ອງຂໍຄືນເງິນ!\nທ່ານສາມາດສ້າງຄຳຮ້ອງຂໍຄືນເງິນເພື່ອເບິ່ງຢູ່ນີ້."
+    },
+    "refundRequestHint": {
+      "inTenantList": "ຜູ້ເຊົ່າຈະອະນຸມັດການຄືນເງິນເມື່ອລາວໄດ້ຮັບເງິນຄືນ",
+      "tenantReqSuccess": "ພວກເຮົາຈະທົບທວນຄຳຮ້ອງຂໍຄືນເງິນ ແລະ ອະນຸມັດພາຍໃນ 24 ຊົ່ວໂມງ."
+    },
+    "oneToTenRequiredField": "ກະລຸນາເລືອກຈຳນວນຂອງ ${value: String}",
+    "invalidDateRange": "ຊ່ວງວັນທີບໍ່ຖືກຕ້ອງ.",
+    "valueMustBeGreaterThanZero": "${value: String} ຕ້ອງຫຼາຍກວ່າສູນ.",
+    "editProperty": {
+      "rentalChange": "ອະສັງຫາລິມະຊັບໃຫ້ເຊົ່າແມ່ນກຳລັງປ່ຽນແປງ. ມັນຕ້ອງຖືກຕ້ອງ (ມີຜົນ) ສຳລັບການຊຳລະຄ່າເຊົ່າຂອງເດືອນຖັດໄປເທົ່ານັ້ນ.",
+      "deleteOnRent": "ອະສັງຫາລິມະຊັບຂອງທ່ານຖືກເຊົ່າໂດຍຜູ້ເຊົ່າແລ້ວ. ບໍ່ສາມາດລຶບໄດ້ຈົນກວ່າຈະຍ້າຍຜູ້ເຊົ່າອອກກ່ອນ",
+      "alreayRented": "ອະສັງຫາລິມະຊັບນີ້ຖືກເຊົ່າແລ້ວ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.\nຫຼືທ່ານສາມາດຕິດຕໍ່ເຈົ້າຂອງອະສັງຫາລິມະຊັບເພື່ອຂໍຂໍ້ມູນເພີ່ມເຕີມ."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "ບໍ່ພົບຄຳເຊີນເຊົ່າ!\nກະລຸນາລອງສ້າງຄຳເຊີນເຊົ່າເພື່ອເບິ່ງຢູ່ນີ້.",
+      "tenantNoRentInvitation": "ບໍ່ພົບຄຳເຊີນເຊົ່າ!\nທ່ານສາມາດເບິ່ງຄຳເຊີນເຊົ່າຢູ່ນີ້ເມື່ອມີ."
+    },
+    "notenantFoundList": "ບໍ່ມີຜູ້ເຊົ່າ!\nກະລຸນາລອງເພີ່ມຜູ້ເຊົ່າເພື່ອເບິ່ງຢູ່ນີ້.",
+    "noFeaturesProvided": "ບໍ່ໄດ້ໃຫ້ຄຸນສົມບັດ.",
+    "noNotificationFound": "ບໍ່ມີການແຈ້ງເຕືອນ.\nທ່ານສາມາດເບິ່ງການແຈ້ງເຕືອນຂອງທ່ານຢູ່ນີ້ເມື່ອມີ.",
+    "noFacilitiesFound": "ບໍ່ພົບສິ່ງອຳນວຍຄວາມສະດວກ.",
+    "noAmenitiesFound": "ບໍ່ພົບເຄື່ອງອຳນວຍຄວາມສະດວກ!",
+    "noLaborFound": "ບໍ່ພົບກຳມະກອນ\\nກະລຸນາລອງໃໝ່ພາຍຫຼັງ.",
+    "areYouSureYouWantToRemoveThisUnit": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບໜ່ວຍນີ້?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະອອກຈາກລະບົບ?"
+    },
+    "application": {
+      "rejectTitle": "ເປັນຫຍັງທ່ານຈຶ່ງປະຕິເສດຄໍາຮ້ອງສະໝັກນີ້?",
+      "applicationSent": {
+        "successfully": "ສົ່ງຄໍາຮ້ອງສະໝັກສຳເລັດແລ້ວ!",
+        "sucessDescription": "ທ່ານສາມາດເບິ່ງຄໍາຮ້ອງສະໝັກນີ້ໃນລາຍການຄໍາຮ້ອງສະໝັກຂອງທ່ານ"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "ລຶບກຳມະກອນ?",
+        "description": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລຶບກຳມະກອນຜູ້ນີ້?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "ເປັນຫຍັງຄໍາຮ້ອງຂໍນີ້ຈຶ່ງຖືກປະຕິເສດ?",
+      "processTitle": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະດຳເນີນການຄໍາຮ້ອງຂໍບໍາລຸງຮັກສານີ້?",
+      "completeTitle": "ວຽກສຳເລັດແລ້ວບໍ?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "ລຶບວິທີການຖອນເງິນ?",
+      "deleteDescription": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລຶບວິທີການຖອນເງິນນີ້?"
+    },
+    "unsavedChanges": {
+      "title": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະກັບຄືນ?",
+      "message": "ຟີລດ໌ທີ່ປ່ຽນແປງຈະບໍ່ຖືກບັນທຶກ!"
+    },
+    "property": {
+      "delete": {
+        "title": "ລຶບອະສັງຫາລິມະຊັບ?",
+        "message": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລຶບອະສັງຫາລິມະຊັບນີ້?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະອະນຸມັດການເຊົ່ານີ້?",
+        "description": "ໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ທົບທວນສັນຍາທີ່ເຊັນໂດຍຜູ້ເຊົ່າແລ້ວ."
+      },
+      "tenantAccept": {
+        "title": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະຮັບຄຳເຊີນນີ້?",
+        "description": "ໃຫ້ແນ່ໃຈວ່າທ່ານໄດ້ດາວໂຫລດໄຟລ໌ສັນຍາ (PDF) ແລ້ວ!"
+      }
+    },
+    "sessionExpired": {
+      "title": "ໝົດອາຍຸເຊສຊັນ",
+      "message": "ເຊສຊັນຂອງທ່ານໝົດອາຍຸແລ້ວ. ກະລຸນາເຂົ້າສູ່ລະບົບໃໝ່",
+      "action": "ເຂົ້າສູ່ລະບົບ"
+    },
+    "noInternet": {
+      "title": "ບໍ່ມີການເຊື່ອມຕໍ່ອິນເຕີເນັດ",
+      "message": "ກະລຸນາກວດສອບການເຊື່ອມຕໍ່ເຄືອຂ່າຍ Wi-Fi/ມືຖືຂອງທ່ານ ແລະລອງໃໝ່",
+      "action": "ລອງໃໝ່"
+    },
+    "permissionHandler": {
+      "title": "ຕ້ອງການການອະນຸຍາດ!",
+      "message": "ທ່ານຈຳເປັນຕ້ອງອະນຸຍາດໃນການຕັ້ງຄ່າແອັບ. ທ່ານຕ້ອງການເປີດການຕັ້ງຄ່າດຽວນີ້ບໍ?"
+    },
+    "imagePicker": {
+      "title": "ເລືອກທາງເລືອກ",
+      "gallery": "ຄັງຮູບພາບ",
+      "camera": "ກ້ອງຖ່າຍຮູບ"
+    },
+    "verificationDialog": {
+      "title": "ຢືນຢັນອີເມວຂອງທ່ານ",
+      "message": "ພວກເຮົາໄດ້ສົ່ງອີເມວລະຫັດຢືນຢັນແລ້ວ",
+      "messageWithEmail": "@:prompt.verificationDialog.message ເຖິງ ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "ລຶບລ້າງການແຈ້ງເຕືອນ?",
+      "clearMessage": "ທ່ານແນ່ໃຈບໍ່ວ່າຈະລຶບລ້າງການແຈ້ງເຕືອນທັງໝົດ?"
+    },
+    "genericDeletePrompt": {
+      "title": "ທ່ານຕ້ອງການລຶບ ${item: String} ນີ້ບໍ"
+    },
+    "subscriptionModal": {
+      "title": "ການສະໝັກໃຊ້ໝົດອາຍຸ!",
+      "message": "ກະລຸນາສະໝັກໃຊ້ເພື່ອສືບຕໍ່."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "ໃສ່ @:common.fullName",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:common.fullName ຂອງທ່ານ"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "ໃສ່ @:common.email ຂອງທ່ານ",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ທີ່ຢູ່ @:common.email ຂອງທ່ານ",
+        "invalid": "⦸ ອີເມວບໍ່ຖືກຕ້ອງ, ກະລຸນາລອງໃໝ່"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:common.password ຂອງທ່ານ",
+        "minLength": "ລະຫັດຜ່ານຕ້ອງມີຢ່າງໜ້ອຍ ${count} ຕົວອັກສອນ!"
+      }
+    },
+    "confirmPassword": {
+      "label": "ຢືນຢັນ @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:common.password ຂອງທ່ານ",
+        "notMatched": "ຢືນຢັນລະຫັດຜ່ານບໍ່ກົງກັນ!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:common.mobileNumber ຂອງທ່ານ"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "ເລກເຮືອນ ແລະ ຊື່ຖະໜົນ",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:form.address1.label ຂອງທ່ານ"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "ອາພາດເມັ້ນ, ຊຸດ, ຫ້ອງ, ອື່ນໆ",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:form.address2.label ຂອງທ່ານ"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "ໃສ່ @:common.postalCode",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:common.postalCode ຂອງທ່ານ"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "ໃສ່ຊື່ @:common.city.",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ຊື່ @:common.city ຂອງທ່ານ."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "ໃສ່ຊື່ @:common.state.",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ຊື່ @:common.state ຂອງທ່ານ."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "ເລືອກ @:common.country.",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ @:common.country ຂອງທ່ານ"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "ກະລຸນາໃສ່ otp.",
+        "invalid": "ກະລຸນາໃສ່ otp ທີ່ຖືກຕ້ອງ."
+      }
+    },
+    "title": {
+      "label": "ຫົວຂໍ້",
+      "hint": "ໃສ່ຫົວຂໍ້",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ຫົວຂໍ້"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "ເລືອກ @:form.date.label",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "ເຫດຜົນ",
+      "hint": "ໃສ່ເຫດຜົນ",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ເຫດຜົນ"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "ເລືອກ @:common.withdrawMethod",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "ອັບໂຫລດ ${label: String}",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "ໃສ່ @:form.note.label",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "ເລືອກ @:common.gender",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "ໃສ່ @:form.anyField.label",
+      "errors": {
+        "required": "ກະລຸນາໃສ່ @:form.anyField.label",
+        "invalid": "ກະລຸນາໃສ່ @:form.anyField.label ທີ່ຖືກຕ້ອງ"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "ເລືອກ @:form.anyDropdown.label",
+      "errors": {
+        "required": "ກະລຸນາເລືອກ @:form.anyDropdown.label",
+        "invalid": "ກະລຸນາເລືອກ @:form.anyDropdown.label ທີ່ຖືກຕ້ອງ"
+      }
+    }
+  },
+  "action": {
+    "next": "ຕໍ່ໄປ",
+    "getStarted": "ເລີ່ມຕົ້ນ",
+    "skip": "ຂ້າມ",
+    "select": "ເລືອກ",
+    "save": "ບັນທຶກ",
+    "signIn": "ເຂົ້າສູ່ລະບົບ",
+    "signUp": "ລົງທະບຽນ",
+    "continue": "ສືບຕໍ່",
+    "clearAll": "ລຶບລ້າງທັງໝົດ",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "ສົ່ງ",
+    "pay": "ຈ່າຍ",
+    "remove": "ເອົາອອກ",
+    "goBack": "ກັບຄືນ",
+    "buyNow": "ຊື້ດຽວນີ້",
+    "no": "ບໍ່",
+    "open": "ເປີດ",
+    "addProperty": "ເພີ່ມອະສັງຫາລິມະຊັບ",
+    "process": "ດຳເນີນການ",
+    "approve": "ອະນຸມັດ",
+    "reject": "ປະຕິເສດ",
+    "viewRent": "ເບິ່ງການເຊົ່າ",
+    "openNavigationMenu": "ເປີດເມນູການນຳທາງ",
+    "seeAll": "ເບິ່ງທັງໝົດ",
+    "update": "ອັບເດດ",
+    "printTransaction": "ພິມທຸລະກຳ",
+    "payoutRequest": "ຄໍາຮ້ອງຂໍຈ່າຍເງິນອອກ",
+    "addNew": "+ ເພີ່ມໃໝ່",
+    "sendRequest": "ສົ່ງຄໍາຮ້ອງຂໍ",
+    "print": "ພິມ",
+    "requestForRefund": "ຮ້ອງຂໍຄືນເງິນ",
+    "previous": "ກ່ອນໜ້າ",
+    "delete": "ລຶບ",
+    "applyProperty": "ສະໝັກເຊົ່າອະສັງຫາລິມະຊັບ",
+    "viewApplication": "ເບິ່ງຄຳຮ້ອງສະໝັກ",
+    "inviteTenant": "ເຊີນຜູ້ເຊົ່າ",
+    "inviteRent": "ເຊີນເຊົ່າ",
+    "cancel": "ຍົກເລີກ",
+    "accept": "ຍອມຮັບ",
+    "submit": "ສົ່ງ",
+    "yes": "ແມ່ນ",
+    "okay": "ຕົກລົງ",
+    "confirm": "ຢືນຢັນ",
+    "apply": "ສະໝັກ",
+    "reset": "ຣີເຊັດ",
+    "retry": "ລອງໃໝ່",
+    "viewAll": "ເບິ່ງທັງໝົດ",
+    "addMore": "ເພີ່ມອີກ",
+    "done": "ສຳເລັດ"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "ຊອກຫາອະສັງຫາລິມະຊັບຂອງທ່ານ",
+          "description": "ພວກເຮົາເຮັດໃຫ້ມັນງ່າຍດາຍທີ່ຈະຊອກຫາສະຖານທີ່ທີ່ເໝາະສົມກັບຊີວິດຂອງທ່ານ — ບໍ່ວ່າຈະເປັນຫ້ອງ, ອາພາດເມັ້ນ, ຫຼືເຮືອນ."
+        },
+        "data2": {
+          "title": "ອາພາດເມັ້ນໃນເມືອງ",
+          "description": "ພວກເຮົາປະຢັດເວລາຂອງທ່ານໂດຍການຈັບຄູ່ທ່ານກັບອະສັງຫາລິມະຊັບທີ່ສົມບູນແບບຢ່າງວ່ອງໄວ ກ່ອນທີ່ມັນຈະໝົດໄປ ເພື່ອໃຫ້ທ່ານສາມາດເພີດເພີນກັບເຮືອນໃໝ່ຂອງທ່ານ, ຫຼືລົງລາຍຊື່ຂອງຕົວທ່ານເອງໂດຍບໍ່ເສຍຄ່າ."
+        },
+        "data3": {
+          "title": "ເຮືອນທີ່ສະດວກສະບາຍຂອງທ່ານ",
+          "description": "ຖ້າທ່ານກຳລັງຊອກຫາບ່ອນຢູ່ອາໄສ, ລອງເບິ່ງເຮືອນໃຫ້ເຊົ່າຂອງພວກເຮົາ. ພວກເຮົາມີເຮືອນຫຼາກຫຼາຍຊະນິດໃຫ້ທ່ານເລືອກຈາກທົ່ວປະເທດ."
+        }
+      }
+    },
+    "signIn": {
+      "title": "ຍິນດີຕ້ອນຮັບກັບຄືນ",
+      "subtitle": "ເຂົ້າສູ່ລະບົບດຽວນີ້ເພື່ອເລີ່ມຕົ້ນການເດີນທາງທີ່ໜ້າອັດສະຈັນ.",
+      "extra": {
+        "rememberMe": "ຈື່ຂ້ອຍໄວ້",
+        "signUpNavigator(rich)": "ບໍ່ມີບັນຊີ? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "ລືມລະຫັດຜ່ານ",
+      "subtitle": "ໃສ່ທີ່ຢູ່ອີເມວຂອງທ່ານເພື່ອເອົາລະຫັດຜ່ານຂອງທ່ານຄືນ."
+    },
+    "otpVerification": {
+      "title": "ການຢືນຢັນ",
+      "subtitle": "ລະຫັດ 6 ຕົວເລກໄດ້ຖືກສົ່ງໄປທີ່ທີ່ຢູ່ອີເມວຂອງທ່ານ. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "ລະຫັດຖືກສົ່ງພາຍໃນ ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(ສົ່ງລະຫັດຄືນ)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "ຕັ້ງລະຫັດຜ່ານໃໝ່",
+      "subtitle": "ຕັ້ງລະຫັດຜ່ານຂອງທ່ານໃໝ່ເພື່ອເອົາຄືນ ແລະເຂົ້າສູ່ລະບົບບັນຊີຂອງທ່ານ",
+      "extra": {
+        "dialog": {
+          "title": "ປ່ຽນແປງສຳເລັດແລ້ວ!",
+          "subtitle": "ເຂົ້າສູ່ລະບົບດ້ວຍລະຫັດຜ່ານໃໝ່ຂອງທ່ານ.\nກຳລັງສົ່ງທ່ານໄປທີ່ໜ້າເຂົ້າສູ່ລະບົບ..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "ສ້າງບັນຊີ",
+      "subtitle": "ລົງທະບຽນດຽວນີ້ເພື່ອເລີ່ມຕົ້ນການເດີນທາງທີ່ໜ້າອັດສະຈັນ",
+      "extra": {
+        "signInNavigator(rich)": "ມີບັນຊີແລ້ວ? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "ທ່ານແມ່ນໃຜ?",
+      "subtitle": "ກະລຸນາເລືອກຕົວເລືອກລຸ່ມນີ້.",
+      "extra": {
+        "landlordTag": "ຈັດການອະສັງຫາລິມະຊັບຂອງທ່ານເອງ",
+        "tenantTag": "ເຂົ້າສູ່ລະບົບບັນຊີເຊົ່າຂອງທ່ານ"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "ການແຈ້ງເຕືອນ"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "ຂໍ້ຄວາມ..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "ເປັນຫຍັງທ່ານຈຶ່ງ @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "ຂຽນເຫດຜົນ",
+          "errors": {
+            "required": "ກະລຸນາໃສ່ເຫດຜົນໃນການຍົກເລີກການເຊົ່າ"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "ການຊຳລະເງິນແບບອອບໄລນ໌",
+      "form": {
+        "paymentNote": {
+          "label": "ໝາຍເຫດການຊຳລະເງິນ (@:common.optional)",
+          "hint": "ໃສ່ຂໍ້ຄວາມ..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "ຈຳນວນເງິນທີ່ຕ້ອງຈ່າຍ: ${amount}",
+        "accountHolderName": "ຊື່ເຈົ້າຂອງບັນຊີ",
+        "accountNumber": "ເລກບັນຊີ",
+        "swiftCode": "ລະຫັດ Swift",
+        "branch": "ສາຂາ",
+        "fileTypeHint(rich)": "ເລືອກໄຟລ໌ ${fileType(JPG, PNG,PDF)} ຫຼື ${fileType(DOC)} ເທົ່ານັ້ນ. ຂະໜາດໄຟລ໌ ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "ເບິ່ງໃບແຈ້ງໜີ້",
+        "title": "@:common.thankYou",
+        "description": "ພວກເຮົາຈະທົບທວນການຊຳລະເງິນ ແລະ ອະນຸມັດພາຍໃນ 24 ຊົ່ວໂມງ."
+      },
+      "fail": {
+        "actionButton": "ລອງໃໝ່",
+        "title": "ໂອ້ຍ! ການຊຳລະເງິນບໍ່ສຳເລັດ",
+        "description": "ທຸລະກຳຂອງທ່ານບໍ່ສຳເລັດເນື່ອງຈາກຂໍ້ຜິດພາດທາງດ້ານເຕັກນິກບາງຢ່າງ."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "ຄຸນສົມບັດ ${fa((ສິ່ງອໍານວຍຄວາມສະດວກ ແລະເຄື່ອງອໍານວຍຄວາມສະດວກ))}",
+        "selectRentalPeriod": "ເລືອກໄລຍະເວລາເຊົ່າ",
+        "writeAReview": "+ ຂຽນຄຳເຫັນ"
+      }
+    },
+    "search": {
+      "appbarTitle": "ຄົ້ນຫາ",
+      "extra": {
+        "hint": "ຄົ້ນຫາທີ່ດິນ, ຫ້ອງແຖວ, ຫ້ອງ...",
+        "noRecentSearch": "ທ່ານບໍ່ມີການຄົ້ນຫາຫຼ້າສຸດ."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "ເລືອກແຜນຂອງທ່ານ",
+      "extra": {
+        "subscriptionPaymentSuccess": "ຊຳລະຄ່າສະໝັກສຳເລັດແລ້ວ.\nທ່ານສາມາດເຂົ້າເຖິງຄຸນສົມບັດທີ່ສະໝັກໃຊ້ໄດ້ດຽວນີ້."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "ຄ່າໃຊ້ຈ່າຍບໍາລຸງຮັກສາທັງໝົດ: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "ອະສັງຫາລິມະຊັບທັງໝົດ",
+      "pending": "ລໍຖ້າ",
+      "active": "ເຄື່ອນໄຫວ",
+      "inactive": "ບໍ່ເຄື່ອນໄຫວ",
+      "rejected": "ຖືກປະຕິເສດ"
+    },
+    "propertyType": {
+      "rent": "ເຊົ່າ",
+      "sale": "ຂາຍ"
+    },
+    "propertyCategory": {
+      "apartment": "ອາພາດເມັ້ນ",
+      "house": "ເຮືອນ",
+      "commercial": "ການຄ້າ",
+      "land": "ທີ່ດິນ",
+      "room": "ຫ້ອງ",
+      "unitOrFlat": "ໜ່ວຍ / ຫ້ອງແຖວ",
+      "bungalow": "ເຮືອນບັງກະໂລ",
+      "plot": "ແປງ"
+    },
+    "applicationStatus": {
+      "all": "ທັງໝົດ",
+      "pending": "ລໍຖ້າ",
+      "processing": "ກຳລັງດຳເນີນການ",
+      "approved": "ອະນຸມັດແລ້ວ",
+      "rejected": "ຖືກປະຕິເສດ"
+    },
+    "myRentStatus": {
+      "pending": "ລໍຖ້າ",
+      "processing": "ກຳລັງດຳເນີນການ",
+      "active": "ເຄື່ອນໄຫວ",
+      "expired": "ໝົດອາຍຸ",
+      "cancelled": "ຖືກຍົກເລີກ"
+    },
+    "maintenanceStatus": {
+      "pending": "ລໍຖ້າ",
+      "processing": "ກຳລັງດຳເນີນການ",
+      "rejected": "ຖືກປະຕິເສດ",
+      "completed": "ສຳເລັດ"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "ສ່ວນຕົວ (ບຸກຄົນ)",
+      "company": "ບໍລິສັດ"
+    },
+    "tenantType": {
+      "newTenant": "ຜູ້ເຊົ່າໃໝ່",
+      "activeTenant": "ຜູ້ເຊົ່າທີ່ເຄື່ອນໄຫວ",
+      "expiredTenant": "ຜູ້ເຊົ່າທີ່ໝົດອາຍຸ"
+    },
+    "paymentStatus": {
+      "all": "ທັງໝົດ",
+      "pending": "ລໍຖ້າ",
+      "paid": "ຈ່າຍແລ້ວ",
+      "unpaid": "ບໍ່ໄດ້ຈ່າຍ",
+      "rejected": "ຖືກປະຕິເສດ",
+      "refund": "ຄືນເງິນ"
+    },
+    "paymentOptions": {
+      "onlinePayment": "ຊຳລະເງິນອອນໄລນ໌",
+      "offlinePayment": "ຊຳລະເງິນແບບອອບໄລນ໌"
+    },
+    "paymentType": {
+      "securityDeposit": "ເງິນປະກັນ",
+      "rentPayment": "ຊຳລະຄ່າເຊົ່າ",
+      "subscription": "ການສະໝັກໃຊ້"
+    },
+    "gender": {
+      "male": "ຊາຍ",
+      "female": "ຍິງ",
+      "other": "ອື່ນໆ"
+    },
+    "ecRelation": {
+      "wife": "ພັນລະຍາ",
+      "parent": "ພໍ່ແມ່",
+      "friend": "ເພື່ອນ",
+      "brother": "ອ້າຍ/ນ້ອງຊາຍ",
+      "sister": "ເອື້ອຍ/ນ້ອງສາວ",
+      "child": "ລູກ"
+    },
+    "vehicleType": {
+      "car": "ລົດຍົນ",
+      "motorcycles": "ລົດຈັກ",
+      "lorry": "ລົດບັນທຸກ"
+    },
+    "sortBy": {
+      "lowToHigh": "ຕໍ່າຫາສູງ",
+      "highToLow": "ສູງຫາຕໍ່າ"
+    },
+    "residentialType": {
+      "flat": "ຫ້ອງແຖວ",
+      "apartment": "ອາພາດເມັ້ນ",
+      "condominium": "ຄອນໂດມີນຽມ",
+      "serviceResidence": "ທີ່ພັກອາໄສບໍລິການ",
+      "studio": "ສະຕູດີໂອ",
+      "duplex": "ເຮືອນດູເພຼັກ",
+      "townhouseCondo": "ຄອນໂດເຮືອນແຖວ",
+      "condo": "ຄອນໂດ / ທີ່ພັກອາໄສບໍລິການ / ເພນເຮືອນຊັ້ນສູງ",
+      "house": "ເຮືອນ",
+      "shoplot": "ຫ້ອງແຖວຮ້ານຄ້າ",
+      "sharing": "ແບ່ງປັນເຮືອນ / ຫ້ອງແຖວ",
+      "others": "ອື່ນໆ"
+    },
+    "floorRange": {
+      "high": "ສູງ",
+      "medium": "ປານກາງ",
+      "low": "ຕໍ່າ"
+    },
+    "furnishings": {
+      "fullyFurnished": "ເຟີນີເຈີຄົບຊຸດ",
+      "partiallyFurnished": "ເຟີນີເຈີບາງສ່ວນ",
+      "notFurnished": "ບໍ່ມີເຟີນີເຈີ"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "ພື້ນທີ່ຫ້ອງການ",
+      "retailSpace": "ພື້ນທີ່ຂາຍຍ່ອຍ",
+      "shopLot": "ຫ້ອງແຖວຮ້ານຄ້າ",
+      "warehouseFactory": "ສາງ / ໂຮງງານ",
+      "hotelResort": "ໂຮງແຮມ / ຣີສອດ",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "ອື່ນໆ"
+    },
+    "landPropertyType": {
+      "residential": "ທີ່ຢູ່ອາໄສ",
+      "industrial": "ອຸດສາຫະກຳ",
+      "agricultural": "ກະສິກຳ",
+      "commercial": "ການຄ້າ",
+      "mixedDevelopment": "ການພັດທະນາແບບປະສົມ",
+      "others": "ອື່ນໆ"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 ເດືອນ",
+      "oneYear": "1 ປີ",
+      "oneAndHalfYears": "1.5 ປີ",
+      "twoYears": "2 ປີ",
+      "twoAndHalfYears": "2.5 ປີ"
+    },
+    "dropdownDateFilter": {
+      "daily": "ລາຍວັນ",
+      "weekly": "ລາຍອາທິດ",
+      "monthly": "ລາຍເດືອນ",
+      "yearly": "ລາຍປີ",
+      "custom": "ກຳນົດເອງ"
+    },
+    "bungalowType": {
+      "modern": "ທັນສະໄໝ",
+      "cottage": "ເຮືອນພັກ",
+      "luxury": "ຫຼູຫຼາ",
+      "ecoSmart": "ນິເວດ/ສະມາດ",
+      "beachSide": "ແຄມທະເລ",
+      "others": "ອື່ນໆ"
+    }
+  }
+}

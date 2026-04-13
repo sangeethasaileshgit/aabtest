@@ -1,0 +1,236 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Flutter APK",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"apk"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Kill Web Port 8090",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-Command",
+				"$connections = Get-NetTCPConnection -LocalPort 8090 -ErrorAction SilentlyContinue; if ($connections) { $connections | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Write-Output 'Freed port 8090'; } else { Write-Output 'Port 8090 already free'; }"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run Flutter Chrome",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"chrome"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Flutter Debug Chrome",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"run",
+				"-d",
+				"chrome"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB v2",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Check Disk Space",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"Get-PSDrive C | Format-List Used, Free; [math]::Round((Get-PSDrive C).Free/1GB,2)"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Clean Gradle Caches",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"Remove-Item -Path \"$env:USERPROFILE\\.gradle\\caches\\8.10.2\" -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$env:USERPROFILE\\.gradle\\caches\\transforms-*\" -Recurse -Force -ErrorAction SilentlyContinue; Remove-Item -Path \"$env:USERPROFILE\\.gradle\\daemon\\8.10.2\" -Recurse -Force -ErrorAction SilentlyContinue; Write-Output 'Cleaned old Gradle caches'; [math]::Round((Get-PSDrive C).Free/1GB,2)"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB Final",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build Flutter AAB",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build AAB Release",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build AAB Final",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build AAB Clean",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Build AAB Now",
+			"type": "shell",
+			"command": "flutter",
+			"args": [
+				"build",
+				"appbundle",
+				"--release"
+			],
+			"isBackground": false
+		}
+	]
+}

@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "cz_CZ",
+    "languageName": "Czech",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Jazyk",
+    "subscriptionPlan": "Předplatné",
+    "contactUs": "Kontaktujte nás",
+    "termsAndConditions": "Podmínky a ujednání",
+    "aboutUs": "O nás",
+    "logout": "Odhlásit se",
+    "editProfile": "Upravit profil",
+    "fullName": "Celé jméno",
+    "email": "E-mail",
+    "mobileNumber": "Mobilní číslo",
+    "address": "Adresa",
+    "postalCode": "PSČ",
+    "city": "Město",
+    "country": "Země",
+    "state": "Kraj/Stát",
+    "password": "Heslo",
+    "forgotPassword": "Zapomenuté heslo",
+    "tenant": "Nájemce",
+    "landlord": "Pronajímatel",
+    "cancelRenting": "Zrušit pronájem",
+    "startDate": "Datum zahájení",
+    "endDate": "Datum ukončení",
+    "fromDate": "Od data",
+    "toDate": "Do data",
+    "online": "Online",
+    "bankList": "Seznam bank",
+    "withdrawMethod": "Způsob výběru",
+    "uploadPaymentReceipt": "Nahrát doklad o platbě",
+    "offlinePaymentNote(rich)": "Poznámka: ${note(Platba vyžaduje ruční schválení administrátorem do)} ${duraion(24~48 hodin.)}",
+    "reviews": "Recenze",
+    "description": "Popis",
+    "about": "O aplikaci",
+    "propertyTypes": "Typy nemovitostí",
+    "features": "Vlastnosti",
+    "floorPlans": "Půdorysy",
+    "buildingDetails": "Detaily budovy",
+    "buildingName": "Název budovy",
+    "propertyAddress": "Adresa nemovitosti",
+    "completionYear": "Rok dokončení",
+    "lotNumber": "Číslo parcely",
+    "residentialType": "Typ bydlení",
+    "furnishings": "Vybavení",
+    "floorRange": "Rozsah pater",
+    "bedrooms": "Ložnice",
+    "bathrooms": "Koupelny",
+    "propertySize": "Velikost nemovitosti",
+    "rentalPeriod": "Doba pronájmu",
+    "securityDeposit": "Kauce/Jistota",
+    "utilityBill": "Poplatky za služby",
+    "facilities": "Vybavení (budovy)",
+    "amenities": "Vybavení (okolí)",
+    "expiringReason": "Důvod vypršení",
+    "tenantDetails": "Detaily nájemce",
+    "typeOfTenant": "Typ nájemce",
+    "tenantName": "Jméno nájemce",
+    "nidPassport": "Občanský průkaz/Pas",
+    "nidPassportId": "ID @:common.nidPassport",
+    "tenantId": "ID nájemce",
+    "dateOfBirth": "Datum narození",
+    "gender": "Pohlaví",
+    "nominee": "Zástupce/Osoba",
+    "name": "Jméno",
+    "optional": "Volitelné",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "E-mail @:common.nominee",
+    "nomineeMobile": {
+      "short": "Mob. č. @:common.nominee",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Nouzový kontakt",
+    "relation": "Vztah",
+    "relationWith": "@:common.relation s",
+    "relationWithYou": "@:common.relationWith Vámi",
+    "company": "Společnost",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "Číslo IČO @:common.company",
+    "workplace": "Pracoviště",
+    "officePhoneNo": "Telefonní číslo do kanceláře",
+    "officeMobileNo": "Kancelářské @:common.mobileNumber",
+    "vehicle": "Vozidlo",
+    "vehiclesInfo": {
+      "plain": "Informace o vozidlech",
+      "optional": "Informace o vozidlech (@:common.optional)"
+    },
+    "vehiclesType": "Typ @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "Registrační číslo vozidla",
+      "short": "Registrační číslo",
+      "alt": "SPZ"
+    },
+    "vehicleBrand": "Značka @:common.vehicle",
+    "rentProperty": "Pronajmout nemovitost",
+    "propertyDetails": "Detaily nemovitosti",
+    "propertyId": "ID nemovitosti",
+    "propertyType": "Typ nemovitosti",
+    "propertyName": "Název nemovitosti",
+    "paymentDetails": "Detaily platby",
+    "monthlyRent": "Měsíční nájem",
+    "thisMonthPayment": "Platba za tento měsíc",
+    "totalPaidRent": "Celkem zaplacené nájemné",
+    "dueRent": "Nájemné k úhradě",
+    "rentStartDate": "Zahájení pronájmu @:common.startDate",
+    "rentEndDate": "Ukončení pronájmu @:common.endDate",
+    "status": "Stav",
+    "rentAgreementPdf": "PDF nájemní smlouvy",
+    "noFile": "Žádný soubor",
+    "tenantImageOp": "Obrázek nájemce @:common.optional",
+    "addNewVechicle": "Přidat nové vozidlo",
+    "uploadNidPassport": "Nahrát OP/Pas",
+    "nidPassportUploadNote": "Budou přijaty pouze soubory typu obrázek. Limit velikosti souboru je do 2.5 MB.",
+    "search": "Hledat",
+    "sortBy": "Seřadit podle",
+    "subscription": "Předplatné",
+    "downloading": "Stahování...",
+    "downloadSuccess": "Soubor byl úspěšně stažen!",
+    "addPropertyBannerTitle": "Chcete pronajmout svou nemovitost?",
+    "application": "Žádost",
+    "tenantHasPaidDeposit": "Nájemce zaplatil kauci.",
+    "askProcessingRentApplication": "Jste si jisti, že chcete zpracovat tuto žádost o pronájem nemovitosti?",
+    "dateAndTime": "Datum a čas",
+    "applicationDetails": "Detaily žádosti",
+    "depositStatus": "Stav kauce",
+    "uploadRentAgreement": "Nahrát nájemní smlouvu",
+    "uploadFilePDF": "Nahrát soubor (PDF)",
+    "askSelectRentAgreement": "Prosím vyberte soubor s dokumentem smlouvy.",
+    "landlordRentAgreementPDF": "PDF nájemní smlouvy pronajímatele",
+    "tenantRentAgreementPDF": "PDF nájemní smlouvy nájemce",
+    "landlordApplicationApproveNote(rich)": "Poznámka: ${note(Schvalte žádost pouze poté, co nájemce provede platbu kauce.)}",
+    "reasonOfRejection": "Důvod zamítnutí",
+    "youveRejectedThisApplication": "Tuto žádost jste zamítli",
+    "landlordDetails": "Detaily pronajímatele",
+    "landlordName": "Jméno pronajímatele",
+    "downloadRentAgreement": "Stáhnout nájemní smlouvu",
+    "acceptTermsConditions(rich)": "Přijmout ${toc(Podmínky a ujednání)}",
+    "tenantAgreementSignNote1(rich)": "Poznámka: ${note(Prosím stáhněte a přečtěte si smlouvu. Podepsanou smlouvu zašlete pronajímateli přes WhatsApp nebo e-mailem.)}",
+    "tenantAgreementSignNote2(rich)": "Poznámka: ${note(Pronajímatel schválí žádost, když nájemce zaplatí kauci, poplatky za služby a zálohu na nájem na jeden měsíc.)}",
+    "completeRentAgreementPdf(rich)": "Nájemní smlouva (PDF) ${complete(Kompletní smlouva)}",
+    "tenantApplicationDepositNote(rich)": "Poznámka : ${note(Pronajímatel schválí žádost, když nájemce zaplatí kauci, poplatky za služby a zálohu na nájem na jeden měsíc.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Seznam žádostí",
+    "viewDetails": "Zobrazit detaily",
+    "searchHint": "@:common.search...",
+    "home": "Domů",
+    "dashboard": "Přehled",
+    "tenants": "Nájemci",
+    "maintenance": "Údržba",
+    "maintenanceList": "Seznam údržby",
+    "maintenanceReport": "Zpráva o údržbě",
+    "labor": "Práce",
+    "applications": "Žádosti",
+    "rentInvitation": "Pozvánka k pronájmu",
+    "payment": "Platba",
+    "rentPayment": "Platba nájmu",
+    "depositUtilityPayment": "Platba kauce a služeb",
+    "refundRequest": "Žádost o vrácení peněz",
+    "withdrawRequest": "Žádost o výběr",
+    "myProperty": "Moje nemovitost",
+    "myRent": "Můj pronájem",
+    "wishlist": "Seznam přání",
+    "properties": "Nemovitosti",
+    "allProperties": "Všechny nemovitosti",
+    "totalPropery": "Celkem nemovitostí",
+    "occupied": "Obsazeno",
+    "vacant": "Volné",
+    "accounting": "Účetnictví",
+    "totalIncome": "Celkový příjem",
+    "totalExpense": "Celkové výdaje",
+    "currentBalance": "Aktuální zůstatek",
+    "totalWithdrawal": "Celkem (výběry)",
+    "totalProperties": "Celkem nemovitostí",
+    "totalTenant": "Celkem nájemců",
+    "totalRentPaid": "Celkem zaplacené nájemné",
+    "totalRentDue": "Celkem dlužné nájemné",
+    "totalApplication": "Celkem žádostí",
+    "pendingApplication": "Čekající žádost",
+    "processingApplication": "Zpracovávaná žádost",
+    "approveApplication": "Schválená žádost",
+    "rejectApplication": "Zamítnutá žádost",
+    "maintenanceCost": "Náklady na údržbu",
+    "transactionSummary": "Shrnutí transakcí",
+    "maintenanceRequest": "Žádost o údržbu",
+    "notifications": "Oznámení",
+    "myProperties": "Moje nemovitosti",
+    "recommendationProperties": "Doporučené nemovitosti",
+    "laborList": "Seznam pracovníků",
+    "addLabor": "Přidat pracovníka",
+    "laborDetails": "Detaily pracovníka",
+    "laborSalary": "Mzda pracovníka",
+    "editLabor": "Upravit pracovníka",
+    "addNewLabor": "Přidat nového pracovníka",
+    "enterAmount": "Zadejte částku",
+    "maintenanceDetails": "Detaily údržby",
+    "laborName": "Jméno pracovníka",
+    "comment": "Komentář",
+    "image": "Obrázek",
+    "complete": "Dokončit",
+    "details": "Detaily",
+    "title": "Název",
+    "date": "Datum",
+    "reason": "Důvod",
+    "edit": "Upravit",
+    "property": "Nemovitost",
+    "completeYourProfile": "Dokončete svůj profil",
+    "profileImage": "Obrázek profilu",
+    "imagePickHint": "Pouze obrázky JPEG a PNG s maximální velikostí 120x120 pixelů.",
+    "invoiceId": "ID faktury",
+    "depositAmount": "Částka kauce",
+    "landlordPhone": "Telefon pronajímatele",
+    "rentalAdvance": "Nájemné (záloha)",
+    "totalAmount": "Celková částka",
+    "rentAmount": "Částka nájemného",
+    "adminCharge": "Administrativní poplatek",
+    "editAccount": "Upravit účet",
+    "addNewAccount": "Přidat nový účet",
+    "transactionId": "ID transakce",
+    "transactionType": "Typ transakce",
+    "requestDate": "Datum žádosti",
+    "amount": "Částka",
+    "fee": "Poplatek",
+    "paymentStatus": "Stav platby",
+    "generatedTime": "Vygenerováno v čase",
+    "systemGeneratedReportHint(rich)": "Toto je systémově generovaná zpráva pro ${appName}",
+    "withdrawHistory": "Historie výběrů",
+    "history": "Historie",
+    "withdrawAmount": "Částka výběru",
+    "availableBalance": "Dostupný zůstatek",
+    "withdrawCharge": "Poplatek za výběr",
+    "paymentMethod": "Způsob platby",
+    "requestSendSuccess": "Žádost byla úspěšně odeslána!",
+    "paymentReceiptSubmitSuccess": "Doklad o platbě byl úspěšně odeslán.",
+    "refundReason": "Důvod vrácení peněz",
+    "note": "Poznámka",
+    "refundReceiveSuccess": "Vrácení peněz bylo úspěšně přijato.",
+    "downloadPaymentReceipt": "Stáhnout doklad o platbě",
+    "invoice": "Faktura",
+    "selectPropertyToSeeInvoice": "Vyberte nemovitost pro zobrazení čísla faktury...",
+    "bankAccName": "Jméno majitele bankovního účtu",
+    "bankName": "Název banky",
+    "bankAccNum": "Číslo bankovního účtu",
+    "thankYou": "Děkujeme!",
+    "basicInfo": "Základní informace",
+    "descriptionPricing": "Popis a ceny",
+    "contact": "Kontakt",
+    "photos": "Fotografie",
+    "successfullySubmitted": "Úspěšně odesláno!",
+    "editProperty": "Upravit nemovitost",
+    "addNewProperty": "Přidat novou nemovitost",
+    "propertyManageRequestSuccess": "Váš inzerát byl odeslán ke kontrole.",
+    "postAnotherProperty": "Zveřejnit další nemovitost",
+    "browseYourProperty": "Procházet své nemovitosti",
+    "stepIndicator(rich)": "Krok ${step} z ${totalSteps}",
+    "whatWouldYouLikeToPost": "Co chcete zveřejnit?",
+    "category": "Kategorie",
+    "invalidCategory": "Neplatná kategorie",
+    "unitNumber": "Číslo jednotky",
+    "sqft": "čt. stop",
+    "propertySizeMustBeGreaterThan0": "Velikost nemovitosti musí být větší než nula",
+    "whatAreTheFacility": "Jaké jsou možnosti vybavení (budovy)?",
+    "whatAreTheAmenity": "Jaké jsou možnosti vybavení (okolí)?",
+    "parkingLot": "Parkovací místo",
+    "houseType": "Typ domu",
+    "value": "Hodnota",
+    "unitLotSize": "Velikost jednotky / parcely",
+    "landSize": "Velikost pozemku",
+    "acres": "akr(y)",
+    "roomSize": "Velikost pokoje",
+    "askTenantPreference": "Jaké jsou preference nájemce?",
+    "couple": "Pár",
+    "describeTheProperty": "Popište ${propertyType: String}",
+    "adTitle": "Název inzerátu",
+    "minimumRentalPeriod": "Minimální doba pronájmu",
+    "whatsappNumber": "Číslo @:common.whatsapp",
+    "hideOrDisplayEmail": "Skrýt nebo zobrazit e-mailovou adresu",
+    "thankYouForPostingProperty": "Děkujeme za inzerování na ${appName: String}!",
+    "propertyList": "Seznam nemovitostí",
+    "newInviteRent": "Nová pozvánka k pronájmu",
+    "rentAgreement": "Nájemní smlouva",
+    "rentDetails": "Detaily pronájmu",
+    "landlordRentInvitationPendingNote(rich)": "Poznámka: ${note(Prosím počkejte, než nájemce přijme pozvánku.)}",
+    "rent": "Nájem",
+    "editTenant": "Upravit nájemce",
+    "addNewTenant": "Přidat nového nájemce",
+    "shareInstallLink": "Sdílet odkaz pro instalaci",
+    "tenantList": "Seznam nájemců",
+    "editMaintenanceRequest": "Upravit žádost o údržbu",
+    "addNewMaintenance": "Přidat novou údržbu",
+    "landlordId": "ID pronajímatele",
+    "tenantAgrementUnderReviewNote(rich)": "Poznámka ${note(Vaše smlouva je v procesu kontroly. Prosím počkejte, než pronajímatel schválí váš pronájem.)}",
+    "editReview": "Upravit recenzi",
+    "writeAReview": "Napsat recenzi",
+    "selectRating": "Vybrat hodnocení",
+    "enterYourOpinion": "Zadejte svůj názor",
+    "askToEnterReviewMsg": "Prosím zadejte text recenze",
+    "pressBackAgainToExit": "Stiskněte znovu zpět pro ukončení.",
+    "selectPaymentMethod": "Vyberte způsob platby",
+    "filter": "Filtr",
+    "perMonth": "/1 měsíc",
+    "searchHintWithAppName": "Hledat cokoli v ${appName: String}...",
+    "propertyInfo": "Informace o nemovitosti",
+    "units": "Jednotky",
+    "depositPeriod": "Doba kauce",
+    "facilitiesList": "Seznam vybavení (budovy)",
+    "facility": "Vybavení (budovy)",
+    "amenity": "Vybavení (okolí)",
+    "amenitiesList": "Seznam vybavení (okolí)",
+    "addNewFacility": "Přidat nové vybavení (budovy)",
+    "editFacility": "Upravit vybavení (budovy)",
+    "facilityName": "Název vybavení (budovy)",
+    "amenityName": "Název vybavení (okolí)",
+    "addNewAmenity": "Přidat nové vybavení (okolí)",
+    "editAmenity": "Upravit vybavení (okolí)",
+    "family": "Rodina",
+    "lateFee": "Poplatek z prodlení",
+    "lateFeeAfterDays": "@:common.lateFee po (dnech)",
+    "propertyPricing": "Cena ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Mockrát děkujeme, právě jste zveřejnili svou nemovitost",
+    "titleAndDescription": "Název a popis",
+    "rentPricing": "Cena nájmu",
+    "step": "Krok",
+    "of": "Z",
+    "pricing": "Ceny",
+    "sameRentForAllUnit": "Stejné nájemné pro všechny jednotky",
+    "unit": "jednotka",
+    "pleaseSelectAnUnitFirst": "Prosím vyberte nejprve jednotku.",
+    "saleAmount": "Částka prodeje",
+    "selectCategory": "Vyberte kategorii",
+    "pleaseSelectACategory": "Prosím vyberte kategorii",
+    "pleaseEnterAdTitle": "Prosím zadejte název inzerátu",
+    "addCoverPhoto": "Přidat úvodní fotografii",
+    "findAProperty": "Najít nemovitost",
+    "categories": "Kategorie",
+    "recmmendedProperties": "Doporučené nemovitosti",
+    "recentSearch": "Poslední hledání",
+    "pleaseEnterYourAccountNumber": "Prosím zadejte číslo svého účtu.",
+    "pleaseSelectALanguageToContinue": "Prosím vyberte jazyk pro pokračování.",
+    "subscribe": "Předplatit",
+    "noFacilitiesFound": "Nebylo nalezeno žádné vybavení!",
+    "invalidLaborDetailsPleaseTryAgain": "Neplatné detaily pracovníka, zkuste to prosím znovu",
+    "maintenanceWork": "Údržbové práce",
+    "selectLabor": "Vybrat pracovníka",
+    "enterMaintenanceCost": "Zadejte náklady na údržbu",
+    "pleaseEnterMaintenanceCost": "Prosím zadejte náklady na údržbu",
+    "writeComment": "Napsat komentář",
+    "maintenancePending": "Čekající údržba",
+    "yourEarnings": "Vaše výdělky",
+    "totalPaid": "Celkem zaplaceno",
+    "linkANewBankAccount": "Připojit nový bankovní účet",
+    "payoutRequest": "Žádost o výplatu"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Něco se pokazilo, zkuste to prosím znovu",
+    "noNidPassport": "Nebyl poskytnut žádný obrázek OP/Pasu.",
+    "noRentPropertyFound": "Nebyla nalezena žádná pronajímaná nemovitost pro tohoto nájemce.",
+    "noPropertyFoundWithKeyWord": "Nebyla nalezena žádná nemovitost!\nZkuste prosím jiné klíčové slovo",
+    "noSubscriptionFoundRefreshPage": "Nebylo nalezeno žádné předplatné!\nProsím obnovte stránku a zkuste to znovu.",
+    "invalidApiDataRefreshPage": "Neplatné informace ${dataType: String}! Prosím obnovte stránku a zkuste to znovu.",
+    "invalidDownloadUrl": "Neplatná URL pro stažení!",
+    "failedToSaveFile": "Nepodařilo se uložit soubor! ${error: String}",
+    "errorOpeningFile": "Chyba při otevírání souboru! ${error: String}",
+    "noVehicleInfoProvided": "Nebyly poskytnuty žádné informace o vozidle.",
+    "yourApplicationRejected": "Vaše žádost byla zamítnuta",
+    "noApplicationFoundHint": {
+      "template": "Nebyla nalezena žádná žádost!\n${subject: String} se zde zobrazí, až bude k dispozici.",
+      "subjects": {
+        "tenant": "Vaše žádost",
+        "landlord": "Žádost nájemce"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nebyla nalezena žádná nemovitost!\nZkuste prosím přidat nemovitost, abyste ji zde viděli.",
+      "tenantRecommended": "Nebyly nalezeny žádné doporučené nemovitosti\nZkuste to prosím později.",
+      "tenantAllProperty": "Nemovitosti nejsou k dispozici\nZkuste to prosím později."
+    },
+    "noImageProvided": "Nebyl poskytnut žádný obrázek",
+    "noStatusMaintenantFound": {
+      "landlord": "Nebyla nalezena žádná údržba se stavem ${status}.",
+      "tenant": "Nebyla nalezena žádná údržba! Zde můžete vidět žádosti o údržbu, které vytvoříte."
+    },
+    "noDepositFound": "Nebyly nalezeny žádné kauce!\nZde se zobrazí kauce, až budou k dispozici",
+    "noRentPaymentFound": "Nebyly nalezeny žádné platby nájemného!\nZde se zobrazí platby nájemného, až budou k dispozici",
+    "transactionSummaryApiException": "Nepodařilo se získat shrnutí transakcí.",
+    "noWithdrawRequestFound": "Nebyla nalezena žádná žádost!\nZkuste prosím vytvořit žádost o výběr, abyste ji zde viděli.",
+    "withdrawRequestNotApproved": "Tato žádost o výběr nebyla schválena!.",
+    "nonZeroError": "Prosím zadejte platnou částku větší než nula.",
+    "minAmountError": "Částka musí být alespoň ${minValue: String}.",
+    "maxAmountError": "Částka nesmí přesáhnout ${maxValue: String}.",
+    "selectPaymentMethodHint": "Prosím vyberte nejprve způsob platby.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nebyla nalezena žádná žádost o vrácení peněz se stavem ${status}!\nZde uvidíte žádosti o vrácení peněz, až budou k dispozici.",
+      "tenant": "Nebyla nalezena žádná žádost o vrácení peněz!\nZde můžete vytvořit žádost o vrácení peněz, abyste ji zde viděli."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Nájemce schválí vrácení peněz, až dostane peníze zpět",
+      "tenantReqSuccess": "Žádost o vrácení peněz zkontrolujeme a schválíme do 24 hodin."
+    },
+    "oneToTenRequiredField": "Prosím vyberte počet ${value: String}",
+    "invalidDateRange": "Neplatný rozsah dat.",
+    "valueMustBeGreaterThanZero": "${value: String} musí být větší než nula.",
+    "editProperty": {
+      "rentalChange": "Nemovitost k pronájmu se mění. Změna musí být platná (účinná) pouze pro platbu nájmu v příštím měsíci.",
+      "deleteOnRent": "Vaše nemovitost je již pronajata nájemci. Nelze ji smazat, dokud nejprve neodstraníte nájemce",
+      "alreayRented": "Tato nemovitost je již pronajata. Zkuste to prosím později.\nNebo můžete kontaktovat pronajímatele pro více informací."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nebyly nalezeny žádné pozvánky k pronájmu!\nZkuste prosím vytvořit pozvánku k pronájmu, abyste ji zde viděli.",
+      "tenantNoRentInvitation": "Nebyly nalezeny žádné pozvánky k pronájmu!\nZde se zobrazí pozvánky k pronájmu, až budou k dispozici."
+    },
+    "notenantFoundList": "Žádní nájemci!\nZkuste prosím přidat nájemce, abyste ho zde viděli.",
+    "noFeaturesProvided": "Nebyly poskytnuty žádné vlastnosti.",
+    "noNotificationFound": "Nejsou k dispozici žádná oznámení.\nZde uvidíte svá oznámení, až budou k dispozici.",
+    "noFacilitiesFound": "Nebylo nalezeno žádné vybavení (budovy).",
+    "noAmenitiesFound": "Nebylo nalezeno žádné vybavení (okolí)!",
+    "noLaborFound": "Nebyl nalezen žádný pracovník\\nZkuste to prosím později.",
+    "areYouSureYouWantToRemoveThisUnit": "Jste si jisti, že chcete odebrat tuto jednotku?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Jste si jisti, že se chcete odhlásit?"
+    },
+    "application": {
+      "rejectTitle": "Proč tuto žádost zamítáte?",
+      "applicationSent": {
+        "successfully": "Žádost byla úspěšně odeslána!",
+        "sucessDescription": "Tuto žádost můžete vidět ve svém seznamu žádostí"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Smazat pracovníka?",
+        "description": "Jste si jisti, že chcete smazat tohoto pracovníka?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Proč je tato žádost zamítána?",
+      "processTitle": "Jste si jisti, že zpracováváte tuto žádost o údržbu?",
+      "completeTitle": "Práce dokončena?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Smazat způsob výběru?",
+      "deleteDescription": "Jste si jisti, že chcete smazat tento způsob výběru?"
+    },
+    "unsavedChanges": {
+      "title": "Jste si jisti, že se chcete vrátit?",
+      "message": "Změněná pole nebudou uložena!"
+    },
+    "property": {
+      "delete": {
+        "title": "Smazat nemovitost?",
+        "message": "Jste si jisti, že chcete smazat tuto nemovitost?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Jste si jisti, že chcete schválit tento pronájem?",
+        "description": "Ujistěte se, že jste zkontrolovali smlouvu podepsanou nájemcem."
+      },
+      "tenantAccept": {
+        "title": "Jste si jisti, že chcete přijmout tuto pozvánku?",
+        "description": "Ujistěte se, že jste si stáhli soubor pdf se smlouvou!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Relace vypršela",
+      "message": "Vaše relace vypršela. Prosím přihlaste se znovu",
+      "action": "Přihlásit se"
+    },
+    "noInternet": {
+      "title": "Žádné připojení k internetu",
+      "message": "Prosím zkontrolujte své Wi-Fi nebo mobilní připojení a zkuste to znovu",
+      "action": "Zkusit znovu"
+    },
+    "permissionHandler": {
+      "title": "Vyžadováno povolení!",
+      "message": "Musíte udělit povolení v nastavení aplikace. Chcete nyní otevřít nastavení?"
+    },
+    "imagePicker": {
+      "title": "Vyberte možnost",
+      "gallery": "Galerie",
+      "camera": "Fotoaparát"
+    },
+    "verificationDialog": {
+      "title": "Ověřte svůj e-mail",
+      "message": "Odeslali jsme ověřovací kód na e-mail",
+      "messageWithEmail": "@:prompt.verificationDialog.message na ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Vymazat oznámení?",
+      "clearMessage": "Jste si jisti, že chcete vymazat všechna oznámení?"
+    },
+    "genericDeletePrompt": {
+      "title": "Chcete smazat tuto položku ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Předplatné vypršelo!",
+      "message": "Prosím předplaťte si pro pokračování."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Zadejte @:common.fullName",
+      "errors": {
+        "required": "Prosím zadejte své @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Zadejte svůj @:common.email",
+      "errors": {
+        "required": "Prosím zadejte svou @:common.email adresu",
+        "invalid": "⦸ Neplatný e-mail, zkuste to prosím znovu"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Prosím zadejte své @:common.password",
+        "minLength": "Heslo musí mít alespoň ${count} znaků!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Potvrdit @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Prosím zadejte své @:common.password",
+        "notMatched": "Potvrzovací heslo se neshoduje!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Prosím zadejte své @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "Adresa 1",
+      "hint": "Číslo domu a název ulice",
+      "errors": {
+        "required": "Prosím zadejte svou @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "Adresa 2",
+      "hint": "Byt, apartmán, jednotka, atd.",
+      "errors": {
+        "required": "Prosím zadejte svou @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Zadejte @:common.postalCode",
+      "errors": {
+        "required": "Prosím zadejte své @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Zadejte název @:common.city.",
+      "errors": {
+        "required": "Prosím zadejte název svého @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Zadejte název @:common.state.",
+      "errors": {
+        "required": "Prosím zadejte název svého @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Vyberte @:common.country.",
+      "errors": {
+        "required": "Prosím vyberte svou @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Prosím zadejte ověřovací kód (OTP).",
+        "invalid": "Prosím zadejte správný ověřovací kód (OTP)."
+      }
+    },
+    "title": {
+      "label": "Název",
+      "hint": "Zadejte název",
+      "errors": {
+        "required": "Prosím zadejte název"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Vyberte @:form.date.label",
+      "errors": {
+        "required": "Prosím vyberte @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Důvod",
+      "hint": "Zadejte důvod",
+      "errors": {
+        "required": "Prosím zadejte důvod"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Vyberte @:common.withdrawMethod",
+      "errors": {
+        "required": "Prosím vyberte @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Nahrát ${label: String}",
+      "errors": {
+        "required": "Prosím vyberte ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Zadejte @:form.note.label",
+      "errors": {
+        "required": "Prosím zadejte @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Vyberte @:common.gender",
+      "errors": {
+        "required": "Prosím vyberte @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Zadejte @:form.anyField.label",
+      "errors": {
+        "required": "Prosím zadejte @:form.anyField.label",
+        "invalid": "Prosím zadejte platné @:form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Vyberte @:form.anyDropdown.label",
+      "errors": {
+        "required": "Prosím vyberte @:form.anyDropdown.label",
+        "invalid": "Prosím vyberte platné @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Další",
+    "getStarted": "Začít",
+    "skip": "Přeskočit",
+    "select": "Vybrat",
+    "save": "Uložit",
+    "signIn": "Přihlásit se",
+    "signUp": "Zaregistrovat se",
+    "continue": "Pokračovat",
+    "clearAll": "Vymazat vše",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Odeslat",
+    "pay": "Zaplatit",
+    "remove": "Odebrat",
+    "goBack": "Zpět",
+    "buyNow": "Koupit nyní",
+    "no": "Ne",
+    "open": "Otevřít",
+    "addProperty": "Přidat nemovitost",
+    "process": "Zpracovat",
+    "approve": "Schválit",
+    "reject": "Zamítnout",
+    "viewRent": "Zobrazit pronájem",
+    "openNavigationMenu": "Otevřít navigační menu",
+    "seeAll": "Zobrazit vše",
+    "update": "Aktualizovat",
+    "printTransaction": "Vytisknout transakci",
+    "payoutRequest": "Žádost o výplatu",
+    "addNew": "+ Přidat nové",
+    "sendRequest": "Odeslat žádost",
+    "print": "Tisk",
+    "requestForRefund": "Žádost o vrácení peněz",
+    "previous": "Předchozí",
+    "delete": "Smazat",
+    "applyProperty": "Požádat o nemovitost",
+    "viewApplication": "Zobrazit žádost",
+    "inviteTenant": "Pozvat nájemce",
+    "inviteRent": "Pozvat k pronájmu",
+    "cancel": "Zrušit",
+    "accept": "Přijmout",
+    "submit": "Odeslat",
+    "yes": "Ano",
+    "okay": "Dobře",
+    "confirm": "Potvrdit",
+    "apply": "Použít",
+    "reset": "Resetovat",
+    "retry": "Zkusit znovu",
+    "viewAll": "Zobrazit vše",
+    "addMore": "Přidat další",
+    "done": "Hotovo"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Najděte svou nemovitost",
+          "description": "Zjednodušili jsme nalezení místa, které vyhovuje vašemu životu — ať už jde o pokoj, byt nebo dům."
+        },
+        "data2": {
+          "title": "Byt ve městě",
+          "description": "Šetříme váš čas tím, že vás rychle spojíme s perfektní nemovitostí, než bude pryč, abyste si mohli užít svůj nový domov, nebo zdarma zveřejněte svou vlastní."
+        },
+        "data3": {
+          "title": "Váš dům pohody",
+          "description": "Pokud hledáte místo k bydlení, podívejte se na naše domy k pronájmu. Máme širokou nabídku domů, ze kterých si můžete vybrat po celé zemi."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Vítejte zpět",
+      "subtitle": "Přihlaste se nyní a začněte úžasnou cestu.",
+      "extra": {
+        "rememberMe": "Zapamatovat si mě",
+        "signUpNavigator(rich)": "Nemáte účet? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Zapomenuté heslo",
+      "subtitle": "Zadejte svou e-mailovou adresu pro obnovení hesla."
+    },
+    "otpVerification": {
+      "title": "Ověření",
+      "subtitle": "6místný PIN byl odeslán na vaši e-mailovou adresu. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kód odeslán za ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Znovu odeslat kód)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Obnovit heslo",
+      "subtitle": "Obnovte své heslo pro zotavení a přihlášení do vašeho účtu",
+      "extra": {
+        "dialog": {
+          "title": "Úspěšně změněno!",
+          "subtitle": "Přihlaste se svým novým heslem.\n Přesměrování na Přihlášení..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Vytvořit účet",
+      "subtitle": "Zaregistrujte se nyní a začněte úžasnou cestu",
+      "extra": {
+        "signInNavigator(rich)": "Máte účet? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kdo jste?",
+      "subtitle": "Vyberte prosím jednu z možností níže.",
+      "extra": {
+        "landlordTag": "Spravovat své vlastní nemovitosti",
+        "tenantTag": "Přihlásit se ke svému nájemnímu účtu"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Oznámení"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Zpráva..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Proč @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Napište důvod",
+          "errors": {
+            "required": "Prosím zadejte důvod zrušení nájmu"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Platba offline",
+      "form": {
+        "paymentNote": {
+          "label": "Poznámka k platbě (@:common.optional)",
+          "hint": "Zadejte nějaký text..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Částka k úhradě: ${amount}",
+        "accountHolderName": "Jméno majitele účtu",
+        "accountNumber": "Číslo účtu",
+        "swiftCode": "SWIFT kód",
+        "branch": "Pobočka",
+        "fileTypeHint(rich)": "Vyberte pouze soubory ve formátu ${fileType(JPG, PNG,PDF)} nebo ${fileType(DOC)}. Velikost souboru ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Zobrazit fakturu",
+        "title": "@:common.thankYou",
+        "description": "Platbu zkontrolujeme a schválíme do 24 hodin."
+      },
+      "fail": {
+        "actionButton": "Zkusit znovu",
+        "title": "Jejda! Platba selhala",
+        "description": "Vaše transakce selhala kvůli technické chybě."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Vlastnosti ${fa((Vybavení & Příslušenství))}",
+        "selectRentalPeriod": "Vyberte dobu pronájmu",
+        "writeAReview": "+ Napsat recenzi"
+      }
+    },
+    "search": {
+      "appbarTitle": "Hledat",
+      "extra": {
+        "hint": "Hledat pozemky, byty, pokoje...",
+        "noRecentSearch": "Nemáte žádné nedávné vyhledávání."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Vyberte si svůj plán",
+      "extra": {
+        "subscriptionPaymentSuccess": "Platba předplatného proběhla úspěšně.\nNyní můžete přistupovat k předplaceným funkcím."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Celkové náklady na údržbu: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Všechny nemovitosti",
+      "pending": "Čekající",
+      "active": "Aktivní",
+      "inactive": "Neaktivní",
+      "rejected": "Zamítnuto"
+    },
+    "propertyType": {
+      "rent": "Pronájem",
+      "sale": "Prodej"
+    },
+    "propertyCategory": {
+      "apartment": "Byt (Apartment)",
+      "house": "Dům",
+      "commercial": "Komerční",
+      "land": "Pozemek",
+      "room": "Pokoj",
+      "unitOrFlat": "Jednotka / Byt (Flat)",
+      "bungalow": "Bungalov",
+      "plot": "Pozemek (Plot)"
+    },
+    "applicationStatus": {
+      "all": "Vše",
+      "pending": "Čekající",
+      "processing": "Zpracovává se",
+      "approved": "Schváleno",
+      "rejected": "Zamítnuto"
+    },
+    "myRentStatus": {
+      "pending": "Čekající",
+      "processing": "Zpracovává se",
+      "active": "Aktivní",
+      "expired": "Vypršelo",
+      "cancelled": "Zrušeno"
+    },
+    "maintenanceStatus": {
+      "pending": "Čekající",
+      "processing": "Zpracovává se",
+      "rejected": "Zamítnuto",
+      "completed": "Dokončeno"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Soukromá osoba (jednotlivec)",
+      "company": "Společnost"
+    },
+    "tenantType": {
+      "newTenant": "Nový nájemce",
+      "activeTenant": "Aktivní nájemce",
+      "expiredTenant": "Nájemce po vypršení smlouvy"
+    },
+    "paymentStatus": {
+      "all": "Vše",
+      "pending": "Čekající",
+      "paid": "Zaplaceno",
+      "unpaid": "Nezaplaceno",
+      "rejected": "Zamítnuto",
+      "refund": "Vrácení peněz"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Online platba",
+      "offlinePayment": "Offline platba"
+    },
+    "paymentType": {
+      "securityDeposit": "Kauce/Jistota",
+      "rentPayment": "Platba nájemného",
+      "subscription": "Předplatné"
+    },
+    "gender": {
+      "male": "Muž",
+      "female": "Žena",
+      "other": "Jiné"
+    },
+    "ecRelation": {
+      "wife": "Manželka",
+      "parent": "Rodič",
+      "friend": "Přítel",
+      "brother": "Bratr",
+      "sister": "Sestra",
+      "child": "Dítě"
+    },
+    "vehicleType": {
+      "car": "Auto",
+      "motorcycles": "Motocykly",
+      "lorry": "Nákladní automobil"
+    },
+    "sortBy": {
+      "lowToHigh": "Od nejnižší po nejvyšší",
+      "highToLow": "Od nejvyšší po nejnižší"
+    },
+    "residentialType": {
+      "flat": "Byt (Flat)",
+      "apartment": "Byt (Apartment)",
+      "condominium": "Kondominium",
+      "serviceResidence": "Servisovaná rezidence",
+      "studio": "Studio",
+      "duplex": "Mezonet (Duplex)",
+      "townhouseCondo": "Řadový dům (Townhouse) / Kondominium",
+      "condo": "Kondominium / Servisovaná rezidence / Penthouse",
+      "house": "Domy",
+      "shoplot": "Obchodní prostor",
+      "sharing": "Sdílení domu / bytu (Flat)",
+      "others": "Ostatní"
+    },
+    "floorRange": {
+      "high": "Vysoké patro",
+      "medium": "Střední patro",
+      "low": "Nízké patro"
+    },
+    "furnishings": {
+      "fullyFurnished": "Kompletně zařízeno",
+      "partiallyFurnished": "Částečně zařízeno",
+      "notFurnished": "Není zařízeno"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Kancelářské prostory",
+      "retailSpace": "Maloobchodní prostory",
+      "shopLot": "Obchodní prostor",
+      "warehouseFactory": "Sklad / Továrna",
+      "hotelResort": "Hotel / Resort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Ostatní"
+    },
+    "landPropertyType": {
+      "residential": "Obytný",
+      "industrial": "Průmyslový",
+      "agricultural": "Zemědělský",
+      "commercial": "Komerční",
+      "mixedDevelopment": "Smíšená zástavba",
+      "others": "Ostatní"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 měsíců",
+      "oneYear": "1 rok",
+      "oneAndHalfYears": "1,5 roku",
+      "twoYears": "2 roky",
+      "twoAndHalfYears": "2,5 roku"
+    },
+    "dropdownDateFilter": {
+      "daily": "Denně",
+      "weekly": "Týdně",
+      "monthly": "Měsíčně",
+      "yearly": "Ročně",
+      "custom": "Vlastní"
+    },
+    "bungalowType": {
+      "modern": "Moderní",
+      "cottage": "Chata",
+      "luxury": "Luxusní",
+      "ecoSmart": "Eko / Chytrý",
+      "beachSide": "U pláže",
+      "others": "Ostatní"
+    }
+  }
+}

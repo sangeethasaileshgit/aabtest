@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "pl_PL",
+    "languageName": "Polish",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Język",
+    "subscriptionPlan": "Plan Subskrypcji",
+    "contactUs": "Kontakt",
+    "termsAndConditions": "Warunki",
+    "aboutUs": "O Nas",
+    "logout": "Wyloguj",
+    "editProfile": "Edytuj Profil",
+    "fullName": "Pełne Imię i Nazwisko",
+    "email": "E-mail",
+    "mobileNumber": "Numer Telefonu Komórkowego",
+    "address": "Adres",
+    "postalCode": "Kod Pocztowy",
+    "city": "Miasto",
+    "country": "Kraj",
+    "state": "Województwo/Stan",
+    "password": "Hasło",
+    "forgotPassword": "Zapomniałem hasła",
+    "tenant": "Najemca",
+    "landlord": "Wynajmujący",
+    "cancelRenting": "Anuluj Wynajem",
+    "startDate": "Data Rozpoczęcia",
+    "endDate": "Data Zakończenia",
+    "fromDate": "Od Daty",
+    "toDate": "Do Daty",
+    "online": "Online",
+    "bankList": "Lista Banków",
+    "withdrawMethod": "Metoda Wypłaty",
+    "uploadPaymentReceipt": "Prześlij Potwierdzenie Zapłaty",
+    "offlinePaymentNote(rich)": "Uwaga: ${note(Płatność wymaga ręcznego zatwierdzenia przez administratora w ciągu)} ${duraion(24~48 godzin.)}",
+    "reviews": "Recenzje",
+    "description": "Opis",
+    "about": "O",
+    "propertyTypes": "Typy Nieruchomości",
+    "features": "Cechy",
+    "floorPlans": "Plany Pięter",
+    "buildingDetails": "Szczegóły Budynku",
+    "buildingName": "Nazwa Budynku",
+    "propertyAddress": "Adres Nieruchomości",
+    "completionYear": "Rok Ukończenia",
+    "lotNumber": "Numer Działki",
+    "residentialType": "Typ Mieszkaniowy",
+    "furnishings": "Umeblowanie",
+    "floorRange": "Zakres Pięter",
+    "bedrooms": "Sypialnie",
+    "bathrooms": "Łazienki",
+    "propertySize": "Rozmiar Nieruchomości",
+    "rentalPeriod": "Okres Najmu",
+    "securityDeposit": "Kaucja Zabezpieczająca",
+    "utilityBill": "Rachunek za Media",
+    "facilities": "Udogodnienia",
+    "amenities": "Wyposażenie",
+    "expiringReason": "Powód Wygaśnięcia",
+    "tenantDetails": "Szczegóły Najemcy",
+    "typeOfTenant": "Typ Najemcy",
+    "tenantName": "Imię i Nazwisko Najemcy",
+    "nidPassport": "NID/Paszport",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID Najemcy",
+    "dateOfBirth": "Data Urodzenia",
+    "gender": "Płeć",
+    "nominee": "Osoba Wskazana (Nominee)",
+    "name": "Imię i Nazwisko",
+    "optional": "Opcjonalnie",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Nr tel. kom.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Kontakt Awaryjny",
+    "relation": "Pokrewieństwo",
+    "relationWith": "@:common.relation Z",
+    "relationWithYou": "@:common.relationWith Tobą",
+    "company": "Firma",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Numer SSM",
+    "workplace": "Miejsce Pracy",
+    "officePhoneNo": "Numer Telefonu Biurowego",
+    "officeMobileNo": "Biuro @:common.mobileNumber",
+    "vehicle": "Pojazd",
+    "vehiclesInfo": {
+      "plain": "Informacje o Pojazdach",
+      "optional": "Informacje o Pojazdach (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Typ",
+    "vehicleRegistrationNo": {
+      "normal": "Numer Rejestracyjny Pojazdu",
+      "short": "Numer Rejestracyjny",
+      "alt": "Numer Tablicy Rejestracyjnej"
+    },
+    "vehicleBrand": "@:common.vehicle Marka",
+    "rentProperty": "Wynajmij Nieruchomość",
+    "propertyDetails": "Szczegóły Nieruchomości",
+    "propertyId": "ID Nieruchomości",
+    "propertyType": "Typ Nieruchomości",
+    "propertyName": "Nazwa Nieruchomości",
+    "paymentDetails": "Szczegóły Płatności",
+    "monthlyRent": "Miesięczny Czynsz",
+    "thisMonthPayment": "Płatność za Ten Miesiąc",
+    "totalPaidRent": "Całkowity Zapłacony Czynsz",
+    "dueRent": "Zaległy Czynsz",
+    "rentStartDate": "Wynajem @:common.startDate",
+    "rentEndDate": "Wynajem @:common.endDate",
+    "status": "Status",
+    "rentAgreementPdf": "Umowa Najmu PDF",
+    "noFile": "Brak Pliku",
+    "tenantImageOp": "Zdjęcie Najemcy @:common.optional",
+    "addNewVechicle": "Dodaj Nowe Pojazdy",
+    "uploadNidPassport": "Prześlij NID/Paszport",
+    "nidPassportUploadNote": "Akceptowane będą tylko pliki graficzne. Limit pliku do 2.5 MB.",
+    "search": "Szukaj",
+    "sortBy": "Sortuj Według",
+    "subscription": "Subskrypcja",
+    "downloading": "Pobieranie...",
+    "downloadSuccess": "Plik pobrano pomyślnie!",
+    "addPropertyBannerTitle": "Chcesz Wynająć Swoją Nieruchomość?",
+    "application": "Aplikacja/Wniosek",
+    "tenantHasPaidDeposit": "Najemca wpłacił kaucję.",
+    "askProcessingRentApplication": "Czy na pewno chcesz przetworzyć ten wniosek o wynajem nieruchomości?",
+    "dateAndTime": "Data i Godzina",
+    "applicationDetails": "Szczegóły Aplikacji/Wniosku",
+    "depositStatus": "Status Kaucji",
+    "uploadRentAgreement": "Prześlij Umowę Najmu",
+    "uploadFilePDF": "Prześlij Plik (PDF)",
+    "askSelectRentAgreement": "Wybierz plik dokumentu umowy.",
+    "landlordRentAgreementPDF": "Umowa Najmu Wynajmującego PDF",
+    "tenantRentAgreementPDF": "Umowa Najmu Najemcy PDF",
+    "landlordApplicationApproveNote(rich)": "Uwaga: ${note(Zatwierdź wniosek dopiero po dokonaniu wpłaty kaucji przez najemcę.)}",
+    "reasonOfRejection": "Powód Odrzucenia",
+    "youveRejectedThisApplication": "Odrzuciłeś ten wniosek",
+    "landlordDetails": "Szczegóły Wynajmującego",
+    "landlordName": "Imię i Nazwisko Wynajmującego",
+    "downloadRentAgreement": "Pobierz Umowę Najmu",
+    "acceptTermsConditions(rich)": "Akceptuj ${toc(Warunki)}",
+    "tenantAgreementSignNote1(rich)": "Uwaga: ${note(Pobierz i przeczytaj umowę. Podpisaną umowę prześlij do wynajmującego przez WhatsApp lub e-mail.)}",
+    "tenantAgreementSignNote2(rich)": "Uwaga: ${note(Wynajmujący zatwierdza wniosek, gdy najemca zapłaci kaucję zabezpieczającą, media i czynsz za jeden miesiąc z góry.)}",
+    "completeRentAgreementPdf(rich)": "Umowa Najmu (PDF) ${complete(Pełna Umowa)}",
+    "tenantApplicationDepositNote(rich)": "Uwaga : ${note(Wynajmujący zatwierdza wniosek, gdy najemca zapłaci kaucję zabezpieczającą, media i czynsz za jeden miesiąc z góry.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Lista Aplikacji/Wniosków",
+    "viewDetails": "Wyświetl Szczegóły",
+    "searchHint": "@:common.search...",
+    "home": "Strona Główna",
+    "dashboard": "Panel Główny",
+    "tenants": "Najemcy",
+    "maintenance": "Konserwacja",
+    "maintenanceList": "Lista Konserwacji",
+    "maintenanceReport": "Raport Konserwacji",
+    "labor": "Pracownik",
+    "applications": "Aplikacje/Wnioski",
+    "rentInvitation": "Zaproszenie do Najmu",
+    "payment": "Płatność",
+    "rentPayment": "Płatność Czynszu",
+    "depositUtilityPayment": "Płatność Kaucji i Mediów",
+    "refundRequest": "Wniosek o Zwrot Pieniędzy",
+    "withdrawRequest": "Wniosek o Wypłatę",
+    "myProperty": "Moja Nieruchomość",
+    "myRent": "Mój Najem",
+    "wishlist": "Lista Życzeń",
+    "properties": "Nieruchomości",
+    "allProperties": "Wszystkie Nieruchomości",
+    "totalPropery": "Całkowita Liczba Nieruchomości",
+    "occupied": "Zajęte",
+    "vacant": "Wolne",
+    "accounting": "Księgowość",
+    "totalIncome": "Całkowity Dochód",
+    "totalExpense": "Całkowity Wydatek",
+    "currentBalance": "Obecne Saldo",
+    "totalWithdrawal": "Całkowita (Wypłata)",
+    "totalProperties": "Całkowita Liczba Nieruchomości",
+    "totalTenant": "Całkowita Liczba Najemców",
+    "totalRentPaid": "Całkowity Zapłacony Czynsz",
+    "totalRentDue": "Całkowity Zaległy Czynsz",
+    "totalApplication": "Całkowita Liczba Aplikacji/Wniosków",
+    "pendingApplication": "Oczekujące Aplikacje/Wnioski",
+    "processingApplication": "Przetwarzane Aplikacje/Wnioski",
+    "approveApplication": "Zatwierdzone Aplikacje/Wnioski",
+    "rejectApplication": "Odrzucone Aplikacje/Wnioski",
+    "maintenanceCost": "Koszt Konserwacji",
+    "transactionSummary": "Podsumowanie Transakcji",
+    "maintenanceRequest": "Wniosek o Konserwację",
+    "notifications": "Powiadomienia",
+    "myProperties": "Moje Nieruchomości",
+    "recommendationProperties": "Polecane Nieruchomości",
+    "laborList": "Lista Pracowników",
+    "addLabor": "Dodaj Pracownika",
+    "laborDetails": "Szczegóły Pracownika",
+    "laborSalary": "Wynagrodzenie Pracownika",
+    "editLabor": "Edytuj Pracownika",
+    "addNewLabor": "Dodaj Nowego Pracownika",
+    "enterAmount": "Wprowadź Kwotę",
+    "maintenanceDetails": "Szczegóły Konserwacji",
+    "laborName": "Imię i Nazwisko Pracownika",
+    "comment": "Komentarz",
+    "image": "Obraz",
+    "complete": "Ukończ",
+    "details": "Szczegóły",
+    "title": "Tytuł",
+    "date": "Data",
+    "reason": "Powód",
+    "edit": "Edytuj",
+    "property": "Nieruchomość",
+    "completeYourProfile": "Uzupełnij Swój Profil",
+    "profileImage": "Zdjęcie Profilowe",
+    "imagePickHint": "Tylko obraz JPEG i PNG o maksymalnym rozmiarze 120x120 pikseli.",
+    "invoiceId": "ID Faktury",
+    "depositAmount": "Kwota Kaucji",
+    "landlordPhone": "Telefon Wynajmującego",
+    "rentalAdvance": "Czynsz (Z Góry)",
+    "totalAmount": "Całkowita Kwota",
+    "rentAmount": "Kwota Czynszu",
+    "adminCharge": "Opłata Administracyjna",
+    "editAccount": "Edytuj Konto",
+    "addNewAccount": "Dodaj Nowe Konto",
+    "transactionId": "ID Transakcji",
+    "transactionType": "Typ Transakcji",
+    "requestDate": "Data Żądania",
+    "amount": "Kwota",
+    "fee": "Opłata",
+    "paymentStatus": "Status Płatności",
+    "generatedTime": "Czas Generowania",
+    "systemGeneratedReportHint(rich)": "To jest raport wygenerowany przez system ${appName}",
+    "withdrawHistory": "Historia Wypłat",
+    "history": "Historia",
+    "withdrawAmount": "Kwota Wypłaty",
+    "availableBalance": "Dostępne Saldo",
+    "withdrawCharge": "Opłata za Wypłatę",
+    "paymentMethod": "Metoda Płatności",
+    "requestSendSuccess": "Żądanie wysłane pomyślnie!",
+    "paymentReceiptSubmitSuccess": "Potwierdzenie płatności przesłane pomyślnie.",
+    "refundReason": "Powód Zwrotu Pieniędzy",
+    "note": "Uwaga",
+    "refundReceiveSuccess": "Zwrot pieniędzy otrzymany pomyślnie.",
+    "downloadPaymentReceipt": "Pobierz Potwierdzenie Zapłaty",
+    "invoice": "Faktura",
+    "selectPropertyToSeeInvoice": "Wybierz nieruchomość, aby zobaczyć numer faktury...",
+    "bankAccName": "Nazwa Rachunku Bankowego",
+    "bankName": "Nazwa Banku",
+    "bankAccNum": "Numer Rachunku Bankowego",
+    "thankYou": "Dziękujemy!",
+    "basicInfo": "Podstawowe Informacje",
+    "descriptionPricing": "Opis i Cennik",
+    "contact": "Kontakt",
+    "photos": "Zdjęcia",
+    "successfullySubmitted": "Przesłano pomyślnie!",
+    "editProperty": "Edytuj Nieruchomość",
+    "addNewProperty": "Dodaj Nową Nieruchomość",
+    "propertyManageRequestSuccess": "Twoje ogłoszenie zostało przesłane do weryfikacji.",
+    "postAnotherProperty": "Opublikuj Inną Nieruchomość",
+    "browseYourProperty": "Przeglądaj Swoją Nieruchomość",
+    "stepIndicator(rich)": "Krok ${step} z ${totalSteps}",
+    "whatWouldYouLikeToPost": "Co Chciałbyś Opublikować?",
+    "category": "Kategoria",
+    "invalidCategory": "Nieprawidłowa Kategoria",
+    "unitNumber": "Numer Jednostki",
+    "sqft": "stopy kw.",
+    "propertySizeMustBeGreaterThan0": "Rozmiar nieruchomości powinien być większy niż zero",
+    "whatAreTheFacility": "Jakie są udogodnienia?",
+    "whatAreTheAmenity": "Jakie jest wyposażenie?",
+    "parkingLot": "Miejsce Parkingowe",
+    "houseType": "Typ Domu",
+    "value": "Wartość",
+    "unitLotSize": "Rozmiar Jednostki / Działki",
+    "landSize": "Rozmiar Działki",
+    "acres": "akr(y)",
+    "roomSize": "Rozmiar Pokoju",
+    "askTenantPreference": "Jakie są Twoje preferencje dotyczące najemcy?",
+    "couple": "Para",
+    "describeTheProperty": "Opisz ${propertyType: String}",
+    "adTitle": "Tytuł Ogłoszenia",
+    "minimumRentalPeriod": "Minimalny Okres Najmu",
+    "whatsappNumber": "@:common.whatsapp Numer",
+    "hideOrDisplayEmail": "Ukryj lub wyświetl adres e-mail",
+    "thankYouForPostingProperty": "Dziękujemy za opublikowanie na ${appName: String}!",
+    "propertyList": "Lista Nieruchomości",
+    "newInviteRent": "Nowe Zaproszenie do Najmu",
+    "rentAgreement": "Umowa Najmu",
+    "rentDetails": "Szczegóły Najmu",
+    "landlordRentInvitationPendingNote(rich)": "Uwaga: ${note(Proszę czekać, aż najemca zaakceptuje zaproszenie.)}",
+    "rent": "Czynsz",
+    "editTenant": "Edytuj Najemcę",
+    "addNewTenant": "Dodaj Nowego Najemcę",
+    "shareInstallLink": "Udostępnij Link Instalacyjny",
+    "tenantList": "Lista Najemców",
+    "editMaintenanceRequest": "Edytuj Wniosek o Konserwację",
+    "addNewMaintenance": "Dodaj Nową Konserwację",
+    "landlordId": "ID Wynajmującego",
+    "tenantAgrementUnderReviewNote(rich)": "Uwaga ${note(Twoja umowa jest w trakcie weryfikacji. Proszę czekać, aż wynajmujący zatwierdzi Twój wynajem.)}",
+    "editReview": "Edytuj Recenzję",
+    "writeAReview": "Napisz recenzję",
+    "selectRating": "Wybierz Ocenę",
+    "enterYourOpinion": "Wprowadź Swoją Opinię",
+    "askToEnterReviewMsg": "Wprowadź wiadomość recenzji",
+    "pressBackAgainToExit": "Naciśnij Wstecz ponownie, aby wyjść.",
+    "selectPaymentMethod": "Wybierz Metodę Płatności",
+    "filter": "Filtr",
+    "perMonth": "/1 Miesiąc",
+    "searchHintWithAppName": "Szukaj czegokolwiek w ${appName: String}...",
+    "propertyInfo": "Informacje o Nieruchomości",
+    "units": "Jednostki",
+    "depositPeriod": "Okres Kaucji",
+    "facilitiesList": "Lista Udogodnień",
+    "facility": "Udogodnienie",
+    "amenity": "Wyposażenie",
+    "amenitiesList": "Lista Wyposażenia",
+    "addNewFacility": "Dodaj Nowe Udogodnienie",
+    "editFacility": "Edytuj Udogodnienie",
+    "facilityName": "Nazwa Udogodnienia",
+    "amenityName": "Nazwa Wyposażenia",
+    "addNewAmenity": "Dodaj Nowe Wyposażenie",
+    "editAmenity": "Edytuj Wyposażenie",
+    "family": "Rodzina",
+    "lateFee": "Opłata za Zwłokę",
+    "lateFeeAfterDays": "@:common.lateFee Po (Dniach)",
+    "propertyPricing": "Cennik ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Dziękujemy bardzo, właśnie opublikowałeś swoją nieruchomość",
+    "titleAndDescription": "Tytuł i Opis",
+    "rentPricing": "Cennik Czynszu",
+    "step": "Krok",
+    "of": "Z",
+    "pricing": "Cennik",
+    "sameRentForAllUnit": "Ten sam czynsz dla wszystkich jednostek",
+    "unit": "jednostka",
+    "pleaseSelectAnUnitFirst": "Wybierz jednostkę jako pierwszą.",
+    "saleAmount": "Kwota Sprzedaży",
+    "selectCategory": "Wybierz Kategorię",
+    "pleaseSelectACategory": "Wybierz kategorię",
+    "pleaseEnterAdTitle": "Wprowadź tytuł ogłoszenia",
+    "addCoverPhoto": "Dodaj Zdjęcie Główne",
+    "findAProperty": "Znajdź nieruchomość",
+    "categories": "Kategorie",
+    "recmmendedProperties": "Polecane Nieruchomości",
+    "recentSearch": "Ostatnie Wyszukiwania",
+    "pleaseEnterYourAccountNumber": "Wprowadź numer konta.",
+    "pleaseSelectALanguageToContinue": "Wybierz język, aby kontynuować.",
+    "subscribe": "Subskrybuj",
+    "noFacilitiesFound": "Nie znaleziono udogodnień!",
+    "invalidLaborDetailsPleaseTryAgain": "Nieprawidłowe szczegóły pracownika, spróbuj ponownie",
+    "maintenanceWork": "Praca Konserwacyjna",
+    "selectLabor": "Wybierz Pracownika",
+    "enterMaintenanceCost": "Wprowadź koszt konserwacji",
+    "pleaseEnterMaintenanceCost": "Wprowadź koszt konserwacji",
+    "writeComment": "Napisz komentarz",
+    "maintenancePending": "Konserwacja Oczekująca",
+    "yourEarnings": "Twoje Zarobki",
+    "totalPaid": "Całkowita Zapłata",
+    "linkANewBankAccount": "Połącz nowe konto bankowe",
+    "payoutRequest": "Wniosek o Wypłatę"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Coś poszło nie tak, spróbuj ponownie",
+    "noNidPassport": "Nie podano obrazu NID/Paszportu.",
+    "noRentPropertyFound": "Nie znaleziono nieruchomości do wynajęcia dla tego najemcy.",
+    "noPropertyFoundWithKeyWord": "Nie znaleziono nieruchomości!\nSpróbuj użyć innych słów kluczowych",
+    "noSubscriptionFoundRefreshPage": "Nie znaleziono planu subskrypcji!\nOdśwież stronę i spróbuj ponownie.",
+    "invalidApiDataRefreshPage": "Nieprawidłowe informacje ${dataType: String}! Odśwież stronę i spróbuj ponownie.",
+    "invalidDownloadUrl": "Nieprawidłowy adres URL pobierania!",
+    "failedToSaveFile": "Nie udało się zapisać pliku! ${error: String}",
+    "errorOpeningFile": "Błąd otwierania pliku! ${error: String}",
+    "noVehicleInfoProvided": "Nie podano informacji o pojeździe.",
+    "yourApplicationRejected": "Twój Wniosek został odrzucony",
+    "noApplicationFoundHint": {
+      "template": "Nie znaleziono wniosków!\n${subject: String} zostanie wyświetlony tutaj, gdy będzie dostępny.",
+      "subjects": {
+        "tenant": "Twój wniosek",
+        "landlord": "Wniosek najemcy"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nie znaleziono nieruchomości!\nSpróbuj dodać nieruchomość, aby ją tutaj zobaczyć.",
+      "tenantRecommended": "Nie znaleziono polecanych nieruchomości\nSpróbuj ponownie później.",
+      "tenantAllProperty": "Nieruchomości niedostępne\nSpróbuj ponownie później."
+    },
+    "noImageProvided": "Nie Podano Obrazu",
+    "noStatusMaintenantFound": {
+      "landlord": "Nie znaleziono ${status} konserwacji.",
+      "tenant": "Nie znaleziono konserwacji! Możesz utworzyć wniosek o konserwację, aby zobaczyć go tutaj."
+    },
+    "noDepositFound": "Nie znaleziono kaucji zabezpieczającej!\nBędziesz mógł zobaczyć kaucje zabezpieczające, gdy będą dostępne",
+    "noRentPaymentFound": "Nie znaleziono płatności czynszu!\nBędziesz mógł zobaczyć płatności czynszu, gdy będą dostępne",
+    "transactionSummaryApiException": "Nie udało się uzyskać podsumowania transakcji.",
+    "noWithdrawRequestFound": "Nie znaleziono żądań!\nSpróbuj utworzyć żądanie wypłaty, aby je tutaj zobaczyć.",
+    "withdrawRequestNotApproved": "To żądanie wypłaty nie zostało zatwierdzone!.",
+    "nonZeroError": "Wprowadź prawidłową kwotę większą niż zero.",
+    "minAmountError": "Kwota musi wynosić co najmniej ${minValue: String}.",
+    "maxAmountError": "Kwota nie może przekroczyć ${maxValue: String}.",
+    "selectPaymentMethodHint": "Wybierz najpierw metodę płatności.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nie znaleziono ${status} wniosków o zwrot pieniędzy!\nBędziesz mógł zobaczyć wnioski o zwrot pieniędzy tutaj, gdy będą dostępne.",
+      "tenant": "Nie znaleziono wniosków o zwrot pieniędzy!\nMożesz utworzyć wniosek o zwrot pieniędzy, aby zobaczyć go tutaj."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Najemca zatwierdzi zwrot pieniędzy, gdy tylko odzyska pieniądze",
+      "tenantReqSuccess": "Przejrzymy wniosek o zwrot pieniędzy i zatwierdzimy go w ciągu 24 godzin."
+    },
+    "oneToTenRequiredField": "Wybierz liczbę ${value: String}",
+    "invalidDateRange": "Nieprawidłowy zakres dat.",
+    "valueMustBeGreaterThanZero": "${value: String} musi być większe niż zero.",
+    "editProperty": {
+      "rentalChange": "Nieruchomość na wynajem ulega zmianie. Musi być ważna (obowiązująca) tylko dla płatności czynszu w następnym miesiącu.",
+      "deleteOnRent": "Twoja nieruchomość jest już wynajęta przez najemcę. Nie można jej usunąć, dopóki najpierw nie usuniesz najemcy",
+      "alreayRented": "Ta nieruchomość jest już wynajęta. Spróbuj ponownie później.\nLub możesz skontaktować się z wynajmującym, aby uzyskać więcej informacji."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nie znaleziono zaproszeń do najmu!\nSpróbuj utworzyć zaproszenie do najmu, aby je tutaj zobaczyć.",
+      "tenantNoRentInvitation": "Nie znaleziono zaproszeń do najmu!\nBędziesz mógł zobaczyć zaproszenia do najmu tutaj, gdy będą dostępne."
+    },
+    "notenantFoundList": "Brak najemców!\nSpróbuj dodać najemcę, aby go tutaj zobaczyć.",
+    "noFeaturesProvided": "Nie podano cech.",
+    "noNotificationFound": "Brak dostępnych powiadomień.\nBędziesz mógł zobaczyć swoje powiadomienia tutaj, gdy będą dostępne.",
+    "noFacilitiesFound": "Nie znaleziono udogodnień.",
+    "noAmenitiesFound": "Nie znaleziono wyposażenia!",
+    "noLaborFound": "Nie znaleziono pracowników\\nSpróbuj ponownie później.",
+    "areYouSureYouWantToRemoveThisUnit": "Czy na pewno chcesz usunąć tę jednostkę?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Czy na pewno chcesz się wylogować?"
+    },
+    "application": {
+      "rejectTitle": "Dlaczego odrzucasz ten wniosek?",
+      "applicationSent": {
+        "successfully": "Wniosek wysłany pomyślnie!",
+        "sucessDescription": "Ten wniosek możesz zobaczyć na liście swoich wniosków"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Usunąć Pracownika?",
+        "description": "Czy na pewno chcesz usunąć tego pracownika?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Dlaczego to żądanie jest odrzucane?",
+      "processTitle": "Czy na pewno przetwarzasz to żądanie konserwacji?",
+      "completeTitle": "Praca zakończona?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Usunąć Metodę Wypłaty?",
+      "deleteDescription": "Czy na pewno chcesz usunąć tę metodę wypłaty?"
+    },
+    "unsavedChanges": {
+      "title": "Czy na pewno chcesz wrócić?",
+      "message": "Zmienione pola nie zostaną zapisane!"
+    },
+    "property": {
+      "delete": {
+        "title": "Usunąć Nieruchomość?",
+        "message": "Czy na pewno chcesz usunąć tę nieruchomość?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Czy na pewno chcesz zatwierdzić ten najem?",
+        "description": "Upewnij się, że przejrzałeś umowę podpisaną przez najemcę."
+      },
+      "tenantAccept": {
+        "title": "Czy na pewno chcesz zaakceptować to zaproszenie?",
+        "description": "Upewnij się, że pobrałeś plik PDF umowy!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sesja wygasła",
+      "message": "Twoja sesja wygasła. Zaloguj się ponownie",
+      "action": "Zaloguj"
+    },
+    "noInternet": {
+      "title": "Brak Połączenia z Internetem",
+      "message": "Sprawdź połączenie Wi-Fi lub sieć komórkową i spróbuj ponownie",
+      "action": "Spróbuj Ponownie"
+    },
+    "permissionHandler": {
+      "title": "Wymagane zezwolenie!",
+      "message": "Musisz przyznać uprawnienia w ustawieniach aplikacji. Czy chcesz teraz otworzyć ustawienia?"
+    },
+    "imagePicker": {
+      "title": "Wybierz Opcję",
+      "gallery": "Galeria",
+      "camera": "Aparat"
+    },
+    "verificationDialog": {
+      "title": "Zweryfikuj Swój E-mail",
+      "message": "Wysłaliśmy e-mail z kodem weryfikacyjnym",
+      "messageWithEmail": "@:prompt.verificationDialog.message do ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Wyczyścić powiadomienia?",
+      "clearMessage": "Czy na pewno chcesz wyczyścić wszystkie powiadomienia?"
+    },
+    "genericDeletePrompt": {
+      "title": "Czy chcesz usunąć ten ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Subskrypcja Wygasła!",
+      "message": "Subskrybuj, aby kontynuować."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Wprowadź @:common.fullName",
+      "errors": {
+        "required": "Wprowadź swoje @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Wprowadź swój @:common.email",
+      "errors": {
+        "required": "Wprowadź swój adres @:common.email",
+        "invalid": "⦸ Nieprawidłowy E-mail, Spróbuj Ponownie"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Wprowadź swoje @:common.password",
+        "minLength": "Hasło musi mieć co najmniej ${count} znaków!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Potwierdź @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Wprowadź swoje @:common.password",
+        "notMatched": "Potwierdzenie hasła nie pasuje!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Wprowadź swój @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Numer domu i nazwa ulicy",
+      "errors": {
+        "required": "Wprowadź swój @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Mieszkanie, apartament, lokal, itp.",
+      "errors": {
+        "required": "Wprowadź swój @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Wprowadź @:common.postalCode",
+      "errors": {
+        "required": "Wprowadź swój @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Wprowadź nazwę @:common.city.",
+      "errors": {
+        "required": "Wprowadź nazwę swojego @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Wprowadź nazwę @:common.state.",
+      "errors": {
+        "required": "Wprowadź nazwę swojego @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Wybierz @:common.country.",
+      "errors": {
+        "required": "Wybierz swój @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Wprowadź kod OTP.",
+        "invalid": "Wprowadź poprawny kod OTP."
+      }
+    },
+    "title": {
+      "label": "Tytuł",
+      "hint": "Wprowadź tytuł",
+      "errors": {
+        "required": "Wprowadź tytuł"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Wybierz @:form.date.label",
+      "errors": {
+        "required": "Wybierz @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Powód",
+      "hint": "Wprowadź powód",
+      "errors": {
+        "required": "Wprowadź powód"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Wybierz @:common.withdrawMethod",
+      "errors": {
+        "required": "Wybierz @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Prześlij ${label: String}",
+      "errors": {
+        "required": "Wybierz ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Wprowadź @:form.note.label",
+      "errors": {
+        "required": "Wprowadź @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Wybierz @:common.gender",
+      "errors": {
+        "required": "Wybierz @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Wprowadź @:form.anyField.label",
+      "errors": {
+        "required": "Wprowadź @:form.anyField.label",
+        "invalid": "Wprowadź prawidłowy @:form.anyField.label"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Wybierz @:form.anyDropdown.label",
+      "errors": {
+        "required": "Wybierz @:form.anyDropdown.label",
+        "invalid": "Wybierz prawidłowy @:form.anyDropdown.label"
+      }
+    }
+  },
+  "action": {
+    "next": "Dalej",
+    "getStarted": "Rozpocznij",
+    "skip": "Pomiń",
+    "select": "Wybierz",
+    "save": "Zapisz",
+    "signIn": "Zaloguj się",
+    "signUp": "Zarejestruj się",
+    "continue": "Kontynuuj",
+    "clearAll": "Wyczyść Wszystko",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Wyślij",
+    "pay": "Zapłać",
+    "remove": "Usuń",
+    "goBack": "Wróć",
+    "buyNow": "Kup Teraz",
+    "no": "Nie",
+    "open": "Otwórz",
+    "addProperty": "Dodaj Nieruchomość",
+    "process": "Przetwórz",
+    "approve": "Zatwierdź",
+    "reject": "Odrzuć",
+    "viewRent": "Wyświetl Wynajem",
+    "openNavigationMenu": "Otwórz menu nawigacji",
+    "seeAll": "Zobacz Wszystko",
+    "update": "Aktualizuj",
+    "printTransaction": "Drukuj Transakcję",
+    "payoutRequest": "Żądanie Wypłaty",
+    "addNew": "+ Dodaj Nowy",
+    "sendRequest": "Wyślij Żądanie",
+    "print": "Drukuj",
+    "requestForRefund": "Żądanie Zwrotu Pieniędzy",
+    "previous": "Poprzedni",
+    "delete": "Usuń",
+    "applyProperty": "Złóż Wniosek o Nieruchomość",
+    "viewApplication": "Wyświetl Wniosek",
+    "inviteTenant": "Zaproś Najemcę",
+    "inviteRent": "Zaproś do Najmu",
+    "cancel": "Anuluj",
+    "accept": "Akceptuj",
+    "submit": "Prześlij",
+    "yes": "Tak",
+    "okay": "OK",
+    "confirm": "Potwierdź",
+    "apply": "Zastosuj",
+    "reset": "Resetuj",
+    "retry": "Spróbuj Ponownie",
+    "viewAll": "Wyświetl Wszystko",
+    "addMore": "Dodaj Więcej",
+    "done": "Gotowe"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Znajdź Swoją Nieruchomość",
+          "description": "Ułatwiliśmy Ci znalezienie miejsca, które pasuje do Twojego życia — niezależnie od tego, czy jest to pokój, mieszkanie czy dom."
+        },
+        "data2": {
+          "title": "Mieszkanie w Mieście",
+          "description": "Oszczędzamy Twój czas, szybko dopasowując Cię do idealnej nieruchomości, zanim zniknie, abyś mógł cieszyć się nowym domem, lub bezpłatnie wystawić własny."
+        },
+        "data3": {
+          "title": "Twój Wygodny Dom",
+          "description": "Jeśli szukasz miejsca do zamieszkania, zapoznaj się z naszymi domami do wynajęcia. Mamy szeroki wybór domów do wyboru w całym kraju."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Witamy Z Powrotem",
+      "subtitle": "Zaloguj się teraz, aby rozpocząć niesamowitą podróż.",
+      "extra": {
+        "rememberMe": "Zapamiętaj Mnie",
+        "signUpNavigator(rich)": "Nie masz konta? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Zapomniałem hasła",
+      "subtitle": "Wprowadź swój adres e-mail, aby odzyskać hasło."
+    },
+    "otpVerification": {
+      "title": "Weryfikacja",
+      "subtitle": "6-cyfrowy kod PIN został wysłany na Twój adres e-mail. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kod zostanie wysłany za ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Wyślij kod ponownie)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Zresetuj hasło",
+      "subtitle": "Zresetuj hasło, aby odzyskać i zalogować się na swoje konto",
+      "extra": {
+        "dialog": {
+          "title": "Pomyślnie zmieniono!",
+          "subtitle": "Zaloguj się nowym hasłem.\n Przekierowujemy Cię do Logowania..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Utwórz Konto",
+      "subtitle": "Zarejestruj się teraz, aby rozpocząć niesamowitą podróż",
+      "extra": {
+        "signInNavigator(rich)": "Masz już konto? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kim jesteś?",
+      "subtitle": "Wybierz opcję poniżej.",
+      "extra": {
+        "landlordTag": "Zarządzaj własnymi nieruchomościami",
+        "tenantTag": "Zaloguj się do swojego konta najmu"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Powiadomienia"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Wiadomość..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Dlaczego @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Wpisz powód",
+          "errors": {
+            "required": "Wprowadź powód anulowania najmu"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Płatność Offline",
+      "form": {
+        "paymentNote": {
+          "label": "Uwaga Dotycząca Płatności (@:common.optional)",
+          "hint": "Wpisz jakiś tekst..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Kwota Do Zapłaty: ${amount}",
+        "accountHolderName": "Nazwa Posiadacza Konta",
+        "accountNumber": "Numer Konta",
+        "swiftCode": "Kod SWIFT",
+        "branch": "Oddział",
+        "fileTypeHint(rich)": "Wybierz tylko pliki w formacie ${fileType(JPG, PNG,PDF)} lub ${fileType(DOC)}. Rozmiar pliku ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Wyświetl Fakturę",
+        "title": "@:common.thankYou",
+        "description": "Sprawdzimy płatność i zatwierdzimy ją w ciągu 24 godzin."
+      },
+      "fail": {
+        "actionButton": "Spróbuj Ponownie",
+        "title": "Ups! Płatność Nieudana",
+        "description": "Twoja transakcja nie powiodła się z powodu błędu technicznego."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Cechy ${fa((Udogodnienia i Wyposażenie))}",
+        "selectRentalPeriod": "Wybierz Okres Najmu",
+        "writeAReview": "+ Napisz recenzję"
+      }
+    },
+    "search": {
+      "appbarTitle": "Szukaj",
+      "extra": {
+        "hint": "Szukaj działek, mieszkań, pokoi...",
+        "noRecentSearch": "Nie masz żadnych ostatnich wyszukiwań."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Wybierz Swój Plan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Płatność za subskrypcję zakończona pomyślnie.\nMożesz teraz uzyskać dostęp do subskrybowanych funkcji."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Całkowity Koszt Konserwacji: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Wszystkie Nieruchomości",
+      "pending": "Oczekujące",
+      "active": "Aktywne",
+      "inactive": "Nieaktywne",
+      "rejected": "Odrzucone"
+    },
+    "propertyType": {
+      "rent": "Wynajem",
+      "sale": "Sprzedaż"
+    },
+    "propertyCategory": {
+      "apartment": "Mieszkanie",
+      "house": "Dom",
+      "commercial": "Komercyjna",
+      "land": "Działka",
+      "room": "Pokój",
+      "unitOrFlat": "Jednostka / Mieszkanie",
+      "bungalow": "Bungalow",
+      "plot": "Działka"
+    },
+    "applicationStatus": {
+      "all": "Wszystkie",
+      "pending": "Oczekujące",
+      "processing": "Przetwarzane",
+      "approved": "Zatwierdzone",
+      "rejected": "Odrzucone"
+    },
+    "myRentStatus": {
+      "pending": "Oczekujące",
+      "processing": "Przetwarzane",
+      "active": "Aktywne",
+      "expired": "Wygasłe",
+      "cancelled": "Anulowane"
+    },
+    "maintenanceStatus": {
+      "pending": "Oczekujące",
+      "processing": "Przetwarzane",
+      "rejected": "Odrzucone",
+      "completed": "Ukończone"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Osoba Prywatna (Indywidualna)",
+      "company": "Firma"
+    },
+    "tenantType": {
+      "newTenant": "Nowy Najemca",
+      "activeTenant": "Aktywny Najemca",
+      "expiredTenant": "Wygasły Najemca"
+    },
+    "paymentStatus": {
+      "all": "Wszystkie",
+      "pending": "Oczekujące",
+      "paid": "Opłacone",
+      "unpaid": "Nieopłacone",
+      "rejected": "Odrzucone",
+      "refund": "Zwrot Pieniędzy"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Płatność Online",
+      "offlinePayment": "Płatność Offline"
+    },
+    "paymentType": {
+      "securityDeposit": "Kaucja Zabezpieczająca",
+      "rentPayment": "Płatność Czynszu",
+      "subscription": "Subskrypcja"
+    },
+    "gender": {
+      "male": "Mężczyzna",
+      "female": "Kobieta",
+      "other": "Inne"
+    },
+    "ecRelation": {
+      "wife": "Żona",
+      "parent": "Rodzic",
+      "friend": "Przyjaciel",
+      "brother": "Brat",
+      "sister": "Siostra",
+      "child": "Dziecko"
+    },
+    "vehicleType": {
+      "car": "Samochód",
+      "motorcycles": "Motocykle",
+      "lorry": "Ciężarówka"
+    },
+    "sortBy": {
+      "lowToHigh": "Od Najniższej do Najwyższej",
+      "highToLow": "Od Najwyższej do Najniższej"
+    },
+    "residentialType": {
+      "flat": "Mieszkanie",
+      "apartment": "Apartament",
+      "condominium": "Kondominium",
+      "serviceResidence": "Rezydencja Serwisowana",
+      "studio": "Studio",
+      "duplex": "Dupleks",
+      "townhouseCondo": "Kamienica/Kondominium",
+      "condo": "Kondominium / Rezydencja Serwisowana / Penthouse",
+      "house": "Domy",
+      "shoplot": "Lokal Handlowy",
+      "sharing": "Współdzielenie Domu / Mieszkania",
+      "others": "Inne"
+    },
+    "floorRange": {
+      "high": "Wysoki",
+      "medium": "Średni",
+      "low": "Niski"
+    },
+    "furnishings": {
+      "fullyFurnished": "W pełni Umeblowane",
+      "partiallyFurnished": "Częściowo Umeblowane",
+      "notFurnished": "Nieumeblowane"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Powierzchnia Biurowa",
+      "retailSpace": "Powierzchnia Handlowa",
+      "shopLot": "Lokal Handlowy",
+      "warehouseFactory": "Magazyn / Fabryka",
+      "hotelResort": "Hotel / Ośrodek Wypoczynkowy",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Inne"
+    },
+    "landPropertyType": {
+      "residential": "Mieszkaniowa",
+      "industrial": "Przemysłowa",
+      "agricultural": "Rolnicza",
+      "commercial": "Komercyjna",
+      "mixedDevelopment": "Zabudowa Mieszana",
+      "others": "Inne"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Miesięcy",
+      "oneYear": "1 Rok",
+      "oneAndHalfYears": "1,5 Roku",
+      "twoYears": "2 Lata",
+      "twoAndHalfYears": "2,5 Roku"
+    },
+    "dropdownDateFilter": {
+      "daily": "Dziennie",
+      "weekly": "Tygodniowo",
+      "monthly": "Miesięcznie",
+      "yearly": "Rocznie",
+      "custom": "Niestandardowy"
+    },
+    "bungalowType": {
+      "modern": "Nowoczesny",
+      "cottage": "Domek Letniskowy",
+      "luxury": "Luksusowy",
+      "ecoSmart": "Eko / Inteligentny",
+      "beachSide": "Nadmorski",
+      "others": "Inne"
+    }
+  }
+}

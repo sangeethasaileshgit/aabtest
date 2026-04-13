@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ca_ES",
+    "languageName": "Català (Valencià)",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Perfil",
+    "language": "Idioma",
+    "subscriptionPlan": "Pla de Subscripció",
+    "contactUs": "Contacta'ns",
+    "termsAndConditions": "Termes i Condicions",
+    "aboutUs": "Sobre Nosaltres",
+    "logout": "Tanca la Sessió",
+    "editProfile": "Edita el Perfil",
+    "fullName": "Nom Complet",
+    "email": "Correu Electrònic",
+    "mobileNumber": "Número de Mòbil",
+    "address": "Adreça",
+    "postalCode": "Codi Postal",
+    "city": "Ciutat",
+    "country": "País",
+    "state": "Província",
+    "password": "Contrasenya",
+    "forgotPassword": "Has oblidat la contrasenya",
+    "tenant": "Llogater",
+    "landlord": "Propietari",
+    "cancelRenting": "Cancel·lar Lloguer",
+    "startDate": "Data d'Inici",
+    "endDate": "Data de Fi",
+    "fromDate": "Des de la Data",
+    "toDate": "Fins a la Data",
+    "online": "En Línia",
+    "bankList": "Llista de Bancs",
+    "withdrawMethod": "Mètode de Retirada",
+    "uploadPaymentReceipt": "Puja el Comprovant de Pagament",
+    "offlinePaymentNote(rich)": "Nota: ${note(El pagament requereix aprovació manual per part de l'administrador en un termini de)} ${duraion(24~48 hores.)}",
+    "reviews": "Ressenyes",
+    "description": "Descripció",
+    "about": "Sobre",
+    "propertyTypes": "Tipus de Propietat",
+    "features": "Característiques",
+    "floorPlans": "Plànols",
+    "buildingDetails": "Detalls de l'Edifici",
+    "buildingName": "Nom de l'Edifici",
+    "propertyAddress": "Adreça de la Propietat",
+    "completionYear": "Any de Finalització",
+    "lotNumber": "Número de Lot",
+    "residentialType": "Tipus Residencial",
+    "furnishings": "Mobiliari",
+    "floorRange": "Rang de Plantes",
+    "bedrooms": "Dormitoris",
+    "bathrooms": "Banys",
+    "propertySize": "Mida de la Propietat",
+    "rentalPeriod": "Període de Lloguer",
+    "securityDeposit": "Fiança",
+    "utilityBill": "Factura de Serveis",
+    "facilities": "Instal·lacions",
+    "amenities": "Comoditats",
+    "expiringReason": "Motiu d'Expiració",
+    "tenantDetails": "Detalls del Llogater",
+    "typeOfTenant": "Tipus de Llogater",
+    "tenantName": "Nom del Llogater",
+    "nidPassport": "NID/Passaport",
+    "nidPassportId": "ID @:common.nidPassport",
+    "tenantId": "ID del Llogater",
+    "dateOfBirth": "Data de Naixement",
+    "gender": "Gènere",
+    "nominee": "Beneficiari",
+    "name": "Nom",
+    "optional": "Opcional",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "N. Mòbil @:common.nominee",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Contacte d'Emergència",
+    "relation": "Relació",
+    "relationWith": "@:common.relation Amb",
+    "relationWithYou": "@:common.relationWith Tu",
+    "company": "Empresa",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "N. SSM @:common.company",
+    "workplace": "Lloc de Treball",
+    "officePhoneNo": "Número de Telèfon d'Oficina",
+    "officeMobileNo": "Número @:common.mobileNumber d'Oficina",
+    "vehicle": "Vehicle",
+    "vehiclesInfo": {
+      "plain": "Informació dels Vehicles",
+      "optional": "Informació dels Vehicles (@:common.optional)"
+    },
+    "vehiclesType": "Tipus de @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "Número de Matrícula del Vehicle",
+      "short": "N. de Matrícula",
+      "alt": "N. de Placa"
+    },
+    "vehicleBrand": "Marca del @:common.vehicle",
+    "rentProperty": "Llogar Propietat",
+    "propertyDetails": "Detalls de la Propietat",
+    "propertyId": "ID de la Propietat",
+    "propertyType": "Tipus de Propietat",
+    "propertyName": "Nom de la Propietat",
+    "paymentDetails": "Detalls del Pagament",
+    "monthlyRent": "Lloguer Mensual",
+    "thisMonthPayment": "Pagament d'Aquest Mes",
+    "totalPaidRent": "Lloguer Total Pagat",
+    "dueRent": "Lloguer Pendent",
+    "rentStartDate": "Data @:common.startDate del Lloguer",
+    "rentEndDate": "Data @:common.endDate del Lloguer",
+    "status": "Estat",
+    "rentAgreementPdf": "PDF del Contracte de Lloguer",
+    "noFile": "Sense Fitxer",
+    "tenantImageOp": "Imatge del Llogater @:common.optional",
+    "addNewVechicle": "Afegir Nous Vehicles",
+    "uploadNidPassport": "Pujar NID/Passaport",
+    "nidPassportUploadNote": "Només s'acceptaran fitxers d'imatge. Límit de fitxer fins a 2.5 MB.",
+    "search": "Cerca",
+    "sortBy": "Ordena Per",
+    "subscription": "Subscripció",
+    "downloading": "Baixant...",
+    "downloadSuccess": "Fitxer descarregat amb èxit!",
+    "addPropertyBannerTitle": "Busques Llogar la Teva Propietat?",
+    "application": "Sol·licitud",
+    "tenantHasPaidDeposit": "El llogater ha pagat la fiança.",
+    "askProcessingRentApplication": "Estàs segur de processar aquesta sol·licitud de lloguer de propietat?",
+    "dateAndTime": "Data i Hora",
+    "applicationDetails": "Detalls de la Sol·licitud",
+    "depositStatus": "Estat de la Fiança",
+    "uploadRentAgreement": "Pujar Contracte de Lloguer",
+    "uploadFilePDF": "Pujar Fitxer (PDF)",
+    "askSelectRentAgreement": "Si us plau, selecciona un fitxer de document de contracte.",
+    "landlordRentAgreementPDF": "PDF del Contracte de Lloguer del Propietari",
+    "tenantRentAgreementPDF": "PDF del Contracte de Lloguer del Llogater",
+    "landlordApplicationApproveNote(rich)": "Nota: ${note(Només aprova la sol·licitud després que el llogater haja fet un pagament de la fiança.)}",
+    "reasonOfRejection": "Motiu del Rebuig",
+    "youveRejectedThisApplication": "Has rebutjat aquesta sol·licitud",
+    "landlordDetails": "Detalls del Propietari",
+    "landlordName": "Nom del Propietari",
+    "downloadRentAgreement": "Descarregar Contracte de Lloguer",
+    "acceptTermsConditions(rich)": "Accepta ${toc(Termes i Condicions)}",
+    "tenantAgreementSignNote1(rich)": "Nota: ${note(Si us plau, descarrega i llig l'acord. Envia l'acord signat al propietari per WhatsApp o correu electrònic.)}",
+    "tenantAgreementSignNote2(rich)": "Nota: ${note(El propietari aprova la sol·licitud quan el llogater paga la fiança, els serveis públics i el pagament anticipat del lloguer d'un mes.)}",
+    "completeRentAgreementPdf(rich)": "Contracte de Lloguer (PDF) ${complete(Acord Complet)}",
+    "tenantApplicationDepositNote(rich)": "Nota : ${note(El propietari aprova la sol·licitud quan el llogater paga la fiança, els serveis públics i el pagament anticipat del lloguer d'un mes.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Llista de Sol·licituds",
+    "viewDetails": "Mostra Detalls",
+    "searchHint": "@:common.search...",
+    "home": "Inici",
+    "dashboard": "Tauler",
+    "tenants": "Llogaters",
+    "maintenance": "Manteniment",
+    "maintenanceList": "Llista de Manteniment",
+    "maintenanceReport": "Informe de Manteniment",
+    "labor": "Mà d'Obra",
+    "applications": "Sol·licituds",
+    "rentInvitation": "Invitació de Lloguer",
+    "payment": "Pagament",
+    "rentPayment": "Pagament del Lloguer",
+    "depositUtilityPayment": "Pagament de Fiança i Serveis",
+    "refundRequest": "Sol·licitud de Reemborsament",
+    "withdrawRequest": "Sol·licitud de Retirada",
+    "myProperty": "La Meva Propietat",
+    "myRent": "El Meu Lloguer",
+    "wishlist": "Llista de Desitjos",
+    "properties": "Propietats",
+    "allProperties": "Totes les Propietats",
+    "totalPropery": "Total de Propietats",
+    "occupied": "Ocupat",
+    "vacant": "Lliure",
+    "accounting": "Comptabilitat",
+    "totalIncome": "Ingrés Total",
+    "totalExpense": "Despesa Total",
+    "currentBalance": "Saldo Actual",
+    "totalWithdrawal": "Total (Retirada)",
+    "totalProperties": "Total de Propietats",
+    "totalTenant": "Total de Llogaters",
+    "totalRentPaid": "Lloguer Total Pagat",
+    "totalRentDue": "Lloguer Total Pendent",
+    "totalApplication": "Total de Sol·licituds",
+    "pendingApplication": "Sol·licituds Pendents",
+    "processingApplication": "Sol·licituds en Procés",
+    "approveApplication": "Sol·licituds Aprovades",
+    "rejectApplication": "Sol·licituds Rebutjades",
+    "maintenanceCost": "Cost de Manteniment",
+    "transactionSummary": "Resum de la Transacció",
+    "maintenanceRequest": "Sol·licitud de Manteniment",
+    "notifications": "Notificacions",
+    "myProperties": "Les Meves Propietats",
+    "recommendationProperties": "Propietats Recomanades",
+    "laborList": "Llista de Mà d'Obra",
+    "addLabor": "Afegir Mà d'Obra",
+    "laborDetails": "Detalls de la Mà d'Obra",
+    "laborSalary": "Salari de la Mà d'Obra",
+    "editLabor": "Editar Mà d'Obra",
+    "addNewLabor": "Afegir Nova Mà d'Obra",
+    "enterAmount": "Introduir Import",
+    "maintenanceDetails": "Detalls del Manteniment",
+    "laborName": "Nom de la Mà d'Obra",
+    "comment": "Comentari",
+    "image": "Imatge",
+    "complete": "Completar",
+    "details": "Detalls",
+    "title": "Títol",
+    "date": "Data",
+    "reason": "Motiu",
+    "edit": "Editar",
+    "property": "Propietat",
+    "completeYourProfile": "Completa el teu Perfil",
+    "profileImage": "Imatge de Perfil",
+    "imagePickHint": "Només Imatges JPEG i PNG amb una mida màxima de 120x120 píxels.",
+    "invoiceId": "ID de la Factura",
+    "depositAmount": "Import de la Fiança",
+    "landlordPhone": "Telèfon del Propietari",
+    "rentalAdvance": "Lloguer (Anticipat)",
+    "totalAmount": "Import Total",
+    "rentAmount": "Import del Lloguer",
+    "adminCharge": "Càrrec d'Administració",
+    "editAccount": "Editar Compte",
+    "addNewAccount": "Afegir Nou Compte",
+    "transactionId": "ID de la Transacció",
+    "transactionType": "Tipus de Transacció",
+    "requestDate": "Data de Sol·licitud",
+    "amount": "Import",
+    "fee": "Comissió",
+    "paymentStatus": "Estat del Pagament",
+    "generatedTime": "Hora de Generació",
+    "systemGeneratedReportHint(rich)": "Aquest és un informe generat pel sistema de ${appName}",
+    "withdrawHistory": "Historial de Retirades",
+    "history": "Historial",
+    "withdrawAmount": "Import de Retirada",
+    "availableBalance": "Saldo Disponible",
+    "withdrawCharge": "Càrrec de Retirada",
+    "paymentMethod": "Mètode de Pagament",
+    "requestSendSuccess": "Sol·licitud enviada amb èxit!",
+    "paymentReceiptSubmitSuccess": "Comprovant de pagament enviat amb èxit.",
+    "refundReason": "Motiu del Reemborsament",
+    "note": "Nota",
+    "refundReceiveSuccess": "Reemborsament rebut amb èxit.",
+    "downloadPaymentReceipt": "Descarregar Comprovant de Pagament",
+    "invoice": "Factura",
+    "selectPropertyToSeeInvoice": "Selecciona la propietat per veure el número de factura...",
+    "bankAccName": "Nom del Compte Bancari",
+    "bankName": "Nom del Banc",
+    "bankAccNum": "Número de Compte Bancari",
+    "thankYou": "Gràcies!",
+    "basicInfo": "Informació Bàsica",
+    "descriptionPricing": "Descripció i Preus",
+    "contact": "Contacte",
+    "photos": "Fotos",
+    "successfullySubmitted": "Enviat amb èxit!",
+    "editProperty": "Editar Propietat",
+    "addNewProperty": "Afegir Nova Propietat",
+    "propertyManageRequestSuccess": "El teu anunci ha estat enviat per a revisió.",
+    "postAnotherProperty": "Publicar Una Altra Propietat",
+    "browseYourProperty": "Explora la Teva Propietat",
+    "stepIndicator(rich)": "Pas ${step} de ${totalSteps}",
+    "whatWouldYouLikeToPost": "Què T'Agradaria Publicar?",
+    "category": "Categoria",
+    "invalidCategory": "Categoria No Vàlida",
+    "unitNumber": "Número d'Unitat",
+    "sqft": "peus quadrats",
+    "propertySizeMustBeGreaterThan0": "La mida de la propietat ha de ser superior a zero",
+    "whatAreTheFacility": "Quines són les instal·lacions?",
+    "whatAreTheAmenity": "Quines són les comoditats?",
+    "parkingLot": "Pàrquing",
+    "houseType": "Tipus de Casa",
+    "value": "Valor",
+    "unitLotSize": "Mida de la Unitat / Lot",
+    "landSize": "Mida del Terreny",
+    "acres": "acre(s)",
+    "roomSize": "Mida de l'Habitació",
+    "askTenantPreference": "Quina és la teva preferència de llogater?",
+    "couple": "Parella",
+    "describeTheProperty": "Descriu el ${propertyType: String}",
+    "adTitle": "Títol de l'Anunci",
+    "minimumRentalPeriod": "Període Mínim de Lloguer",
+    "whatsappNumber": "Número de @:common.whatsapp",
+    "hideOrDisplayEmail": "Amaga o mostra l'adreça de correu electrònic",
+    "thankYouForPostingProperty": "Gràcies per publicar a ${appName: String}!",
+    "propertyList": "Llista de Propietats",
+    "newInviteRent": "Nova Invitació de Lloguer",
+    "rentAgreement": "Contracte de Lloguer",
+    "rentDetails": "Detalls del Lloguer",
+    "landlordRentInvitationPendingNote(rich)": "Nota: ${note(Si us plau, espera que el llogater accepte la invitació.)}",
+    "rent": "Lloguer",
+    "editTenant": "Editar Llogater",
+    "addNewTenant": "Afegir Nou Llogater",
+    "shareInstallLink": "Comparteix l'enllaç d'Instal·lació",
+    "tenantList": "Llista de Llogaters",
+    "editMaintenanceRequest": "Editar Sol·licitud de Manteniment",
+    "addNewMaintenance": "Afegir Nou Manteniment",
+    "landlordId": "ID del Propietari",
+    "tenantAgrementUnderReviewNote(rich)": "Nota ${note(El teu acord està en revisió. Si us plau, espera que el propietari aprove el teu lloguer.)}",
+    "editReview": "Editar Ressenya",
+    "writeAReview": "Escriure una ressenya",
+    "selectRating": "Selecciona Puntuació",
+    "enterYourOpinion": "Introdueix la Teva Opinió",
+    "askToEnterReviewMsg": "Si us plau, introdueix un missatge de ressenya",
+    "pressBackAgainToExit": "Prem enrere de nou per eixir.",
+    "selectPaymentMethod": "Selecciona Mètode de Pagament",
+    "filter": "Filtre",
+    "perMonth": "/1 Mes",
+    "searchHintWithAppName": "Cerca qualsevol cosa a ${appName: String}...",
+    "propertyInfo": "Informació de la Propietat",
+    "units": "Unitats",
+    "depositPeriod": "Període de Fiança",
+    "facilitiesList": "Llista d'Instal·lacions",
+    "facility": "Instal·lació",
+    "amenity": "Comoditat",
+    "amenitiesList": "Llista de Comoditats",
+    "addNewFacility": "Afegir Nova Instal·lació",
+    "editFacility": "Editar Instal·lació",
+    "facilityName": "Nom de la Instal·lació",
+    "amenityName": "Nom de la Comoditat",
+    "addNewAmenity": "Afegir Nova Comoditat",
+    "editAmenity": "Editar Comoditat",
+    "family": "Família",
+    "lateFee": "Recàrrec per Retard",
+    "lateFeeAfterDays": "@:common.lateFee Després de (Dies)",
+    "propertyPricing": "Preus de ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Moltes gràcies, acabes de publicar la teva propietat",
+    "titleAndDescription": "Títol i Descripció",
+    "rentPricing": "Preus del Lloguer",
+    "step": "Pas",
+    "of": "DE",
+    "pricing": "Preus",
+    "sameRentForAllUnit": "Mateix lloguer per a totes les unitats",
+    "unit": "unitat",
+    "pleaseSelectAnUnitFirst": "Si us plau, selecciona una unitat primer.",
+    "saleAmount": "Import de la Venda",
+    "selectCategory": "Selecciona una Categoria",
+    "pleaseSelectACategory": "Si us plau, selecciona una categoria",
+    "pleaseEnterAdTitle": "Si us plau, introdueix el títol de l'anunci",
+    "addCoverPhoto": "Afegir Foto de Coberta",
+    "findAProperty": "Troba una propietat",
+    "categories": "Categories",
+    "recmmendedProperties": "Propietats Recomanades",
+    "recentSearch": "Cerca Recent",
+    "pleaseEnterYourAccountNumber": "Si us plau, introdueix el teu número de compte.",
+    "pleaseSelectALanguageToContinue": "Si us plau, selecciona un idioma per continuar.",
+    "subscribe": "Subscriure's",
+    "noFacilitiesFound": "No s'han trobat instal·lacions!",
+    "invalidLaborDetailsPleaseTryAgain": "Detalls de mà d'obra no vàlids, si us plau, torna a intentar-ho",
+    "maintenanceWork": "Treball de Manteniment",
+    "selectLabor": "Seleccionar Mà d'Obra",
+    "enterMaintenanceCost": "Introduir cost de manteniment",
+    "pleaseEnterMaintenanceCost": "Si us plau, introdueix el cost de manteniment",
+    "writeComment": "Escriure un comentari",
+    "maintenancePending": "Manteniment Pendent",
+    "yourEarnings": "Els Teus Guanys",
+    "totalPaid": "Total Pagat",
+    "linkANewBankAccount": "Enllaçar un nou compte bancari",
+    "payoutRequest": "Sol·licitud de Pagament"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Alguna cosa ha anat malament, si us plau, torna a intentar-ho",
+    "noNidPassport": "No s'ha proporcionat cap imatge NID/Passaport.",
+    "noRentPropertyFound": "No s'ha trobat cap propietat de lloguer per a aquest llogater.",
+    "noPropertyFoundWithKeyWord": "No s'ha trobat cap propietat!\nSi us plau, prova amb paraules clau diferents",
+    "noSubscriptionFoundRefreshPage": "No s'ha trobat cap pla de subscripció!\nSi us plau, actualitza la pàgina i torna a intentar-ho.",
+    "invalidApiDataRefreshPage": "Informació de ${dataType: String} no vàlida! Si us plau, actualitza la pàgina i torna a intentar-ho.",
+    "invalidDownloadUrl": "URL de descàrrega no vàlida!",
+    "failedToSaveFile": "No s'ha pogut desar el fitxer! ${error: String}",
+    "errorOpeningFile": "Error en obrir el fitxer! ${error: String}",
+    "noVehicleInfoProvided": "No s'ha proporcionat informació del vehicle.",
+    "yourApplicationRejected": "La teva Sol·licitud ha estat rebutjada",
+    "noApplicationFoundHint": {
+      "template": "No s'ha trobat cap sol·licitud!\n${subject: String} es mostrarà aquí quan estiga disponible.",
+      "subjects": {
+        "tenant": "La teva sol·licitud",
+        "landlord": "La sol·licitud del llogater"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "No s'ha trobat cap propietat!\nSi us plau, prova d'afegir una propietat per a veure-la aquí.",
+      "tenantRecommended": "No s'han trobat Propietats Recomanades\nSi us plau, torna a intentar-ho més tard.",
+      "tenantAllProperty": "Propietats no disponibles\nSi us plau, torna a intentar-ho més tard."
+    },
+    "noImageProvided": "No s'ha Proporcionat Cap Imatge",
+    "noStatusMaintenantFound": {
+      "landlord": "No s'ha trobat cap manteniment ${status}.",
+      "tenant": "No s'ha trobat cap manteniment! Pots crear una sol·licitud de manteniment per a veure-la aquí."
+    },
+    "noDepositFound": "No s'ha trobat cap fiança!\nPots veure les fiances quan estiguen disponibles",
+    "noRentPaymentFound": "No s'ha trobat cap pagament de lloguer!\nPots veure els pagaments de lloguer quan estiguen disponibles",
+    "transactionSummaryApiException": "No s'ha pogut obtenir el resum de la transacció.",
+    "noWithdrawRequestFound": "No s'ha trobat cap sol·licitud!\nSi us plau, prova de crear una sol·licitud de retirada per a veure-la aquí.",
+    "withdrawRequestNotApproved": "Aquesta sol·licitud de retirada no ha estat aprovada!.",
+    "nonZeroError": "Si us plau, introdueix un import vàlid superior a zero.",
+    "minAmountError": "L'import ha de ser com a mínim ${minValue: String}.",
+    "maxAmountError": "L'import no ha de superar ${maxValue: String}.",
+    "selectPaymentMethodHint": "Si us plau, selecciona un mètode de pagament primer.",
+    "noStatusRefundReqFound": {
+      "landlord": "No s'ha trobat cap sol·licitud de reemborsament ${status}!\nPots veure la sol·licitud de reemborsament aquí quan estiga disponible.",
+      "tenant": "No s'ha trobat cap sol·licitud de reemborsament!\nPots crear una sol·licitud de reemborsament per a veure-la aquí."
+    },
+    "refundRequestHint": {
+      "inTenantList": "El llogater aprovarà el reemborsament quan recupere els diners",
+      "tenantReqSuccess": "Revisarem la Sol·licitud de Reemborsament i l'aprovació en un termini de 24 hores."
+    },
+    "oneToTenRequiredField": "Si us plau, selecciona el número de ${value: String}",
+    "invalidDateRange": "Interval de dates no vàlid.",
+    "valueMustBeGreaterThanZero": "${value: String} ha de ser superior a zero.",
+    "editProperty": {
+      "rentalChange": "La propietat de lloguer està canviant. Només ha de ser vàlida (efectiva) per al pagament del lloguer del mes següent.",
+      "deleteOnRent": "La teva propietat ja està llogada per un llogater. No es pot eliminar fins que no retires el llogater primer",
+      "alreayRented": "Aquesta propietat ja està llogada. Si us plau, torna a intentar-ho més tard.\nO pots contactar amb el propietari per obtenir més informació."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "No s'ha trobat cap invitació de lloguer!\nSi us plau, prova de crear una invitació de lloguer per a veure-la aquí.",
+      "tenantNoRentInvitation": "No s'ha trobat cap invitació de lloguer!\nPots veure la invitació de lloguer aquí quan estiga disponible."
+    },
+    "notenantFoundList": "No hi ha llogaters!\nSi us plau, prova d'afegir un llogater per a veure'l aquí.",
+    "noFeaturesProvided": "No s'han proporcionat característiques.",
+    "noNotificationFound": "No hi ha notificacions disponibles.\nPots veure les teves notificacions aquí quan estiguen disponibles.",
+    "noFacilitiesFound": "No s'han trobat instal·lacions.",
+    "noAmenitiesFound": "No s'han trobat comoditats!",
+    "noLaborFound": "No s'ha trobat mà d'obra\\nSi us plau, torna a intentar-ho més tard.",
+    "areYouSureYouWantToRemoveThisUnit": "Estàs segur que vols eliminar aquesta unitat?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Estàs segur de tancar la sessió?"
+    },
+    "application": {
+      "rejectTitle": "Per què rebutges aquesta sol·licitud?",
+      "applicationSent": {
+        "successfully": "Sol·licitud enviada amb èxit!",
+        "sucessDescription": "Pots veure aquesta sol·licitud a la teva llista de sol·licituds"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Eliminar Mà d'Obra?",
+        "description": "Estàs segur d'eliminar aquesta mà d'obra?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Per què es rebutja aquesta sol·licitud?",
+      "processTitle": "Estàs segur de Processar aquesta sol·licitud de Manteniment?",
+      "completeTitle": "Treball completat?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Eliminar Mètode de Retirada?",
+      "deleteDescription": "Estàs segur d'eliminar aquest mètode de retirada?"
+    },
+    "unsavedChanges": {
+      "title": "Estàs segur de tornar enrere?",
+      "message": "Els camps que s'hagen canviat no es desaran!"
+    },
+    "property": {
+      "delete": {
+        "title": "Eliminar Propietat?",
+        "message": "Estàs segur d'eliminar aquesta propietat?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Estàs segur d'aprovar aquest lloguer?",
+        "description": "Assegura't d'haver revisat l'acord signat pel llogater."
+      },
+      "tenantAccept": {
+        "title": "Estàs segur d'acceptar aquesta invitació?",
+        "description": "Assegura't d'haver descarregat el fitxer pdf de l'acord!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sessió caducada",
+      "message": "La teva sessió ha caducat. Si us plau, torna a iniciar la sessió",
+      "action": "Inicia la Sessió"
+    },
+    "noInternet": {
+      "title": "Sense Connexió a Internet",
+      "message": "Si us plau, comprova la teva connexió de xarxa mòbil Wi-Fi i torna a intentar-ho",
+      "action": "Torna a Intentar-ho"
+    },
+    "permissionHandler": {
+      "title": "Permís requerit!",
+      "message": "Has de concedir permisos a la configuració de l'aplicació. T'agradaria obrir la configuració ara?"
+    },
+    "imagePicker": {
+      "title": "Selecciona Opció",
+      "gallery": "Galeria",
+      "camera": "Càmera"
+    },
+    "verificationDialog": {
+      "title": "Verifica el Teu Correu Electrònic",
+      "message": "Hem enviat un correu electrònic amb un codi de verificació",
+      "messageWithEmail": "@:prompt.verificationDialog.message a ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Esborrar notificacions?",
+      "clearMessage": "Estàs segur d'esborrar totes les notificacions?"
+    },
+    "genericDeletePrompt": {
+      "title": "Vols eliminar aquest ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Subscripció Caducada!",
+      "message": "Si us plau, subscriu-te per continuar."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Introdueix @:common.fullName",
+      "errors": {
+        "required": "Si us plau, introdueix el teu @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Introdueix el teu @:common.email",
+      "errors": {
+        "required": "Si us plau, introdueix la teva adreça @:common.email",
+        "invalid": "⦸ Correu Electrònic No Vàlid, Si us plau, Torna a Intentar-ho"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Si us plau, introdueix la teva @:common.password",
+        "minLength": "La contrasenya ha de tindre com a mínim ${count} caràcters!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Confirma @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Si us plau, introdueix la teva @:common.password",
+        "notMatched": "La confirmació de la contrasenya no coincideix!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Si us plau, introdueix el teu @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Número de casa i nom del carrer",
+      "errors": {
+        "required": "Si us plau, introdueix el teu @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Apartament, suite, unitat, etc.",
+      "errors": {
+        "required": "Si us plau, introdueix el teu @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Introdueix @:common.postalCode",
+      "errors": {
+        "required": "Si us plau, introdueix el teu @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Introdueix el nom de la @:common.city.",
+      "errors": {
+        "required": "Si us plau, introdueix el nom de la teva @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Introdueix el nom de la @:common.state.",
+      "errors": {
+        "required": "Si us plau, introdueix el nom de la teva @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Selecciona @:common.country.",
+      "errors": {
+        "required": "Si us plau, selecciona el teu @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Si us plau, introdueix l'otp.",
+        "invalid": "Si us plau, introdueix l'otp correcte."
+      }
+    },
+    "title": {
+      "label": "Títol",
+      "hint": "Introdueix títol",
+      "errors": {
+        "required": "Si us plau, introdueix títol"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Selecciona @:form.date.label",
+      "errors": {
+        "required": "Si us plau, selecciona @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Motiu",
+      "hint": "Introdueix motiu",
+      "errors": {
+        "required": "Si us plau, introdueix motiu"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Selecciona @:common.withdrawMethod",
+      "errors": {
+        "required": "Si us plau, selecciona @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Puja ${label: String}",
+      "errors": {
+        "required": "Si us plau, selecciona ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Introdueix @:form.note.label",
+      "errors": {
+        "required": "Si us plau, introdueix @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Selecciona @:common.gender",
+      "errors": {
+        "required": "Si us plau, selecciona @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Introdueix @:form.anyField.label",
+      "errors": {
+        "required": "Si us plau, introdueix @:form.anyField.label",
+        "invalid": "Si us plau, introdueix @:form.anyField.label vàlid"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Selecciona @:form.anyDropdown.label",
+      "errors": {
+        "required": "Si us plau, selecciona @:form.anyDropdown.label",
+        "invalid": "Si us plau, selecciona @:form.anyDropdown.label vàlid"
+      }
+    }
+  },
+  "action": {
+    "next": "Següent",
+    "getStarted": "Comença",
+    "skip": "Omet",
+    "select": "Selecciona",
+    "save": "Desa",
+    "signIn": "Inicia la Sessió",
+    "signUp": "Registra't",
+    "continue": "Continua",
+    "clearAll": "Esborra-ho Tot",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Envia",
+    "pay": "Paga",
+    "remove": "Elimina",
+    "goBack": "Torna Enrere",
+    "buyNow": "Compra Ara",
+    "no": "No",
+    "open": "Obre",
+    "addProperty": "Afegir Propietat",
+    "process": "Processa",
+    "approve": "Aprova",
+    "reject": "Rebutja",
+    "viewRent": "Mostra Lloguer",
+    "openNavigationMenu": "Obrir menú de navegació",
+    "seeAll": "Mostra-ho Tot",
+    "update": "Actualitza",
+    "printTransaction": "Imprimeix la Transacció",
+    "payoutRequest": "Sol·licitud de Pagament",
+    "addNew": "+ Afegir Nou",
+    "sendRequest": "Envia Sol·licitud",
+    "print": "Imprimeix",
+    "requestForRefund": "Sol·licitud de Reemborsament",
+    "previous": "Anterior",
+    "delete": "Elimina",
+    "applyProperty": "Sol·licitar Propietat",
+    "viewApplication": "Mostra Sol·licitud",
+    "inviteTenant": "Convida un Llogater",
+    "inviteRent": "Convida a Llogar",
+    "cancel": "Cancel·la",
+    "accept": "Accepta",
+    "submit": "Envia",
+    "yes": "Sí",
+    "okay": "D'acord",
+    "confirm": "Confirma",
+    "apply": "Aplica",
+    "reset": "Restableix",
+    "retry": "Torna a Intentar-ho",
+    "viewAll": "Mostra-ho Tot",
+    "addMore": "Afegir Més",
+    "done": "Fet"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Troba la Teva Propietat",
+          "description": "Hem fet que siga molt fàcil trobar un lloc que s'adapte a la teva vida — ja siga una habitació, un apartament o una casa."
+        },
+        "data2": {
+          "title": "Apartament a la Ciutat",
+          "description": "T'estalviem temps combinant-te ràpidament amb la propietat perfecta abans que desaparega, així pots gaudir de la teva nova llar, o llistar la teva de forma gratuïta."
+        },
+        "data3": {
+          "title": "La Teva Casa de Confort",
+          "description": "Si busques un lloc per viure, fes una ullada a les nostres cases de lloguer. Tenim una àmplia gamma de cases per triar a tot el país."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Benvingut de Nou",
+      "subtitle": "Inicia la Sessió ara per començar un viatge increïble.",
+      "extra": {
+        "rememberMe": "Recorda'm",
+        "signUpNavigator(rich)": "No tens un compte? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Contrasenya oblidada",
+      "subtitle": "Introdueix la teva adreça de correu electrònic per recuperar la teva contrasenya."
+    },
+    "otpVerification": {
+      "title": "Verificació",
+      "subtitle": "S'ha enviat un PIN de 6 dígits a la teva adreça de correu electrònic. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Codi enviat en ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Reenviar codi)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Restablir contrasenya",
+      "subtitle": "Restableix la teva contrasenya per a la recuperació i inicia la sessió al teu compte",
+      "extra": {
+        "dialog": {
+          "title": "Canviada amb èxit!",
+          "subtitle": "Inicia la sessió amb la teva nova contrasenya.\n Redirigint a Iniciar Sessió..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Crea un Compte",
+      "subtitle": "Registra't ara per començar un viatge increïble",
+      "extra": {
+        "signInNavigator(rich)": "Tens un compte? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Qui eres?",
+      "subtitle": "Si us plau, selecciona l'opció següent.",
+      "extra": {
+        "landlordTag": "Gestiona les teves pròpies propietats",
+        "tenantTag": "Inicia la sessió al teu compte de lloguer"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Notificacions"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Missatge..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Per què @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Escriu el motiu",
+          "errors": {
+            "required": "Si us plau, introdueix el motiu de la cancel·lació del lloguer"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Pagament Fora de Línia",
+      "form": {
+        "paymentNote": {
+          "label": "Nota de Pagament (@:common.optional)",
+          "hint": "Introdueix text..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Import a Pagar: ${amount}",
+        "accountHolderName": "Nom del Titular del Compte",
+        "accountNumber": "Número de Compte",
+        "swiftCode": "Codi Swift",
+        "branch": "Sucursal",
+        "fileTypeHint(rich)": "Tria només fitxers en format ${fileType(JPG, PNG,PDF)} O ${fileType(DOC)}. Mida màxima del fitxer ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Veure Factura",
+        "title": "@:common.thankYou",
+        "description": "Revisarem el pagament i l'aprovació en un termini de 24 hores."
+      },
+      "fail": {
+        "actionButton": "Torna a Intentar-ho",
+        "title": "Ups! Pagament Fallit",
+        "description": "La teva transacció ha fallat a causa d'un error tècnic."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Característiques ${fa((Instal·lacions i Comoditats))}",
+        "selectRentalPeriod": "Selecciona Període de Lloguer",
+        "writeAReview": "+ Escriu una ressenya"
+      }
+    },
+    "search": {
+      "appbarTitle": "Cerca",
+      "extra": {
+        "hint": "Cerca parcel·les, apartaments, habitacions...",
+        "noRecentSearch": "No tens cerques recents."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Tria el teu Pla",
+      "extra": {
+        "subscriptionPaymentSuccess": "Pagament de la subscripció amb èxit.\nJa pots accedir a les funcions subscrites."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Cost Total de Manteniment: ${amount: string}",
+      "maintenancePending": "Manteniment @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "Manteniment @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "Manteniment @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "Manteniment @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Totes les Propietats",
+      "pending": "Pendent",
+      "active": "Actiu",
+      "inactive": "Inactiu",
+      "rejected": "Rebutjat"
+    },
+    "propertyType": {
+      "rent": "Lloguer",
+      "sale": "Venda"
+    },
+    "propertyCategory": {
+      "apartment": "Apartament",
+      "house": "Casa",
+      "commercial": "Comercial",
+      "land": "Terreny",
+      "room": "Habitació",
+      "unitOrFlat": "Unitat / Pis",
+      "bungalow": "Bungalou",
+      "plot": "Parcel·la"
+    },
+    "applicationStatus": {
+      "all": "Tot",
+      "pending": "Pendent",
+      "processing": "En Procés",
+      "approved": "Aprovat",
+      "rejected": "Rebutjat"
+    },
+    "myRentStatus": {
+      "pending": "Pendent",
+      "processing": "En Procés",
+      "active": "Actiu",
+      "expired": "Caducat",
+      "cancelled": "Cancel·lat"
+    },
+    "maintenanceStatus": {
+      "pending": "Pendent",
+      "processing": "En Procés",
+      "rejected": "Rebutjat",
+      "completed": "Completat"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privat (Individual)",
+      "company": "Empresa"
+    },
+    "tenantType": {
+      "newTenant": "Nou Llogater",
+      "activeTenant": "Llogater Actiu",
+      "expiredTenant": "Llogater Caducat"
+    },
+    "paymentStatus": {
+      "all": "Tot",
+      "pending": "Pendent",
+      "paid": "Pagat",
+      "unpaid": "No Pagat",
+      "rejected": "Rebutjat",
+      "refund": "Reemborsament"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Pagament En Línia",
+      "offlinePayment": "Pagament Fora de Línia"
+    },
+    "paymentType": {
+      "securityDeposit": "Fiança",
+      "rentPayment": "Pagament del Lloguer",
+      "subscription": "Subscripció"
+    },
+    "gender": {
+      "male": "Home",
+      "female": "Dona",
+      "other": "Altre"
+    },
+    "ecRelation": {
+      "wife": "Muller",
+      "parent": "Pare/Mare",
+      "friend": "Amic/Amiga",
+      "brother": "Germà",
+      "sister": "Germana",
+      "child": "Fill/Filla"
+    },
+    "vehicleType": {
+      "car": "Cotxe",
+      "motorcycles": "Motocicletes",
+      "lorry": "Camió"
+    },
+    "sortBy": {
+      "lowToHigh": "Del Més Baix al Més Alt",
+      "highToLow": "Del Més Alt al Més Baix"
+    },
+    "residentialType": {
+      "flat": "Pis",
+      "apartment": "Apartament",
+      "condominium": "Condomini",
+      "serviceResidence": "Residència de Serveis",
+      "studio": "Estudi",
+      "duplex": "Dúplex",
+      "townhouseCondo": "Condomini Adossat",
+      "condo": "Condomini / Residència de Serveis / Àtic",
+      "house": "Cases",
+      "shoplot": "Local Comercial",
+      "sharing": "Compartir Casa / Pis",
+      "others": "Altres"
+    },
+    "floorRange": {
+      "high": "Alt",
+      "medium": "Mitjà",
+      "low": "Baix"
+    },
+    "furnishings": {
+      "fullyFurnished": "Totalment Moblat",
+      "partiallyFurnished": "Parcialment Moblat",
+      "notFurnished": "Sense Mobles"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Espai d'oficina",
+      "retailSpace": "Espai comercial",
+      "shopLot": "Local comercial",
+      "warehouseFactory": "Magatzem / Fàbrica",
+      "hotelResort": "Hotel / Resort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Altres"
+    },
+    "landPropertyType": {
+      "residential": "Residencial",
+      "industrial": "Industrial",
+      "agricultural": "Agrícola",
+      "commercial": "Comercial",
+      "mixedDevelopment": "Desenvolupament Mixt",
+      "others": "Altres"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Mesos",
+      "oneYear": "1 Any",
+      "oneAndHalfYears": "1.5 Anys",
+      "twoYears": "2 Anys",
+      "twoAndHalfYears": "2.5 Anys"
+    },
+    "dropdownDateFilter": {
+      "daily": "Diari",
+      "weekly": "Setmanal",
+      "monthly": "Mensual",
+      "yearly": "Anual",
+      "custom": "Personalitzat"
+    },
+    "bungalowType": {
+      "modern": "Modern",
+      "cottage": "Casa de Camp",
+      "luxury": "Luxe",
+      "ecoSmart": "Eco / Intel·ligent",
+      "beachSide": "A Vora de Mar",
+      "others": "Altres"
+    }
+  }
+}

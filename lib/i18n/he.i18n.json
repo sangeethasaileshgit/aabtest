@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "he_IL",
+    "languageName": "Hebrew",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "פרופיל",
+    "language": "שפה",
+    "subscriptionPlan": "תוכנית מנוי",
+    "contactUs": "צור קשר",
+    "termsAndConditions": "תנאים והגבלות",
+    "aboutUs": "אודותינו",
+    "logout": "התנתקות",
+    "editProfile": "ערוך פרופיל",
+    "fullName": "שם מלא",
+    "email": "אימייל",
+    "mobileNumber": "מספר נייד",
+    "address": "כתובת",
+    "postalCode": "מיקוד",
+    "city": "עיר",
+    "country": "מדינה",
+    "state": "מחוז/מדינה",
+    "password": "סיסמה",
+    "forgotPassword": "שכחתי סיסמה",
+    "tenant": "שוכר",
+    "landlord": "משכיר",
+    "cancelRenting": "ביטול שכירות",
+    "startDate": "תאריך התחלה",
+    "endDate": "תאריך סיום",
+    "fromDate": "מתאריך",
+    "toDate": "עד תאריך",
+    "online": "אונליין",
+    "bankList": "רשימת בנקים",
+    "withdrawMethod": "שיטת משיכה",
+    "uploadPaymentReceipt": "העלאת קבלה על תשלום",
+    "offlinePaymentNote(rich)": "הערה: ${note(התשלום דורש אישור ידני על ידי המנהל תוך)} ${duraion(24~48 שעות.)}",
+    "reviews": "ביקורות",
+    "description": "תיאור",
+    "about": "אודות",
+    "propertyTypes": "סוגי נכסים",
+    "features": "מאפיינים",
+    "floorPlans": "תוכניות קומה",
+    "buildingDetails": "פרטי בניין",
+    "buildingName": "שם הבניין",
+    "propertyAddress": "כתובת הנכס",
+    "completionYear": "שנת סיום בנייה",
+    "lotNumber": "מספר מגרש",
+    "residentialType": "סוג מגורים",
+    "furnishings": "ריהוט",
+    "floorRange": "טווח קומות",
+    "bedrooms": "חדרי שינה",
+    "bathrooms": "חדרי רחצה",
+    "propertySize": "גודל הנכס",
+    "rentalPeriod": "תקופת שכירות",
+    "securityDeposit": "פיקדון בטחון",
+    "utilityBill": "חשבון שירותים",
+    "facilities": "מתקנים",
+    "amenities": "שירותים/נוחות",
+    "expiringReason": "סיבת פקיעה",
+    "tenantDetails": "פרטי שוכר",
+    "typeOfTenant": "סוג שוכר",
+    "tenantName": "שם השוכר",
+    "nidPassport": "ת.ז./דרכון",
+    "nidPassportId": "תעודת @:common.nidPassport",
+    "tenantId": "מספר שוכר",
+    "dateOfBirth": "תאריך לידה",
+    "gender": "מגדר",
+    "nominee": "מועמד/מיופה כוח",
+    "name": "שם",
+    "optional": "אופציונלי",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "מ' נייד של @:common.nominee",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "איש קשר לשעת חירום",
+    "relation": "קשר",
+    "relationWith": "קשר עם",
+    "relationWithYou": "קשר עם אתה",
+    "company": "חברה",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "מספר SSM של @:common.company",
+    "workplace": "מקום עבודה",
+    "officePhoneNo": "מספר טלפון משרד",
+    "officeMobileNo": "@:common.mobileNumber משרד",
+    "vehicle": "רכב",
+    "vehiclesInfo": {
+      "plain": "פרטי כלי רכב",
+      "optional": "פרטי כלי רכב (@:common.optional)"
+    },
+    "vehiclesType": "סוג @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "מספר רישוי רכב",
+      "short": "מספר רישוי",
+      "alt": "מספר לוחית"
+    },
+    "vehicleBrand": "מותג @:common.vehicle",
+    "rentProperty": "השכרת נכס",
+    "propertyDetails": "פרטי נכס",
+    "propertyId": "מספר נכס",
+    "propertyType": "סוג נכס",
+    "propertyName": "שם הנכס",
+    "paymentDetails": "פרטי תשלום",
+    "monthlyRent": "שכר דירה חודשי",
+    "thisMonthPayment": "תשלום חודש זה",
+    "totalPaidRent": "סך שכר דירה ששולם",
+    "dueRent": "שכר דירה לתשלום",
+    "rentStartDate": "תאריך התחלת שכירות",
+    "rentEndDate": "תאריך סיום שכירות",
+    "status": "סטטוס",
+    "rentAgreementPdf": "חוזה שכירות PDF",
+    "noFile": "אין קובץ",
+    "tenantImageOp": "תמונת שוכר @:common.optional",
+    "addNewVechicle": "הוסף כלי רכב חדשים",
+    "uploadNidPassport": "העלה ת.ז./דרכון",
+    "nidPassportUploadNote": "יתקבלו רק קבצי תמונה. הגבלת קובץ עד 2.5 מגה-בייט.",
+    "search": "חיפוש",
+    "sortBy": "מיין לפי",
+    "subscription": "מנוי",
+    "downloading": "מוריד...",
+    "downloadSuccess": "הקובץ הורד בהצלחה!",
+    "addPropertyBannerTitle": "מעוניין להשכיר את הנכס שלך?",
+    "application": "בקשה",
+    "tenantHasPaidDeposit": "השוכר שילם את הפיקדון.",
+    "askProcessingRentApplication": "האם אתה בטוח שברצונך לעבד בקשה זו להשכרת נכס?",
+    "dateAndTime": "תאריך ושעה",
+    "applicationDetails": "פרטי הבקשה",
+    "depositStatus": "סטטוס פיקדון",
+    "uploadRentAgreement": "העלאת חוזה שכירות",
+    "uploadFilePDF": "העלאת קובץ (PDF)",
+    "askSelectRentAgreement": "אנא בחר קובץ מסמך הסכם.",
+    "landlordRentAgreementPDF": "חוזה שכירות PDF של המשכיר",
+    "tenantRentAgreementPDF": "חוזה שכירות PDF של השוכר",
+    "landlordApplicationApproveNote(rich)": "הערה: ${note(אשר את הבקשה רק לאחר שהשוכר מבצע תשלום פיקדון.)}",
+    "reasonOfRejection": "סיבת הדחייה",
+    "youveRejectedThisApplication": "דחית את הבקשה הזו",
+    "landlordDetails": "פרטי המשכיר",
+    "landlordName": "שם המשכיר",
+    "downloadRentAgreement": "הורדת חוזה שכירות",
+    "acceptTermsConditions(rich)": "קבל ${toc(תנאים והגבלות)}",
+    "tenantAgreementSignNote1(rich)": "הערה: ${note(אנא הורד וקרא את ההסכם. אנא שלח את ההסכם החתום למשכיר באמצעות WhatsApp או אימייל.)}",
+    "tenantAgreementSignNote2(rich)": "הערה: ${note(המשכיר מאשר את הבקשה, כאשר השוכר משלם את הביטחונות, השירותים ותשלום שכר הדירה חודש מראש.)}",
+    "completeRentAgreementPdf(rich)": "חוזה שכירות (PDF) ${complete(הסכם מלא)}",
+    "tenantApplicationDepositNote(rich)": "הערה : ${note(המשכיר מאשר את הבקשה, כאשר השוכר משלם את הביטחונות, השירותים ותשלום שכר הדירה חודש מראש.)}",
+    "whatsapp": "וואטסאפ",
+    "applicationList": "רשימת בקשות",
+    "viewDetails": "צפה בפרטים",
+    "searchHint": "חיפוש @:common.search...",
+    "home": "בית",
+    "dashboard": "לוח מחוונים",
+    "tenants": "שוכרים",
+    "maintenance": "תחזוקה",
+    "maintenanceList": "רשימת תחזוקה",
+    "maintenanceReport": "דוח תחזוקה",
+    "labor": "כוח אדם",
+    "applications": "בקשות",
+    "rentInvitation": "הזמנה לשכירות",
+    "payment": "תשלום",
+    "rentPayment": "תשלום שכר דירה",
+    "depositUtilityPayment": "תשלום פיקדון ושירותים",
+    "refundRequest": "בקשת החזר",
+    "withdrawRequest": "בקשת משיכה",
+    "myProperty": "הנכס שלי",
+    "myRent": "השכירות שלי",
+    "wishlist": "רשימת מועדפים",
+    "properties": "נכסים",
+    "allProperties": "כל הנכסים",
+    "totalPropery": "סך הנכסים",
+    "occupied": "תפוס",
+    "vacant": "פנוי",
+    "accounting": "חשבונאות",
+    "totalIncome": "סך הכנסה",
+    "totalExpense": "סך הוצאה",
+    "currentBalance": "יתרה נוכחית",
+    "totalWithdrawal": "סך (משיכה)",
+    "totalProperties": "סך הנכסים",
+    "totalTenant": "סך השוכרים",
+    "totalRentPaid": "סך שכר דירה ששולם",
+    "totalRentDue": "סך שכר דירה לתשלום",
+    "totalApplication": "סך הבקשות",
+    "pendingApplication": "בקשה ממתינה",
+    "processingApplication": "בקשה בעיבוד",
+    "approveApplication": "אישור בקשה",
+    "rejectApplication": "דחיית בקשה",
+    "maintenanceCost": "עלות תחזוקה",
+    "transactionSummary": "סיכום עסקאות",
+    "maintenanceRequest": "בקשת תחזוקה",
+    "notifications": "התראות",
+    "myProperties": "הנכסים שלי",
+    "recommendationProperties": "נכסים מומלצים",
+    "laborList": "רשימת כוח אדם",
+    "addLabor": "הוסף כוח אדם",
+    "laborDetails": "פרטי כוח אדם",
+    "laborSalary": "שכר כוח אדם",
+    "editLabor": "ערוך כוח אדם",
+    "addNewLabor": "הוסף כוח אדם חדש",
+    "enterAmount": "הזן סכום",
+    "maintenanceDetails": "פרטי תחזוקה",
+    "laborName": "שם כוח האדם",
+    "comment": "הערה/תגובה",
+    "image": "תמונה",
+    "complete": "הושלם",
+    "details": "פרטים",
+    "title": "כותרת",
+    "date": "תאריך",
+    "reason": "סיבה",
+    "edit": "עריכה",
+    "property": "נכס",
+    "completeYourProfile": "השלם את הפרופיל שלך",
+    "profileImage": "תמונת פרופיל",
+    "imagePickHint": "תמונות JPEG ו-PNG בלבד בגודל מקסימלי של 120x120 פיקסלים.",
+    "invoiceId": "מספר חשבונית",
+    "depositAmount": "סכום פיקדון",
+    "landlordPhone": "טלפון המשכיר",
+    "rentalAdvance": "שכר דירה (מקדמה)",
+    "totalAmount": "סכום כולל",
+    "rentAmount": "סכום שכר הדירה",
+    "adminCharge": "דמי ניהול",
+    "editAccount": "ערוך חשבון",
+    "addNewAccount": "הוסף חשבון חדש",
+    "transactionId": "מספר עסקה",
+    "transactionType": "סוג עסקה",
+    "requestDate": "תאריך בקשה",
+    "amount": "סכום",
+    "fee": "עמלה",
+    "paymentStatus": "סטטוס תשלום",
+    "generatedTime": "זמן יצירה",
+    "systemGeneratedReportHint(rich)": "זהו דוח שנוצר על ידי המערכת של ${appName}",
+    "withdrawHistory": "היסטוריית משיכות",
+    "history": "היסטוריה",
+    "withdrawAmount": "סכום משיכה",
+    "availableBalance": "יתרה זמינה",
+    "withdrawCharge": "דמי משיכה",
+    "paymentMethod": "שיטת תשלום",
+    "requestSendSuccess": "הבקשה נשלחה בהצלחה!",
+    "paymentReceiptSubmitSuccess": "קבלה על תשלום נשלחה בהצלחה.",
+    "refundReason": "סיבת ההחזר",
+    "note": "הערה",
+    "refundReceiveSuccess": "ההחזר התקבל בהצלחה.",
+    "downloadPaymentReceipt": "הורדת קבלה על תשלום",
+    "invoice": "חשבונית",
+    "selectPropertyToSeeInvoice": "בחר נכס כדי לראות את מספר החשבונית...",
+    "bankAccName": "שם חשבון הבנק",
+    "bankName": "שם הבנק",
+    "bankAccNum": "מספר חשבון בנק",
+    "thankYou": "תודה!",
+    "basicInfo": "מידע בסיסי",
+    "descriptionPricing": "תיאור ותמחור",
+    "contact": "איש קשר",
+    "photos": "תמונות",
+    "successfullySubmitted": "נשלח בהצלחה!",
+    "editProperty": "ערוך נכס",
+    "addNewProperty": "הוסף נכס חדש",
+    "propertyManageRequestSuccess": "המודעה שלך נשלחה לבדיקה.",
+    "postAnotherProperty": "פרסם נכס נוסף",
+    "browseYourProperty": "דפדף בנכס שלך",
+    "stepIndicator(rich)": "שלב ${step} מתוך ${totalSteps}",
+    "whatWouldYouLikeToPost": "מה תרצה לפרסם?",
+    "category": "קטגוריה",
+    "invalidCategory": "קטגוריה לא חוקית",
+    "unitNumber": "מספר יחידה",
+    "sqft": "רגל מרובע",
+    "propertySizeMustBeGreaterThan0": "גודל הנכס חייב להיות גדול מאפס",
+    "whatAreTheFacility": "מהם המתקנים?",
+    "whatAreTheAmenity": "מהם השירותים/נוחות?",
+    "parkingLot": "מגרש חניה",
+    "houseType": "סוג בית",
+    "value": "ערך",
+    "unitLotSize": "גודל יחידה / מגרש",
+    "landSize": "גודל קרקע",
+    "acres": "אקר(ים)",
+    "roomSize": "גודל חדר",
+    "askTenantPreference": "מהי העדפת השוכר שלך?",
+    "couple": "זוג",
+    "describeTheProperty": "תאר את ${propertyType: String}",
+    "adTitle": "כותרת מודעה",
+    "minimumRentalPeriod": "תקופת שכירות מינימלית",
+    "whatsappNumber": "מספר @:common.whatsapp",
+    "hideOrDisplayEmail": "הסתר או הצג כתובת אימייל",
+    "thankYouForPostingProperty": "תודה שפרסמת ב- ${appName: String}!",
+    "propertyList": "רשימת נכסים",
+    "newInviteRent": "הזמנה חדשה לשכירות",
+    "rentAgreement": "חוזה שכירות",
+    "rentDetails": "פרטי שכירות",
+    "landlordRentInvitationPendingNote(rich)": "הערה: ${note(אנא המתן עד שהשוכר יקבל את ההזמנה.)}",
+    "rent": "שכר דירה",
+    "editTenant": "ערוך שוכר",
+    "addNewTenant": "הוסף שוכר חדש",
+    "shareInstallLink": "שתף קישור להתקנה",
+    "tenantList": "רשימת שוכרים",
+    "editMaintenanceRequest": "ערוך בקשת תחזוקה",
+    "addNewMaintenance": "הוסף תחזוקה חדשה",
+    "landlordId": "מספר משכיר",
+    "tenantAgrementUnderReviewNote(rich)": "הערה ${note(ההסכם שלך בבדיקה. אנא המתן עד שהמשכיר יאשר את השכירות שלך.)}",
+    "editReview": "ערוך ביקורת",
+    "writeAReview": "כתוב ביקורת",
+    "selectRating": "בחר דירוג",
+    "enterYourOpinion": "הזן את דעתך",
+    "askToEnterReviewMsg": "אנא הזן הודעת ביקורת",
+    "pressBackAgainToExit": "לחץ שוב על חזור כדי לצאת.",
+    "selectPaymentMethod": "בחר שיטת תשלום",
+    "filter": "סינון",
+    "perMonth": "/1 חודש",
+    "searchHintWithAppName": "חפש כל דבר ב- ${appName: String}...",
+    "propertyInfo": "מידע על הנכס",
+    "units": "יחידות",
+    "depositPeriod": "תקופת פיקדון",
+    "facilitiesList": "רשימת מתקנים",
+    "facility": "מתקן",
+    "amenity": "שירות/נוחות",
+    "amenitiesList": "רשימת שירותים/נוחות",
+    "addNewFacility": "הוסף מתקן חדש",
+    "editFacility": "ערוך מתקן",
+    "facilityName": "שם המתקן",
+    "amenityName": "שם השירות/נוחות",
+    "addNewAmenity": "הוסף שירות/נוחות חדש",
+    "editAmenity": "ערוך שירות/נוחות",
+    "family": "משפחה",
+    "lateFee": "קנס איחור",
+    "lateFeeAfterDays": "קנס @:common.lateFee לאחר (ימים)",
+    "propertyPricing": "תמחור ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "תודה רבה שפרסמת את הנכס שלך",
+    "titleAndDescription": "כותרת ותיאור",
+    "rentPricing": "תמחור שכירות",
+    "step": "שלב",
+    "of": "מתוך",
+    "pricing": "תמחור",
+    "sameRentForAllUnit": "אותו שכר דירה לכל היחידות",
+    "unit": "יחידה",
+    "pleaseSelectAnUnitFirst": "אנא בחר יחידה קודם.",
+    "saleAmount": "סכום מכירה",
+    "selectCategory": "בחר קטגוריה",
+    "pleaseSelectACategory": "אנא בחר קטגוריה",
+    "pleaseEnterAdTitle": "אנא הזן כותרת מודעה",
+    "addCoverPhoto": "הוסף תמונת שער",
+    "findAProperty": "מצא נכס",
+    "categories": "קטגוריות",
+    "recmmendedProperties": "נכסים מומלצים",
+    "recentSearch": "חיפוש אחרון",
+    "pleaseEnterYourAccountNumber": "אנא הזן את מספר החשבון שלך.",
+    "pleaseSelectALanguageToContinue": "אנא בחר שפה כדי להמשיך.",
+    "subscribe": "הירשם",
+    "noFacilitiesFound": "לא נמצאו מתקנים!",
+    "invalidLaborDetailsPleaseTryAgain": "פרטי כוח אדם לא חוקיים, אנא נסה שוב",
+    "maintenanceWork": "עבודת תחזוקה",
+    "selectLabor": "בחר כוח אדם",
+    "enterMaintenanceCost": "הזן עלות תחזוקה",
+    "pleaseEnterMaintenanceCost": "אנא הזן עלות תחזוקה",
+    "writeComment": "כתוב הערה/תגובה",
+    "maintenancePending": "תחזוקה ממתינה",
+    "yourEarnings": "הרווחים שלך",
+    "totalPaid": "סה\"כ שולם",
+    "linkANewBankAccount": "קשר חשבון בנק חדש",
+    "payoutRequest": "בקשת תשלום"
+  },
+  "exceptions": {
+    "somethingWentWrong": "משהו השתבש, אנא נסה שוב",
+    "noNidPassport": "לא סופקה תמונת ת.ז./דרכון.",
+    "noRentPropertyFound": "לא נמצא נכס שכירות עבור שוכר זה.",
+    "noPropertyFoundWithKeyWord": "לא נמצא נכס!\nאנא נסה עם מילות מפתח שונות",
+    "noSubscriptionFoundRefreshPage": "לא נמצאה תוכנית מנוי!\nאנא רענן את העמוד ונסה שוב.",
+    "invalidApiDataRefreshPage": "פרטי ${dataType: String} לא חוקיים! אנא רענן את העמוד ונסה שוב.",
+    "invalidDownloadUrl": "כתובת URL לא חוקית להורדה!",
+    "failedToSaveFile": "נכשל שמירת הקובץ! ${error: String}",
+    "errorOpeningFile": "שגיאה בפתיחת הקובץ! ${error: String}",
+    "noVehicleInfoProvided": "לא סופקו פרטי רכב.",
+    "yourApplicationRejected": "הבקשה שלך נדחתה",
+    "noApplicationFoundHint": {
+      "template": "לא נמצאה בקשה!\n${subject: String} יוצג כאן כשהוא יהיה זמין.",
+      "subjects": {
+        "tenant": "הבקשה שלך",
+        "landlord": "הבקשה של השוכר"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "לא נמצא נכס!\nאנא נסה להוסיף נכס כדי לראות כאן.",
+      "tenantRecommended": "לא נמצאו נכסים מומלצים\nאנא נסה שוב מאוחר יותר.",
+      "tenantAllProperty": "נכסים לא זמינים\nאנא נסה שוב מאוחר יותר."
+    },
+    "noImageProvided": "לא סופקה תמונה",
+    "noStatusMaintenantFound": {
+      "landlord": "לא נמצאה תחזוקה בסטטוס ${status}.",
+      "tenant": "לא נמצאה תחזוקה! תוכל ליצור בקשת תחזוקה כדי לראות אותה כאן."
+    },
+    "noDepositFound": "לא נמצא פיקדון בטחון!\nאנא ראה את פיקדונות הביטחון כאשר הם יהיו זמינים",
+    "noRentPaymentFound": "לא נמצא תשלום שכר דירה!\nאנא ראה את תשלומי שכר הדירה כאשר הם יהיו זמינים",
+    "transactionSummaryApiException": "נכשל בקבלת סיכום העסקאות.",
+    "noWithdrawRequestFound": "לא נמצאה בקשה!\nאנא נסה ליצור בקשת משיכה כדי לראות אותה כאן.",
+    "withdrawRequestNotApproved": "בקשת משיכה זו לא אושרה!.",
+    "nonZeroError": "אנא הזן סכום חוקי הגדול מאפס.",
+    "minAmountError": "הסכום חייב להיות לפחות ${minValue: String}.",
+    "maxAmountError": "הסכום לא יכול לעלות על ${maxValue: String}.",
+    "selectPaymentMethodHint": "אנא בחר שיטת תשלום קודם.",
+    "noStatusRefundReqFound": {
+      "landlord": "לא נמצאה בקשת החזר בסטטוס ${status}!\nתוכל לראות בקשת החזר כאן כשתהיה זמינה.",
+      "tenant": "לא נמצאה בקשת החזר!\nתוכל ליצור בקשת החזר כדי לראות אותה כאן."
+    },
+    "refundRequestHint": {
+      "inTenantList": "השוכר יאשר את ההחזר כאשר יקבל את הכסף בחזרה",
+      "tenantReqSuccess": "אנו נבדוק את בקשת ההחזר ונאשר אותה תוך 24 שעות."
+    },
+    "oneToTenRequiredField": "אנא בחר את המספר של ${value: String}",
+    "invalidDateRange": "טווח תאריכים לא חוקי.",
+    "valueMustBeGreaterThanZero": "${value: String} חייב להיות גדול מאפס.",
+    "editProperty": {
+      "rentalChange": "נכס השכירות משתנה. הוא חייב להיות תקף (אפקטיבי) רק לתשלום שכר הדירה של החודש הבא.",
+      "deleteOnRent": "הנכס שלך כבר מושכר לשוכר. לא ניתן למחוק אותו עד שתסיר את השוכר קודם",
+      "alreayRented": "נכס זה כבר מושכר. אנא נסה שוב מאוחר יותר.\nאו שאתה יכול ליצור קשר עם המשכיר למידע נוסף."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "לא נמצאה הזמנה לשכירות!\nאנא נסה ליצור הזמנה לשכירות כדי לראות אותה כאן.",
+      "tenantNoRentInvitation": "לא נמצאה הזמנה לשכירות!\nתוכל לראות הזמנה לשכירות כאן כשתהיה זמינה."
+    },
+    "notenantFoundList": "אין שוכרים!\nאנא נסה להוסיף שוכר כדי לראות כאן.",
+    "noFeaturesProvided": "לא סופקו מאפיינים.",
+    "noNotificationFound": "אין התראות זמינות.\nתוכל לראות את ההתראות שלך כאן כשהן יהיו זמינות.",
+    "noFacilitiesFound": "לא נמצאו מתקנים.",
+    "noAmenitiesFound": "לא נמצאו שירותים/נוחות!",
+    "noLaborFound": "לא נמצא כוח אדם\nאנא נסה שוב מאוחר יותר.",
+    "areYouSureYouWantToRemoveThisUnit": "האם אתה בטוח שברצונך להסיר יחידה זו?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "האם אתה בטוח שברצונך להתנתק?"
+    },
+    "application": {
+      "rejectTitle": "מדוע אתה דוחה בקשה זו?",
+      "applicationSent": {
+        "successfully": "הבקשה נשלחה בהצלחה!",
+        "sucessDescription": "תוכל לראות בקשה זו ברשימת הבקשות שלך"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "מחיקת כוח אדם?",
+        "description": "האם אתה בטוח שברצונך למחוק כוח אדם זה?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "מדוע בקשה זו נדחית?",
+      "processTitle": "האם אתה בטוח שברצונך לעבד בקשת תחזוקה זו?",
+      "completeTitle": "העבודה הושלמה?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "מחיקת שיטת משיכה?",
+      "deleteDescription": "האם אתה בטוח שברצונך למחוק שיטת משיכה זו?"
+    },
+    "unsavedChanges": {
+      "title": "האם אתה בטוח שברצונך לחזור אחורה?",
+      "message": "שדות ששונו לא יישמרו!"
+    },
+    "property": {
+      "delete": {
+        "title": "מחיקת נכס?",
+        "message": "האם אתה בטוח שברצונך למחוק נכס זה?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "האם אתה בטוח שברצונך לאשר שכירות זו?",
+        "description": "ודא שבחנת את ההסכם שנחתם על ידי השוכר."
+      },
+      "tenantAccept": {
+        "title": "האם אתה בטוח שברצונך לקבל הזמנה זו?",
+        "description": "ודא שהורדת את קובץ ה-PDF של ההסכם!"
+      }
+    },
+    "sessionExpired": {
+      "title": "הסשן פג תוקף",
+      "message": "הסשן שלך פג תוקף. אנא היכנס שוב",
+      "action": "כניסה"
+    },
+    "noInternet": {
+      "title": "אין חיבור לאינטרנט",
+      "message": "אנא בדוק את חיבור ה-Wi-Fi או הרשת הניידת שלך ונסה שוב",
+      "action": "נסה שוב"
+    },
+    "permissionHandler": {
+      "title": "נדרשת הרשאה!",
+      "message": "עליך להעניק הרשאות בהגדרות האפליקציה. האם תרצה לפתוח את ההגדרות עכשיו?"
+    },
+    "imagePicker": {
+      "title": "בחר אפשרות",
+      "gallery": "גלריה",
+      "camera": "מצלמה"
+    },
+    "verificationDialog": {
+      "title": "אמת את האימייל שלך",
+      "message": "שלחנו אימייל עם קוד אימות",
+      "messageWithEmail": "@:prompt.verificationDialog.message אל ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "לנקות התראות?",
+      "clearMessage": "האם אתה בטוח שברצונך לנקות את כל ההתראות?"
+    },
+    "genericDeletePrompt": {
+      "title": "האם אתה רוצה למחוק את ${item: String} זה"
+    },
+    "subscriptionModal": {
+      "title": "תוקף המנוי פג!",
+      "message": "אנא הירשם כדי להמשיך."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "הזן @:common.fullName",
+      "errors": {
+        "required": "אנא הזן את @:common.fullName שלך"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "הזן את @:common.email שלך",
+      "errors": {
+        "required": "אנא הזן את כתובת ה-@:common.email שלך",
+        "invalid": "⦸ אימייל לא חוקי, אנא נסה שוב"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "אנא הזן את @:common.password שלך",
+        "minLength": "הסיסמה חייבת להיות באורך של לפחות ${count} תווים!"
+      }
+    },
+    "confirmPassword": {
+      "label": "אשר @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "אנא הזן את @:common.password שלך",
+        "notMatched": "אישור הסיסמה אינו תואם!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "אנא הזן את @:common.mobileNumber שלך"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "מספר בית ושם רחוב",
+      "errors": {
+        "required": "אנא הזן את @:form.address1.label שלך"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "דירה, סוויטה, יחידה, וכו'",
+      "errors": {
+        "required": "אנא הזן את @:form.address2.label שלך"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "הזן @:common.postalCode",
+      "errors": {
+        "required": "אנא הזן את @:common.postalCode שלך"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "הזן שם @:common.city.",
+      "errors": {
+        "required": "אנא הזן את שם @:common.city שלך."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "הזן שם @:common.state.",
+      "errors": {
+        "required": "אנא הזן את שם @:common.state שלך."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "בחר @:common.country.",
+      "errors": {
+        "required": "אנא בחר את @:common.country שלך"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "אנא הזן את ה-OTP.",
+        "invalid": "אנא הזן OTP נכון."
+      }
+    },
+    "title": {
+      "label": "כותרת",
+      "hint": "הזן כותרת",
+      "errors": {
+        "required": "אנא הזן כותרת"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "בחר @:form.date.label",
+      "errors": {
+        "required": "אנא בחר @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "סיבה",
+      "hint": "הזן סיבה",
+      "errors": {
+        "required": "אנא הזן סיבה"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "בחר @:common.withdrawMethod",
+      "errors": {
+        "required": "אנא בחר @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "העלה ${label: String}",
+      "errors": {
+        "required": "אנא בחר ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "הזן @:form.note.label",
+      "errors": {
+        "required": "אנא הזן @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "בחר @:common.gender",
+      "errors": {
+        "required": "אנא בחר @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "הזן @:form.anyField.label",
+      "errors": {
+        "required": "אנא הזן @:form.anyField.label",
+        "invalid": "אנא הזן @:form.anyField.label חוקי"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "בחר @:form.anyDropdown.label",
+      "errors": {
+        "required": "אנא בחר @:form.anyDropdown.label",
+        "invalid": "אנא בחר @:form.anyDropdown.label חוקי"
+      }
+    }
+  },
+  "action": {
+    "next": "הבא",
+    "getStarted": "התחל",
+    "skip": "דלג",
+    "select": "בחר",
+    "save": "שמור",
+    "signIn": "התחבר",
+    "signUp": "הירשם",
+    "continue": "המשך",
+    "clearAll": "נקה הכל",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "שלח",
+    "pay": "שלם",
+    "remove": "הסר",
+    "goBack": "חזור",
+    "buyNow": "קנה עכשיו",
+    "no": "לא",
+    "open": "פתח",
+    "addProperty": "הוסף נכס",
+    "process": "בצע עיבוד",
+    "approve": "אשר",
+    "reject": "דחה",
+    "viewRent": "צפה בשכירות",
+    "openNavigationMenu": "פתח תפריט ניווט",
+    "seeAll": "ראה הכל",
+    "update": "עדכן",
+    "printTransaction": "הדפס עסקה",
+    "payoutRequest": "בקשת תשלום",
+    "addNew": "+ הוסף חדש",
+    "sendRequest": "שלח בקשה",
+    "print": "הדפס",
+    "requestForRefund": "בקש החזר",
+    "previous": "קודם",
+    "delete": "מחק",
+    "applyProperty": "הגש מועמדות לנכס",
+    "viewApplication": "צפה בבקשה",
+    "inviteTenant": "הזמן שוכר",
+    "inviteRent": "הזמן לשכירות",
+    "cancel": "בטל",
+    "accept": "קבל",
+    "submit": "שלח",
+    "yes": "כן",
+    "okay": "בסדר",
+    "confirm": "אשר",
+    "apply": "החל",
+    "reset": "אפס",
+    "retry": "נסה שוב",
+    "viewAll": "צפה בכולם",
+    "addMore": "הוסף עוד",
+    "done": "בוצע"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "מצא את הנכס שלך",
+          "description": "הפכנו את זה לקלי קלות למצוא מקום שמתאים לחייך — בין אם זו חדר, דירה או בית."
+        },
+        "data2": {
+          "title": "דירה בעיר",
+          "description": "אנו חוסכים לך זמן על ידי התאמה מהירה לנכס המושלם לפני שהוא נעלם, כדי שתוכל ליהנות מביתך החדש, או לפרסם את הנכס שלך בחינם."
+        },
+        "data3": {
+          "title": "בית הנוחות שלך",
+          "description": "אם אתה מחפש מקום מגורים, עיין בבתים שלנו להשכרה. יש לנו מגוון רחב של בתים לבחירתך מכל רחבי הארץ."
+        }
+      }
+    },
+    "signIn": {
+      "title": "ברוך השב",
+      "subtitle": "התחבר עכשיו כדי להתחיל במסע מדהים.",
+      "extra": {
+        "rememberMe": "זכור אותי",
+        "signUpNavigator(rich)": "אין לך חשבון? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "שכחתי סיסמה",
+      "subtitle": "הזן את כתובת האימייל שלך כדי לשחזר את הסיסמה."
+    },
+    "otpVerification": {
+      "title": "אימות",
+      "subtitle": "קוד אימות (PIN) בן 6 ספרות נשלח לכתובת האימייל שלך. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "קוד נשלח תוך ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(שלח קוד מחדש)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "איפוס סיסמה",
+      "subtitle": "אפס את הסיסמה שלך לשחזור והתחבר לחשבונך",
+      "extra": {
+        "dialog": {
+          "title": "השתנה בהצלחה!",
+          "subtitle": "התחבר עם הסיסמה החדשה שלך.\n מפנה אותך להתחברות..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "צור חשבון",
+      "subtitle": "הירשם עכשיו כדי להתחיל במסע מדהים",
+      "extra": {
+        "signInNavigator(rich)": "יש לך חשבון? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "מי אתה?",
+      "subtitle": "אנא בחר באפשרות למטה.",
+      "extra": {
+        "landlordTag": "נהל את הנכסים שלך",
+        "tenantTag": "התחבר לחשבון השכירות שלך"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "התראות"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "הודעה..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "מדוע אתה @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "כתוב סיבה",
+          "errors": {
+            "required": "אנא הזן את הסיבה לביטול השכירות"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "תשלום לא מקוון",
+      "form": {
+        "paymentNote": {
+          "label": "הערת תשלום (@:common.optional)",
+          "hint": "הזן טקסט כלשהו..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "סכום לתשלום: ${amount}",
+        "accountHolderName": "שם בעל החשבון",
+        "accountNumber": "מספר חשבון",
+        "swiftCode": "קוד סוויפט",
+        "branch": "סניף",
+        "fileTypeHint(rich)": "בחר קבצי פורמט ${fileType(JPG, PNG,PDF)} או ${fileType(DOC)} בלבד. גודל קובץ ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "צפה בחשבונית",
+        "title": "@:common.thankYou",
+        "description": "אנו נבדוק את התשלום ונאשר אותו תוך 24 שעות."
+      },
+      "fail": {
+        "actionButton": "נסה שוב",
+        "title": "אופס! התשלום נכשל",
+        "description": "העסקה שלך נכשלה עקב שגיאה טכנית."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "מאפיינים ${fa((מתקנים ושירותים))}",
+        "selectRentalPeriod": "בחר תקופת שכירות",
+        "writeAReview": "+ כתוב ביקורת"
+      }
+    },
+    "search": {
+      "appbarTitle": "חיפוש",
+      "extra": {
+        "hint": "חפש מגרשים, דירות, חדרים...",
+        "noRecentSearch": "אין לך חיפושים אחרונים."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "בחר את התוכנית שלך",
+      "extra": {
+        "subscriptionPaymentSuccess": "תשלום המנוי בוצע בהצלחה.\nבאפשרותך לגשת כעת לתכונות המנויות."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "עלות תחזוקה כוללת: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "כל הנכסים",
+      "pending": "ממתין",
+      "active": "פעיל",
+      "inactive": "לא פעיל",
+      "rejected": "נדחה"
+    },
+    "propertyType": {
+      "rent": "שכירות",
+      "sale": "מכירה"
+    },
+    "propertyCategory": {
+      "apartment": "דירה",
+      "house": "בית",
+      "commercial": "מסחרי",
+      "land": "קרקע",
+      "room": "חדר",
+      "unitOrFlat": "יחידה / דירה",
+      "bungalow": "בונגלו",
+      "plot": "מגרש"
+    },
+    "applicationStatus": {
+      "all": "הכל",
+      "pending": "ממתין",
+      "processing": "בתהליך",
+      "approved": "אושר",
+      "rejected": "נדחה"
+    },
+    "myRentStatus": {
+      "pending": "ממתין",
+      "processing": "בתהליך",
+      "active": "פעיל",
+      "expired": "פג תוקף",
+      "cancelled": "בוטל"
+    },
+    "maintenanceStatus": {
+      "pending": "ממתין",
+      "processing": "בתהליך",
+      "rejected": "נדחה",
+      "completed": "הושלם"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "פרטי (אדם)",
+      "company": "חברה"
+    },
+    "tenantType": {
+      "newTenant": "שוכר חדש",
+      "activeTenant": "שוכר פעיל",
+      "expiredTenant": "שוכר שפג תוקפו"
+    },
+    "paymentStatus": {
+      "all": "הכל",
+      "pending": "ממתין",
+      "paid": "שולם",
+      "unpaid": "לא שולם",
+      "rejected": "נדחה",
+      "refund": "החזר כספי"
+    },
+    "paymentOptions": {
+      "onlinePayment": "תשלום מקוון",
+      "offlinePayment": "תשלום לא מקוון"
+    },
+    "paymentType": {
+      "securityDeposit": "פיקדון ביטחון",
+      "rentPayment": "תשלום שכר דירה",
+      "subscription": "מנוי"
+    },
+    "gender": {
+      "male": "זכר",
+      "female": "נקבה",
+      "other": "אחר"
+    },
+    "ecRelation": {
+      "wife": "אישה",
+      "parent": "הורה",
+      "friend": "חבר",
+      "brother": "אח",
+      "sister": "אחות",
+      "child": "ילד"
+    },
+    "vehicleType": {
+      "car": "מכונית",
+      "motorcycles": "אופנועים",
+      "lorry": "משאית"
+    },
+    "sortBy": {
+      "lowToHigh": "נמוך לגבוה",
+      "highToLow": "גבוה לנמוך"
+    },
+    "residentialType": {
+      "flat": "דירה",
+      "apartment": "דירה",
+      "condominium": "קונדומיניום",
+      "serviceResidence": "דירת שירות",
+      "studio": "סטודיו",
+      "duplex": "דופלקס",
+      "townhouseCondo": "בית עירוני/קונדו",
+      "condo": "קונדו/דירת שירות/פנטהאוז",
+      "house": "בתים",
+      "shoplot": "חנות/מגרש מסחרי",
+      "sharing": "שיתוף בית/דירה",
+      "others": "אחרים"
+    },
+    "floorRange": {
+      "high": "גבוה",
+      "medium": "בינוני",
+      "low": "נמוך"
+    },
+    "furnishings": {
+      "fullyFurnished": "מרוהט לחלוטין",
+      "partiallyFurnished": "מרוהט חלקית",
+      "notFurnished": "לא מרוהט"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "שטח משרדים",
+      "retailSpace": "שטח קמעונאי",
+      "shopLot": "חנות/מגרש מסחרי",
+      "warehouseFactory": "מחסן / מפעל",
+      "hotelResort": "מלון / אתר נופש",
+      "sofo": "סופו (SOFO)",
+      "soho": "סוהו (SOHO)",
+      "sovo": "סובו (SOVO)",
+      "others": "אחרים"
+    },
+    "landPropertyType": {
+      "residential": "מגורים",
+      "industrial": "תעשייתי",
+      "agricultural": "חקלאי",
+      "commercial": "מסחרי",
+      "mixedDevelopment": "פיתוח מעורב",
+      "others": "אחרים"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 חודשים",
+      "oneYear": "שנה אחת",
+      "oneAndHalfYears": "1.5 שנים",
+      "twoYears": "שנתיים",
+      "twoAndHalfYears": "2.5 שנים"
+    },
+    "dropdownDateFilter": {
+      "daily": "יומי",
+      "weekly": "שבועי",
+      "monthly": "חודשי",
+      "yearly": "שנתי",
+      "custom": "מותאם אישית"
+    },
+    "bungalowType": {
+      "modern": "מודרני",
+      "cottage": "קוטג'",
+      "luxury": "יוקרה",
+      "ecoSmart": "אקו / חכם",
+      "beachSide": "צד חוף",
+      "others": "אחרים"
+    }
+  }
+}

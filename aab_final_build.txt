@@ -1,0 +1,43 @@
+Running Gradle task 'bundleRelease'...                          
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android}
+Attempting to read last messages from the daemon log...
+Daemon pid: 5940
+  log file: C:\Users\sange\.gradle\daemon\8.11.1\daemon-5940.out.log
+----- Last 20 lines from daemon log file - daemon-5940.out.log -----
+2026-03-10T20:51:09.248-0400 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 30: received class org.gradle.launcher.daemon.protocol.Build
+2026-03-10T20:51:09.249-0400 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 30: Received non-IO message from client: Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android}
+2026-03-10T20:51:09.249-0400 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android}.
+2026-03-10T20:51:09.250-0400 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android} with connection: socket connection from /127.0.0.1:61698 to /127.0.0.1:61699.
+2026-03-10T20:51:09.262-0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:61698 to /127.0.0.1:61699] after 0.011283333333333334 minutes of idle
+2026-03-10T20:51:09.263-0400 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [bfc7f605-d90c-4a6d-b822-2de3bb255e44 port:61698, addresses:[localhost/127.0.0.1]]
+2026-03-10T20:51:09.263-0400 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [bfc7f605-d90c-4a6d-b822-2de3bb255e44 port:61698, addresses:[localhost/127.0.0.1]]
+2026-03-10T20:51:09.266-0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-03-10T20:51:09.267-0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-03-10T20:51:09.277-0400 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-03-10T20:51:09.279-0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-03-10T20:51:09.279-0400 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-03-10T20:51:09.282-0400 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=bd654808-1079-4329-93ea-8ddc9c6dde95, currentDir=C:\Users\sange\Desktop\appdevelopment\NewTACApp\Rentpro_app\Rentpro_app_codecanyon-2.0.0\android}. Dispatching build started information...
+2026-03-10T20:51:09.283-0400 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 32: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@6238014a
+2026-03-10T20:51:09.299-0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [PATH, USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SYSTEMDRIVE, GIT_MERGE_AUTOEDIT, POWERSHELL_EXECUTABLE, GIT_PAGER, SESSIONNAME, ALLUSERSPROFILE, PLATFORMCODE, PROCESSOR_ARCHITECTURE, VSCODE_GIT_IPC_HANDLE, DRIVERDATA, PROGRAMFILES, VSCODE_INJECTION, PSMODULEPATH, COLORTERM, EFC_6384, PROGRAMDATA, DIRNAME, USERNAME, VSCODE_GIT_ASKPASS_NODE, TERM_PROGRAM_VERSION, CMD_LINE_ARGS, GIT_ASKPASS, CHROME_CRASHPAD_PIPE_NAME, EXIT_WITH_ERRORLEVEL, VSCODE_STABLE, FPS_BROWSER_USER_PROFILE_STRING, ONEDRIVE, APP_HOME, MINGIT_PATH, PATHEXT, ONEDRIVECONSUMER, SNAPSHOT_PATH, VSCODE_A11Y_MODE, REGIONCODE, SHARED_BIN, WINDIR, HOMEPATH, VSCODE_PREVENT_SHELL_HISTORY, PROCESSOR_IDENTIFIER, PUBLIC, CACHE_DIR, _SKIP, LOCALAPPDATA, COMMONPROGRAMFILES(X86), USERDOMAIN, DART_SDK_PATH, FPS_BROWSER_APP_PROFILE_STRING, LOGONSERVER, JAVA_HOME, FLUTTER_TOOLS_DIR, PROMPT, GIT_EDITOR, PROGRAMFILES(X86), FLUTTER_ROOT, LANG, ONLINESERVICES, VSCODE_GIT_ASKPASS_MAIN, =C:, APPDATA, PROGRAMW6432, SYSTEMROOT, JAVA_EXE, VSCODE_GIT_ASKPASS_EXTRA_ARGS, DART, OS, TERM_PROGRAM, COMMONPROGRAMW6432, COMPUTERNAME, COMMONPROGRAMFILES, COMSPEC, PROCESSOR_REVISION, CLASSPATH, VSCODE_NONCE, APP_BASE_NAME, TEMP, FLUTTER_ALREADY_LOCKED, HOMEDRIVE, USERPROFILE, TMP, NUMBER_OF_PROCESSORS]
+2026-03-10T20:51:09.326-0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-03-10T20:51:09.327-0400 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 5940). The daemon log file: C:\Users\sange\.gradle\daemon\8.11.1\daemon-5940.out.log
+2026-03-10T20:51:09.331-0400 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting build in new daemon [memory: 512 MiB]
+2026-03-10T20:51:09.342-0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-03-10T20:51:09.343-0400 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=521566d7-ae1a-45ef-9a5d-64ac6695c9ce,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\sange\.gradle\daemon,pid=5940,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=256M,-XX:+HeapDumpOnOutOfMemoryError,-Xmx512M,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]----- End of the daemon log -----
+
+JVM crash log found: file:///C:/Users/sange/Desktop/appdevelopment/NewTACApp/Rentpro_app/Rentpro_app_codecanyon-2.0.0/android/hs_err_pid5940.log
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+Running Gradle task 'bundleRelease'...                           2291.1s
+Gradle task bundleRelease failed with exit code 1
+BUILD_FAILED 

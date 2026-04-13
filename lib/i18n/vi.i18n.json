@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "vi_VN",
+    "languageName": "Tiếng Việt",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Hồ sơ",
+    "language": "Ngôn ngữ",
+    "subscriptionPlan": "Gói đăng ký",
+    "contactUs": "Liên hệ chúng tôi",
+    "termsAndConditions": "Điều khoản & Điều kiện",
+    "aboutUs": "Về chúng tôi",
+    "logout": "Đăng xuất",
+    "editProfile": "Chỉnh sửa hồ sơ",
+    "fullName": "Tên đầy đủ",
+    "email": "Email",
+    "mobileNumber": "Số điện thoại",
+    "address": "Địa chỉ",
+    "postalCode": "Mã bưu chính",
+    "city": "Thành phố",
+    "country": "Quốc gia",
+    "state": "Tiểu bang",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu",
+    "tenant": "Người thuê",
+    "landlord": "Chủ nhà",
+    "cancelRenting": "Hủy thuê",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "fromDate": "Từ ngày",
+    "toDate": "Đến ngày",
+    "online": "Trực tuyến",
+    "bankList": "Danh sách ngân hàng",
+    "withdrawMethod": "Phương thức rút tiền",
+    "uploadPaymentReceipt": "Tải lên biên lai thanh toán",
+    "offlinePaymentNote(rich)": "Lưu ý: ${note(Thanh toán yêu cầu phê duyệt thủ công bởi quản trị viên trong vòng)} ${duraion(24~48 giờ.)}",
+    "reviews": "Đánh giá",
+    "description": "Mô tả",
+    "about": "Về",
+    "propertyTypes": "Loại bất động sản",
+    "features": "Tính năng",
+    "floorPlans": "Sơ đồ tầng",
+    "buildingDetails": "Chi tiết tòa nhà",
+    "buildingName": "Tên tòa nhà",
+    "propertyAddress": "Địa chỉ bất động sản",
+    "completionYear": "Năm hoàn thành",
+    "lotNumber": "Số lô",
+    "residentialType": "Loại nhà ở",
+    "furnishings": "Nội thất",
+    "floorRange": "Phạm vi tầng",
+    "bedrooms": "Phòng ngủ",
+    "bathrooms": "Phòng tắm",
+    "propertySize": "Kích thước bất động sản",
+    "rentalPeriod": "Thời gian thuê",
+    "securityDeposit": "Tiền đặt cọc",
+    "utilityBill": "Hóa đơn tiện ích",
+    "facilities": "Cơ sở vật chất",
+    "amenities": "Tiện nghi",
+    "expiringReason": "Lý do hết hạn",
+    "tenantDetails": "Chi tiết người thuê",
+    "typeOfTenant": "Loại người thuê",
+    "tenantName": "Tên người thuê",
+    "nidPassport": "CMND/Hộ chiếu",
+    "nidPassportId": "@:common.nidPassport mã số",
+    "tenantId": "Mã số người thuê",
+    "dateOfBirth": "Ngày sinh",
+    "gender": "Giới tính",
+    "nominee": "Người được chỉ định",
+    "name": "Tên",
+    "optional": "Tùy chọn",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Số ĐT.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Liên hệ khẩn cấp",
+    "relation": "Quan hệ",
+    "relationWith": "@:common.relation Với",
+    "relationWithYou": "@:common.relationWith Bạn",
+    "company": "Công ty",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Số đăng ký",
+    "workplace": "Nơi làm việc",
+    "officePhoneNo": "Số điện thoại văn phòng",
+    "officeMobileNo": "@:common.mobileNumber văn phòng",
+    "vehicle": "Phương tiện",
+    "vehiclesInfo": {
+      "plain": "Thông tin phương tiện",
+      "optional": "Thông tin phương tiện (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Loại",
+    "vehicleRegistrationNo": {
+      "normal": "Số đăng ký phương tiện",
+      "short": "Số đăng ký",
+      "alt": "Biển số"
+    },
+    "vehicleBrand": "@:common.vehicle Thương hiệu",
+    "rentProperty": "Thuê bất động sản",
+    "propertyDetails": "Chi tiết bất động sản",
+    "propertyId": "Mã số bất động sản",
+    "propertyType": "Loại bất động sản",
+    "propertyName": "Tên bất động sản",
+    "paymentDetails": "Chi tiết thanh toán",
+    "monthlyRent": "Tiền thuê hàng tháng",
+    "thisMonthPayment": "Thanh toán tháng này",
+    "totalPaidRent": "Tổng tiền thuê đã trả",
+    "dueRent": "Tiền thuê đến hạn",
+    "rentStartDate": "@:common.rent @:common.startDate",
+    "rentEndDate": "@:common.rent @:common.endDate",
+    "status": "Trạng thái",
+    "rentAgreementPdf": "PDF hợp đồng thuê",
+    "noFile": "Không có tệp",
+    "tenantImageOp": "Hình ảnh người thuê @:common.optional",
+    "addNewVechicle": "Thêm phương tiện mới",
+    "uploadNidPassport": "Tải lên CMND/Hộ chiếu",
+    "nidPassportUploadNote": "Chỉ chấp nhận loại tệp hình ảnh. Giới hạn tệp lên đến 2.5 MB.",
+    "search": "Tìm kiếm",
+    "sortBy": "Sắp xếp theo",
+    "subscription": "Đăng ký",
+    "downloading": "Đang tải xuống...",
+    "downloadSuccess": "Tệp đã tải xuống thành công!",
+    "addPropertyBannerTitle": "Đang tìm cách cho thuê bất động sản của bạn?",
+    "application": "Đơn xin",
+    "tenantHasPaidDeposit": "Người thuê đã trả tiền đặt cọc.",
+    "askProcessingRentApplication": "Bạn có chắc chắn xử lý yêu cầu này để thuê bất động sản?",
+    "dateAndTime": "Ngày & Giờ",
+    "applicationDetails": "Chi tiết đơn xin",
+    "depositStatus": "Trạng thái đặt cọc",
+    "uploadRentAgreement": "Tải lên hợp đồng thuê",
+    "uploadFilePDF": "Tải lên tệp (PDF)",
+    "askSelectRentAgreement": "Vui lòng chọn tệp tài liệu hợp đồng.",
+    "landlordRentAgreementPDF": "PDF hợp đồng thuê của chủ nhà",
+    "tenantRentAgreementPDF": "PDF hợp đồng thuê của người thuê",
+    "landlordApplicationApproveNote(rich)": "Lưu ý: ${note(Chỉ phê duyệt đơn xin sau khi người thuê thanh toán tiền đặt cọc.)}",
+    "reasonOfRejection": "Lý do từ chối",
+    "youveRejectedThisApplication": "Bạn đã từ chối đơn xin này",
+    "landlordDetails": "Chi tiết chủ nhà",
+    "landlordName": "Tên chủ nhà",
+    "downloadRentAgreement": "Tải xuống hợp đồng thuê",
+    "acceptTermsConditions(rich)": "Chấp nhận ${toc(Điều khoản & Điều kiện)}",
+    "tenantAgreementSignNote1(rich)": "Lưu ý: ${note(Vui lòng tải xuống và đọc hợp đồng. Vui lòng gửi hợp đồng đã ký cho chủ nhà qua WhatsApp hoặc email.)}",
+    "tenantAgreementSignNote2(rich)": "Lưu ý: ${note(Chủ nhà phê duyệt đơn xin khi người thuê thanh toán tiền đặt cọc, tiện ích và một tháng tiền thuê trả trước.)}",
+    "completeRentAgreementPdf(rich)": "Hợp đồng thuê (PDF) ${complete(Hợp đồng hoàn chỉnh)}",
+    "tenantApplicationDepositNote(rich)": "Lưu ý : ${note(Chủ nhà phê duyệt đơn xin khi người thuê thanh toán tiền đặt cọc, tiện ích và một tháng tiền thuê trả trước.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Danh sách đơn xin",
+    "viewDetails": "Xem chi tiết",
+    "searchHint": "@:common.search...",
+    "home": "Trang chủ",
+    "dashboard": "Bảng điều khiển",
+    "tenants": "Người thuê",
+    "maintenance": "Bảo trì",
+    "maintenanceList": "Danh sách bảo trì",
+    "maintenanceReport": "Báo cáo bảo trì",
+    "labor": "Lao động",
+    "applications": "Đơn xin",
+    "rentInvitation": "Lời mời thuê",
+    "payment": "Thanh toán",
+    "rentPayment": "Thanh toán tiền thuê",
+    "depositUtilityPayment": "Đặt cọc & Thanh toán tiện ích",
+    "refundRequest": "Yêu cầu hoàn tiền",
+    "withdrawRequest": "Yêu cầu rút tiền",
+    "myProperty": "Bất động sản của tôi",
+    "myRent": "Tiền thuê của tôi",
+    "wishlist": "Danh sách yêu thích",
+    "properties": "Bất động sản",
+    "allProperties": "Tất cả bất động sản",
+    "totalPropery": "Tổng bất động sản",
+    "occupied": "Đã thuê",
+    "vacant": "Trống",
+    "accounting": "Kế toán",
+    "totalIncome": "Tổng thu nhập",
+    "totalExpense": "Tổng chi phí",
+    "currentBalance": "Số dư hiện tại",
+    "totalWithdrawal": "Tổng (Rút tiền)",
+    "totalProperties": "Tổng bất động sản",
+    "totalTenant": "Tổng người thuê",
+    "totalRentPaid": "Tổng tiền thuê đã trả",
+    "totalRentDue": "Tổng tiền thuê đến hạn",
+    "totalApplication": "Tổng đơn xin",
+    "pendingApplication": "Đơn xin đang chờ",
+    "processingApplication": "Đơn xin đang xử lý",
+    "approveApplication": "Phê duyệt đơn xin",
+    "rejectApplication": "Từ chối đơn xin",
+    "maintenanceCost": "Chi phí bảo trì",
+    "transactionSummary": "Tóm tắt giao dịch",
+    "maintenanceRequest": "Yêu cầu bảo trì",
+    "notifications": "Thông báo",
+    "myProperties": "Bất động sản của tôi",
+    "recommendationProperties": "Bất động sản đề xuất",
+    "laborList": "Danh sách lao động",
+    "addLabor": "Thêm lao động",
+    "laborDetails": "Chi tiết lao động",
+    "laborSalary": "Lương lao động",
+    "editLabor": "Chỉnh sửa lao động",
+    "addNewLabor": "Thêm lao động mới",
+    "enterAmount": "Nhập số tiền",
+    "maintenanceDetails": "Chi tiết bảo trì",
+    "laborName": "Tên lao động",
+    "comment": "Bình luận",
+    "image": "Hình ảnh",
+    "complete": "Hoàn thành",
+    "details": "Chi tiết",
+    "title": "Tiêu đề",
+    "date": "Ngày",
+    "reason": "Lý do",
+    "edit": "Chỉnh sửa",
+    "property": "Bất động sản",
+    "completeYourProfile": "Hoàn thành hồ sơ của bạn",
+    "profileImage": "Hình ảnh hồ sơ",
+    "imagePickHint": "Chỉ JPEG & PNG Hình ảnh với kích thước tối đa 120x120 pixel.",
+    "invoiceId": "Mã hóa đơn",
+    "depositAmount": "Số tiền đặt cọc",
+    "landlordPhone": "Số điện thoại chủ nhà",
+    "rentalAdvance": "Thuê (Trả trước)",
+    "totalAmount": "Tổng số tiền",
+    "rentAmount": "Số tiền thuê",
+    "adminCharge": "Phí quản trị",
+    "editAccount": "Chỉnh sửa tài khoản",
+    "addNewAccount": "Thêm tài khoản mới",
+    "transactionId": "Mã giao dịch",
+    "transactionType": "Loại giao dịch",
+    "requestDate": "Ngày yêu cầu",
+    "amount": "Số tiền",
+    "fee": "Phí",
+    "paymentStatus": "Trạng thái thanh toán",
+    "generatedTime": "Thời gian tạo",
+    "systemGeneratedReportHint(rich)": "Đây là báo cáo được tạo bởi hệ thống của ${appName}",
+    "withdrawHistory": "Lịch sử rút tiền",
+    "history": "Lịch sử",
+    "withdrawAmount": "Số tiền rút",
+    "availableBalance": "Số dư khả dụng",
+    "withdrawCharge": "Phí rút tiền",
+    "paymentMethod": "Phương thức thanh toán",
+    "requestSendSuccess": "Yêu cầu đã gửi thành công!",
+    "paymentReceiptSubmitSuccess": "Biên lai thanh toán đã gửi thành công.",
+    "refundReason": "Lý do hoàn tiền",
+    "note": "Lưu ý",
+    "refundReceiveSuccess": "Hoàn tiền đã nhận thành công.",
+    "downloadPaymentReceipt": "Tải xuống biên lai thanh toán",
+    "invoice": "Hóa đơn",
+    "selectPropertyToSeeInvoice": "Chọn bất động sản để xem số hóa đơn...",
+    "bankAccName": "Tên tài khoản ngân hàng",
+    "bankName": "Tên ngân hàng",
+    "bankAccNum": "Số tài khoản ngân hàng",
+    "thankYou": "Cảm ơn bạn!",
+    "basicInfo": "Thông tin cơ bản",
+    "descriptionPricing": "Mô tả & Giá cả",
+    "contact": "Liên hệ",
+    "photos": "Ảnh",
+    "successfullySubmitted": "Đã gửi thành công!",
+    "editProperty": "Chỉnh sửa bất động sản",
+    "addNewProperty": "Thêm bất động sản mới",
+    "propertyManageRequestSuccess": "Quảng cáo của bạn đã được gửi để xem xét.",
+    "postAnotherProperty": "Đăng bất động sản khác",
+    "browseYourProperty": "Duyệt bất động sản của bạn",
+    "stepIndicator(rich)": "Bước ${step} của ${totalSteps}",
+    "whatWouldYouLikeToPost": "Bạn muốn đăng gì?",
+    "category": "Danh mục",
+    "invalidCategory": "Danh mục không hợp lệ",
+    "unitNumber": "Số đơn vị",
+    "sqft": "mét vuông",
+    "propertySizeMustBeGreaterThan0": "Kích thước bất động sản phải lớn hơn 0",
+    "whatAreTheFacility": "Những cơ sở vật chất là gì?",
+    "whatAreTheAmenity": "Những tiện nghi là gì?",
+    "parkingLot": "Bãi đậu xe",
+    "houseType": "Loại nhà",
+    "value": "Giá trị",
+    "unitLotSize": "Đơn vị / Kích thước lô",
+    "landSize": "Kích thước đất",
+    "acres": "mẫu Anh",
+    "roomSize": "Kích thước phòng",
+    "askTenantPreference": "Sở thích người thuê của bạn là gì?",
+    "couple": "Cặp đôi",
+    "describeTheProperty": "Mô tả ${propertyType: String}",
+    "adTitle": "Tiêu đề quảng cáo",
+    "minimumRentalPeriod": "Thời gian thuê tối thiểu",
+    "whatsappNumber": "@:common.whatsapp Số",
+    "hideOrDisplayEmail": "Ẩn hoặc hiển thị địa chỉ email",
+    "thankYouForPostingProperty": "Cảm ơn bạn đã đăng trên ${appName: String}!",
+    "propertyList": "Danh sách bất động sản",
+    "newInviteRent": "Lời mời thuê mới",
+    "rentAgreement": "Hợp đồng thuê",
+    "rentDetails": "Chi tiết thuê",
+    "landlordRentInvitationPendingNote(rich)": "Lưu ý: ${note(Vui lòng đợi người thuê chấp nhận lời mời.)}",
+    "rent": "Thuê",
+    "editTenant": "Chỉnh sửa người thuê",
+    "addNewTenant": "Thêm người thuê mới",
+    "shareInstallLink": "Chia sẻ liên kết cài đặt",
+    "tenantList": "Danh sách người thuê",
+    "editMaintenanceRequest": "Chỉnh sửa yêu cầu bảo trì",
+    "addNewMaintenance": "Thêm bảo trì mới",
+    "landlordId": "Mã chủ nhà",
+    "tenantAgrementUnderReviewNote(rich)": "Lưu ý ${note(Hợp đồng của bạn đang được xem xét. Vui lòng đợi chủ nhà phê duyệt thuê của bạn.)}",
+    "editReview": "Chỉnh sửa đánh giá",
+    "writeAReview": "Viết đánh giá",
+    "selectRating": "Chọn xếp hạng",
+    "enterYourOpinion": "Nhập ý kiến của bạn",
+    "askToEnterReviewMsg": "Vui lòng nhập tin nhắn đánh giá",
+    "pressBackAgainToExit": "Nhấn quay lại lần nữa để thoát.",
+    "selectPaymentMethod": "Chọn phương thức thanh toán",
+    "filter": "Lọc",
+    "perMonth": "/1 Tháng",
+    "searchHintWithAppName": "Tìm kiếm bất cứ thứ gì trong ${appName: String}...",
+    "propertyInfo": "Thông tin bất động sản",
+    "units": "Đơn vị",
+    "depositPeriod": "Thời gian đặt cọc",
+    "facilitiesList": "Danh sách cơ sở vật chất",
+    "facility": "Cơ sở vật chất",
+    "amenity": "Tiện nghi",
+    "amenitiesList": "Danh sách tiện nghi",
+    "addNewFacility": "Thêm cơ sở vật chất mới",
+    "editFacility": "Chỉnh sửa cơ sở vật chất",
+    "facilityName": "Tên cơ sở vật chất",
+    "amenityName": "Tên tiện nghi",
+    "addNewAmenity": "Thêm tiện nghi mới",
+    "editAmenity": "Chỉnh sửa tiện nghi",
+    "family": "Gia đình",
+    "lateFee": "Phí trễ",
+    "lateFeeAfterDays": "@:common.lateFee Sau (Ngày)",
+    "propertyPricing": "${propertyType: String} Giá",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Cảm ơn bạn rất nhiều, bạn vừa đăng tải tài sản của mình",
+    "titleAndDescription": "Tiêu đề & Mô tả",
+    "rentPricing": "Giá thuê",
+    "step": "Bước",
+    "of": "CỦA",
+    "pricing": "Giá cả",
+    "sameRentForAllUnit": "Cùng giá thuê cho tất cả các đơn vị",
+    "unit": "đơn vị",
+    "pleaseSelectAnUnitFirst": "Vui lòng chọn một đơn vị trước.",
+    "saleAmount": "Số tiền bán",
+    "selectCategory": "Chọn một danh mục",
+    "pleaseSelectACategory": "Vui lòng chọn một danh mục",
+    "pleaseEnterAdTitle": "Vui lòng nhập tiêu đề quảng cáo",
+    "addCoverPhoto": "Thêm ảnh bìa",
+    "findAProperty": "Tìm một tài sản",
+    "categories": "Danh mục",
+    "recmmendedProperties": "Tài sản đề xuất",
+    "recentSearch": "Tìm kiếm gần đây",
+    "pleaseEnterYourAccountNumber": "Vui lòng nhập số tài khoản của bạn.",
+    "pleaseSelectALanguageToContinue": "Vui lòng chọn một ngôn ngữ để tiếp tục.",
+    "subscribe": "Đăng ký",
+    "noFacilitiesFound": "Không tìm thấy tiện ích nào!",
+    "invalidLaborDetailsPleaseTryAgain": "Thông tin lao động không hợp lệ, vui lòng thử lại",
+    "maintenanceWork": "Công việc bảo trì",
+    "selectLabor": "Chọn nhân công",
+    "enterMaintenanceCost": "Nhập chi phí bảo trì",
+    "pleaseEnterMaintenanceCost": "Vui lòng nhập chi phí bảo trì",
+    "writeComment": "Viết bình luận",
+    "maintenancePending": "Bảo trì đang chờ xử lý",
+    "yourEarnings": "Thu nhập của bạn",
+    "totalPaid": "Tổng đã thanh toán",
+    "linkANewBankAccount": "Liên kết tài khoản ngân hàng mới",
+    "payoutRequest": "Yêu cầu thanh toán"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Đã xảy ra lỗi, vui lòng thử lại",
+    "noNidPassport": "Không có hình ảnh CMND/Hộ chiếu.",
+    "noRentPropertyFound": "Không tìm thấy bất động sản thuê cho người thuê này.",
+    "noPropertyFoundWithKeyWord": "Không tìm thấy bất động sản!\nVui lòng thử với từ khóa khác",
+    "noSubscriptionFoundRefreshPage": "Không tìm thấy gói đăng ký!\nVui lòng làm mới trang và thử lại.",
+    "invalidApiDataRefreshPage": "Dữ liệu ${dataType: String} không hợp lệ! Vui lòng làm mới trang và thử lại.",
+    "invalidDownloadUrl": "Url tải xuống không hợp lệ!",
+    "failedToSaveFile": "Không lưu được tệp! ${error: String}",
+    "errorOpeningFile": "Lỗi mở tệp! ${error: String}",
+    "noVehicleInfoProvided": "Không cung cấp thông tin phương tiện.",
+    "yourApplicationRejected": "Đơn xin của bạn đã bị từ chối",
+    "noApplicationFoundHint": {
+      "template": "Không tìm thấy đơn xin!\n${subject: String} sẽ được hiển thị ở đây khi có sẵn.",
+      "subjects": {
+        "tenant": "Đơn xin của bạn",
+        "landlord": "Đơn xin của người thuê"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Không tìm thấy bất động sản!\nVui lòng thử thêm bất động sản để xem ở đây.",
+      "tenantRecommended": "Không tìm thấy bất động sản đề xuất\nVui lòng thử lại sau.",
+      "tenantAllProperty": "Bất động sản không khả dụng\nVui lòng thử lại sau."
+    },
+    "noImageProvided": "Không cung cấp hình ảnh",
+    "noStatusMaintenantFound": {
+      "landlord": "Không tìm thấy bảo trì ${status}",
+      "tenant": "Không tìm thấy bảo trì! Bạn có thể tạo yêu cầu bảo trì để xem ở đây."
+    },
+    "noDepositFound": "Không tìm thấy tiền đặt cọc!\nBạn có thể xem tiền đặt cọc khi có sẵn",
+    "noRentPaymentFound": "Không tìm thấy thanh toán tiền thuê!\nBạn có thể xem thanh toán tiền thuê khi có sẵn",
+    "transactionSummaryApiException": "Không lấy được tóm tắt giao dịch.",
+    "noWithdrawRequestFound": "Không tìm thấy yêu cầu!\nVui lòng thử tạo yêu cầu rút tiền để xem ở đây.",
+    "withdrawRequestNotApproved": "Yêu cầu rút tiền này chưa được phê duyệt!.",
+    "nonZeroError": "Vui lòng nhập số tiền hợp lệ lớn hơn 0.",
+    "minAmountError": "Số tiền phải ít nhất ${minValue: String}.",
+    "maxAmountError": "Số tiền không được vượt quá ${maxValue: String}.",
+    "selectPaymentMethodHint": "Vui lòng chọn phương thức thanh toán trước.",
+    "noStatusRefundReqFound": {
+      "landlord": "Không tìm thấy yêu cầu hoàn tiền ${status}!\nBạn có thể xem yêu cầu hoàn tiền ở đây khi có sẵn.",
+      "tenant": "Không tìm thấy yêu cầu hoàn tiền!\nBạn có thể tạo yêu cầu hoàn tiền để xem ở đây."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Người thuê sẽ phê duyệt hoàn tiền khi họ nhận lại tiền",
+      "tenantReqSuccess": "Chúng tôi sẽ xem xét yêu cầu hoàn tiền & phê duyệt trong vòng 24 giờ."
+    },
+    "oneToTenRequiredField": "Vui lòng chọn số ${value: String}",
+    "invalidDateRange": "Phạm vi ngày không hợp lệ.",
+    "valueMustBeGreaterThanZero": "${value: String} phải lớn hơn 0.",
+    "editProperty": {
+      "rentalChange": "Bất động sản cho thuê đang thay đổi. Nó phải chỉ hợp lệ (có hiệu lực) cho thanh toán tiền thuê tháng tiếp theo.",
+      "deleteOnRent": "Bất động sản của bạn đã được thuê bởi người thuê. Không thể xóa cho đến khi xóa người thuê trước",
+      "alreayRented": "Bất động sản này đã được thuê. Vui lòng thử lại sau.\nHoặc liên hệ chủ nhà để biết thêm thông tin."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Không tìm thấy lời mời thuê!\nVui lòng thử tạo lời mời thuê để xem ở đây.",
+      "tenantNoRentInvitation": "Không tìm thấy lời mời thuê!\nBạn có thể xem lời mời thuê ở đây khi có sẵn."
+    },
+    "notenantFoundList": "Không có người thuê!\nVui lòng thử thêm người thuê để xem ở đây.",
+    "noFeaturesProvided": "Không cung cấp tính năng.",
+    "noNotificationFound": "Không có thông báo khả dụng.\nBạn có thể xem thông báo của mình ở đây khi có sẵn.",
+    "noFacilitiesFound": "Không tìm thấy cơ sở vật chất.",
+    "noAmenitiesFound": "Không tìm thấy tiện nghi nào!",
+    "noLaborFound": "Không tìm thấy lao động\nVui lòng thử lại sau.",
+    "areYouSureYouWantToRemoveThisUnit": "Bạn có chắc chắn muốn xóa đơn vị này không?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Bạn có chắc chắn đăng xuất?"
+    },
+    "application": {
+      "rejectTitle": "Tại sao bạn từ chối đơn xin này?",
+      "applicationSent": {
+        "successfully": "Đơn xin đã gửi thành công!",
+        "sucessDescription": "Bạn có thể xem đơn xin này trong danh sách đơn xin của mình"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Xóa lao động?",
+        "description": "Bạn có chắc chắn xóa lao động này?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Tại sao yêu cầu này bị từ chối?",
+      "processTitle": "Bạn có chắc chắn xử lý yêu cầu bảo trì này?",
+      "completeTitle": "Công việc đã hoàn thành?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Xóa phương thức rút tiền?",
+      "deleteDescription": "Bạn có chắc chắn xóa phương thức rút tiền này?"
+    },
+    "unsavedChanges": {
+      "title": "Bạn có chắc chắn quay lại?",
+      "message": "Các trường đã thay đổi sẽ không được lưu!"
+    },
+    "property": {
+      "delete": {
+        "title": "Xóa bất động sản?",
+        "message": "Bạn có chắc chắn xóa bất động sản này?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Bạn có chắc chắn phê duyệt thuê này?",
+        "description": "Hãy chắc chắn bạn đã xem xét hợp đồng được ký bởi người thuê."
+      },
+      "tenantAccept": {
+        "title": "Bạn có chắc chắn chấp nhận lời mời này?",
+        "description": "Hãy chắc chắn bạn đã tải xuống tệp pdf hợp đồng!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Phiên đã hết hạn",
+      "message": "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại",
+      "action": "Đăng nhập"
+    },
+    "noInternet": {
+      "title": "Không có kết nối internet",
+      "message": "Vui lòng kiểm tra kết nối Wi-Fi hoặc mạng di động của bạn và thử lại",
+      "action": "Thử lại"
+    },
+    "permissionHandler": {
+      "title": "Cần quyền!",
+      "message": "Bạn cần cấp quyền trong cài đặt ứng dụng. Bạn có muốn mở cài đặt ngay bây giờ?"
+    },
+    "imagePicker": {
+      "title": "Chọn tùy chọn",
+      "gallery": "Thư viện",
+      "camera": "Máy ảnh"
+    },
+    "verificationDialog": {
+      "title": "Xác minh email của bạn",
+      "message": "Chúng tôi đã gửi mã xác minh email",
+      "messageWithEmail": "@:prompt.verificationDialog.message đến ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Xóa thông báo?",
+      "clearMessage": "Bạn có chắc chắn xóa tất cả thông báo?"
+    },
+    "genericDeletePrompt": {
+      "title": "Bạn có muốn xóa ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Gói đăng ký đã hết hạn!",
+      "message": "Vui lòng đăng ký để tiếp tục."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Nhập @:common.fullName",
+      "errors": {
+        "required": "Vui lòng nhập @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Nhập @:common.email",
+      "errors": {
+        "required": "Vui lòng nhập địa chỉ @:common.email",
+        "invalid": "⦸ Email không hợp lệ, vui lòng thử lại"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Vui lòng nhập @:common.password",
+        "minLength": "Mật khẩu phải ít nhất ${count} ký tự!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Xác nhận @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Vui lòng nhập @:common.password",
+        "notMatched": "Xác nhận mật khẩu không khớp!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Vui lòng nhập @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Số nhà và tên đường",
+      "errors": {
+        "required": "Vui lòng nhập @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Căn hộ,suite,đơn vị,v.v",
+      "errors": {
+        "required": "Vui lòng nhập @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Nhập @:common.postalCode",
+      "errors": {
+        "required": "Vui lòng nhập @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Nhập tên @:common.city.",
+      "errors": {
+        "required": "Vui lòng nhập tên @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Nhập tên @:common.state.",
+      "errors": {
+        "required": "Vui lòng nhập tên @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Chọn @:common.country.",
+      "errors": {
+        "required": "Vui lòng chọn @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Vui lòng nhập otp.",
+        "invalid": "Vui lòng nhập otp chính xác."
+      }
+    },
+    "title": {
+      "label": "Tiêu đề",
+      "hint": "Nhập tiêu đề",
+      "errors": {
+        "required": "Vui lòng nhập tiêu đề"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Chọn @:form.date.label",
+      "errors": {
+        "required": "Vui lòng chọn @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Lý do",
+      "hint": "Nhập lý do",
+      "errors": {
+        "required": "Vui lòng nhập lý do"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Chọn @:common.withdrawMethod",
+      "errors": {
+        "required": "Vui lòng chọn @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Tải lên ${label: String}",
+      "errors": {
+        "required": "Vui lòng chọn ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Nhập @:form.note.label",
+      "errors": {
+        "required": "Vui lòng nhập @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Chọn @:common.gender",
+      "errors": {
+        "required": "Vui lòng chọn @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Nhập @:form.anyField.label",
+      "errors": {
+        "required": "Vui lòng nhập @:form.anyField.label",
+        "invalid": "Vui lòng nhập @:form.anyField.label hợp lệ"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Chọn @:form.anyDropdown.label",
+      "errors": {
+        "required": "Vui lòng chọn @:form.anyDropdown.label",
+        "invalid": "Vui lòng chọn @:form.anyDropdown.label hợp lệ"
+      }
+    }
+  },
+  "action": {
+    "next": "Tiếp theo",
+    "getStarted": "Bắt đầu",
+    "skip": "Bỏ qua",
+    "select": "Chọn",
+    "save": "Lưu",
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "continue": "Tiếp tục",
+    "clearAll": "Xóa tất cả",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Gửi",
+    "pay": "Thanh toán",
+    "remove": "Xóa",
+    "goBack": "Quay lại",
+    "buyNow": "Mua ngay",
+    "no": "Không",
+    "open": "Mở",
+    "addProperty": "Thêm bất động sản",
+    "process": "Xử lý",
+    "approve": "Phê duyệt",
+    "reject": "Từ chối",
+    "viewRent": "Xem thuê",
+    "openNavigationMenu": "Mở menu điều hướng",
+    "seeAll": "Xem tất cả",
+    "update": "Cập nhật",
+    "printTransaction": "In giao dịch",
+    "payoutRequest": "Yêu cầu thanh toán",
+    "addNew": "+ Thêm mới",
+    "sendRequest": "Gửi yêu cầu",
+    "print": "In",
+    "requestForRefund": "Yêu cầu hoàn tiền",
+    "previous": "Trước",
+    "delete": "Xóa",
+    "applyProperty": "Áp dụng bất động sản",
+    "viewApplication": "Xem đơn xin",
+    "inviteTenant": "Mời người thuê",
+    "inviteRent": "Mời thuê",
+    "cancel": "Hủy",
+    "accept": "Chấp nhận",
+    "submit": "Gửi",
+    "yes": "Có",
+    "okay": "Được",
+    "confirm": "Xác nhận",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "retry": "Thử lại",
+    "viewAll": "Xem tất cả",
+    "addMore": "Thêm nữa",
+    "done": "Hoàn tất"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "Chọn @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Tìm bất động sản của bạn",
+          "description": "Chúng tôi đã làm cho việc tìm một nơi phù hợp với cuộc sống của bạn trở nên dễ dàng — cho dù đó là một phòng, căn hộ, hoặc nhà."
+        },
+        "data2": {
+          "title": "Căn hộ ở thị trấn",
+          "description": "Chúng tôi tiết kiệm thời gian của bạn bằng cách nhanh chóng khớp bạn với bất động sản hoàn hảo trước khi nó biến mất để bạn có thể tận hưởng ngôi nhà mới của mình, hoặc liệt kê của riêng bạn miễn phí."
+        },
+        "data3": {
+          "title": "Ngôi nhà thoải mái của bạn",
+          "description": "Nếu bạn đang tìm kiếm một nơi để sống thì hãy xem các ngôi nhà cho thuê của chúng tôi. Chúng tôi có nhiều ngôi nhà cho thuê để bạn lựa chọn trên toàn quốc."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Chào mừng trở lại",
+      "subtitle": "Đăng nhập ngay để bắt đầu hành trình tuyệt vời.",
+      "extra": {
+        "rememberMe": "Ghi nhớ tôi",
+        "signUpNavigator(rich)": "Không có tài khoản? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Quên mật khẩu",
+      "subtitle": "Nhập địa chỉ email của bạn để khôi phục mật khẩu."
+    },
+    "otpVerification": {
+      "title": "Xác minh",
+      "subtitle": "Mã pin 6 chữ số đã được gửi đến địa chỉ email của bạn. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Mã gửi trong ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Gửi lại mã)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Đặt lại mật khẩu",
+      "subtitle": "Đặt lại mật khẩu của bạn để khôi phục và đăng nhập tài khoản",
+      "extra": {
+        "dialog": {
+          "title": "Thay đổi thành công!",
+          "subtitle": "Đăng nhập bằng mật khẩu mới của bạn.\n Đang chuyển hướng bạn đến Đăng nhập..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Đăng ký ngay để bắt đầu hành trình tuyệt vời",
+      "extra": {
+        "signInNavigator(rich)": "Có tài khoản? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Bạn là ai?",
+      "subtitle": "Vui lòng chọn tùy chọn bên dưới.",
+      "extra": {
+        "landlordTag": "Quản lý bất động sản của riêng bạn",
+        "tenantTag": "Đăng nhập vào tài khoản thuê của bạn"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Thông báo"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Tin nhắn..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Tại sao bạn @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Viết lý do",
+          "errors": {
+            "required": "Vui lòng nhập lý do hủy thuê"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Thanh toán ngoại tuyến",
+      "form": {
+        "paymentNote": {
+          "label": "Lưu ý thanh toán (@:common.optional)",
+          "hint": "Nhập một số văn bản..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Số tiền thanh toán: ${amount}",
+        "accountHolderName": "Tên chủ tài khoản",
+        "accountNumber": "Số tài khoản",
+        "swiftCode": "Mã Swift",
+        "branch": "Chi nhánh",
+        "fileTypeHint(rich)": "Chọn ${fileType(JPG, PNG,PDF)} Hoặc ${fileType(DOC)} định dạng tệp chỉ. Kích thước tệp ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Xem hóa đơn",
+        "title": "@:common.thankYou",
+        "description": "Chúng tôi sẽ xem xét thanh toán & phê duyệt trong vòng 24 giờ."
+      },
+      "fail": {
+        "actionButton": "Thử lại",
+        "title": "Ối! Thanh toán thất bại",
+        "description": "Giao dịch của bạn đã thất bại do lỗi kỹ thuật."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Tính năng ${fa((Cơ sở vật chất & Tiện nghi))}",
+        "selectRentalPeriod": "Chọn thời gian thuê",
+        "writeAReview": "+ Viết đánh giá"
+      }
+    },
+    "search": {
+      "appbarTitle": "Tìm kiếm",
+      "extra": {
+        "hint": "Tìm kiếm lô đất, căn hộ, phòng...",
+        "noRecentSearch": "Bạn không có tìm kiếm gần đây."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Chọn kế hoạch của bạn",
+      "extra": {
+        "subscriptionPaymentSuccess": "Thanh toán đăng ký thành công.\nBạn có thể truy cập các tính năng đã đăng ký ngay bây giờ."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Tổng chi phí bảo trì: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Tất cả bất động sản",
+      "pending": "Đang chờ",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "rejected": "Bị từ chối"
+    },
+    "propertyType": {
+      "rent": "Thuê",
+      "sale": "Bán"
+    },
+    "propertyCategory": {
+      "apartment": "Căn hộ",
+      "house": "Nhà",
+      "commercial": "Thương mại",
+      "land": "Đất",
+      "room": "Phòng",
+      "unitOrFlat": "Đơn vị / Căn hộ",
+      "bungalow": "Biệt thự một tầng",
+      "plot": "Lô đất"
+    },
+    "applicationStatus": {
+      "all": "Tất cả",
+      "pending": "Đang chờ",
+      "processing": "Đang xử lý",
+      "approved": "Đã phê duyệt",
+      "rejected": "Bị từ chối"
+    },
+    "myRentStatus": {
+      "pending": "Đang chờ",
+      "processing": "Đang xử lý",
+      "active": "Hoạt động",
+      "expired": "Đã hết hạn",
+      "cancelled": "Đã hủy"
+    },
+    "maintenanceStatus": {
+      "pending": "Đang chờ",
+      "processing": "Đang xử lý",
+      "rejected": "Bị từ chối",
+      "completed": "Đã hoàn thành"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Cá nhân (Cá nhân)",
+      "company": "Công ty"
+    },
+    "tenantType": {
+      "newTenant": "Người thuê mới",
+      "activeTenant": "Người thuê hoạt động",
+      "expiredTenant": "Người thuê hết hạn"
+    },
+    "paymentStatus": {
+      "all": "Tất cả",
+      "pending": "Đang chờ",
+      "paid": "Đã trả",
+      "unpaid": "Chưa trả",
+      "rejected": "Bị từ chối",
+      "refund": "Hoàn tiền"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Thanh toán trực tuyến",
+      "offlinePayment": "Thanh toán ngoại tuyến"
+    },
+    "paymentType": {
+      "securityDeposit": "Tiền đặt cọc",
+      "rentPayment": "Thanh toán tiền thuê",
+      "subscription": "Đăng ký"
+    },
+    "gender": {
+      "male": "Nam",
+      "female": "Nữ",
+      "other": "Khác"
+    },
+    "ecRelation": {
+      "wife": "Vợ",
+      "parent": "Phụ huynh",
+      "friend": "Bạn",
+      "brother": "Anh",
+      "sister": "Chị",
+      "child": "Con"
+    },
+    "vehicleType": {
+      "car": "Ô tô",
+      "motorcycles": "Xe máy",
+      "lorry": "Xe tải"
+    },
+    "sortBy": {
+      "lowToHigh": "Thấp đến cao",
+      "highToLow": "Cao đến thấp"
+    },
+    "residentialType": {
+      "flat": "Căn hộ",
+      "apartment": "Căn hộ",
+      "condominium": "Chung cư",
+      "serviceResidence": "Khu dân cư dịch vụ",
+      "studio": "Căn hộ studio",
+      "duplex": "Căn hộ song lập",
+      "townhouseCondo": "Townhouse Chung cư",
+      "condo": "Chung cư / Khu dân cư dịch vụ / Penthouse",
+      "house": "Nhà",
+      "shoplot": "Mặt bằng kinh doanh",
+      "sharing": "Chia sẻ nhà / Căn hộ",
+      "others": "Khác"
+    },
+    "floorRange": {
+      "high": "Cao",
+      "medium": "Trung bình",
+      "low": "Thấp"
+    },
+    "furnishings": {
+      "fullyFurnished": "Đầy đủ nội thất",
+      "partiallyFurnished": "Nội thất một phần",
+      "notFurnished": "Không nội thất"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Không gian văn phòng",
+      "retailSpace": "Không gian bán lẻ",
+      "shopLot": "Lô cửa hàng",
+      "warehouseFactory": "Kho / Nhà máy",
+      "hotelResort": "Khách sạn / Resort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Khác"
+    },
+    "landPropertyType": {
+      "residential": "Nhà ở",
+      "industrial": "Công nghiệp",
+      "agricultural": "Nông nghiệp",
+      "commercial": "Thương mại",
+      "mixedDevelopment": "Phát triển hỗn hợp",
+      "others": "Khác"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Tháng",
+      "oneYear": "1 Năm",
+      "oneAndHalfYears": "1.5 Năm",
+      "twoYears": "2 Năm",
+      "twoAndHalfYears": "2.5 Năm"
+    },
+    "dropdownDateFilter": {
+      "daily": "Hàng ngày",
+      "weekly": "Hàng tuần",
+      "monthly": "Hàng tháng",
+      "yearly": "Hàng năm",
+      "custom": "Tùy chỉnh"
+    },
+    "bungalowType": {
+      "modern": "Hiện đại",
+      "cottage": "Nhà tranh",
+      "luxury": "Sang trọng",
+      "ecoSmart": "Eco / Thông minh",
+      "beachSide": "Ven biển",
+      "others": "Khác"
+    }
+  }
+}

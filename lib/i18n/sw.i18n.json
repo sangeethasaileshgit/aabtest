@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "sw_TZ",
+    "languageName": "Swahili",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profaili",
+    "language": "Lugha",
+    "subscriptionPlan": "Mpango wa Usajili",
+    "contactUs": "Wasiliana Nasi",
+    "termsAndConditions": "Masharti & Vigezo",
+    "aboutUs": "Kuhusu Sisi",
+    "logout": "Toka",
+    "editProfile": "Hariri Profaili",
+    "fullName": "Jina Kamili",
+    "email": "Barua Pepe",
+    "mobileNumber": "Namba ya Simu",
+    "address": "Anwani",
+    "postalCode": "Msimbo wa Posta",
+    "city": "Jiji",
+    "country": "Nchi",
+    "state": "Jimbo/Mkoa",
+    "password": "Nenosiri",
+    "forgotPassword": "Umesahau nenosiri",
+    "tenant": "Mpangaji",
+    "landlord": "Mwenye Nyumba",
+    "cancelRenting": "Batilisha Ukodishaji",
+    "startDate": "Tarehe ya Kuanza",
+    "endDate": "Tarehe ya Kuisha",
+    "fromDate": "Kutoka Tarehe",
+    "toDate": "Hadi Tarehe",
+    "online": "Mtandaoni",
+    "bankList": "Orodha ya Benki",
+    "withdrawMethod": "Njia ya Kutoa Pesa",
+    "uploadPaymentReceipt": "Pakia Stakabadhi ya Malipo",
+    "offlinePaymentNote(rich)": "Kumbuka: ${note(Malipo yanahitaji idhini ya kibinafsi na msimamizi ndani ya)} ${duraion(masaa 24~48.)}",
+    "reviews": "Tathmini",
+    "description": "Maelezo",
+    "about": "Kuhusu",
+    "propertyTypes": "Aina za Mali",
+    "features": "Vipengele",
+    "floorPlans": "Ramani za Ghorofa",
+    "buildingDetails": "Maelezo ya Jengo",
+    "buildingName": "Jina la Jengo",
+    "propertyAddress": "Anwani ya Mali",
+    "completionYear": "Mwaka wa Kukamilika",
+    "lotNumber": "Namba ya Kiwanja",
+    "residentialType": "Aina ya Makazi",
+    "furnishings": "Samani",
+    "floorRange": "Kiwango cha Ghorofa",
+    "bedrooms": "Vyumba vya Kulala",
+    "bathrooms": "Bafu",
+    "propertySize": "Ukubwa wa Mali",
+    "rentalPeriod": "Kipindi cha Kodi",
+    "securityDeposit": "Amana ya Usalama",
+    "utilityBill": "Bili ya Huduma",
+    "facilities": "Vifaa",
+    "amenities": "Huduma",
+    "expiringReason": "Sababu ya Kuisha Muda",
+    "tenantDetails": "Maelezo ya Mpangaji",
+    "typeOfTenant": "Aina ya Mpangaji",
+    "tenantName": "Jina la Mpangaji",
+    "nidPassport": "NID/Pasipoti",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "Kitambulisho cha Mpangaji",
+    "dateOfBirth": "Tarehe ya Kuzaliwa",
+    "gender": "Jinsia",
+    "nominee": "Mteule",
+    "name": "Jina",
+    "optional": "Si lazima",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Namba ya Simu ya Mkononi (Mo. No.)",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Mawasiliano ya Dharura",
+    "relation": "Uhusiano",
+    "relationWith": "@:common.relation Na",
+    "relationWithYou": "@:common.relationWith Wewe",
+    "company": "Kampuni",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Namba ya SSM",
+    "workplace": "Mahali pa Kazi",
+    "officePhoneNo": "Namba ya Simu ya Ofisi",
+    "officeMobileNo": "Ofisi @:common.mobileNumber",
+    "vehicle": "Gari",
+    "vehiclesInfo": {
+      "plain": "Maelezo ya Magari",
+      "optional": "Maelezo ya Magari (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Aina",
+    "vehicleRegistrationNo": {
+      "normal": "Namba ya Usajili wa Gari",
+      "short": "Namba ya Usajili",
+      "alt": "Namba ya Bamba"
+    },
+    "vehicleBrand": "@:common.vehicle Chapa",
+    "rentProperty": "Kodisha Mali",
+    "propertyDetails": "Maelezo ya Mali",
+    "propertyId": "Kitambulisho cha Mali",
+    "propertyType": "Aina ya Mali",
+    "propertyName": "Jina la Mali",
+    "paymentDetails": "Maelezo ya Malipo",
+    "monthlyRent": "Kodi ya Mwezi",
+    "thisMonthPayment": "Malipo ya Mwezi Huu",
+    "totalPaidRent": "Jumla ya Kodi Iliyolipwa",
+    "dueRent": "Kodi Inayodaiwa",
+    "rentStartDate": "Kodi @:common.startDate",
+    "rentEndDate": "Kodi @:common.endDate",
+    "status": "Hali",
+    "rentAgreementPdf": "Mkataba wa Kodi (PDF)",
+    "noFile": "Hakuna Faili",
+    "tenantImageOp": "Picha ya Mpangaji @:common.optional",
+    "addNewVechicle": "Ongeza Magari Mapya",
+    "uploadNidPassport": "Pakia NID/Pasipoti",
+    "nidPassportUploadNote": "Aina ya faili ya picha pekee ndiyo itakubalika. Kiwango cha faili hadi MB 2.5.",
+    "search": "Tafuta",
+    "sortBy": "Panga Kwa",
+    "subscription": "Usajili",
+    "downloading": "Inapakua...",
+    "downloadSuccess": "Faili imepakuliwa kwa ufanisi!",
+    "addPropertyBannerTitle": "Unatafuta Kukodisha Mali Yako?",
+    "application": "Maombi",
+    "tenantHasPaidDeposit": "Mpangaji amelipa amana.",
+    "askProcessingRentApplication": "Una uhakika wa kushughulikia ombi hili la kukodisha mali?",
+    "dateAndTime": "Tarehe na Saa",
+    "applicationDetails": "Maelezo ya Maombi",
+    "depositStatus": "Hali ya Amana",
+    "uploadRentAgreement": "Pakia Mkataba wa Kodi",
+    "uploadFilePDF": "Pakia Faili (PDF)",
+    "askSelectRentAgreement": "Tafadhali chagua faili ya hati ya mkataba.",
+    "landlordRentAgreementPDF": "Mkataba wa Kodi wa Mwenye Nyumba (PDF)",
+    "tenantRentAgreementPDF": "Mkataba wa Kodi wa Mpangaji (PDF)",
+    "landlordApplicationApproveNote(rich)": "Kumbuka: ${note(Idhinisha ombi tu baada ya mpangaji kufanya malipo ya amana.)}",
+    "reasonOfRejection": "Sababu ya Kukataliwa",
+    "youveRejectedThisApplication": "Umekataa ombi hili",
+    "landlordDetails": "Maelezo ya Mwenye Nyumba",
+    "landlordName": "Jina la Mwenye Nyumba",
+    "downloadRentAgreement": "Pakua Mkataba wa Kodi",
+    "acceptTermsConditions(rich)": "Kubali ${toc(Masharti & Vigezo)}",
+    "tenantAgreementSignNote1(rich)": "Kumbuka: ${note(Tafadhali pakua na usome mkataba. Tafadhali tuma mkataba uliosainiwa kwa mwenye nyumba kupitia WhatsApp au barua pepe.)}",
+    "tenantAgreementSignNote2(rich)": "Kumbuka: ${note(Mwenye nyumba anaidhinisha ombi, wakati mpangaji anapolipwa usalama, bili ya huduma, na malipo ya kodi ya mwezi mmoja mapema.)}",
+    "completeRentAgreementPdf(rich)": "Mkataba wa Kodi (PDF) ${complete(Mkataba Kamili)}",
+    "tenantApplicationDepositNote(rich)": "Kumbuka : ${note(Mwenye nyumba anaidhinisha ombi, wakati mpangaji anapolipwa usalama, bili ya huduma, na malipo ya kodi ya mwezi mmoja mapema.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Orodha ya Maombi",
+    "viewDetails": "Angalia Maelezo",
+    "searchHint": "@:common.search...",
+    "home": "Nyumbani",
+    "dashboard": "Dashibodi",
+    "tenants": "Wapangaji",
+    "maintenance": "Matengenezo",
+    "maintenanceList": "Orodha ya Matengenezo",
+    "maintenanceReport": "Ripoti ya Matengenezo",
+    "labor": "Kazi",
+    "applications": "Maombi",
+    "rentInvitation": "Mwaliko wa Kodi",
+    "payment": "Malipo",
+    "rentPayment": "Malipo ya Kodi",
+    "depositUtilityPayment": "Amana & Malipo ya Huduma",
+    "refundRequest": "Ombi la Marejesho",
+    "withdrawRequest": "Ombi la Kutoa Pesa",
+    "myProperty": "Mali Yangu",
+    "myRent": "Kodi Yangu",
+    "wishlist": "Orodha ya Matamanio",
+    "properties": "Mali",
+    "allProperties": "Mali Zote",
+    "totalPropery": "Jumla ya Mali",
+    "occupied": "Imekaliwa",
+    "vacant": "Wazi",
+    "accounting": "Uhasibu",
+    "totalIncome": "Jumla ya Mapato",
+    "totalExpense": "Jumla ya Gharama",
+    "currentBalance": "Salio la Sasa",
+    "totalWithdrawal": "Jumla (Kutoa Pesa)",
+    "totalProperties": "Jumla ya Mali",
+    "totalTenant": "Jumla ya Mpangaji",
+    "totalRentPaid": "Jumla ya Kodi Iliyolipwa",
+    "totalRentDue": "Jumla ya Kodi Inayodaiwa",
+    "totalApplication": "Jumla ya Maombi",
+    "pendingApplication": "Maombi Yanayosubiri",
+    "processingApplication": "Maombi Yanayoshughulikiwa",
+    "approveApplication": "Idhinisha Maombi",
+    "rejectApplication": "Kataa Maombi",
+    "maintenanceCost": "Gharama ya Matengenezo",
+    "transactionSummary": "Muhtasari wa Muamala",
+    "maintenanceRequest": "Ombi la Matengenezo",
+    "notifications": "Arifa",
+    "myProperties": "Mali Zangu",
+    "recommendationProperties": "Mali Zinazopendekezwa",
+    "laborList": "Orodha ya Kazi",
+    "addLabor": "Ongeza Kazi",
+    "laborDetails": "Maelezo ya Kazi",
+    "laborSalary": "Mshahara wa Kazi",
+    "editLabor": "Hariri Kazi",
+    "addNewLabor": "Ongeza Kazi Mpya",
+    "enterAmount": "Weka Kiasi",
+    "maintenanceDetails": "Maelezo ya Matengenezo",
+    "laborName": "Jina la Kazi",
+    "comment": "Maoni",
+    "image": "Picha",
+    "complete": "Kamilisha",
+    "details": "Maelezo",
+    "title": "Kichwa",
+    "date": "Tarehe",
+    "reason": "Sababu",
+    "edit": "Hariri",
+    "property": "Mali",
+    "completeYourProfile": "Kamilisha Profaili Yako",
+    "profileImage": "Picha ya Profaili",
+    "imagePickHint": "Picha ya JPEG & PNG pekee yenye ukubwa wa juu wa pikseli 120x120.",
+    "invoiceId": "Kitambulisho cha Ankara",
+    "depositAmount": "Kiasi cha Amana",
+    "landlordPhone": "Simu ya Mwenye Nyumba",
+    "rentalAdvance": "Kodi (Mapema)",
+    "totalAmount": "Jumla ya Kiasi",
+    "rentAmount": "Kiasi cha Kodi",
+    "adminCharge": "Malipo ya Utawala",
+    "editAccount": "Hariri Akaunti",
+    "addNewAccount": "Ongeza Akaunti Mpya",
+    "transactionId": "Kitambulisho cha Muamala",
+    "transactionType": "Aina ya Muamala",
+    "requestDate": "Tarehe ya Ombi",
+    "amount": "Kiasi",
+    "fee": "Ada",
+    "paymentStatus": "Hali ya Malipo",
+    "generatedTime": "Wakati Uliotolewa",
+    "systemGeneratedReportHint(rich)": "Hii ni ripoti iliyotolewa na mfumo wa ${appName}",
+    "withdrawHistory": "Historia ya Kutoa Pesa",
+    "history": "Historia",
+    "withdrawAmount": "Kiasi cha Kutoa Pesa",
+    "availableBalance": "Salio Lililopo",
+    "withdrawCharge": "Malipo ya Kutoa Pesa",
+    "paymentMethod": "Njia ya Malipo",
+    "requestSendSuccess": "Ombi limetumwa kwa ufanisi!",
+    "paymentReceiptSubmitSuccess": "Stakabadhi ya malipo imewasilishwa kwa ufanisi.",
+    "refundReason": "Sababu ya Marejesho",
+    "note": "Kumbuka",
+    "refundReceiveSuccess": "Marejesho yamepokelewa kwa ufanisi.",
+    "downloadPaymentReceipt": "Pakua Stakabadhi ya Malipo",
+    "invoice": "Ankara",
+    "selectPropertyToSeeInvoice": "Chagua mali ili kuona namba ya ankara...",
+    "bankAccName": "Jina la Akaunti ya Benki",
+    "bankName": "Jina la Benki",
+    "bankAccNum": "Namba ya Akaunti ya Benki",
+    "thankYou": "Asante!",
+    "basicInfo": "Taarifa za Msingi",
+    "descriptionPricing": "Maelezo & Bei",
+    "contact": "Mawasiliano",
+    "photos": "Picha",
+    "successfullySubmitted": "Imewasilishwa kwa ufanisi!",
+    "editProperty": "Hariri Mali",
+    "addNewProperty": "Ongeza Mali Mpya",
+    "propertyManageRequestSuccess": "Tangazo lako limewasilishwa kwa ajili ya ukaguzi.",
+    "postAnotherProperty": "Tuma Mali Nyingine",
+    "browseYourProperty": "Vinjari Mali Yako",
+    "stepIndicator(rich)": "Hatua ${step} kati ya ${totalSteps}",
+    "whatWouldYouLikeToPost": "Ungependa Kutuma Nini?",
+    "category": "Kategoria",
+    "invalidCategory": "Kategoria Batili",
+    "unitNumber": "Namba ya Sehemu",
+    "sqft": "sq.ft.",
+    "propertySizeMustBeGreaterThan0": "Ukubwa wa mali unapaswa kuwa mkubwa kuliko sifuri",
+    "whatAreTheFacility": "Ni vifaa gani vipo?",
+    "whatAreTheAmenity": "Ni huduma gani zipo?",
+    "parkingLot": "Eneo la Kuegesha Magari",
+    "houseType": "Aina ya Nyumba",
+    "value": "Thamani",
+    "unitLotSize": "Ukubwa wa Sehemu / Kiwanja",
+    "landSize": "Ukubwa wa Ardhi",
+    "acres": "ekari",
+    "roomSize": "Ukubwa wa Chumba",
+    "askTenantPreference": "Upendeleo wako wa mpangaji ni upi?",
+    "couple": "Wanandoa",
+    "describeTheProperty": "Elezea ${propertyType: String}",
+    "adTitle": "Kichwa cha Tangazo",
+    "minimumRentalPeriod": "Kipindi cha Chini cha Kodi",
+    "whatsappNumber": "@:common.whatsapp Namba",
+    "hideOrDisplayEmail": "Ficha au onyesha anwani ya barua pepe",
+    "thankYouForPostingProperty": "Asante kwa kutuma kwenye ${appName: String}!",
+    "propertyList": "Orodha ya Mali",
+    "newInviteRent": "Mwaliko Mpya wa Kodi",
+    "rentAgreement": "Mkataba wa Kodi",
+    "rentDetails": "Maelezo ya Kodi",
+    "landlordRentInvitationPendingNote(rich)": "Kumbuka: ${note(Tafadhali subiri mpangaji akubali mwaliko.)}",
+    "rent": "Kodi",
+    "editTenant": "Hariri Mpangaji",
+    "addNewTenant": "Ongeza Mpangaji Mpya",
+    "shareInstallLink": "Shiriki Kiungo cha Kusakinisha",
+    "tenantList": "Orodha ya Wapangaji",
+    "editMaintenanceRequest": "Hariri Ombi la Matengenezo",
+    "addNewMaintenance": "Ongeza Matengenezo Mapya",
+    "landlordId": "Kitambulisho cha Mwenye Nyumba",
+    "tenantAgrementUnderReviewNote(rich)": "Kumbuka ${note(Mkataba wako unakaguliwa. Tafadhali subiri hadi mwenye nyumba aruhusu kodi yako.)}",
+    "editReview": "Hariri Tathmini",
+    "writeAReview": "Andika tathmini",
+    "selectRating": "Chagua Ukadiriaji",
+    "enterYourOpinion": "Weka Maoni Yako",
+    "askToEnterReviewMsg": "Tafadhali weka ujumbe wa tathmini",
+    "pressBackAgainToExit": "Bonyeza tena kurudi nyuma ili kutoka.",
+    "selectPaymentMethod": "Chagua Njia ya Malipo",
+    "filter": "Chuja",
+    "perMonth": "/Mwezi 1",
+    "searchHintWithAppName": "Tafuta chochote katika ${appName: String}...",
+    "propertyInfo": "Taarifa za Mali",
+    "units": "Sehemu",
+    "depositPeriod": "Kipindi cha Amana",
+    "facilitiesList": "Orodha ya Vifaa",
+    "facility": "Kifaa",
+    "amenity": "Huduma",
+    "amenitiesList": "Orodha ya Huduma",
+    "addNewFacility": "Ongeza Kifaa Kipya",
+    "editFacility": "Hariri Kifaa",
+    "facilityName": "Jina la Kifaa",
+    "amenityName": "Jina la Huduma",
+    "addNewAmenity": "Ongeza Huduma Mpya",
+    "editAmenity": "Hariri Huduma",
+    "family": "Familia",
+    "lateFee": "Ada ya Kuchelewa",
+    "lateFeeAfterDays": "@:common.lateFee Baada ya (Siku)",
+    "propertyPricing": "Bei ya ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Asante sana umemaliza kuchapisha mali yako",
+    "titleAndDescription": "Kichwa na Maelezo",
+    "rentPricing": "Bei ya Kodi",
+    "step": "Hatua",
+    "of": "KATI YA",
+    "pricing": "Bei",
+    "sameRentForAllUnit": "Kodi sawa kwa sehemu zote",
+    "unit": "sehemu",
+    "pleaseSelectAnUnitFirst": "Tafadhali chagua sehemu kwanza.",
+    "saleAmount": "Kiasi cha Uuzaji",
+    "selectCategory": "Chagua Kategoria",
+    "pleaseSelectACategory": "Tafadhali chagua kategoria",
+    "pleaseEnterAdTitle": "Tafadhali weka kichwa cha tangazo",
+    "addCoverPhoto": "Ongeza Picha ya Jalada",
+    "findAProperty": "Tafuta mali",
+    "categories": "Kategoria",
+    "recmmendedProperties": "Mali Zinazopendekezwa",
+    "recentSearch": "Utafutaji wa Hivi Karibuni",
+    "pleaseEnterYourAccountNumber": "Tafadhali weka namba ya akaunti yako.",
+    "pleaseSelectALanguageToContinue": "Tafadhali chagua lugha ili kuendelea.",
+    "subscribe": "Jisajili",
+    "noFacilitiesFound": "Hakuna vifaa vilivyopatikana!",
+    "invalidLaborDetailsPleaseTryAgain": "Maelezo ya kazi si sahihi, tafadhali jaribu tena",
+    "maintenanceWork": "Kazi ya matengenezo",
+    "selectLabor": "Chagua Kazi",
+    "enterMaintenanceCost": "Weka gharama ya matengenezo",
+    "pleaseEnterMaintenanceCost": "Tafadhali weka gharama ya matengenezo",
+    "writeComment": "Andika maoni",
+    "maintenancePending": "Matengenezo Yanayosubiri",
+    "yourEarnings": "Mapato Yako",
+    "totalPaid": "Jumla Iliyolipwa",
+    "linkANewBankAccount": "Unganisha akaunti mpya ya benki",
+    "payoutRequest": "Ombi la Malipo"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Kuna kitu kimekosea, tafadhali jaribu tena",
+    "noNidPassport": "Hakuna picha ya NID/Pasipoti iliyotolewa.",
+    "noRentPropertyFound": "Hakuna mali ya kukodi iliyopatikana kwa mpangaji huyu.",
+    "noPropertyFoundWithKeyWord": "Hakuna mali iliyopatikana!\nTafadhali jaribu na maneno tofauti",
+    "noSubscriptionFoundRefreshPage": "Hakuna mpango wa usajili uliopatikana!\nTafadhali onyesha upya ukurasa na ujaribu tena.",
+    "invalidApiDataRefreshPage": "Maelezo ya ${dataType: String} si sahihi! Tafadhali onyesha upya ukurasa na ujaribu tena.",
+    "invalidDownloadUrl": "Kiungo cha kupakua si sahihi!",
+    "failedToSaveFile": "Imeshindwa kuhifadhi faili! ${error: String}",
+    "errorOpeningFile": "Kuna kosa katika kufungua faili! ${error: String}",
+    "noVehicleInfoProvided": "Hakuna taarifa za gari zilizotolewa.",
+    "yourApplicationRejected": "Ombi Lako limekataliwa",
+    "noApplicationFoundHint": {
+      "template": "Hakuna ombi lililopatikana!\n${subject: String} itaonyeshwa hapa itakapopatikana.",
+      "subjects": {
+        "tenant": "Ombi lako",
+        "landlord": "Ombi la mpangaji"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Hakuna mali iliyopatikana!\nTafadhali jaribu kuongeza mali ili kuona hapa.",
+      "tenantRecommended": "Hakuna Mali Zilizopendekezwa zilizopatikana\nTafadhali jaribu tena baadaye.",
+      "tenantAllProperty": "Mali hazipatikani\nTafadhali jaribu tena baadaye."
+    },
+    "noImageProvided": "Hakuna Picha Iliyotolewa",
+    "noStatusMaintenantFound": {
+      "landlord": "Hakuna matengenezo ya ${status} yaliyopatikana.",
+      "tenant": "Hakuna matengenezo yaliyopatikana! Unaweza kuunda ombi la matengenezo ili kuona hapa."
+    },
+    "noDepositFound": "Hakuna amana ya usalama iliyopatikana!\nUnaweza kuona amana za usalama zitakapopatikana",
+    "noRentPaymentFound": "Hakuna malipo ya kodi yaliyopatikana!\nUnaweza kuona malipo ya kodi yanapopatikana",
+    "transactionSummaryApiException": "Imeshindwa kupata muhtasari wa muamala.",
+    "noWithdrawRequestFound": "Hakuna ombi lililopatikana!\nTafadhali jaribu kuunda ombi la kutoa pesa ili kuona hapa.",
+    "withdrawRequestNotApproved": "Ombi hili la kutoa pesa halijaidhinishwa!.",
+    "nonZeroError": "Tafadhali weka kiasi halali zaidi ya sifuri.",
+    "minAmountError": "Kiasi lazima kiwe angalau ${minValue: String}.",
+    "maxAmountError": "Kiasi lazima kisizidi ${maxValue: String}.",
+    "selectPaymentMethodHint": "Tafadhali chagua njia ya malipo kwanza.",
+    "noStatusRefundReqFound": {
+      "landlord": "Hakuna ombi la marejesho ya ${status} lililopatikana!\nUnaweza kuona ombi la marejesho hapa litakapopatikana.",
+      "tenant": "Hakuna ombi la marejesho lililopatikana!\nUnaweza kuunda ombi la marejesho ili kuona hapa."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Mpangaji ataidhinisha marejesho atakapopata pesa kurudi",
+      "tenantReqSuccess": "Tutakagua ombi la Marejesho & kulidhinisha ndani ya masaa 24."
+    },
+    "oneToTenRequiredField": "Tafadhali chagua idadi ya ${value: String}",
+    "invalidDateRange": "Kiwango cha tarehe si sahihi.",
+    "valueMustBeGreaterThanZero": "${value: String} lazima iwe kubwa kuliko sifuri.",
+    "editProperty": {
+      "rentalChange": "Mali ya kukodisha inabadilika. Lazima iwe halali (inayofaa) kwa malipo ya kodi ya mwezi ujao tu.",
+      "deleteOnRent": "Mali yako tayari imekodiwa na mpangaji. Haiwezi kufutwa hadi umwondoe mpangaji kwanza",
+      "alreayRented": "Mali hii tayari imekodiwa. Tafadhali jaribu tena baadaye.\nAu unaweza kuwasiliana na mwenye nyumba kwa maelezo zaidi."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Hakuna mwaliko wa kodi uliopatikana!\nTafadhali jaribu kuunda mwaliko wa kodi ili kuona hapa.",
+      "tenantNoRentInvitation": "Hakuna mwaliko wa kodi uliopatikana!\nUnaweza kuona mwaliko wa kodi hapa utakapopatikana."
+    },
+    "notenantFoundList": "Hakuna wapangaji!\nTafadhali jaribu kuongeza mpangaji ili kuona hapa.",
+    "noFeaturesProvided": "Hakuna vipengele vilivyotolewa.",
+    "noNotificationFound": "Hakuna arifa inayopatikana.\nUnaweza kuona arifa yako hapa itakapopatikana.",
+    "noFacilitiesFound": "Hakuna vifaa vilivyopatikana.",
+    "noAmenitiesFound": "Hakuna huduma zilizopatikana!",
+    "noLaborFound": "Hakuna kazi iliyopatikana\\nTafadhali jaribu tena baadaye.",
+    "areYouSureYouWantToRemoveThisUnit": "Una uhakika unataka kuondoa sehemu hii?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Una uhakika wa kutoka?"
+    },
+    "application": {
+      "rejectTitle": "Kwa nini unakataa ombi hili?",
+      "applicationSent": {
+        "successfully": "Ombi limetumwa kwa ufanisi!",
+        "sucessDescription": "Unaweza kuona ombi hili katika orodha yako ya maombi"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Futa Kazi?",
+        "description": "Una uhakika wa kufuta kazi hii?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Kwa nini ombi hili linakataliwa?",
+      "processTitle": "Una uhakika wa Kushughulikia ombi hili la Matengenezo?",
+      "completeTitle": "Kazi imekamilika?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Futa Njia ya Kutoa Pesa?",
+      "deleteDescription": "Una uhakika wa kufuta njia hii ya kutoa pesa?"
+    },
+    "unsavedChanges": {
+      "title": "Una uhakika wa kurudi nyuma?",
+      "message": "Sehemu ambazo zimebadilishwa hazitahifadhiwa!"
+    },
+    "property": {
+      "delete": {
+        "title": "Futa Mali?",
+        "message": "Una uhakika wa kufuta mali hii?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Una uhakika wa kuidhinisha kodi hii?",
+        "description": "Hakikisha umepitia mkataba uliosainiwa na mpangaji."
+      },
+      "tenantAccept": {
+        "title": "Una uhakika wa kukubali mwaliko huu?",
+        "description": "Hakikisha umepakua faili ya mkataba ya pdf!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Kikao kimeisha muda wake",
+      "message": "Kikao chako kimeisha muda wake. Tafadhali ingia tena",
+      "action": "Ingia"
+    },
+    "noInternet": {
+      "title": "Hakuna Muunganisho wa Mtandao",
+      "message": "Tafadhali angalia muunganisho wako wa Wi-Fi au mtandao wa simu na ujaribu tena",
+      "action": "Jaribu Tena"
+    },
+    "permissionHandler": {
+      "title": "Ruhusa inahitajika!",
+      "message": "Unahitaji kutoa ruhusa katika mipangilio ya programu. Ungependa kufungua mipangilio sasa?"
+    },
+    "imagePicker": {
+      "title": "Chagua Chaguo",
+      "gallery": "Matunzio",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Thibitisha Barua Pepe Yako",
+      "message": "Tumetuma barua pepe ya msimbo wa uthibitisho",
+      "messageWithEmail": "@:prompt.verificationDialog.message kwa ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Futa arifa?",
+      "clearMessage": "Una uhakika wa kufuta arifa zote?"
+    },
+    "genericDeletePrompt": {
+      "title": "Je, unataka kufuta ${item: String} hii"
+    },
+    "subscriptionModal": {
+      "title": "Usajili umeisha muda!",
+      "message": "Tafadhali jisajili ili kuendelea."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Weka @:common.fullName",
+      "errors": {
+        "required": "Tafadhali weka @:common.fullName yako"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Weka @:common.email yako",
+      "errors": {
+        "required": "Tafadhali weka anwani yako ya @:common.email",
+        "invalid": "⦸ Barua Pepe Si Sahihi, Tafadhali Jaribu Tena"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Tafadhali weka @:common.password yako",
+        "minLength": "Nenosiri lazima liwe na angalau herufi ${count}!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Thibitisha @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Tafadhali weka @:common.password yako",
+        "notMatched": "Thibitisha nenosiri hailingani!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Tafadhali weka @:common.mobileNumber yako"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Namba ya nyumba na jina la barabara",
+      "errors": {
+        "required": "Tafadhali weka @:form.address1.label yako"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Ghorofa, seti, kitengo, n.k.",
+      "errors": {
+        "required": "Tafadhali weka @:form.address2.label yako"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Weka @:common.postalCode",
+      "errors": {
+        "required": "Tafadhali weka @:common.postalCode yako"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Weka jina la @:common.city.",
+      "errors": {
+        "required": "Tafadhali weka jina la @:common.city yako."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Weka jina la @:common.state.",
+      "errors": {
+        "required": "Tafadhali weka jina la @:common.state yako."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Chagua @:common.country.",
+      "errors": {
+        "required": "Tafadhali chagua @:common.country yako"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Tafadhali weka otp.",
+        "invalid": "Tafadhali weka otp sahihi."
+      }
+    },
+    "title": {
+      "label": "Kichwa",
+      "hint": "Weka kichwa",
+      "errors": {
+        "required": "Tafadhali weka kichwa"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Chagua @:form.date.label",
+      "errors": {
+        "required": "Tafadhali chagua @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Sababu",
+      "hint": "Weka sababu",
+      "errors": {
+        "required": "Tafadhali weka sababu"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Chagua @:common.withdrawMethod",
+      "errors": {
+        "required": "Tafadhali chagua @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Pakia ${label: String}",
+      "errors": {
+        "required": "Tafadhali chagua ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Weka @:form.note.label",
+      "errors": {
+        "required": "Tafadhali weka @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Chagua @:common.gender",
+      "errors": {
+        "required": "Tafadhali chagua @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Weka @:form.anyField.label",
+      "errors": {
+        "required": "Tafadhali weka @:form.anyField.label",
+        "invalid": "Tafadhali weka @:form.anyField.label sahihi"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Chagua @:form.anyDropdown.label",
+      "errors": {
+        "required": "Tafadhali chagua @:form.anyDropdown.label",
+        "invalid": "Tafadhali chagua @:form.anyDropdown.label sahihi"
+      }
+    }
+  },
+  "action": {
+    "next": "Inayofuata",
+    "getStarted": "Anza",
+    "skip": "Ruka",
+    "select": "Chagua",
+    "save": "Hifadhi",
+    "signIn": "Ingia",
+    "signUp": "Jisajili",
+    "continue": "Endelea",
+    "clearAll": "Futa Zote",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Tuma",
+    "pay": "Lipa",
+    "remove": "Ondoa",
+    "goBack": "Rudi Nyuma",
+    "buyNow": "Nunua Sasa",
+    "no": "Hapana",
+    "open": "Fungua",
+    "addProperty": "Ongeza Mali",
+    "process": "Shughulikia",
+    "approve": "Idhinisha",
+    "reject": "Kataa",
+    "viewRent": "Angalia Kodi",
+    "openNavigationMenu": "Fungua menyu ya kusogeza",
+    "seeAll": "Angalia Zote",
+    "update": "Sasisha",
+    "printTransaction": "Chapisha Muamala",
+    "payoutRequest": "Ombi la Malipo",
+    "addNew": "+ Ongeza Mpya",
+    "sendRequest": "Tuma Ombi",
+    "print": "Chapisha",
+    "requestForRefund": "Ombi la Marejesho",
+    "previous": "Iliyotangulia",
+    "delete": "Futa",
+    "applyProperty": "Ombea Mali",
+    "viewApplication": "Angalia Maombi",
+    "inviteTenant": "Mwaliko wa Mpangaji",
+    "inviteRent": "Mwaliko wa Kodi",
+    "cancel": "Ghairi",
+    "accept": "Kubali",
+    "submit": "Wasilisha",
+    "yes": "Ndio",
+    "okay": "Sawa",
+    "confirm": "Thibitisha",
+    "apply": "Tuma",
+    "reset": "Weka Upya",
+    "retry": "Jaribu Tena",
+    "viewAll": "Angalia Zote",
+    "addMore": "Ongeza Zaidi",
+    "done": "Kamilika"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Tafuta Mali Yako",
+          "description": "Tumefanya iwe rahisi kupata mahali panapofaa maisha yako — iwe ni chumba, ghorofa, au nyumba."
+        },
+        "data2": {
+          "title": "Ghorofa Mjini",
+          "description": "Tunakuokoa wakati kwa kulinganisha haraka na mali inayofaa kabla haijaondoka ili uweze kufurahia nyumba yako mpya, au uorodheshe yako mwenyewe bure."
+        },
+        "data3": {
+          "title": "Nyumba Yako ya Starehe",
+          "description": "Ikiwa unatafuta mahali pa kuishi basi angalia nyumba zetu za kukodi. Tuna aina mbalimbali za nyumba za kuchagua kutoka nchi nzima."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Karibu Tena",
+      "subtitle": "Ingia sasa ili uanze safari ya kushangaza.",
+      "extra": {
+        "rememberMe": "Nikumbuke",
+        "signUpNavigator(rich)": "Huna akaunti? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Umesahau nenosiri",
+      "subtitle": "Weka anwani yako ya Barua Pepe ili kurejesha nenosiri lako."
+    },
+    "otpVerification": {
+      "title": "Uthibitisho",
+      "subtitle": "Pini ya tarakimu 6 imetumwa kwa anwani yako ya barua pepe. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Msimbo utatumwa baada ya ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Tuma msimbo tena)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Weka upya nenosiri",
+      "subtitle": "Weka upya nenosiri lako ili kurejesha na kuingia katika akaunti yako",
+      "extra": {
+        "dialog": {
+          "title": "Imefanywa kwa ufanisi!",
+          "subtitle": "Ingia kwa nenosiri lako jipya.\n Inakuelekeza kwenye Ingia..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Fungua Akaunti",
+      "subtitle": "Jisajili sasa ili uanze safari ya kushangaza",
+      "extra": {
+        "signInNavigator(rich)": "Una akaunti? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Wewe ni nani?",
+      "subtitle": "Tafadhali chagua chaguo hapa chini.",
+      "extra": {
+        "landlordTag": "Dhibiti mali zako mwenyewe",
+        "tenantTag": "Ingia katika akaunti yako ya kodi"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Arifa"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Ujumbe..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Kwa nini una @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Andika sababu",
+          "errors": {
+            "required": "Tafadhali weka sababu ya kughairi kodi"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Malipo ya Nje ya Mtandao",
+      "form": {
+        "paymentNote": {
+          "label": "Kumbuka Malipo (@:common.optional)",
+          "hint": "Weka maandishi fulani..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Kiasi cha Kulipa: ${amount}",
+        "accountHolderName": "Jina la Mwenye Akaunti",
+        "accountNumber": "Namba ya Akaunti",
+        "swiftCode": "Msimbo wa Swift",
+        "branch": "Tawi",
+        "fileTypeHint(rich)": "Chagua ${fileType(JPG, PNG,PDF)} Au faili za fomati ${fileType(DOC)} pekee. Ukubwa wa faili ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Angalia Ankara",
+        "title": "@:common.thankYou",
+        "description": "Tutakagua malipo & kuyidhinisha ndani ya masaa 24."
+      },
+      "fail": {
+        "actionButton": "Jaribu Tena",
+        "title": "Loo! Malipo Yameshindwa",
+        "description": "Muamala wako umeshindwa kwa sababu ya hitilafu ya kiufundi."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Vipengele ${fa((Vifaa & Huduma))}",
+        "selectRentalPeriod": "Chagua Kipindi cha Kodi",
+        "writeAReview": "+ Andika tathmini"
+      }
+    },
+    "search": {
+      "appbarTitle": "Tafuta",
+      "extra": {
+        "hint": "Tafuta viwanja, vyumba, vyumba vya kulala...",
+        "noRecentSearch": "Huna utafutaji wa hivi karibuni."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Chagua Mpango Wako",
+      "extra": {
+        "subscriptionPaymentSuccess": "Malipo ya usajili yamefanikiwa.\nUnaweza kufikia vipengele vilivyojisajili sasa."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Jumla ya Gharama ya Matengenezo: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Mali Zote",
+      "pending": "Inasubiri",
+      "active": "Inatumika",
+      "inactive": "Haifanyi kazi",
+      "rejected": "Imekataliwa"
+    },
+    "propertyType": {
+      "rent": "Kodi",
+      "sale": "Uuzaji"
+    },
+    "propertyCategory": {
+      "apartment": "Ghorofa",
+      "house": "Nyumba",
+      "commercial": "Biashara",
+      "land": "Ardhi",
+      "room": "Chumba",
+      "unitOrFlat": "Sehemu / Fleti",
+      "bungalow": "Bungalow",
+      "plot": "Kiwanja"
+    },
+    "applicationStatus": {
+      "all": "Zote",
+      "pending": "Inasubiri",
+      "processing": "Inashughulikiwa",
+      "approved": "Imeidhinishwa",
+      "rejected": "Imekataliwa"
+    },
+    "myRentStatus": {
+      "pending": "Inasubiri",
+      "processing": "Inashughulikiwa",
+      "active": "Inatumika",
+      "expired": "Imeisha Muda",
+      "cancelled": "Imeghairiwa"
+    },
+    "maintenanceStatus": {
+      "pending": "Inasubiri",
+      "processing": "Inashughulikiwa",
+      "rejected": "Imekataliwa",
+      "completed": "Imekamilika"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Binafsi (Mtu Mmoja)",
+      "company": "Kampuni"
+    },
+    "tenantType": {
+      "newTenant": "Mpangaji Mpya",
+      "activeTenant": "Mpangaji Anayefanya Kazi",
+      "expiredTenant": "Mpangaji Aliyeisha Muda"
+    },
+    "paymentStatus": {
+      "all": "Zote",
+      "pending": "Inasubiri",
+      "paid": "Imelipwa",
+      "unpaid": "Haijalipwa",
+      "rejected": "Imekataliwa",
+      "refund": "Marejesho"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Malipo ya Mtandaoni",
+      "offlinePayment": "Malipo ya Nje ya Mtandao"
+    },
+    "paymentType": {
+      "securityDeposit": "Amana ya Usalama",
+      "rentPayment": "Malipo ya Kodi",
+      "subscription": "Usajili"
+    },
+    "gender": {
+      "male": "Mwanamume",
+      "female": "Mwanamke",
+      "other": "Nyingine"
+    },
+    "ecRelation": {
+      "wife": "Mke",
+      "parent": "Mzazi",
+      "friend": "Rafiki",
+      "brother": "Kaka",
+      "sister": "Dada",
+      "child": "Mtoto"
+    },
+    "vehicleType": {
+      "car": "Gari",
+      "motorcycles": "Pikipiki",
+      "lorry": "Lori"
+    },
+    "sortBy": {
+      "lowToHigh": "Chini kwenda Juu",
+      "highToLow": "Juu kwenda Chini"
+    },
+    "residentialType": {
+      "flat": "Fleti",
+      "apartment": "Ghorofa",
+      "condominium": "Kondominiamu",
+      "serviceResidence": "Makazi ya Huduma",
+      "studio": "Studio",
+      "duplex": "Duplex",
+      "townhouseCondo": "Nyumba ya Mjini Kondomu",
+      "condo": "Kondomu / Makazi ya Huduma / Penthouse",
+      "house": "Nyumba",
+      "shoplot": "Sehemu ya Duka",
+      "sharing": "Kushiriki nyumba / Fleti",
+      "others": "Nyingine"
+    },
+    "floorRange": {
+      "high": "Juu",
+      "medium": "Kati",
+      "low": "Chini"
+    },
+    "furnishings": {
+      "fullyFurnished": "Samani Kamili",
+      "partiallyFurnished": "Samani Kiasi",
+      "notFurnished": "Bila Samani"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Eneo la Ofisi",
+      "retailSpace": "Eneo la Rejareja",
+      "shopLot": "Sehemu ya Duka",
+      "warehouseFactory": "Ghala / Kiwanda",
+      "hotelResort": "Hoteli / Mapumziko",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Nyingine"
+    },
+    "landPropertyType": {
+      "residential": "Makazi",
+      "industrial": "Viwanda",
+      "agricultural": "Kilimo",
+      "commercial": "Biashara",
+      "mixedDevelopment": "Maendeleo Mchanganyiko",
+      "others": "Nyingine"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "Miezi 6",
+      "oneYear": "Mwaka 1",
+      "oneAndHalfYears": "Miaka 1.5",
+      "twoYears": "Miaka 2",
+      "twoAndHalfYears": "Miaka 2.5"
+    },
+    "dropdownDateFilter": {
+      "daily": "Kila Siku",
+      "weekly": "Kila Wiki",
+      "monthly": "Kila Mwezi",
+      "yearly": "Kila Mwaka",
+      "custom": "Maalum"
+    },
+    "bungalowType": {
+      "modern": "Ya Kisasa",
+      "cottage": "Kijumba",
+      "luxury": "Anasa",
+      "ecoSmart": "Eco / Smart",
+      "beachSide": "Kando ya Pwani",
+      "others": "Nyingine"
+    }
+  }
+}

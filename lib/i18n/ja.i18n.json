@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "ja_JP",
+    "languageName": "Japanese",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "プロフィール",
+    "language": "言語",
+    "subscriptionPlan": "サブスクリプションプラン",
+    "contactUs": "お問い合わせ",
+    "termsAndConditions": "利用規約と条件",
+    "aboutUs": "会社概要",
+    "logout": "ログアウト",
+    "editProfile": "プロフィールを編集",
+    "fullName": "氏名",
+    "email": "メールアドレス",
+    "mobileNumber": "携帯電話番号",
+    "address": "住所",
+    "postalCode": "郵便番号",
+    "city": "市区町村",
+    "country": "国",
+    "state": "都道府県",
+    "password": "パスワード",
+    "forgotPassword": "パスワードを忘れた場合",
+    "tenant": "賃借人",
+    "landlord": "賃貸人",
+    "cancelRenting": "賃貸借契約をキャンセル",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "fromDate": "開始日",
+    "toDate": "終了日",
+    "online": "オンライン",
+    "bankList": "銀行リスト",
+    "withdrawMethod": "出金方法",
+    "uploadPaymentReceipt": "支払い領収書をアップロード",
+    "offlinePaymentNote(rich)": "注記: ${note(支払いは、管理者が手動で承認する必要があります)} ${duraion(24〜48時間以内。)}",
+    "reviews": "レビュー",
+    "description": "説明",
+    "about": "概要",
+    "propertyTypes": "物件の種類",
+    "features": "特徴",
+    "floorPlans": "間取り図",
+    "buildingDetails": "建物詳細",
+    "buildingName": "建物名",
+    "propertyAddress": "物件の住所",
+    "completionYear": "竣工年",
+    "lotNumber": "区画番号",
+    "residentialType": "居住タイプ",
+    "furnishings": "備品",
+    "floorRange": "階数",
+    "bedrooms": "寝室",
+    "bathrooms": "浴室",
+    "propertySize": "物件の広さ",
+    "rentalPeriod": "賃貸期間",
+    "securityDeposit": "敷金",
+    "utilityBill": "公共料金",
+    "facilities": "設備",
+    "amenities": "アメニティ",
+    "expiringReason": "期限切れの理由",
+    "tenantDetails": "賃借人の詳細",
+    "typeOfTenant": "賃借人のタイプ",
+    "tenantName": "賃借人の氏名",
+    "nidPassport": "NID/パスポート",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "賃借人ID",
+    "dateOfBirth": "生年月日",
+    "gender": "性別",
+    "nominee": "被指名者",
+    "name": "氏名",
+    "optional": "任意",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee 携帯 番号.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "緊急連絡先",
+    "relation": "関係",
+    "relationWith": "@:common.relation との関係",
+    "relationWithYou": "@:common.relationWith あなた",
+    "company": "会社",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company SSM 番号.",
+    "workplace": "勤務先",
+    "officePhoneNo": "オフィス電話番号",
+    "officeMobileNo": "オフィス @:common.mobileNumber",
+    "vehicle": "車両",
+    "vehiclesInfo": {
+      "plain": "車両情報",
+      "optional": "車両情報 (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle 種類",
+    "vehicleRegistrationNo": {
+      "normal": "車両登録番号",
+      "short": "登録番号",
+      "alt": "プレート番号"
+    },
+    "vehicleBrand": "@:common.vehicle ブランド",
+    "rentProperty": "賃貸物件",
+    "propertyDetails": "物件の詳細",
+    "propertyId": "物件ID",
+    "propertyType": "物件のタイプ",
+    "propertyName": "物件名",
+    "paymentDetails": "支払い詳細",
+    "monthlyRent": "月額賃料",
+    "thisMonthPayment": "今月の支払い",
+    "totalPaidRent": "支払い済み賃料合計",
+    "dueRent": "未払い賃料",
+    "rentStartDate": "賃貸 @:common.startDate",
+    "rentEndDate": "賃貸 @:common.endDate",
+    "status": "ステータス",
+    "rentAgreementPdf": "賃貸借契約書 PDF",
+    "noFile": "ファイルなし",
+    "tenantImageOp": "賃借人の画像 @:common.optional",
+    "addNewVechicle": "新しい車両を追加",
+    "uploadNidPassport": "NID/パスポートをアップロード",
+    "nidPassportUploadNote": "画像ファイルタイプのみ受け付けられます。ファイルの上限は2.5 MBです。",
+    "search": "検索",
+    "sortBy": "並び替え",
+    "subscription": "サブスクリプション",
+    "downloading": "ダウンロード中...",
+    "downloadSuccess": "ファイルを正常にダウンロードしました！",
+    "addPropertyBannerTitle": "あなたの物件を賃貸に出しませんか？",
+    "application": "申請",
+    "tenantHasPaidDeposit": "賃借人が敷金を支払いました。",
+    "askProcessingRentApplication": "この賃貸物件の申請を処理してもよろしいですか？",
+    "dateAndTime": "日付と時刻",
+    "applicationDetails": "申請詳細",
+    "depositStatus": "敷金ステータス",
+    "uploadRentAgreement": "賃貸借契約書をアップロード",
+    "uploadFilePDF": "ファイルをアップロード (PDF)",
+    "askSelectRentAgreement": "契約書ファイルを選択してください。",
+    "landlordRentAgreementPDF": "賃貸人 賃貸借契約書 PDF",
+    "tenantRentAgreementPDF": "賃借人 賃貸借契約書 PDF",
+    "landlordApplicationApproveNote(rich)": "注記: ${note(賃借人が敷金を支払った後にのみ申請を承認してください。)}",
+    "reasonOfRejection": "却下の理由",
+    "youveRejectedThisApplication": "この申請を却下しました",
+    "landlordDetails": "賃貸人の詳細",
+    "landlordName": "賃貸人の氏名",
+    "downloadRentAgreement": "賃貸借契約書をダウンロード",
+    "acceptTermsConditions(rich)": "${toc(利用規約と条件)} に同意する",
+    "tenantAgreementSignNote1(rich)": "注記: ${note(契約書をダウンロードして読み、署名済みの契約書をWhatsAppまたはメールで賃貸人に送付してください。)}",
+    "tenantAgreementSignNote2(rich)": "注記: ${note(賃借人が敷金、公共料金、および1ヶ月分の前払い賃料を支払ったときに、賃貸人は申請を承認します。)}",
+    "completeRentAgreementPdf(rich)": "賃貸借契約書 (PDF) ${complete(完全な契約書)}",
+    "tenantApplicationDepositNote(rich)": "注記: ${note(賃貸人が申請を承認するのは、賃借人が敷金、公共料金、および1ヶ月分の前払い賃料を支払った場合です。)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "申請リスト",
+    "viewDetails": "詳細を表示",
+    "searchHint": "@:common.search...",
+    "home": "ホーム",
+    "dashboard": "ダッシュボード",
+    "tenants": "賃借人",
+    "maintenance": "メンテナンス",
+    "maintenanceList": "メンテナンスリスト",
+    "maintenanceReport": "メンテナンスレポート",
+    "labor": "作業員",
+    "applications": "申請",
+    "rentInvitation": "賃貸招待",
+    "payment": "支払い",
+    "rentPayment": "賃料の支払い",
+    "depositUtilityPayment": "敷金と公共料金の支払い",
+    "refundRequest": "返金リクエスト",
+    "withdrawRequest": "出金リクエスト",
+    "myProperty": "自分の物件",
+    "myRent": "自分の賃貸物件",
+    "wishlist": "お気に入り",
+    "properties": "物件",
+    "allProperties": "すべての物件",
+    "totalPropery": "合計物件数",
+    "occupied": "占有中",
+    "vacant": "空室",
+    "accounting": "会計",
+    "totalIncome": "総収入",
+    "totalExpense": "総費用",
+    "currentBalance": "現在の残高",
+    "totalWithdrawal": "合計 (出金)",
+    "totalProperties": "合計物件数",
+    "totalTenant": "合計賃借人数",
+    "totalRentPaid": "支払い済み賃料合計",
+    "totalRentDue": "未払い賃料合計",
+    "totalApplication": "合計申請数",
+    "pendingApplication": "保留中の申請",
+    "processingApplication": "処理中の申請",
+    "approveApplication": "承認済み申請",
+    "rejectApplication": "却下済み申請",
+    "maintenanceCost": "メンテナンス費用",
+    "transactionSummary": "取引概要",
+    "maintenanceRequest": "メンテナンスリクエスト",
+    "notifications": "通知",
+    "myProperties": "自分の物件",
+    "recommendationProperties": "おすすめ物件",
+    "laborList": "作業員リスト",
+    "addLabor": "作業員を追加",
+    "laborDetails": "作業員の詳細",
+    "laborSalary": "作業員の給与",
+    "editLabor": "作業員を編集",
+    "addNewLabor": "新しい作業員を追加",
+    "enterAmount": "金額を入力",
+    "maintenanceDetails": "メンテナンスの詳細",
+    "laborName": "作業員の氏名",
+    "comment": "コメント",
+    "image": "画像",
+    "complete": "完了",
+    "details": "詳細",
+    "title": "タイトル",
+    "date": "日付",
+    "reason": "理由",
+    "edit": "編集",
+    "property": "物件",
+    "completeYourProfile": "プロフィールを完成させる",
+    "profileImage": "プロフィール画像",
+    "imagePickHint": "最大サイズ120x120ピクセルのJPEGおよびPNG画像のみ。",
+    "invoiceId": "請求書ID",
+    "depositAmount": "敷金",
+    "landlordPhone": "賃貸人の電話番号",
+    "rentalAdvance": "賃料 (前払い)",
+    "totalAmount": "合計金額",
+    "rentAmount": "賃料",
+    "adminCharge": "管理手数料",
+    "editAccount": "アカウントを編集",
+    "addNewAccount": "新しいアカウントを追加",
+    "transactionId": "取引ID",
+    "transactionType": "取引タイプ",
+    "requestDate": "リクエスト日",
+    "amount": "金額",
+    "fee": "手数料",
+    "paymentStatus": "支払いステータス",
+    "generatedTime": "生成時間",
+    "systemGeneratedReportHint(rich)": "これは ${appName} のシステム生成レポートです",
+    "withdrawHistory": "出金履歴",
+    "history": "履歴",
+    "withdrawAmount": "出金金額",
+    "availableBalance": "利用可能な残高",
+    "withdrawCharge": "出金手数料",
+    "paymentMethod": "支払い方法",
+    "requestSendSuccess": "リクエストが正常に送信されました！",
+    "paymentReceiptSubmitSuccess": "支払い領収書が正常に提出されました。",
+    "refundReason": "返金理由",
+    "note": "注記",
+    "refundReceiveSuccess": "返金が正常に受け取られました。",
+    "downloadPaymentReceipt": "支払い領収書をダウンロード",
+    "invoice": "請求書",
+    "selectPropertyToSeeInvoice": "請求書番号を表示する物件を選択してください...",
+    "bankAccName": "銀行口座名",
+    "bankName": "銀行名",
+    "bankAccNum": "銀行口座番号",
+    "thankYou": "ありがとうございます！",
+    "basicInfo": "基本情報",
+    "descriptionPricing": "説明と価格",
+    "contact": "連絡先",
+    "photos": "写真",
+    "successfullySubmitted": "正常に提出されました！",
+    "editProperty": "物件を編集",
+    "addNewProperty": "新しい物件を追加",
+    "propertyManageRequestSuccess": "あなたの広告は審査のために提出されました。",
+    "postAnotherProperty": "別の物件を投稿",
+    "browseYourProperty": "あなたの物件を閲覧",
+    "stepIndicator(rich)": "ステップ ${step}/${totalSteps}",
+    "whatWouldYouLikeToPost": "何を投稿しますか？",
+    "category": "カテゴリ",
+    "invalidCategory": "無効なカテゴリ",
+    "unitNumber": "ユニット番号",
+    "sqft": "平方フィート.",
+    "propertySizeMustBeGreaterThan0": "物件の広さはゼロより大きくする必要があります",
+    "whatAreTheFacility": "設備は何ですか？",
+    "whatAreTheAmenity": "アメニティは何ですか？",
+    "parkingLot": "駐車場",
+    "houseType": "住宅タイプ",
+    "value": "値",
+    "unitLotSize": "ユニット/区画の広さ",
+    "landSize": "土地の広さ",
+    "acres": "エーカー",
+    "roomSize": "部屋の広さ",
+    "askTenantPreference": "賃借人の好みは何ですか？",
+    "couple": "カップル",
+    "describeTheProperty": "${propertyType: String} を説明",
+    "adTitle": "広告タイトル",
+    "minimumRentalPeriod": "最低賃貸期間",
+    "whatsappNumber": "@:common.whatsapp 番号",
+    "hideOrDisplayEmail": "メールアドレスを非表示または表示",
+    "thankYouForPostingProperty": "${appName: String} にご投稿いただきありがとうございます！",
+    "propertyList": "物件リスト",
+    "newInviteRent": "新しい賃貸招待",
+    "rentAgreement": "賃貸借契約書",
+    "rentDetails": "賃貸詳細",
+    "landlordRentInvitationPendingNote(rich)": "注記: ${note(賃借人が招待を承諾するまでお待ちください。)}",
+    "rent": "賃料",
+    "editTenant": "賃借人を編集",
+    "addNewTenant": "新しい賃借人を追加",
+    "shareInstallLink": "インストールリンクを共有",
+    "tenantList": "賃借人リスト",
+    "editMaintenanceRequest": "メンテナンスリクエストを編集",
+    "addNewMaintenance": "新しいメンテナンスを追加",
+    "landlordId": "賃貸人ID",
+    "tenantAgrementUnderReviewNote(rich)": "注記 ${note(あなたの契約書は審査中です。賃貸人が賃貸借契約を承認するまでお待ちください。)}",
+    "editReview": "レビューを編集",
+    "writeAReview": "レビューを書く",
+    "selectRating": "評価を選択",
+    "enterYourOpinion": "ご意見を入力",
+    "askToEnterReviewMsg": "レビューメッセージを入力してください",
+    "pressBackAgainToExit": "終了するには、もう一度戻るを押してください。",
+    "selectPaymentMethod": "支払い方法を選択",
+    "filter": "フィルター",
+    "perMonth": "/1ヶ月",
+    "searchHintWithAppName": "${appName: String} で何かを検索...",
+    "propertyInfo": "物件情報",
+    "units": "ユニット",
+    "depositPeriod": "敷金期間",
+    "facilitiesList": "設備リスト",
+    "facility": "設備",
+    "amenity": "アメニティ",
+    "amenitiesList": "アメニティリスト",
+    "addNewFacility": "新しい設備を追加",
+    "editFacility": "設備を編集",
+    "facilityName": "設備名",
+    "amenityName": "アメニティ名",
+    "addNewAmenity": "新しいアメニティを追加",
+    "editAmenity": "アメニティを編集",
+    "family": "家族",
+    "lateFee": "延滞料金",
+    "lateFeeAfterDays": "@:common.lateFee 後 (日)",
+    "propertyPricing": "${propertyType: String} の価格",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "誠にありがとうございます。あなたの物件を公開しました",
+    "titleAndDescription": "タイトルと説明",
+    "rentPricing": "賃貸価格",
+    "step": "ステップ",
+    "of": "の",
+    "pricing": "価格設定",
+    "sameRentForAllUnit": "すべてのユニットで同じ賃料",
+    "unit": "ユニット",
+    "pleaseSelectAnUnitFirst": "最初にユニットを選択してください。",
+    "saleAmount": "売却金額",
+    "selectCategory": "カテゴリを選択",
+    "pleaseSelectACategory": "カテゴリを選択してください",
+    "pleaseEnterAdTitle": "広告タイトルを入力してください",
+    "addCoverPhoto": "カバー写真を追加",
+    "findAProperty": "物件を探す",
+    "categories": "カテゴリ",
+    "recmmendedProperties": "おすすめ物件",
+    "recentSearch": "最近の検索",
+    "pleaseEnterYourAccountNumber": "口座番号を入力してください。",
+    "pleaseSelectALanguageToContinue": "続行するために言語を選択してください。",
+    "subscribe": "購読",
+    "noFacilitiesFound": "設備が見つかりません！",
+    "invalidLaborDetailsPleaseTryAgain": "無効な作業員の詳細です。もう一度お試しください",
+    "maintenanceWork": "メンテナンス作業",
+    "selectLabor": "作業員を選択",
+    "enterMaintenanceCost": "メンテナンス費用を入力",
+    "pleaseEnterMaintenanceCost": "メンテナンス費用を入力してください",
+    "writeComment": "コメントを書く",
+    "maintenancePending": "メンテナンス保留中",
+    "yourEarnings": "あなたの収益",
+    "totalPaid": "支払い済み合計",
+    "linkANewBankAccount": "新しい銀行口座をリンク",
+    "payoutRequest": "支払いリクエスト"
+  },
+  "exceptions": {
+    "somethingWentWrong": "問題が発生しました。もう一度お試しください",
+    "noNidPassport": "NID/パスポート画像が提供されていません。",
+    "noRentPropertyFound": "この賃借人の賃貸物件が見つかりません。",
+    "noPropertyFoundWithKeyWord": "物件が見つかりません！\n別のキーワードでお試しください",
+    "noSubscriptionFoundRefreshPage": "サブスクリプションプランが見つかりません！\nページを更新してもう一度お試しください。",
+    "invalidApiDataRefreshPage": "無効な ${dataType: String} 情報です！ページを更新してもう一度お試しください。",
+    "invalidDownloadUrl": "無効なダウンロードURLです！",
+    "failedToSaveFile": "ファイルの保存に失敗しました！ ${error: String}",
+    "errorOpeningFile": "ファイルを開くエラーです！ ${error: String}",
+    "noVehicleInfoProvided": "車両情報が提供されていません。",
+    "yourApplicationRejected": "あなたの申請は却下されました",
+    "noApplicationFoundHint": {
+      "template": "申請が見つかりません！\n${subject: String} は、利用可能になったときにここに表示されます。",
+      "subjects": {
+        "tenant": "あなたの申請",
+        "landlord": "賃借人の申請"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "物件が見つかりません！\nここに表示するには物件を追加してみてください。",
+      "tenantRecommended": "おすすめ物件が見つかりません\n後でもう一度お試しください。",
+      "tenantAllProperty": "物件は利用できません\n後でもう一度お試しください。"
+    },
+    "noImageProvided": "画像が提供されていません",
+    "noStatusMaintenantFound": {
+      "landlord": "${status} のメンテナンスは見つかりません。",
+      "tenant": "メンテナンスが見つかりません！ここに表示するにはメンテナンスリクエストを作成できます。"
+    },
+    "noDepositFound": "敷金が見つかりません！\n利用可能になったときに敷金を確認できます",
+    "noRentPaymentFound": "賃料の支払いが見つかりません！\n利用可能になったときに賃料の支払いを確認できます",
+    "transactionSummaryApiException": "取引概要の取得に失敗しました。",
+    "noWithdrawRequestFound": "リクエストが見つかりません！\nここに表示するには出金リクエストを作成してみてください。",
+    "withdrawRequestNotApproved": "この出金リクエストは承認されていません！",
+    "nonZeroError": "ゼロより大きい有効な金額を入力してください。",
+    "minAmountError": "金額は ${minValue: String} 以上である必要があります。",
+    "maxAmountError": "金額は ${maxValue: String} を超えてはいけません。",
+    "selectPaymentMethodHint": "最初に支払い方法を選択してください。",
+    "noStatusRefundReqFound": {
+      "landlord": "${status} の返金リクエストは見つかりません！\n利用可能になったときにここに返金リクエストを確認できます。",
+      "tenant": "返金リクエストが見つかりません！ここに表示するには返金リクエストを作成できます。"
+    },
+    "refundRequestHint": {
+      "inTenantList": "賃借人がお金を取り戻したときに返金を承認します",
+      "tenantReqSuccess": "返金リクエストを審査し、24時間以内に承認します。"
+    },
+    "oneToTenRequiredField": "${value: String} の数を選択してください",
+    "invalidDateRange": "無効な日付範囲。",
+    "valueMustBeGreaterThanZero": "${value: String} はゼロより大きくする必要があります。",
+    "editProperty": {
+      "rentalChange": "賃貸物件が変更されています。次月の賃料支払いにのみ有効 (効果的) である必要があります。",
+      "deleteOnRent": "あなたの物件はすでに賃借人に賃貸されています。最初に賃借人を削除するまで削除できません",
+      "alreayRented": "この物件はすでに賃貸されています。後でもう一度お試しください。\nまたは、詳細について賃貸人に連絡することができます。"
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "賃貸招待が見つかりません！\nここに表示するには賃貸招待を作成してみてください。",
+      "tenantNoRentInvitation": "賃貸招待が見つかりません！\n利用可能になったときにここに賃貸招待を確認できます。"
+    },
+    "notenantFoundList": "賃借人がいません！\nここに表示するには賃借人を追加してみてください。",
+    "noFeaturesProvided": "特徴が提供されていません。",
+    "noNotificationFound": "通知はありません。\n利用可能になったときにここに通知を確認できます。",
+    "noFacilitiesFound": "設備が見つかりません。",
+    "noAmenitiesFound": "アメニティが見つかりません！",
+    "noLaborFound": "作業員が見つかりません\n後でもう一度お試しください。",
+    "areYouSureYouWantToRemoveThisUnit": "このユニットを削除してもよろしいですか？"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "ログアウトしてもよろしいですか？"
+    },
+    "application": {
+      "rejectTitle": "この申請を却下する理由は何ですか？",
+      "applicationSent": {
+        "successfully": "申請が正常に送信されました！",
+        "sucessDescription": "この申請はあなたの申請リストで確認できます"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "作業員を削除しますか？",
+        "description": "この作業員を削除してもよろしいですか？"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "このリクエストが却下される理由は何ですか？",
+      "processTitle": "このメンテナンスリクエストを処理してもよろしいですか？",
+      "completeTitle": "作業は完了しましたか？"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "出金方法を削除しますか？",
+      "deleteDescription": "この出金方法を削除してもよろしいですか？"
+    },
+    "unsavedChanges": {
+      "title": "戻ってもよろしいですか？",
+      "message": "変更されたフィールドは保存されません！"
+    },
+    "property": {
+      "delete": {
+        "title": "物件を削除しますか？",
+        "message": "この物件を削除してもよろしいですか？"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "この賃貸借契約を承認してもよろしいですか？",
+        "description": "賃借人が署名した契約書を確認したことを確認してください。"
+      },
+      "tenantAccept": {
+        "title": "この招待を承諾してもよろしいですか？",
+        "description": "契約書PDFファイルをダウンロードしたことを確認してください！"
+      }
+    },
+    "sessionExpired": {
+      "title": "セッションの有効期限が切れました",
+      "message": "セッションの有効期限が切れました。再度サインインしてください",
+      "action": "サインイン"
+    },
+    "noInternet": {
+      "title": "インターネット接続なし",
+      "message": "Wi-Fiまたはモバイルネットワーク接続を確認して、もう一度お試しください",
+      "action": "再試行"
+    },
+    "permissionHandler": {
+      "title": "権限が必要です！",
+      "message": "アプリの設定で権限を付与する必要があります。今すぐ設定を開きますか？"
+    },
+    "imagePicker": {
+      "title": "オプションを選択",
+      "gallery": "ギャラリー",
+      "camera": "カメラ"
+    },
+    "verificationDialog": {
+      "title": "メールアドレスを確認",
+      "message": "確認コードのメールを送信しました",
+      "messageWithEmail": "@:prompt.verificationDialog.message を ${email: String?} に"
+    },
+    "notification": {
+      "clearTitle": "通知をクリアしますか？",
+      "clearMessage": "すべての通知をクリアしてもよろしいですか？"
+    },
+    "genericDeletePrompt": {
+      "title": "この ${item: String} を削除しますか"
+    },
+    "subscriptionModal": {
+      "title": "サブスクリプションの有効期限が切れました！",
+      "message": "続行するには購読してください。"
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "@:common.fullName を入力",
+      "errors": {
+        "required": "あなたの @:common.fullName を入力してください"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "あなたの @:common.email を入力",
+      "errors": {
+        "required": "あなたの @:common.email アドレスを入力してください",
+        "invalid": "⦸ 無効なメールアドレスです。もう一度お試しください"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "あなたの @:common.password を入力してください",
+        "minLength": "パスワードは ${count} 文字以上である必要があります！"
+      }
+    },
+    "confirmPassword": {
+      "label": "確認 @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "あなたの @:common.password を入力してください",
+        "notMatched": "確認パスワードが一致しません！"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "あなたの @:common.mobileNumber を入力してください"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "番地と通り名",
+      "errors": {
+        "required": "あなたの @:form.address1.label を入力してください"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "アパート、スイート、ユニットなど",
+      "errors": {
+        "required": "あなたの @:form.address2.label を入力してください"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "@:common.postalCode を入力",
+      "errors": {
+        "required": "あなたの @:common.postalCode を入力してください"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "@:common.city 名を入力。",
+      "errors": {
+        "required": "あなたの @:common.city 名を入力してください。"
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "@:common.state 名を入力。",
+      "errors": {
+        "required": "あなたの @:common.state 名を入力してください。"
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "@:common.country を選択。",
+      "errors": {
+        "required": "あなたの @:common.country を選択してください"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "OTPを入力してください。",
+        "invalid": "正しいOTPを入力してください。"
+      }
+    },
+    "title": {
+      "label": "タイトル",
+      "hint": "タイトルを入力",
+      "errors": {
+        "required": "タイトルを入力してください"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "@:form.date.label を選択",
+      "errors": {
+        "required": "@:form.date.label を選択してください"
+      }
+    },
+    "reason": {
+      "label": "理由",
+      "hint": "理由を入力",
+      "errors": {
+        "required": "理由を入力してください"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "@:common.withdrawMethod を選択",
+      "errors": {
+        "required": "@:common.withdrawMethod を選択してください"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "${label: String} をアップロード",
+      "errors": {
+        "required": "${label: String} を選択してください"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "@:form.note.label を入力",
+      "errors": {
+        "required": "@:form.note.label を入力してください"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "@:common.gender を選択",
+      "errors": {
+        "required": "@:common.gender を選択してください"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "@:form.anyField.label を入力",
+      "errors": {
+        "required": "@:form.anyField.label を入力してください",
+        "invalid": "有効な @:form.anyField.label を入力してください"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "@:form.anyDropdown.label を選択",
+      "errors": {
+        "required": "@:form.anyDropdown.label を選択してください",
+        "invalid": "有効な @:form.anyDropdown.label を選択してください"
+      }
+    }
+  },
+  "action": {
+    "next": "次へ",
+    "getStarted": "始める",
+    "skip": "スキップ",
+    "select": "選択",
+    "save": "保存",
+    "signIn": "サインイン",
+    "signUp": "サインアップ",
+    "continue": "続行",
+    "clearAll": "すべてクリア",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "送信",
+    "pay": "支払う",
+    "remove": "削除",
+    "goBack": "戻る",
+    "buyNow": "今すぐ購入",
+    "no": "いいえ",
+    "open": "開く",
+    "addProperty": "物件を追加",
+    "process": "処理",
+    "approve": "承認",
+    "reject": "却下",
+    "viewRent": "賃貸を表示",
+    "openNavigationMenu": "ナビゲーションメニューを開く",
+    "seeAll": "すべて見る",
+    "update": "更新",
+    "printTransaction": "取引を印刷",
+    "payoutRequest": "支払いリクエスト",
+    "addNew": "+ 新規追加",
+    "sendRequest": "リクエストを送信",
+    "print": "印刷",
+    "requestForRefund": "返金をリクエスト",
+    "previous": "前へ",
+    "delete": "削除",
+    "applyProperty": "物件を申請",
+    "viewApplication": "申請を表示",
+    "inviteTenant": "賃借人を招待",
+    "inviteRent": "賃貸を招待",
+    "cancel": "キャンセル",
+    "accept": "承諾",
+    "submit": "提出",
+    "yes": "はい",
+    "okay": "OK",
+    "confirm": "確認",
+    "apply": "適用",
+    "reset": "リセット",
+    "retry": "再試行",
+    "viewAll": "すべて表示",
+    "addMore": "さらに追加",
+    "done": "完了"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "あなたの物件を見つける",
+          "description": "お部屋、アパート、一戸建てなど、あなたの生活に合った場所を簡単に見つけられるようにしました。"
+        },
+        "data2": {
+          "title": "街中のアパート",
+          "description": "完璧な物件がなくなる前にすぐに見つけ、時間を節約することで、新しい家を楽しんだり、無料で自分の物件を掲載したりできます。"
+        },
+        "data3": {
+          "title": "あなたの快適な家",
+          "description": "住む場所を探しているなら、弊社の賃貸住宅をご覧ください。全国各地から選べる幅広い一戸建てをご用意しています。"
+        }
+      }
+    },
+    "signIn": {
+      "title": "おかえりなさい",
+      "subtitle": "今すぐサインインして、素晴らしい旅を始めましょう。",
+      "extra": {
+        "rememberMe": "ログイン情報を記憶",
+        "signUpNavigator(rich)": "アカウントをお持ちではありませんか？ ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "パスワードを忘れた場合",
+      "subtitle": "パスワードを回復するためにメールアドレスを入力してください。"
+    },
+    "otpVerification": {
+      "title": "認証",
+      "subtitle": "6桁のPINがあなたのメールアドレスに送信されました。 ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "コード送信まで ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(コードを再送信)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "パスワードをリセット",
+      "subtitle": "アカウントを復旧してログインするためにパスワードをリセットしてください",
+      "extra": {
+        "dialog": {
+          "title": "変更が完了しました！",
+          "subtitle": "新しいパスワードでサインインしてください。\n サインインにリダイレクトしています..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "アカウントを作成",
+      "subtitle": "今すぐサインアップして、素晴らしい旅を始めましょう",
+      "extra": {
+        "signInNavigator(rich)": "アカウントをお持ちですか？ ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "あなたは誰ですか？",
+      "subtitle": "以下のオプションを選択してください。",
+      "extra": {
+        "landlordTag": "自分の物件を管理する",
+        "tenantTag": "賃貸アカウントにログインする"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "通知"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "メッセージ..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "なぜ @:common.cancelRenting しますか？",
+      "form": {
+        "reason": {
+          "hint": "理由を記入",
+          "errors": {
+            "required": "賃貸キャンセル理由を入力してください"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "オフライン支払い",
+      "form": {
+        "paymentNote": {
+          "label": "支払いメモ (@:common.optional)",
+          "hint": "テキストを入力..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "支払い金額: ${amount}",
+        "accountHolderName": "口座名義",
+        "accountNumber": "口座番号",
+        "swiftCode": "SWIFTコード",
+        "branch": "支店",
+        "fileTypeHint(rich)": "ファイル形式は ${fileType(JPG, PNG,PDF)} または ${fileType(DOC)} のみを選択してください。ファイルサイズは ${fileSize(2000 KB)} まで"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "請求書を見る",
+        "title": "@:common.thankYou",
+        "description": "お支払いを審査し、24時間以内に承認します。"
+      },
+      "fail": {
+        "actionButton": "再試行",
+        "title": "おっと！支払いに失敗しました",
+        "description": "技術的なエラーにより、取引が失敗しました。"
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "特徴 ${fa((設備とアメニティ))}",
+        "selectRentalPeriod": "賃貸期間を選択",
+        "writeAReview": "+ レビューを書く"
+      }
+    },
+    "search": {
+      "appbarTitle": "検索",
+      "extra": {
+        "hint": "区画、マンション、部屋を検索...",
+        "noRecentSearch": "最近の検索履歴はありません。"
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "プランを選択",
+      "extra": {
+        "subscriptionPaymentSuccess": "サブスクリプションの支払いが完了しました。\n購読した機能にアクセスできるようになりました。"
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "総メンテナンス費用: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "すべての物件",
+      "pending": "保留中",
+      "active": "アクティブ",
+      "inactive": "非アクティブ",
+      "rejected": "却下済み"
+    },
+    "propertyType": {
+      "rent": "賃貸",
+      "sale": "売買"
+    },
+    "propertyCategory": {
+      "apartment": "アパート",
+      "house": "一戸建て",
+      "commercial": "商業用",
+      "land": "土地",
+      "room": "部屋",
+      "unitOrFlat": "ユニット / フラット",
+      "bungalow": "バンガロー",
+      "plot": "区画"
+    },
+    "applicationStatus": {
+      "all": "すべて",
+      "pending": "保留中",
+      "processing": "処理中",
+      "approved": "承認済み",
+      "rejected": "却下済み"
+    },
+    "myRentStatus": {
+      "pending": "保留中",
+      "processing": "処理中",
+      "active": "アクティブ",
+      "expired": "期限切れ",
+      "cancelled": "キャンセル済み"
+    },
+    "maintenanceStatus": {
+      "pending": "保留中",
+      "processing": "処理中",
+      "rejected": "却下済み",
+      "completed": "完了"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "個人 (個人)",
+      "company": "会社"
+    },
+    "tenantType": {
+      "newTenant": "新規賃借人",
+      "activeTenant": "現賃借人",
+      "expiredTenant": "期限切れの賃借人"
+    },
+    "paymentStatus": {
+      "all": "すべて",
+      "pending": "保留中",
+      "paid": "支払い済み",
+      "unpaid": "未払い",
+      "rejected": "却下済み",
+      "refund": "返金"
+    },
+    "paymentOptions": {
+      "onlinePayment": "オンライン支払い",
+      "offlinePayment": "オフライン支払い"
+    },
+    "paymentType": {
+      "securityDeposit": "敷金",
+      "rentPayment": "賃料の支払い",
+      "subscription": "サブスクリプション"
+    },
+    "gender": {
+      "male": "男性",
+      "female": "女性",
+      "other": "その他"
+    },
+    "ecRelation": {
+      "wife": "妻",
+      "parent": "親",
+      "friend": "友人",
+      "brother": "兄弟",
+      "sister": "姉妹",
+      "child": "子供"
+    },
+    "vehicleType": {
+      "car": "車",
+      "motorcycles": "バイク",
+      "lorry": "トラック"
+    },
+    "sortBy": {
+      "lowToHigh": "低から高",
+      "highToLow": "高から低"
+    },
+    "residentialType": {
+      "flat": "フラット",
+      "apartment": "アパート",
+      "condominium": "コンドミニアム",
+      "serviceResidence": "サービスレジデンス",
+      "studio": "スタジオ",
+      "duplex": "デュプレックス",
+      "townhouseCondo": "タウンハウスコンド",
+      "condo": "コンド / サービスレジデンス / ペントハウス",
+      "house": "一戸建て",
+      "shoplot": "店舗区画",
+      "sharing": "一戸建て / フラットの共有",
+      "others": "その他"
+    },
+    "floorRange": {
+      "high": "高層",
+      "medium": "中層",
+      "low": "低層"
+    },
+    "furnishings": {
+      "fullyFurnished": "家具完備",
+      "partiallyFurnished": "一部家具付き",
+      "notFurnished": "家具なし"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "オフィススペース",
+      "retailSpace": "小売スペース",
+      "shopLot": "店舗区画",
+      "warehouseFactory": "倉庫 / 工場",
+      "hotelResort": "ホテル / リゾート",
+      "sofo": "SOHO (スモールオフィス / ホームオフィス)",
+      "soho": "SOHO (スモールオフィス / ホームオフィス)",
+      "sovo": "SOVO (スモールオフィス / バーチャルオフィス)",
+      "others": "その他"
+    },
+    "landPropertyType": {
+      "residential": "居住用",
+      "industrial": "工業用",
+      "agricultural": "農業用",
+      "commercial": "商業用",
+      "mixedDevelopment": "複合開発",
+      "others": "その他"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6ヶ月",
+      "oneYear": "1年",
+      "oneAndHalfYears": "1.5年",
+      "twoYears": "2年",
+      "twoAndHalfYears": "2.5年"
+    },
+    "dropdownDateFilter": {
+      "daily": "日次",
+      "weekly": "週次",
+      "monthly": "月次",
+      "yearly": "年次",
+      "custom": "カスタム"
+    },
+    "bungalowType": {
+      "modern": "モダン",
+      "cottage": "コテージ",
+      "luxury": "ラグジュアリー",
+      "ecoSmart": "エコ / スマート",
+      "beachSide": "ビーチサイド",
+      "others": "その他"
+    }
+  }
+}

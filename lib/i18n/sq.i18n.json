@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "sq_AL",
+    "languageName": "Albanian",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profili",
+    "language": "Gjuha",
+    "subscriptionPlan": "Plani i Abonimit",
+    "contactUs": "Na Kontaktoni",
+    "termsAndConditions": "Termat & Kushtet",
+    "aboutUs": "Rreth Nesh",
+    "logout": "Shkyçuni",
+    "editProfile": "Redakto Profilin",
+    "fullName": "Emri i Plotë",
+    "email": "E-mail",
+    "mobileNumber": "Numri i Telefonit",
+    "address": "Adresa",
+    "postalCode": "Kodi Postar",
+    "city": "Qyteti",
+    "country": "Shteti",
+    "state": "Qarku",
+    "password": "Fjalëkalimi",
+    "forgotPassword": "Keni harruar fjalëkalimin",
+    "tenant": "Qiramarrësi",
+    "landlord": "Qiradhënësi",
+    "cancelRenting": "Anulo Marrëveshjen e Qirasë",
+    "startDate": "Data e Fillimit",
+    "endDate": "Data e Mbarimit",
+    "fromDate": "Nga Data",
+    "toDate": "Deri në Datë",
+    "online": "Online",
+    "bankList": "Lista e Bankave",
+    "withdrawMethod": "Metoda e Tërheqjes",
+    "uploadPaymentReceipt": "Ngarko Faturën e Pagesës",
+    "offlinePaymentNote(rich)": "Shënim: ${note(Pagesa kërkon miratim manual nga administratori brenda)} ${duraion(24~48 orë.)}",
+    "reviews": "Vlerësimet",
+    "description": "Përshkrimi",
+    "about": "Rreth",
+    "propertyTypes": "Llojet e Pronave",
+    "features": "Veçoritë",
+    "floorPlans": "Planet e Dyshemesë",
+    "buildingDetails": "Detajet e Ndërtesës",
+    "buildingName": "Emri i Ndërtesës",
+    "propertyAddress": "Adresa e Pronës",
+    "completionYear": "Viti i Përfundimit",
+    "lotNumber": "Numri i Lotit",
+    "residentialType": "Lloji Rezidencial",
+    "furnishings": "Mobilimi",
+    "floorRange": "Gama e Katit",
+    "bedrooms": "Dhoma gjumi",
+    "bathrooms": "Banjo",
+    "propertySize": "Madhësia e Pronës",
+    "rentalPeriod": "Periudha e Qirasë",
+    "securityDeposit": "Depozita e Sigurimit",
+    "utilityBill": "Fatura e Shërbimeve",
+    "facilities": "Pajisjet",
+    "amenities": "Komoditetet",
+    "expiringReason": "Arsyeja e Skadimit",
+    "tenantDetails": "Detajet e Qiramarrësit",
+    "typeOfTenant": "Lloji i Qiramarrësit",
+    "tenantName": "Emri i Qiramarrësit",
+    "nidPassport": "NID/Pasaportë",
+    "nidPassportId": "@:common.nidPassport ID",
+    "tenantId": "ID e Qiramarrësit",
+    "dateOfBirth": "Data e Lindjes",
+    "gender": "Gjinia",
+    "nominee": "Nominuari",
+    "name": "Emri",
+    "optional": "Opsionale",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "@:common.nominee Nr. Cel.",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Kontakti i Emergjencës",
+    "relation": "Lidhja",
+    "relationWith": "@:common.relation Me",
+    "relationWithYou": "@:common.relationWith Ju",
+    "company": "Kompania",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "@:common.company Nr. SSM",
+    "workplace": "Vendi i Punës",
+    "officePhoneNo": "Numri i Telefonit të Zyrës",
+    "officeMobileNo": "Zyra @:common.mobileNumber",
+    "vehicle": "Automjeti",
+    "vehiclesInfo": {
+      "plain": "Informacione Automjetesh",
+      "optional": "Informacione Automjetesh (@:common.optional)"
+    },
+    "vehiclesType": "@:common.vehicle Lloji",
+    "vehicleRegistrationNo": {
+      "normal": "Nr. i Regjistrimit të Automjetit",
+      "short": "Nr. i Regjistrimit",
+      "alt": "Nr. i Targës"
+    },
+    "vehicleBrand": "@:common.vehicle Marka",
+    "rentProperty": "Jep me Qira Pronën",
+    "propertyDetails": "Detajet e Pronës",
+    "propertyId": "ID e Pronës",
+    "propertyType": "Lloji i Pronës",
+    "propertyName": "Emri i Pronës",
+    "paymentDetails": "Detajet e Pagesës",
+    "monthlyRent": "Qiraja Mujore",
+    "thisMonthPayment": "Pagesa e Këtij Muaji",
+    "totalPaidRent": "Gjithsej Qira e Paguar",
+    "dueRent": "Qira e Detyruar",
+    "rentStartDate": "Qira @:common.startDate",
+    "rentEndDate": "Qira @:common.endDate",
+    "status": "Statusi",
+    "rentAgreementPdf": "PDF Marrëveshja e Qirasë",
+    "noFile": "Asnjë Skedar",
+    "tenantImageOp": "Imazhi i Qiramarrësit @:common.optional",
+    "addNewVechicle": "Shto Automjete të Reja",
+    "uploadNidPassport": "Ngarko NID/Pasaportë",
+    "nidPassportUploadNote": "Do të pranohet vetëm skedar i tipit imazh. Limiti i skedarit deri në 2.5 MB.",
+    "search": "Kërko",
+    "sortBy": "Rendit Sipas",
+    "subscription": "Abonimi",
+    "downloading": "Duke shkarkuar...",
+    "downloadSuccess": "Skedari u shkarkua me sukses!",
+    "addPropertyBannerTitle": "Po kërkoni të jepni me Qira Pronën Tuaj?",
+    "application": "Aplikimi",
+    "tenantHasPaidDeposit": "Qiramarrësi ka paguar depozitën.",
+    "askProcessingRentApplication": "Jeni i sigurt që po e përpunoni këtë kërkesë për dhënie me qira të pronës?",
+    "dateAndTime": "Data & Ora",
+    "applicationDetails": "Detajet e Aplikimit",
+    "depositStatus": "Statusi i Depozitës",
+    "uploadRentAgreement": "Ngarko Marrëveshjen e Qirasë",
+    "uploadFilePDF": "Ngarko Skedarin (PDF)",
+    "askSelectRentAgreement": "Ju lutemi zgjidhni një skedar dokumenti marrëveshjeje.",
+    "landlordRentAgreementPDF": "PDF Marrëveshja e Qirasë së Qiradhënësit",
+    "tenantRentAgreementPDF": "PDF Marrëveshja e Qirasë së Qiramarrësit",
+    "landlordApplicationApproveNote(rich)": "Shënim: ${note(Miratoni aplikimin vetëm pasi qiramarrësi të bëjë pagesën e depozitës.)}",
+    "reasonOfRejection": "Arsyeja e Refuzimit",
+    "youveRejectedThisApplication": "Ju e keni refuzuar këtë aplikim",
+    "landlordDetails": "Detajet e Qiradhënësit",
+    "landlordName": "Emri i Qiradhënësit",
+    "downloadRentAgreement": "Shkarko Marrëveshjen e Qirasë",
+    "acceptTermsConditions(rich)": "Prano ${toc(Termat & Kushtet)}",
+    "tenantAgreementSignNote1(rich)": "Shënim: ${note(Ju lutemi shkarkoni dhe lexoni marrëveshjen. Ju lutemi dërgoni marrëveshjen e nënshkruar te qiradhënësi nëpërmjet WhatsApp ose email.)}",
+    "tenantAgreementSignNote2(rich)": "Shënim: ${note(Qiradhënësi miraton aplikimin, kur qiramarrësi paguan pagesën e sigurisë, shërbimeve dhe një muaj qira paraprakisht.)}",
+    "completeRentAgreementPdf(rich)": "Marrëveshja e Qirasë (PDF) ${complete(Marrëveshja e Plotë)}",
+    "tenantApplicationDepositNote(rich)": "Shënim: ${note(Qiradhënësi miraton aplikimin, kur qiramarrësi paguan pagesën e sigurisë, shërbimeve dhe një muaj qira paraprakisht.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Lista e Aplikimeve",
+    "viewDetails": "Shiko Detajet",
+    "searchHint": "@:common.search...",
+    "home": "Kreu",
+    "dashboard": "Paneli",
+    "tenants": "Qiramarrësit",
+    "maintenance": "Mirëmbajtja",
+    "maintenanceList": "Lista e Mirëmbajtjes",
+    "maintenanceReport": "Raporti i Mirëmbajtjes",
+    "labor": "Punëtori",
+    "applications": "Aplikimet",
+    "rentInvitation": "Ftesë për Qira",
+    "payment": "Pagesa",
+    "rentPayment": "Pagesa e Qirasë",
+    "depositUtilityPayment": "Pagesa e Depozitës & Shërbimeve",
+    "refundRequest": "Kërkesë për Rimbursim",
+    "withdrawRequest": "Kërkesë për Tërheqje",
+    "myProperty": "Pronat e Mia",
+    "myRent": "Qiraja Ime",
+    "wishlist": "Lista e Dëshirave",
+    "properties": "Pronat",
+    "allProperties": "Të gjitha Pronat",
+    "totalPropery": "Gjithsej Prona",
+    "occupied": "E Zënë",
+    "vacant": "E Lirë",
+    "accounting": "Kontabiliteti",
+    "totalIncome": "Të Ardhurat Totale",
+    "totalExpense": "Shpenzimet Totale",
+    "currentBalance": "Bilanci Aktual",
+    "totalWithdrawal": "Gjithsej (Tërheqje)",
+    "totalProperties": "Gjithsej Prona",
+    "totalTenant": "Gjithsej Qiramarrës",
+    "totalRentPaid": "Gjithsej Qira e Paguar",
+    "totalRentDue": "Gjithsej Qira e Detyruar",
+    "totalApplication": "Gjithsej Aplikime",
+    "pendingApplication": "Aplikime në Pritje",
+    "processingApplication": "Aplikime në Përpunim",
+    "approveApplication": "Mirato Aplikimin",
+    "rejectApplication": "Refuzo Aplikimin",
+    "maintenanceCost": "Kostoja e Mirëmbajtjes",
+    "transactionSummary": "Përmbledhja e Transaksionit",
+    "maintenanceRequest": "Kërkesë për Mirëmbajtje",
+    "notifications": "Njoftimet",
+    "myProperties": "Pronat e Mia",
+    "recommendationProperties": "Pronat e Rekomanduara",
+    "laborList": "Lista e Punëtorëve",
+    "addLabor": "Shto Punëtor",
+    "laborDetails": "Detajet e Punëtorit",
+    "laborSalary": "Paga e Punëtorit",
+    "editLabor": "Redakto Punëtorin",
+    "addNewLabor": "Shto Punëtor të Ri",
+    "enterAmount": "Vendos Sumën",
+    "maintenanceDetails": "Detajet e Mirëmbajtjes",
+    "laborName": "Emri i Punëtorit",
+    "comment": "Komenti",
+    "image": "Imazhi",
+    "complete": "Përfundo",
+    "details": "Detajet",
+    "title": "Titulli",
+    "date": "Data",
+    "reason": "Arsyeja",
+    "edit": "Redakto",
+    "property": "Prona",
+    "completeYourProfile": "Plotëso Profilin Tënd",
+    "profileImage": "Imazhi i Profilit",
+    "imagePickHint": "Vetëm Imazh JPEG & PNG me madhësi maksimale 120x120 piksela.",
+    "invoiceId": "ID e Faturës",
+    "depositAmount": "Shuma e Depozitës",
+    "landlordPhone": "Telefoni i Qiradhënësit",
+    "rentalAdvance": "Qiraja (Parapagesë)",
+    "totalAmount": "Shuma Totale",
+    "rentAmount": "Shuma e Qirasë",
+    "adminCharge": "Tarifa e Administrimit",
+    "editAccount": "Redakto Llogarinë",
+    "addNewAccount": "Shto Llogari të Re",
+    "transactionId": "ID e Transaksionit",
+    "transactionType": "Lloji i Transaksionit",
+    "requestDate": "Data e Kërkesës",
+    "amount": "Shuma",
+    "fee": "Tarifa",
+    "paymentStatus": "Statusi i Pagesës",
+    "generatedTime": "Koha e Gjenerimit",
+    "systemGeneratedReportHint(rich)": "Ky është një raport i gjeneruar nga sistemi i ${appName}",
+    "withdrawHistory": "Historia e Tërheqjeve",
+    "history": "Historia",
+    "withdrawAmount": "Shuma e Tërheqjes",
+    "availableBalance": "Bilanci i Disponueshëm",
+    "withdrawCharge": "Tarifa e Tërheqjes",
+    "paymentMethod": "Metoda e Pagesës",
+    "requestSendSuccess": "Kërkesa u dërgua me sukses!",
+    "paymentReceiptSubmitSuccess": "Fatura e pagesës u dorëzua me sukses.",
+    "refundReason": "Arsyeja e Rimbursimit",
+    "note": "Shënim",
+    "refundReceiveSuccess": "Rimbursimi u pranua me sukses.",
+    "downloadPaymentReceipt": "Shkarko Faturën e Pagesës",
+    "invoice": "Fatura",
+    "selectPropertyToSeeInvoice": "Zgjidhni pronën për të parë numrin e faturës...",
+    "bankAccName": "Emri i Llogarisë Bankare",
+    "bankName": "Emri i Bankës",
+    "bankAccNum": "Numri i Llogarisë Bankare",
+    "thankYou": "Faleminderit!",
+    "basicInfo": "Informacioni Bazë",
+    "descriptionPricing": "Përshkrimi & Çmimi",
+    "contact": "Kontakti",
+    "photos": "Fotot",
+    "successfullySubmitted": "U dorëzua me sukses!",
+    "editProperty": "Redakto Pronën",
+    "addNewProperty": "Shto Pronë të Re",
+    "propertyManageRequestSuccess": "Reklama juaj është dorëzuar për shqyrtim.",
+    "postAnotherProperty": "Posto një Pronë Tjetër",
+    "browseYourProperty": "Shfleto Pronën Tënde",
+    "stepIndicator(rich)": "Hapi ${step} i ${totalSteps}",
+    "whatWouldYouLikeToPost": "Çfarë dëshironi të Postoni?",
+    "category": "Kategoria",
+    "invalidCategory": "Kategori e Pavlefshme",
+    "unitNumber": "Numri i Njësisë",
+    "sqft": "metra katrorë",
+    "propertySizeMustBeGreaterThan0": "Madhësia e pronës duhet të jetë më e madhe se zero",
+    "whatAreTheFacility": "Cilat janë pajisjet?",
+    "whatAreTheAmenity": "Cilat janë komoditetet?",
+    "parkingLot": "Vend Parkimi",
+    "houseType": "Lloji i shtëpisë",
+    "value": "Vlera",
+    "unitLotSize": "Madhësia e Njësisë / Lotit",
+    "landSize": "Madhësia e Tokës",
+    "acres": "akre(a)",
+    "roomSize": "Madhësia e dhomës",
+    "askTenantPreference": "Cila është preferenca juaj për qiramarrësin?",
+    "couple": "Çift",
+    "describeTheProperty": "Përshkruaj ${propertyType: String}",
+    "adTitle": "Titulli i Reklamës",
+    "minimumRentalPeriod": "Periudha Minimale e Qirasë",
+    "whatsappNumber": "@:common.whatsapp Numri",
+    "hideOrDisplayEmail": "Fshih ose shfaq adresën e e-mailit",
+    "thankYouForPostingProperty": "Faleminderit që postuat në ${appName: String}!",
+    "propertyList": "Lista e Pronave",
+    "newInviteRent": "Ftesë e Re për Qira",
+    "rentAgreement": "Marrëveshja e Qirasë",
+    "rentDetails": "Detajet e Qirasë",
+    "landlordRentInvitationPendingNote(rich)": "Shënim: ${note(Ju lutemi prisni që qiramarrësi të pranojë ftesën.)}",
+    "rent": "Qiraja",
+    "editTenant": "Redakto Qiramarrësin",
+    "addNewTenant": "Shto Qiramarrës të Ri",
+    "shareInstallLink": "Ndaj Lidhjen e Instalimit",
+    "tenantList": "Lista e Qiramarrësve",
+    "editMaintenanceRequest": "Redakto Kërkesën për Mirëmbajtje",
+    "addNewMaintenance": "Shto Mirëmbajtje të Re",
+    "landlordId": "ID e Qiradhënësit",
+    "tenantAgrementUnderReviewNote(rich)": "Shënim ${note(Marrëveshja juaj është në shqyrtim. Ju lutemi prisni derisa qiradhënësi të miratojë qiranë tuaj.)}",
+    "editReview": "Redakto Vlerësimin",
+    "writeAReview": "Shkruaj një vlerësim",
+    "selectRating": "Zgjidh Vlerësimin",
+    "enterYourOpinion": "Vendos Mendimin Tënd",
+    "askToEnterReviewMsg": "Ju lutemi vendosni një mesazh vlerësimi",
+    "pressBackAgainToExit": "Shtyp prapë butonin pas për të dalë.",
+    "selectPaymentMethod": "Zgjidh Metodën e Pagesës",
+    "filter": "Filtro",
+    "perMonth": "/1 Muaj",
+    "searchHintWithAppName": "Kërko çdo gjë në ${appName: String}...",
+    "propertyInfo": "Info Pronë",
+    "units": "Njësi",
+    "depositPeriod": "Periudha e Depozitës",
+    "facilitiesList": "Lista e Pajisjeve",
+    "facility": "Pajisje",
+    "amenity": "Komoditet",
+    "amenitiesList": "Lista e Komoditeteve",
+    "addNewFacility": "Shto Pajisje të Re",
+    "editFacility": "Redakto Pajisjen",
+    "facilityName": "Emri i Pajisjes",
+    "amenityName": "Emri i Komoditetit",
+    "addNewAmenity": "Shto Komoditet të Ri",
+    "editAmenity": "Redakto Komoditetin",
+    "family": "Familje",
+    "lateFee": "Tarifë Vonese",
+    "lateFeeAfterDays": "@:common.lateFee Pas (Ditë)",
+    "propertyPricing": "Çmimi i ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Shumë faleminderit që sapo publikuat pronën tuaj",
+    "titleAndDescription": "Titulli & Përshkrimi",
+    "rentPricing": "Çmimi i Qirasë",
+    "step": "Hapi",
+    "of": "I",
+    "pricing": "Çmimi",
+    "sameRentForAllUnit": "E njëjta qira për të gjitha njësitë",
+    "unit": "njësi",
+    "pleaseSelectAnUnitFirst": "Ju lutemi zgjidhni një njësi së pari.",
+    "saleAmount": "Shuma e Shitjes",
+    "selectCategory": "Zgjidh një Kategori",
+    "pleaseSelectACategory": "Ju lutemi zgjidhni një kategori",
+    "pleaseEnterAdTitle": "Ju lutemi vendosni titullin e reklamës",
+    "addCoverPhoto": "Shto Foto Kopertine",
+    "findAProperty": "Gjej një pronë",
+    "categories": "Kategoritë",
+    "recmmendedProperties": "Pronat e Rekomanduara",
+    "recentSearch": "Kërkimet e Fundit",
+    "pleaseEnterYourAccountNumber": "Ju lutemi vendosni numrin e llogarisë tuaj.",
+    "pleaseSelectALanguageToContinue": "Ju lutemi zgjidhni një gjuhë për të vazhduar.",
+    "subscribe": "Abonohu",
+    "noFacilitiesFound": "Nuk u gjetën pajisje!",
+    "invalidLaborDetailsPleaseTryAgain": "Detaje punëtori të pavlefshme, ju lutemi provoni përsëri",
+    "maintenanceWork": "Punë mirëmbajtjeje",
+    "selectLabor": "Zgjidh Punëtorin",
+    "enterMaintenanceCost": "Vendos koston e mirëmbajtjes",
+    "pleaseEnterMaintenanceCost": "Ju lutemi vendosni koston e mirëmbajtjes",
+    "writeComment": "Shkruaj koment",
+    "maintenancePending": "Mirëmbajtja në Pritje",
+    "yourEarnings": "Të Ardhurat Tuaja",
+    "totalPaid": "Gjithsej e Paguar",
+    "linkANewBankAccount": "Lidh një llogari bankare të re",
+    "payoutRequest": "Kërkesë Pagese"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Diçka shkoi keq, ju lutemi provoni përsëri",
+    "noNidPassport": "Nuk është dhënë asnjë imazh NID/Pasaporte.",
+    "noRentPropertyFound": "Nuk u gjet asnjë pronë me qira për këtë qiramarrës.",
+    "noPropertyFoundWithKeyWord": "Nuk u gjet asnjë pronë!\nJu lutemi provoni me fjalë kyçe të ndryshme",
+    "noSubscriptionFoundRefreshPage": "Nuk u gjet asnjë plan abonimi!\nJu lutemi rifreskoni faqen dhe provoni përsëri.",
+    "invalidApiDataRefreshPage": "Informacion i pavlefshëm ${dataType: String}! Ju lutemi rifreskoni faqen dhe provoni përsëri.",
+    "invalidDownloadUrl": "URL shkarkimi e pavlefshme!",
+    "failedToSaveFile": "Dështoi ruajtja e skedarit! ${error: String}",
+    "errorOpeningFile": "Gabim gjatë hapjes së skedarit! ${error: String}",
+    "noVehicleInfoProvided": "Nuk është dhënë asnjë informacion automjeti.",
+    "yourApplicationRejected": "Aplikimi juaj është refuzuar",
+    "noApplicationFoundHint": {
+      "template": "Nuk u gjet asnjë aplikim!\n${subject: String} do të shfaqet këtu kur të jetë në dispozicion.",
+      "subjects": {
+        "tenant": "Aplikimi juaj",
+        "landlord": "Aplikimi i qiramarrësit"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Nuk u gjet asnjë pronë!\nJu lutemi provoni të shtoni një pronë për ta parë këtu.",
+      "tenantRecommended": "Nuk u gjetën prona të rekomanduara\nJu lutemi provoni përsëri më vonë.",
+      "tenantAllProperty": "Pronat nuk janë të disponueshme\nJu lutemi provoni përsëri më vonë."
+    },
+    "noImageProvided": "Nuk është dhënë asnjë imazh",
+    "noStatusMaintenantFound": {
+      "landlord": "Nuk u gjet asnjë mirëmbajtje ${status}.",
+      "tenant": "Nuk u gjet asnjë mirëmbajtje! Mund të krijoni një kërkesë mirëmbajtjeje për ta parë këtu."
+    },
+    "noDepositFound": "Nuk u gjet asnjë depozitë sigurie!\nJu lutemi, depozitat e sigurisë mund t'i shihni kur të jenë në dispozicion",
+    "noRentPaymentFound": "Nuk u gjet asnjë pagesë qiraje!\nJu lutemi, pagesat e qirasë mund t'i shihni kur të jenë në dispozicion",
+    "transactionSummaryApiException": "Dështoi marrja e përmbledhjes së transaksionit.",
+    "noWithdrawRequestFound": "Nuk u gjet asnjë kërkesë!\nJu lutemi provoni të krijoni një kërkesë tërheqjeje për ta parë këtu.",
+    "withdrawRequestNotApproved": "Kjo kërkesë tërheqjeje nuk është miratuar!.",
+    "nonZeroError": "Ju lutemi vendosni një shumë të vlefshme më të madhe se zero.",
+    "minAmountError": "Shuma duhet të jetë të paktën ${minValue: String}.",
+    "maxAmountError": "Shuma nuk duhet të tejkalojë ${maxValue: String}.",
+    "selectPaymentMethodHint": "Ju lutemi zgjidhni një metodë pagese së pari.",
+    "noStatusRefundReqFound": {
+      "landlord": "Nuk u gjet asnjë kërkesë rimbursimi ${status}!\nKërkesën e rimbursimit mund ta shihni këtu kur të jetë në dispozicion.",
+      "tenant": "Nuk u gjet asnjë kërkesë rimbursimi!\nMund të krijoni një kërkesë rimbursimi për ta parë këtu."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Qiramarrësi do të miratojë rimbursimin kur t'i kthehen paratë",
+      "tenantReqSuccess": "Ne do të shqyrtojmë kërkesën për Rimbursim dhe do ta miratojmë brenda 24 orësh."
+    },
+    "oneToTenRequiredField": "Ju lutemi zgjidhni numrin e ${value: String}",
+    "invalidDateRange": "Gama e datës e pavlefshme.",
+    "valueMustBeGreaterThanZero": "${value: String} duhet të jetë më e madhe se zero.",
+    "editProperty": {
+      "rentalChange": "Prona me qira po ndryshon. Ajo duhet të jetë e vlefshme (efektive) vetëm për pagesën e qirasë të muajit të ardhshëm.",
+      "deleteOnRent": "Prona juaj është tashmë e dhënë me qira nga qiramarrësi. Nuk mund ta fshini derisa të largoni qiramarrësin së pari",
+      "alreayRented": "Kjo pronë është tashmë e dhënë me qira. Ju lutemi provoni përsëri më vonë.\nOse mund të kontaktoni qiradhënësin për më shumë informacion."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Nuk u gjet asnjë ftesë për qira!\nJu lutemi provoni të krijoni një ftesë për qira për ta parë këtu.",
+      "tenantNoRentInvitation": "Nuk u gjet asnjë ftesë për qira!\nFtesën për qira mund ta shihni këtu kur të jetë në dispozicion."
+    },
+    "notenantFoundList": "Asnjë qiramarrës!\nJu lutemi provoni të shtoni një qiramarrës për ta parë këtu.",
+    "noFeaturesProvided": "Nuk u dhanë asnjë veçori.",
+    "noNotificationFound": "Nuk ka njoftime të disponueshme.\nNjoftimet tuaja mund t'i shihni këtu kur të jenë në dispozicion.",
+    "noFacilitiesFound": "Nuk u gjetën asnjë pajisje.",
+    "noAmenitiesFound": "Nuk u gjet asnjë komoditet!",
+    "noLaborFound": "Nuk u gjet asnjë punëtor\\nJu lutemi provoni përsëri më vonë.",
+    "areYouSureYouWantToRemoveThisUnit": "Jeni i sigurt që dëshironi ta hiqni këtë njësi?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Jeni i sigurt që dëshironi të shkyçeni?"
+    },
+    "application": {
+      "rejectTitle": "Pse po e refuzoni këtë aplikim?",
+      "applicationSent": {
+        "successfully": "Aplikimi u dërgua me sukses!",
+        "sucessDescription": "Këtë aplikim mund ta shihni në listën tuaj të aplikimeve"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Fshi Punëtorin?",
+        "description": "Jeni i sigurt që dëshironi të fshini këtë punëtor?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Pse po refuzohet kjo kërkesë?",
+      "processTitle": "Jeni i sigurt që po e përpunoni këtë kërkesë Mirëmbajtjeje?",
+      "completeTitle": "Puna u përfundua?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Fshi Metodën e Tërheqjes?",
+      "deleteDescription": "Jeni i sigurt që dëshironi ta fshini këtë metodë tërheqjeje?"
+    },
+    "unsavedChanges": {
+      "title": "Jeni i sigurt që dëshironi të ktheheni prapa?",
+      "message": "Fushat që janë ndryshuar nuk do të ruhen!"
+    },
+    "property": {
+      "delete": {
+        "title": "Fshi Pronën?",
+        "message": "Jeni i sigurt që dëshironi ta fshini këtë pronë?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Jeni i sigurt që dëshironi ta miratoni këtë qira?",
+        "description": "Sigurohuni që keni shqyrtuar marrëveshjen e nënshkruar nga qiramarrësi."
+      },
+      "tenantAccept": {
+        "title": "Jeni i sigurt që dëshironi ta pranoni këtë ftesë?",
+        "description": "Sigurohuni që keni shkarkuar skedarin PDF të marrëveshjes!"
+      }
+    },
+    "sessionExpired": {
+      "title": "Sesioni ka skaduar",
+      "message": "Sesioni juaj ka skaduar. Ju lutemi, kyçuni përsëri",
+      "action": "Kyçuni"
+    },
+    "noInternet": {
+      "title": "Pa Lidhje Interneti",
+      "message": "Ju lutemi kontrolloni lidhjen tuaj Wi-Fi ose të rrjetit celular dhe provoni përsëri",
+      "action": "Provo Përsëri"
+    },
+    "permissionHandler": {
+      "title": "Kërkohet leje!",
+      "message": "Duhet të jepni lejet në cilësimet e aplikacionit. Dëshironi t'i hapni cilësimet tani?"
+    },
+    "imagePicker": {
+      "title": "Zgjidhni Opsionin",
+      "gallery": "Galeria",
+      "camera": "Kamera"
+    },
+    "verificationDialog": {
+      "title": "Verifikoni E-mailin Tuaj",
+      "message": "Kemi dërguar një e-mail me kod verifikimi",
+      "messageWithEmail": "@:prompt.verificationDialog.message në ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Fshi njoftimet?",
+      "clearMessage": "Jeni i sigurt që dëshironi të fshini të gjitha njoftimet?"
+    },
+    "genericDeletePrompt": {
+      "title": "Dëshironi ta fshini këtë ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Abonimi ka Skaduar!",
+      "message": "Ju lutemi abonohuni për të vazhduar."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Vendos @:common.fullName",
+      "errors": {
+        "required": "Ju lutemi vendosni @:common.fullName tuaj"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Vendos @:common.email tuaj",
+      "errors": {
+        "required": "Ju lutemi vendosni adresën tuaj të @:common.email",
+        "invalid": "⦸ E-mail i Pavlefshëm, Ju lutemi Provoni Përsëri"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Ju lutemi vendosni @:common.password tuaj",
+        "minLength": "Fjalëkalimi duhet të jetë të paktën ${count} karaktere!"
+      }
+    },
+    "confirmPassword": {
+      "label": "Konfirmo @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Ju lutemi vendosni @:common.password tuaj",
+        "notMatched": "Konfirmimi i fjalëkalimit nuk përputhet!"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Ju lutemi vendosni @:common.mobileNumber tuaj"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Numri i shtëpisë dhe emri i rrugës",
+      "errors": {
+        "required": "Ju lutemi vendosni @:form.address1.label tuaj"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Apartament, suitë, njësi, etj",
+      "errors": {
+        "required": "Ju lutemi vendosni @:form.address2.label tuaj"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Vendos @:common.postalCode",
+      "errors": {
+        "required": "Ju lutemi vendosni @:common.postalCode tuaj"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Vendos emrin e @:common.city.",
+      "errors": {
+        "required": "Ju lutemi vendosni emrin e @:common.city tuaj."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Vendos emrin e @:common.state.",
+      "errors": {
+        "required": "Ju lutemi vendosni emrin e @:common.state tuaj."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Zgjidh @:common.country.",
+      "errors": {
+        "required": "Ju lutemi zgjidhni @:common.country tuaj"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Ju lutemi vendosni otp-në.",
+        "invalid": "Ju lutemi vendosni otp-në e saktë."
+      }
+    },
+    "title": {
+      "label": "Titulli",
+      "hint": "Vendos titullin",
+      "errors": {
+        "required": "Ju lutemi vendosni titullin"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Zgjidh @:form.date.label",
+      "errors": {
+        "required": "Ju lutemi zgjidhni @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Arsyeja",
+      "hint": "Vendos arsyen",
+      "errors": {
+        "required": "Ju lutemi vendosni arsyen"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Zgjidh @:common.withdrawMethod",
+      "errors": {
+        "required": "Ju lutemi zgjidhni @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Ngarko ${label: String}",
+      "errors": {
+        "required": "Ju lutemi zgjidhni ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Vendos @:form.note.label",
+      "errors": {
+        "required": "Ju lutemi vendosni @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Zgjidh @:common.gender",
+      "errors": {
+        "required": "Ju lutemi zgjidhni @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Vendos @:form.anyField.label",
+      "errors": {
+        "required": "Ju lutemi vendosni @:form.anyField.label",
+        "invalid": "Ju lutemi vendosni @:form.anyField.label të vlefshëm"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Zgjidh @:form.anyDropdown.label",
+      "errors": {
+        "required": "Ju lutemi zgjidhni @:form.anyDropdown.label",
+        "invalid": "Ju lutemi zgjidhni @:form.anyDropdown.label të vlefshëm"
+      }
+    }
+  },
+  "action": {
+    "next": "Tjetra",
+    "getStarted": "Fillo",
+    "skip": "Kalo",
+    "select": "Zgjidh",
+    "save": "Ruaj",
+    "signIn": "Kyçuni",
+    "signUp": "Regjistrohuni",
+    "continue": "Vazhdo",
+    "clearAll": "Pastro Të Gjitha",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Dërgo",
+    "pay": "Paguaj",
+    "remove": "Hiq",
+    "goBack": "Kthehu Mbrapa",
+    "buyNow": "Blej Tani",
+    "no": "Jo",
+    "open": "Hap",
+    "addProperty": "Shto Pronë",
+    "process": "Përpuno",
+    "approve": "Mirato",
+    "reject": "Refuzo",
+    "viewRent": "Shiko Qiranë",
+    "openNavigationMenu": "Hap menunë e navigimit",
+    "seeAll": "Shiko Të Gjitha",
+    "update": "Përditëso",
+    "printTransaction": "Printo Transaksionin",
+    "payoutRequest": "Kërkesë Pagese",
+    "addNew": "+ Shto Të Re",
+    "sendRequest": "Dërgo Kërkesë",
+    "print": "Printo",
+    "requestForRefund": "Kërkesë për Rimbursim",
+    "previous": "Paraprake",
+    "delete": "Fshi",
+    "applyProperty": "Apliko për Pronën",
+    "viewApplication": "Shiko Aplikimin",
+    "inviteTenant": "Fto Qiramarrës",
+    "inviteRent": "Fto për Qira",
+    "cancel": "Anulo",
+    "accept": "Prano",
+    "submit": "Dërgo",
+    "yes": "Po",
+    "okay": "Në rregull",
+    "confirm": "Konfirmo",
+    "apply": "Apliko",
+    "reset": "Rivendos",
+    "retry": "Provo Përsëri",
+    "viewAll": "Shiko Të Gjitha",
+    "addMore": "Shto Më Shumë",
+    "done": "Bërë"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Gjej Pronën Tënde",
+          "description": "E kemi bërë shumë të lehtë gjetjen e një vendi që i përshtatet jetës tënde — qoftë një dhomë, një apartament apo një shtëpi."
+        },
+        "data2": {
+          "title": "Apartament në Qytet",
+          "description": "Ne ju kursejmë kohë duke ju përshtatur shpejt me pronën e përsosur para se të zhduket, kështu që ju mund të shijoni shtëpinë tuaj të re, ose të listoni tuajën falas."
+        },
+        "data3": {
+          "title": "Shtëpia Juaj e Komfortit",
+          "description": "Nëse po kërkoni një vend për të jetuar, atëherë shikoni shtëpitë tona me qira. Kemi një gamë të gjerë shtëpish për të zgjedhur nga e gjithë Shqipëria."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Mirë se Erdhe Përsëri",
+      "subtitle": "Kyçuni tani për të filluar një udhëtim të mrekullueshëm.",
+      "extra": {
+        "rememberMe": "Më Mbaj Mend",
+        "signUpNavigator(rich)": "Nuk keni llogari? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Keni harruar fjalëkalimin",
+      "subtitle": "Vendosni adresën tuaj të e-mailit për të rikuperuar fjalëkalimin tuaj."
+    },
+    "otpVerification": {
+      "title": "Verifikimi",
+      "subtitle": "Një pin 6-shifror është dërguar në adresën tuaj të e-mailit. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Kodi dërgohet në ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Ridërgo kodin)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Rivendos fjalëkalimin",
+      "subtitle": "Rivendosni fjalëkalimin tuaj për rikuperim dhe kyçuni në llogarinë tuaj",
+      "extra": {
+        "dialog": {
+          "title": "U ndryshua me sukses!",
+          "subtitle": "Kyçuni me fjalëkalimin tuaj të ri.\n Duke ju ridrejtuar te Kyçuni..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Krijo një Llogari",
+      "subtitle": "Regjistrohuni tani për të filluar një udhëtim të mrekullueshëm",
+      "extra": {
+        "signInNavigator(rich)": "Keni llogari? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Kush jeni ju?",
+      "subtitle": "Ju lutemi zgjidhni opsionin më poshtë.",
+      "extra": {
+        "landlordTag": "Menaxho pronat e tua",
+        "tenantTag": "Kyçuni në llogarinë tuaj të qirasë"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Njoftimet"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Mesazhi..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Pse @:common.cancelRenting?",
+      "form": {
+        "reason": {
+          "hint": "Shkruaj arsyen",
+          "errors": {
+            "required": "Ju lutemi vendosni arsyen për anulimin e qirasë"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Pagesa Offline",
+      "form": {
+        "paymentNote": {
+          "label": "Shënim Pagese (@:common.optional)",
+          "hint": "Vendosni një tekst..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Shuma e Pagesës: ${amount}",
+        "accountHolderName": "Emri i Mbajtësit të Llogarisë",
+        "accountNumber": "Numri i Llogarisë",
+        "swiftCode": "Kodi Swift",
+        "branch": "Dega",
+        "fileTypeHint(rich)": "Zgjidhni vetëm skedarë të formatit ${fileType(JPG, PNG,PDF)} Ose ${fileType(DOC)}. Madhësia e skedarit ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Shiko Faturën",
+        "title": "@:common.thankYou",
+        "description": "Ne do të shqyrtojmë pagesën dhe do ta miratojmë brenda 24 orësh."
+      },
+      "fail": {
+        "actionButton": "Provo Përsëri",
+        "title": "Ups! Pagesa Dështoi",
+        "description": "Transaksioni juaj dështoi për shkak të një gabimi teknik."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Veçoritë ${fa((Pajisjet & Komoditetet))}",
+        "selectRentalPeriod": "Zgjidh Periudhën e Qirasë",
+        "writeAReview": "+ Shkruaj një vlerësim"
+      }
+    },
+    "search": {
+      "appbarTitle": "Kërko",
+      "extra": {
+        "hint": "Kërko për parcela, apartamente, dhoma...",
+        "noRecentSearch": "Nuk keni kërkime të fundit."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Zgjidh Planin tënd",
+      "extra": {
+        "subscriptionPaymentSuccess": "Pagesa e abonimit u krye me sukses.\nTani mund të hyni në funksionet e abonimit."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Kostoja Totale e Mirëmbajtjes: ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Të gjitha Pronat",
+      "pending": "Në Pritje",
+      "active": "Aktiv",
+      "inactive": "Joaktiv",
+      "rejected": "Refuzuar"
+    },
+    "propertyType": {
+      "rent": "Me Qira",
+      "sale": "Për Shitje"
+    },
+    "propertyCategory": {
+      "apartment": "Apartament",
+      "house": "Shtëpi",
+      "commercial": "Komersiale",
+      "land": "Tokë",
+      "room": "Dhomë",
+      "unitOrFlat": "Njësi / Apartament",
+      "bungalow": "Bungalov",
+      "plot": "Parcelë"
+    },
+    "applicationStatus": {
+      "all": "Të Gjitha",
+      "pending": "Në Pritje",
+      "processing": "Në Përpunim",
+      "approved": "Miratuar",
+      "rejected": "Refuzuar"
+    },
+    "myRentStatus": {
+      "pending": "Në Pritje",
+      "processing": "Në Përpunim",
+      "active": "Aktiv",
+      "expired": "I Skaduar",
+      "cancelled": "Anuluar"
+    },
+    "maintenanceStatus": {
+      "pending": "Në Pritje",
+      "processing": "Në Përpunim",
+      "rejected": "Refuzuar",
+      "completed": "Përfunduar"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privat (Individual)",
+      "company": "Kompani"
+    },
+    "tenantType": {
+      "newTenant": "Qiramarrës i Ri",
+      "activeTenant": "Qiramarrës Aktiv",
+      "expiredTenant": "Qiramarrës me Kontratë të Skaduar"
+    },
+    "paymentStatus": {
+      "all": "Të Gjitha",
+      "pending": "Në Pritje",
+      "paid": "Paguar",
+      "unpaid": "E Papaguar",
+      "rejected": "Refuzuar",
+      "refund": "Rimbursim"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Pagesë Online",
+      "offlinePayment": "Pagesë Offline"
+    },
+    "paymentType": {
+      "securityDeposit": "Depozitë Sigurie",
+      "rentPayment": "Pagesa e Qirasë",
+      "subscription": "Abonim"
+    },
+    "gender": {
+      "male": "Mashkull",
+      "female": "Femër",
+      "other": "Tjetër"
+    },
+    "ecRelation": {
+      "wife": "Bashkëshortja",
+      "parent": "Prindi",
+      "friend": "Miku",
+      "brother": "Vëllai",
+      "sister": "Motra",
+      "child": "Fëmija"
+    },
+    "vehicleType": {
+      "car": "Vetura",
+      "motorcycles": "Motorrë",
+      "lorry": "Kamion"
+    },
+    "sortBy": {
+      "lowToHigh": "Nga e Ulëta te e Larta",
+      "highToLow": "Nga e Larta te e Ulëta"
+    },
+    "residentialType": {
+      "flat": "Apartament",
+      "apartment": "Apartament",
+      "condominium": "Kondominium",
+      "serviceResidence": "Rezidence me Shërbim",
+      "studio": "Studio",
+      "duplex": "Dupleks",
+      "townhouseCondo": "Shtëpi në Rresht (Kondominium)",
+      "condo": "Kondominium / Rezidencë me Shërbim / Penthauz",
+      "house": "Shtëpi",
+      "shoplot": "Hapësirë Tregtare",
+      "sharing": "Ndarje shtëpie / Apartamenti",
+      "others": "Të tjera"
+    },
+    "floorRange": {
+      "high": "Lartë",
+      "medium": "Mesatare",
+      "low": "Ulët"
+    },
+    "furnishings": {
+      "fullyFurnished": "Plotësisht i Mobiluar",
+      "partiallyFurnished": "Pjesërisht i Mobiluar",
+      "notFurnished": "I Pamobiluar"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Hapësirë Zyrash",
+      "retailSpace": "Hapësirë Tregtare",
+      "shopLot": "Hapësirë Tregtare",
+      "warehouseFactory": "Magazinë / Fabrikë",
+      "hotelResort": "Hotel / Rezort",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Të tjera"
+    },
+    "landPropertyType": {
+      "residential": "Rezidenciale",
+      "industrial": "Industriale",
+      "agricultural": "Bujqësore",
+      "commercial": "Komersiale",
+      "mixedDevelopment": "Zhvillim i Përzier",
+      "others": "Të tjera"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Muaj",
+      "oneYear": "1 Vit",
+      "oneAndHalfYears": "1.5 Vjet",
+      "twoYears": "2 Vjet",
+      "twoAndHalfYears": "2.5 Vjet"
+    },
+    "dropdownDateFilter": {
+      "daily": "Ditore",
+      "weekly": "Javore",
+      "monthly": "Mujore",
+      "yearly": "Vjetore",
+      "custom": "Personalizuar"
+    },
+    "bungalowType": {
+      "modern": "Modern",
+      "cottage": "Vila",
+      "luxury": "Luks",
+      "ecoSmart": "Eko / Smart",
+      "beachSide": "Pranë Plazhit",
+      "others": "Të tjera"
+    }
+  }
+}

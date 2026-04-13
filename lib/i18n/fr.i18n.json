@@ -1,0 +1,1024 @@
+{
+  "@@meta": {
+    "languageCode": "fr_FR",
+    "languageName": "France",
+    "version": "1.0.0"
+  },
+  "common": {
+    "profile": "Profil",
+    "language": "Langue",
+    "subscriptionPlan": "Plan d'abonnement",
+    "contactUs": "Nous contacter",
+    "termsAndConditions": "Conditions générales",
+    "aboutUs": "À propos de nous",
+    "logout": "Déconnexion",
+    "editProfile": "Modifier le profil",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "mobileNumber": "Numéro de mobile",
+    "address": "Adresse",
+    "postalCode": "Code postal",
+    "city": "Ville",
+    "country": "Pays",
+    "state": "État/Province",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié",
+    "tenant": "Locataire",
+    "landlord": "Propriétaire",
+    "cancelRenting": "Annuler la location",
+    "startDate": "Date de début",
+    "endDate": "Date de fin",
+    "fromDate": "Du",
+    "toDate": "Au",
+    "online": "En ligne",
+    "bankList": "Liste des banques",
+    "withdrawMethod": "Méthode de retrait",
+    "uploadPaymentReceipt": "Télécharger le reçu de paiement",
+    "offlinePaymentNote(rich)": "Note : ${note(Le paiement nécessite une approbation manuelle par l'administrateur dans les)} ${duraion(24~48 heures.)}",
+    "reviews": "Avis",
+    "description": "Description",
+    "about": "À propos",
+    "propertyTypes": "Types de propriété",
+    "features": "Caractéristiques",
+    "floorPlans": "Plans d'étage",
+    "buildingDetails": "Détails du bâtiment",
+    "buildingName": "Nom du bâtiment",
+    "propertyAddress": "Adresse de la propriété",
+    "completionYear": "Année d'achèvement",
+    "lotNumber": "Numéro de lot",
+    "residentialType": "Type de résidence",
+    "furnishings": "Ameublement",
+    "floorRange": "Étage",
+    "bedrooms": "Chambres",
+    "bathrooms": "Salles de bain",
+    "propertySize": "Taille de la propriété",
+    "rentalPeriod": "Période de location",
+    "securityDeposit": "Dépôt de garantie",
+    "utilityBill": "Facture de services publics",
+    "facilities": "Équipements",
+    "amenities": "Commodités",
+    "expiringReason": "Raison de l'expiration",
+    "tenantDetails": "Détails du locataire",
+    "typeOfTenant": "Type de locataire",
+    "tenantName": "Nom du locataire",
+    "nidPassport": "CIN/Passeport",
+    "nidPassportId": "ID @:common.nidPassport",
+    "tenantId": "ID du locataire",
+    "dateOfBirth": "Date de naissance",
+    "gender": "Genre",
+    "nominee": "Nommé",
+    "name": "Nom",
+    "optional": "Facultatif",
+    "nomineeName": "@:common.nominee @:common.name",
+    "nomineeEmail": "@:common.nominee @:common.email",
+    "nomineeMobile": {
+      "short": "N° Mobile @:common.nominee",
+      "full": "@:common.nominee @:common.mobileNumber"
+    },
+    "emergencyContact": "Contact d'urgence",
+    "relation": "Relation",
+    "relationWith": "@:common.relation avec",
+    "relationWithYou": "@:common.relationWith vous",
+    "company": "Entreprise",
+    "companyName": "@:common.company @:common.name",
+    "companySSMNo": "N° SSM @:common.company",
+    "workplace": "Lieu de travail",
+    "officePhoneNo": "Numéro de téléphone du bureau",
+    "officeMobileNo": "@:common.mobileNumber du bureau",
+    "vehicle": "Véhicule",
+    "vehiclesInfo": {
+      "plain": "Informations sur les véhicules",
+      "optional": "Informations sur les véhicules (@:common.optional)"
+    },
+    "vehiclesType": "Type de @:common.vehicle",
+    "vehicleRegistrationNo": {
+      "normal": "N° d'immatriculation du véhicule",
+      "short": "N° d'immatriculation",
+      "alt": "N° de plaque"
+    },
+    "vehicleBrand": "Marque du @:common.vehicle",
+    "rentProperty": "Louer une propriété",
+    "propertyDetails": "Détails de la propriété",
+    "propertyId": "ID de la propriété",
+    "propertyType": "Type de propriété",
+    "propertyName": "Nom de la propriété",
+    "paymentDetails": "Détails du paiement",
+    "monthlyRent": "Loyer mensuel",
+    "thisMonthPayment": "Paiement de ce mois-ci",
+    "totalPaidRent": "Loyer total payé",
+    "dueRent": "Loyer dû",
+    "rentStartDate": "Location @:common.startDate",
+    "rentEndDate": "Location @:common.endDate",
+    "status": "Statut",
+    "rentAgreementPdf": "Contrat de location PDF",
+    "noFile": "Aucun fichier",
+    "tenantImageOp": "Image du locataire @:common.optional",
+    "addNewVechicle": "Ajouter de nouveaux véhicules",
+    "uploadNidPassport": "Télécharger CIN/Passeport",
+    "nidPassportUploadNote": "Seul le type de fichier image sera accepté. Limite de fichier jusqu'à 2.5 Mo.",
+    "search": "Rechercher",
+    "sortBy": "Trier par",
+    "subscription": "Abonnement",
+    "downloading": "Téléchargement...",
+    "downloadSuccess": "Fichier téléchargé avec succès !",
+    "addPropertyBannerTitle": "Vous souhaitez louer votre propriété ?",
+    "application": "Candidature",
+    "tenantHasPaidDeposit": "Le locataire a payé le dépôt.",
+    "askProcessingRentApplication": "Êtes-vous sûr de vouloir traiter cette demande de location de propriété ?",
+    "dateAndTime": "Date et heure",
+    "applicationDetails": "Détails de la candidature",
+    "depositStatus": "Statut du dépôt",
+    "uploadRentAgreement": "Télécharger le contrat de location",
+    "uploadFilePDF": "Télécharger le fichier (PDF)",
+    "askSelectRentAgreement": "Veuillez sélectionner un fichier de document d'accord.",
+    "landlordRentAgreementPDF": "Contrat de location PDF du propriétaire",
+    "tenantRentAgreementPDF": "Contrat de location PDF du locataire",
+    "landlordApplicationApproveNote(rich)": "Note : ${note(N'approuvez la candidature qu'après que le locataire ait effectué un paiement de dépôt.)}",
+    "reasonOfRejection": "Raison du rejet",
+    "youveRejectedThisApplication": "Vous avez rejeté cette candidature",
+    "landlordDetails": "Détails du propriétaire",
+    "landlordName": "Nom du propriétaire",
+    "downloadRentAgreement": "Télécharger le contrat de location",
+    "acceptTermsConditions(rich)": "Accepter ${toc(les Conditions générales)}",
+    "tenantAgreementSignNote1(rich)": "Note : ${note(Veuillez télécharger et lire l'accord. Veuillez envoyer l'accord signé au propriétaire via WhatsApp ou e-mail.)}",
+    "tenantAgreementSignNote2(rich)": "Note : ${note(Le propriétaire approuve la candidature, lorsque le locataire paie la garantie, les services publics et un mois de loyer à l'avance.)}",
+    "completeRentAgreementPdf(rich)": "Contrat de location (PDF) ${complete(Accord complet)}",
+    "tenantApplicationDepositNote(rich)": "Note : ${note(Le propriétaire approuve la candidature, lorsque le locataire paie la garantie, les services publics et un mois de loyer à l'avance.)}",
+    "whatsapp": "Whatsapp",
+    "applicationList": "Liste des candidatures",
+    "viewDetails": "Voir les détails",
+    "searchHint": "@:common.search...",
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "tenants": "Locataires",
+    "maintenance": "Maintenance",
+    "maintenanceList": "Liste des maintenances",
+    "maintenanceReport": "Rapport de maintenance",
+    "labor": "Main-d'œuvre",
+    "applications": "Candidatures",
+    "rentInvitation": "Invitation à louer",
+    "payment": "Paiement",
+    "rentPayment": "Paiement du loyer",
+    "depositUtilityPayment": "Dépôt et paiement des services publics",
+    "refundRequest": "Demande de remboursement",
+    "withdrawRequest": "Demande de retrait",
+    "myProperty": "Ma propriété",
+    "myRent": "Ma location",
+    "wishlist": "Liste de souhaits",
+    "properties": "Propriétés",
+    "allProperties": "Toutes les propriétés",
+    "totalPropery": "Total des propriétés",
+    "occupied": "Occupé",
+    "vacant": "Vacant",
+    "accounting": "Comptabilité",
+    "totalIncome": "Revenu total",
+    "totalExpense": "Dépense totale",
+    "currentBalance": "Solde actuel",
+    "totalWithdrawal": "Total (Retrait)",
+    "totalProperties": "Total des propriétés",
+    "totalTenant": "Total des locataires",
+    "totalRentPaid": "Loyer total payé",
+    "totalRentDue": "Loyer total dû",
+    "totalApplication": "Total des candidatures",
+    "pendingApplication": "Candidature en attente",
+    "processingApplication": "Candidature en cours",
+    "approveApplication": "Approuver la candidature",
+    "rejectApplication": "Rejeter la candidature",
+    "maintenanceCost": "Coût de la maintenance",
+    "transactionSummary": "Résumé de la transaction",
+    "maintenanceRequest": "Demande de maintenance",
+    "notifications": "Notifications",
+    "myProperties": "Mes propriétés",
+    "recommendationProperties": "Propriétés recommandées",
+    "laborList": "Liste de la main-d'œuvre",
+    "addLabor": "Ajouter de la main-d'œuvre",
+    "laborDetails": "Détails de la main-d'œuvre",
+    "laborSalary": "Salaire de la main-d'œuvre",
+    "editLabor": "Modifier la main-d'œuvre",
+    "addNewLabor": "Ajouter une nouvelle main-d'œuvre",
+    "enterAmount": "Entrer le montant",
+    "maintenanceDetails": "Détails de la maintenance",
+    "laborName": "Nom de la main-d'œuvre",
+    "comment": "Commentaire",
+    "image": "Image",
+    "complete": "Terminer",
+    "details": "Détails",
+    "title": "Titre",
+    "date": "Date",
+    "reason": "Raison",
+    "edit": "Modifier",
+    "property": "Propriété",
+    "completeYourProfile": "Compléter votre profil",
+    "profileImage": "Image de profil",
+    "imagePickHint": "Image JPEG & PNG uniquement avec une taille maximale de 120x120 pixels.",
+    "invoiceId": "ID de la facture",
+    "depositAmount": "Montant du dépôt",
+    "landlordPhone": "Téléphone du propriétaire",
+    "rentalAdvance": "Location (Avance)",
+    "totalAmount": "Montant total",
+    "rentAmount": "Montant du loyer",
+    "adminCharge": "Frais d'administration",
+    "editAccount": "Modifier le compte",
+    "addNewAccount": "Ajouter un nouveau compte",
+    "transactionId": "ID de la transaction",
+    "transactionType": "Type de transaction",
+    "requestDate": "Date de la demande",
+    "amount": "Montant",
+    "fee": "Frais",
+    "paymentStatus": "Statut du paiement",
+    "generatedTime": "Heure de génération",
+    "systemGeneratedReportHint(rich)": "Ceci est un rapport généré par le système de ${appName}",
+    "withdrawHistory": "Historique des retraits",
+    "history": "Historique",
+    "withdrawAmount": "Montant du retrait",
+    "availableBalance": "Solde disponible",
+    "withdrawCharge": "Frais de retrait",
+    "paymentMethod": "Méthode de paiement",
+    "requestSendSuccess": "Demande envoyée avec succès !",
+    "paymentReceiptSubmitSuccess": "Reçu de paiement soumis avec succès.",
+    "refundReason": "Raison du remboursement",
+    "note": "Note",
+    "refundReceiveSuccess": "Remboursement reçu avec succès.",
+    "downloadPaymentReceipt": "Télécharger le reçu de paiement",
+    "invoice": "Facture",
+    "selectPropertyToSeeInvoice": "Sélectionnez une propriété pour voir le numéro de facture...",
+    "bankAccName": "Nom du compte bancaire",
+    "bankName": "Nom de la banque",
+    "bankAccNum": "Numéro de compte bancaire",
+    "thankYou": "Merci !",
+    "basicInfo": "Informations de base",
+    "descriptionPricing": "Description et prix",
+    "contact": "Contact",
+    "photos": "Photos",
+    "successfullySubmitted": "Soumis avec succès !",
+    "editProperty": "Modifier la propriété",
+    "addNewProperty": "Ajouter une nouvelle propriété",
+    "propertyManageRequestSuccess": "Votre annonce a été soumise pour examen.",
+    "postAnotherProperty": "Publier une autre propriété",
+    "browseYourProperty": "Parcourir votre propriété",
+    "stepIndicator(rich)": "Étape ${step} sur ${totalSteps}",
+    "whatWouldYouLikeToPost": "Que souhaitez-vous publier ?",
+    "category": "Catégorie",
+    "invalidCategory": "Catégorie invalide",
+    "unitNumber": "Numéro d'unité",
+    "sqft": "pieds carrés",
+    "propertySizeMustBeGreaterThan0": "La taille de la propriété doit être supérieure à zéro",
+    "whatAreTheFacility": "Quels sont les équipements ?",
+    "whatAreTheAmenity": "Quelles sont les commodités ?",
+    "parkingLot": "Place de parking",
+    "houseType": "Type de maison",
+    "value": "Valeur",
+    "unitLotSize": "Taille de l'unité / du lot",
+    "landSize": "Taille du terrain",
+    "acres": "acre(s)",
+    "roomSize": "Taille de la pièce",
+    "askTenantPreference": "Quelle est votre préférence de locataire ?",
+    "couple": "Couple",
+    "describeTheProperty": "Décrivez le ${propertyType: String}",
+    "adTitle": "Titre de l'annonce",
+    "minimumRentalPeriod": "Période de location minimale",
+    "whatsappNumber": "Numéro @:common.whatsapp",
+    "hideOrDisplayEmail": "Masquer ou afficher l'adresse e-mail",
+    "thankYouForPostingProperty": "Merci d'avoir publié sur ${appName: String} !",
+    "propertyList": "Liste des propriétés",
+    "newInviteRent": "Nouvelle invitation à louer",
+    "rentAgreement": "Contrat de location",
+    "rentDetails": "Détails de la location",
+    "landlordRentInvitationPendingNote(rich)": "Note : ${note(Veuillez attendre que le locataire accepte l'invitation.)}",
+    "rent": "Loyer",
+    "editTenant": "Modifier le locataire",
+    "addNewTenant": "Ajouter un nouveau locataire",
+    "shareInstallLink": "Partager le lien d'installation",
+    "tenantList": "Liste des locataires",
+    "editMaintenanceRequest": "Modifier la demande de maintenance",
+    "addNewMaintenance": "Ajouter une nouvelle maintenance",
+    "landlordId": "ID du propriétaire",
+    "tenantAgrementUnderReviewNote(rich)": "Note ${note(Votre accord est en cours d'examen. Veuillez attendre que le propriétaire approuve votre location.)}",
+    "editReview": "Modifier l'avis",
+    "writeAReview": "Écrire un avis",
+    "selectRating": "Sélectionner la note",
+    "enterYourOpinion": "Entrez votre opinion",
+    "askToEnterReviewMsg": "Veuillez entrer un message d'avis",
+    "pressBackAgainToExit": "Appuyez à nouveau sur retour pour quitter.",
+    "selectPaymentMethod": "Sélectionner la méthode de paiement",
+    "filter": "Filtrer",
+    "perMonth": "/1 Mois",
+    "searchHintWithAppName": "Rechercher quelque chose dans ${appName: String}...",
+    "propertyInfo": "Infos sur la propriété",
+    "units": "Unités",
+    "depositPeriod": "Période de dépôt",
+    "facilitiesList": "Liste des équipements",
+    "facility": "Équipement",
+    "amenity": "Commodité",
+    "amenitiesList": "Liste des commodités",
+    "addNewFacility": "Ajouter un nouvel équipement",
+    "editFacility": "Modifier l'équipement",
+    "facilityName": "Nom de l'équipement",
+    "amenityName": "Nom de la commodité",
+    "addNewAmenity": "Ajouter une nouvelle commodité",
+    "editAmenity": "Modifier la commodité",
+    "family": "Famille",
+    "lateFee": "Frais de retard",
+    "lateFeeAfterDays": "@:common.lateFee après (jours)",
+    "propertyPricing": "Prix de ${propertyType: String}",
+    "thankYouSoMuchYouHaveJustPublishedYourProperty": "Merci beaucoup, vous venez de publier votre propriété",
+    "titleAndDescription": "Titre et description",
+    "rentPricing": "Prix de la location",
+    "step": "Étape",
+    "of": "SUR",
+    "pricing": "Prix",
+    "sameRentForAllUnit": "Même loyer pour toutes les unités",
+    "unit": "unité",
+    "pleaseSelectAnUnitFirst": "Veuillez sélectionner une unité d'abord.",
+    "saleAmount": "Montant de la vente",
+    "selectCategory": "Sélectionner une catégorie",
+    "pleaseSelectACategory": "Veuillez sélectionner une catégorie",
+    "pleaseEnterAdTitle": "Veuillez entrer le titre de l'annonce",
+    "addCoverPhoto": "Ajouter une photo de couverture",
+    "findAProperty": "Trouver une propriété",
+    "categories": "Catégories",
+    "recmmendedProperties": "Propriétés recommandées",
+    "recentSearch": "Recherche récente",
+    "pleaseEnterYourAccountNumber": "Veuillez entrer votre numéro de compte.",
+    "pleaseSelectALanguageToContinue": "Veuillez sélectionner une langue pour continuer.",
+    "subscribe": "S'abonner",
+    "noFacilitiesFound": "Aucun équipement trouvé !",
+    "invalidLaborDetailsPleaseTryAgain": "Détails de la main-d'œuvre invalides, veuillez réessayer",
+    "maintenanceWork": "Travail de maintenance",
+    "selectLabor": "Sélectionner la main-d'œuvre",
+    "enterMaintenanceCost": "Entrer le coût de la maintenance",
+    "pleaseEnterMaintenanceCost": "Veuillez entrer le coût de la maintenance",
+    "writeComment": "Écrire un commentaire",
+    "maintenancePending": "Maintenance en attente",
+    "yourEarnings": "Vos gains",
+    "totalPaid": "Total payé",
+    "linkANewBankAccount": "Lier un nouveau compte bancaire",
+    "payoutRequest": "Demande de paiement"
+  },
+  "exceptions": {
+    "somethingWentWrong": "Quelque chose s'est mal passé, veuillez réessayer",
+    "noNidPassport": "Aucune image CIN/Passeport fournie.",
+    "noRentPropertyFound": "Aucune propriété à louer trouvée pour ce locataire.",
+    "noPropertyFoundWithKeyWord": "Aucune propriété trouvée !\nVeuillez essayer avec des mots-clés différents",
+    "noSubscriptionFoundRefreshPage": "Aucun plan d'abonnement trouvé !\nVeuillez rafraîchir la page et réessayer.",
+    "invalidApiDataRefreshPage": "Informations ${dataType: String} invalides ! Veuillez rafraîchir la page et réessayer.",
+    "invalidDownloadUrl": "URL de téléchargement invalide !",
+    "failedToSaveFile": "Échec de l'enregistrement du fichier ! ${error: String}",
+    "errorOpeningFile": "Erreur lors de l'ouverture du fichier ! ${error: String}",
+    "noVehicleInfoProvided": "Aucune information de véhicule fournie.",
+    "yourApplicationRejected": "Votre candidature a été rejetée",
+    "noApplicationFoundHint": {
+      "template": "Aucune candidature trouvée !\n${subject: String} sera affichée ici lorsqu'elle sera disponible.",
+      "subjects": {
+        "tenant": "Votre candidature",
+        "landlord": "Candidature du locataire"
+      }
+    },
+    "noPropertyFoundHint": {
+      "landlordHome": "Aucune propriété trouvée !\nVeuillez essayer d'ajouter une propriété pour la voir ici.",
+      "tenantRecommended": "Aucune propriété recommandée trouvée\nVeuillez réessayer plus tard.",
+      "tenantAllProperty": "Propriétés non disponibles\nVeuillez réessayer plus tard."
+    },
+    "noImageProvided": "Aucune image fournie",
+    "noStatusMaintenantFound": {
+      "landlord": "Aucune maintenance ${status} trouvée.",
+      "tenant": "Aucune maintenance trouvée ! Vous pouvez créer une demande de maintenance pour la voir ici."
+    },
+    "noDepositFound": "Aucun dépôt de garantie trouvé !\nVeuillez voir les dépôts de garantie lorsqu'ils seront disponibles",
+    "noRentPaymentFound": "Aucun paiement de loyer trouvé !\nVeuillez voir les paiements de loyer lorsqu'ils seront disponibles",
+    "transactionSummaryApiException": "Échec de l'obtention du résumé de la transaction.",
+    "noWithdrawRequestFound": "Aucune demande trouvée !\nVeuillez essayer de créer une demande de retrait pour la voir ici.",
+    "withdrawRequestNotApproved": "Cette demande de retrait n'a pas été approuvée !.",
+    "nonZeroError": "Veuillez entrer un montant valide supérieur à zéro.",
+    "minAmountError": "Le montant doit être d'au moins ${minValue: String}.",
+    "maxAmountError": "Le montant ne doit pas dépasser ${maxValue: String}.",
+    "selectPaymentMethodHint": "Veuillez sélectionner une méthode de paiement d'abord.",
+    "noStatusRefundReqFound": {
+      "landlord": "Aucune demande de remboursement ${status} trouvée !\nVous pouvez voir les demandes de remboursement ici lorsqu'elles seront disponibles.",
+      "tenant": "Aucune demande de remboursement trouvée !\nVous pouvez créer une demande de remboursement pour la voir ici."
+    },
+    "refundRequestHint": {
+      "inTenantList": "Le locataire approuvera le remboursement lorsqu'il aura récupéré l'argent",
+      "tenantReqSuccess": "Nous examinerons la demande de remboursement et l'approuverons dans les 24 heures."
+    },
+    "oneToTenRequiredField": "Veuillez sélectionner le nombre de ${value: String}",
+    "invalidDateRange": "Plage de dates invalide.",
+    "valueMustBeGreaterThanZero": "${value: String} doit être supérieur à zéro.",
+    "editProperty": {
+      "rentalChange": "La propriété locative est en cours de modification. Elle ne doit être valide (effective) que pour le paiement du loyer du mois prochain.",
+      "deleteOnRent": "Votre propriété est déjà louée par un locataire. Impossible de la supprimer tant que vous n'avez pas retiré le locataire d'abord",
+      "alreayRented": "Cette propriété est déjà louée. Veuillez réessayer plus tard.\nOu vous pouvez contacter le propriétaire pour plus d'informations."
+    },
+    "rentInvitation": {
+      "landlordNoRentInvitation": "Aucune invitation à louer trouvée !\nVeuillez essayer de créer une invitation à louer pour la voir ici.",
+      "tenantNoRentInvitation": "Aucune invitation à louer trouvée !\nVous pouvez voir les invitations à louer ici lorsqu'elles seront disponibles."
+    },
+    "notenantFoundList": "Pas de locataires !\nVeuillez essayer d'ajouter un locataire pour le voir ici.",
+    "noFeaturesProvided": "Aucune caractéristique fournie.",
+    "noNotificationFound": "Aucune notification disponible.\nVous pouvez voir votre notification ici lorsqu'elle sera disponible.",
+    "noFacilitiesFound": "Aucun équipement trouvé.",
+    "noAmenitiesFound": "Aucune commodité trouvée !",
+    "noLaborFound": "Aucune main-d'œuvre trouvée\nVeuillez réessayer plus tard.",
+    "areYouSureYouWantToRemoveThisUnit": "Êtes-vous sûr de vouloir supprimer cette unité ?"
+  },
+  "prompt": {
+    "logout": {
+      "title": "@:common.logout",
+      "message": "Êtes-vous sûr de vouloir vous déconnecter ?"
+    },
+    "application": {
+      "rejectTitle": "Pourquoi rejetez-vous cette candidature ?",
+      "applicationSent": {
+        "successfully": "Candidature envoyée avec succès !",
+        "sucessDescription": "Vous pouvez voir cette candidature dans votre liste de candidatures"
+      }
+    },
+    "labor": {
+      "delete": {
+        "title": "Supprimer la main-d'œuvre ?",
+        "description": "Êtes-vous sûr de vouloir supprimer cette main-d'œuvre ?"
+      }
+    },
+    "maintenanceRequest": {
+      "rejectTitle": "Pourquoi cette demande est-elle rejetée ?",
+      "processTitle": "Êtes-vous sûr de vouloir traiter cette demande de maintenance ?",
+      "completeTitle": "Travail terminé ?"
+    },
+    "withdrawMethod": {
+      "deleteTitle": "Supprimer la méthode de retrait ?",
+      "deleteDescription": "Êtes-vous sûr de vouloir supprimer cette méthode de retrait ?"
+    },
+    "unsavedChanges": {
+      "title": "Êtes-vous sûr de vouloir revenir en arrière ?",
+      "message": "Les champs modifiés ne seront pas enregistrés !"
+    },
+    "property": {
+      "delete": {
+        "title": "Supprimer la propriété ?",
+        "message": "Êtes-vous sûr de vouloir supprimer cette propriété ?"
+      }
+    },
+    "rentInvitation": {
+      "landlordApprove": {
+        "title": "Êtes-vous sûr de vouloir approuver cette location ?",
+        "description": "Assurez-vous d'avoir examiné l'accord signé par le locataire."
+      },
+      "tenantAccept": {
+        "title": "Êtes-vous sûr de vouloir accepter cette invitation ?",
+        "description": "Assurez-vous d'avoir téléchargé le fichier PDF de l'accord !"
+      }
+    },
+    "sessionExpired": {
+      "title": "Session expirée",
+      "message": "Votre session a expiré. Veuillez vous reconnecter",
+      "action": "Se connecter"
+    },
+    "noInternet": {
+      "title": "Pas de connexion Internet",
+      "message": "Veuillez vérifier votre connexion Wi-Fi ou réseau mobile et réessayer",
+      "action": "Réessayer"
+    },
+    "permissionHandler": {
+      "title": "Autorisation requise !",
+      "message": "Vous devez accorder des autorisations dans les paramètres de l'application. Souhaitez-vous ouvrir les paramètres maintenant ?"
+    },
+    "imagePicker": {
+      "title": "Sélectionner une option",
+      "gallery": "Galerie",
+      "camera": "Appareil photo"
+    },
+    "verificationDialog": {
+      "title": "Vérifiez votre e-mail",
+      "message": "Nous avons envoyé un e-mail de code de vérification",
+      "messageWithEmail": "@:prompt.verificationDialog.message à ${email: String?}"
+    },
+    "notification": {
+      "clearTitle": "Effacer les notifications ?",
+      "clearMessage": "Êtes-vous sûr de vouloir effacer toutes les notifications ?"
+    },
+    "genericDeletePrompt": {
+      "title": "Voulez-vous supprimer cet(te) ${item: String}"
+    },
+    "subscriptionModal": {
+      "title": "Abonnement expiré !",
+      "message": "Veuillez vous abonner pour continuer."
+    }
+  },
+  "form": {
+    "fullName": {
+      "label": "@:common.fullName",
+      "hint": "Entrez @:common.fullName",
+      "errors": {
+        "required": "Veuillez entrer votre @:common.fullName"
+      }
+    },
+    "email": {
+      "label": "@:common.email",
+      "hint": "Entrez votre @:common.email",
+      "errors": {
+        "required": "Veuillez entrer votre adresse @:common.email",
+        "invalid": "⦸ E-mail invalide, veuillez réessayer"
+      }
+    },
+    "password": {
+      "label": "@:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Veuillez entrer votre @:common.password",
+        "minLength": "Le mot de passe doit contenir au moins ${count} caractères !"
+      }
+    },
+    "confirmPassword": {
+      "label": "Confirmer @:common.password",
+      "hint": "* * * * * * * *",
+      "errors": {
+        "required": "Veuillez entrer votre @:common.password",
+        "notMatched": "Le mot de passe de confirmation ne correspond pas !"
+      }
+    },
+    "mobileNumber": {
+      "label": "@:common.mobileNumber",
+      "hint": "(+60) 555-0123",
+      "errors": {
+        "required": "Veuillez entrer votre @:common.mobileNumber"
+      }
+    },
+    "address1": {
+      "label": "@:common.address 1",
+      "hint": "Numéro de maison et nom de la rue",
+      "errors": {
+        "required": "Veuillez entrer votre @:form.address1.label"
+      }
+    },
+    "address2": {
+      "label": "@:common.address 2",
+      "hint": "Appartement, suite, unité, etc.",
+      "errors": {
+        "required": "Veuillez entrer votre @:form.address2.label"
+      }
+    },
+    "postalCode": {
+      "label": "@:common.postalCode",
+      "hint": "Entrez @:common.postalCode",
+      "errors": {
+        "required": "Veuillez entrer votre @:common.postalCode"
+      }
+    },
+    "city": {
+      "label": "@:common.city",
+      "hint": "Entrez le nom de la @:common.city.",
+      "errors": {
+        "required": "Veuillez entrer le nom de votre @:common.city."
+      }
+    },
+    "state": {
+      "label": "@:common.state",
+      "hint": "Entrez le nom de l'@:common.state.",
+      "errors": {
+        "required": "Veuillez entrer le nom de votre @:common.state."
+      }
+    },
+    "country": {
+      "label": "@:common.country",
+      "hint": "Sélectionnez @:common.country.",
+      "errors": {
+        "required": "Veuillez sélectionner votre @:common.country"
+      }
+    },
+    "otp": {
+      "errors": {
+        "required": "Veuillez entrer le code OTP.",
+        "invalid": "Veuillez entrer le bon code OTP."
+      }
+    },
+    "title": {
+      "label": "Titre",
+      "hint": "Entrer le titre",
+      "errors": {
+        "required": "Veuillez entrer le titre"
+      }
+    },
+    "date": {
+      "label": "${label: String}",
+      "hint": "Sélectionnez @:form.date.label",
+      "errors": {
+        "required": "Veuillez sélectionner @:form.date.label"
+      }
+    },
+    "reason": {
+      "label": "Raison",
+      "hint": "Entrer la raison",
+      "errors": {
+        "required": "Veuillez entrer la raison"
+      }
+    },
+    "withdrawMethod": {
+      "label": "@:common.withdrawMethod",
+      "hint": "Sélectionnez @:common.withdrawMethod",
+      "errors": {
+        "required": "Veuillez sélectionner @:common.withdrawMethod"
+      }
+    },
+    "fileField": {
+      "label": "${label: String}",
+      "hint": "Télécharger ${label: String}",
+      "errors": {
+        "required": "Veuillez sélectionner ${label: String}"
+      }
+    },
+    "note": {
+      "label": "${note: String}",
+      "hint": "Entrez @:form.note.label",
+      "errors": {
+        "required": "Veuillez entrer @:form.note.label"
+      }
+    },
+    "gender": {
+      "label": "@:common.gender",
+      "hint": "Sélectionnez @:common.gender",
+      "errors": {
+        "required": "Veuillez sélectionner @:common.gender"
+      }
+    },
+    "anyField": {
+      "label": "${label: String}",
+      "hint": "Entrez @:form.anyField.label",
+      "errors": {
+        "required": "Veuillez entrer @:form.anyField.label",
+        "invalid": "Veuillez entrer un @:form.anyField.label valide"
+      }
+    },
+    "anyDropdown": {
+      "label": "${label: String}",
+      "hint": "Sélectionnez @:form.anyDropdown.label",
+      "errors": {
+        "required": "Veuillez sélectionner @:form.anyDropdown.label",
+        "invalid": "Veuillez sélectionner un @:form.anyDropdown.label valide"
+      }
+    }
+  },
+  "action": {
+    "next": "Suivant",
+    "getStarted": "Commencer",
+    "skip": "Passer",
+    "select": "Sélectionner",
+    "save": "Enregistrer",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "continue": "Continuer",
+    "clearAll": "Tout effacer",
+    "cancelRenting": "@:common.cancelRenting",
+    "send": "Envoyer",
+    "pay": "Payer",
+    "remove": "Supprimer",
+    "goBack": "Retourner",
+    "buyNow": "Acheter maintenant",
+    "no": "Non",
+    "open": "Ouvrir",
+    "addProperty": "Ajouter une propriété",
+    "process": "Traiter",
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "viewRent": "Voir la location",
+    "openNavigationMenu": "Ouvrir le menu de navigation",
+    "seeAll": "Voir tout",
+    "update": "Mettre à jour",
+    "printTransaction": "Imprimer la transaction",
+    "payoutRequest": "Demande de paiement",
+    "addNew": "+ Ajouter nouveau",
+    "sendRequest": "Envoyer la demande",
+    "print": "Imprimer",
+    "requestForRefund": "Demander un remboursement",
+    "previous": "Précédent",
+    "delete": "Supprimer",
+    "applyProperty": "Candidater pour la propriété",
+    "viewApplication": "Voir la candidature",
+    "inviteTenant": "Inviter un locataire",
+    "inviteRent": "Inviter à louer",
+    "cancel": "Annuler",
+    "accept": "Accepter",
+    "submit": "Soumettre",
+    "yes": "Oui",
+    "okay": "D'accord",
+    "confirm": "Confirmer",
+    "apply": "Appliquer",
+    "reset": "Réinitialiser",
+    "retry": "Réessayer",
+    "viewAll": "Voir tout",
+    "addMore": "Ajouter plus",
+    "done": "Terminé"
+  },
+  "pages": {
+    "language": {
+      "appbarTitle": "@:action.select @:common.language"
+    },
+    "onboard": {
+      "onboardData": {
+        "data1": {
+          "title": "Trouvez votre propriété",
+          "description": "Nous avons rendu facile la recherche d'un endroit qui correspond à votre vie — qu'il s'agisse d'une chambre, d'un appartement ou d'une maison."
+        },
+        "data2": {
+          "title": "Appartement en ville",
+          "description": "Nous vous faisons gagner du temps en vous mettant rapidement en relation avec la propriété parfaite avant qu'elle ne soit prise, afin que vous puissiez profiter de votre nouveau foyer, ou mettre la vôtre en annonce gratuitement."
+        },
+        "data3": {
+          "title": "Votre maison de confort",
+          "description": "Si vous cherchez un lieu de résidence, jetez un œil à nos maisons à louer. Nous avons un large éventail de maisons parmi lesquelles choisir dans tout le pays."
+        }
+      }
+    },
+    "signIn": {
+      "title": "Bienvenue de retour",
+      "subtitle": "Connectez-vous maintenant pour commencer un voyage incroyable.",
+      "extra": {
+        "rememberMe": "Se souvenir de moi",
+        "signUpNavigator(rich)": "Vous n'avez pas de compte ? ${getStarted(@:action.getStarted)}",
+        "forgotPassword": "@:common.forgotPassword?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "subtitle": "Entrez votre adresse e-mail pour récupérer votre mot de passe."
+    },
+    "otpVerification": {
+      "title": "Vérification",
+      "subtitle": "Un code PIN à 6 chiffres a été envoyé à votre adresse e-mail. ${email: String}",
+      "extra": {
+        "codeResend": {
+          "codeSendIn": "Code envoyé dans ${minutes}:${seconds}",
+          "resendCode(rich)": " ${resendCode(Renvoyer le code)} "
+        }
+      }
+    },
+    "resetPassword": {
+      "title": "Réinitialiser le mot de passe",
+      "subtitle": "Réinitialisez votre mot de passe pour la récupération et connectez-vous à votre compte",
+      "extra": {
+        "dialog": {
+          "title": "Modification réussie !",
+          "subtitle": "Connectez-vous avec votre nouveau mot de passe.\n Redirection vers la Connexion..."
+        }
+      }
+    },
+    "signUp": {
+      "title": "Créer un compte",
+      "subtitle": "Inscrivez-vous maintenant pour commencer un voyage incroyable",
+      "extra": {
+        "signInNavigator(rich)": "Vous avez un compte ? ${signIn(@:action.signIn)}"
+      }
+    },
+    "welcome": {
+      "title": "Qui êtes-vous ?",
+      "subtitle": "Veuillez sélectionner l'option ci-dessous.",
+      "extra": {
+        "landlordTag": "Gérer vos propres propriétés",
+        "tenantTag": "Se connecter à votre compte de location"
+      }
+    },
+    "aboutUs": {
+      "appbarTitle": "@:common.aboutUs"
+    },
+    "termsAndConditions": {
+      "appbarTitle": "@:common.termsAndConditions"
+    },
+    "notificationList": {
+      "appbarTitle": "Notifications"
+    },
+    "contactUs": {
+      "appbarTitle": "@:common.contactUs",
+      "extra": {
+        "messageHint": "Message..."
+      }
+    },
+    "cancelRenting": {
+      "appbarTitle": "@:common.cancelRenting",
+      "title": "Pourquoi @:common.cancelRenting ?",
+      "form": {
+        "reason": {
+          "hint": "Écrire la raison",
+          "errors": {
+            "required": "Veuillez entrer la raison de l'annulation de la location"
+          }
+        }
+      }
+    },
+    "invoiceDetails": {
+      "appbarTitle": "@:common.viewDetails"
+    },
+    "offlinePayment": {
+      "appbarTitle": "Paiement hors ligne",
+      "form": {
+        "paymentNote": {
+          "label": "Note de paiement (@:common.optional)",
+          "hint": "Entrez du texte..."
+        }
+      },
+      "extra": {
+        "payAmount(rich)": "Montant à payer : ${amount}",
+        "accountHolderName": "Nom du titulaire du compte",
+        "accountNumber": "Numéro de compte",
+        "swiftCode": "Code Swift",
+        "branch": "Succursale",
+        "fileTypeHint(rich)": "Choisissez des fichiers au format ${fileType(JPG, PNG,PDF)} ou ${fileType(DOC)} uniquement. Taille de fichier ${fileSize(2000 KB)}"
+      }
+    },
+    "paymentStatus": {
+      "success": {
+        "actionButton": "Voir la facture",
+        "title": "@:common.thankYou",
+        "description": "Nous allons examiner le paiement et l'approuver dans les 24 heures."
+      },
+      "fail": {
+        "actionButton": "Réessayer",
+        "title": "Oups ! Échec du paiement",
+        "description": "Votre transaction a échoué en raison d'une erreur technique."
+      }
+    },
+    "propertyDetails": {
+      "extra": {
+        "landlord(rich)": "@:common.landlord: ${landlordName}",
+        "ratingReviews(rich)": "${rating} ${reviews(@:common.reviews)}",
+        "features(rich)": "Caractéristiques ${fa((Équipements et commodités))}",
+        "selectRentalPeriod": "Sélectionner la période de location",
+        "writeAReview": "+ Écrire un avis"
+      }
+    },
+    "search": {
+      "appbarTitle": "Recherche",
+      "extra": {
+        "hint": "Rechercher des terrains, appartements, chambres...",
+        "noRecentSearch": "Vous n'avez pas de recherches récentes."
+      }
+    },
+    "subscriptionPlan": {
+      "appbarTitle": "Choisissez votre plan",
+      "extra": {
+        "subscriptionPaymentSuccess": "Paiement de l'abonnement réussi.\nVous pouvez accéder aux fonctionnalités abonnées maintenant."
+      }
+    },
+    "landlordMaintenanceReport": {
+      "totalMaintenanceCost(rich)": "Coût total de la maintenance : ${amount: string}",
+      "maintenancePending": "@:common.maintenance @:enums.maintenanceStatus.pending",
+      "maintenanceProcessing": "@:common.maintenance @:enums.maintenanceStatus.processing",
+      "maintenanceCompleted": "@:common.maintenance @:enums.maintenanceStatus.completed",
+      "maintenanceRejected": "@:common.maintenance @:enums.maintenanceStatus.rejected"
+    }
+  },
+  "enums": {
+    "propertyStatus": {
+      "allProperty": "Toutes les propriétés",
+      "pending": "En attente",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "rejected": "Rejeté"
+    },
+    "propertyType": {
+      "rent": "Location",
+      "sale": "Vente"
+    },
+    "propertyCategory": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "commercial": "Commercial",
+      "land": "Terrain",
+      "room": "Chambre",
+      "unitOrFlat": "Unité / Appartement",
+      "bungalow": "Bungalow",
+      "plot": "Terrain"
+    },
+    "applicationStatus": {
+      "all": "Tout",
+      "pending": "En attente",
+      "processing": "En cours de traitement",
+      "approved": "Approuvé",
+      "rejected": "Rejeté"
+    },
+    "myRentStatus": {
+      "pending": "En attente",
+      "processing": "En cours de traitement",
+      "active": "Actif",
+      "expired": "Expiré",
+      "cancelled": "Annulé"
+    },
+    "maintenanceStatus": {
+      "pending": "En attente",
+      "processing": "En cours de traitement",
+      "rejected": "Rejeté",
+      "completed": "Terminé"
+    },
+    "tenantProfileType": {
+      "privateIndividual": "Privé (Particulier)",
+      "company": "Entreprise"
+    },
+    "tenantType": {
+      "newTenant": "Nouveau locataire",
+      "activeTenant": "Locataire actif",
+      "expiredTenant": "Locataire expiré"
+    },
+    "paymentStatus": {
+      "all": "Tout",
+      "pending": "En attente",
+      "paid": "Payé",
+      "unpaid": "Non payé",
+      "rejected": "Rejeté",
+      "refund": "Remboursement"
+    },
+    "paymentOptions": {
+      "onlinePayment": "Paiement en ligne",
+      "offlinePayment": "Paiement hors ligne"
+    },
+    "paymentType": {
+      "securityDeposit": "Dépôt de garantie",
+      "rentPayment": "Paiement du loyer",
+      "subscription": "Abonnement"
+    },
+    "gender": {
+      "male": "Homme",
+      "female": "Femme",
+      "other": "Autre"
+    },
+    "ecRelation": {
+      "wife": "Épouse",
+      "parent": "Parent",
+      "friend": "Ami(e)",
+      "brother": "Frère",
+      "sister": "Sœur",
+      "child": "Enfant"
+    },
+    "vehicleType": {
+      "car": "Voiture",
+      "motorcycles": "Motos",
+      "lorry": "Camion"
+    },
+    "sortBy": {
+      "lowToHigh": "Bas à Haut",
+      "highToLow": "Haut à Bas"
+    },
+    "residentialType": {
+      "flat": "Appartement",
+      "apartment": "Appartement",
+      "condominium": "Condominium",
+      "serviceResidence": "Résidence de services",
+      "studio": "Studio",
+      "duplex": "Duplex",
+      "townhouseCondo": "Maison de ville / Condo",
+      "condo": "Condo / Résidence de services / Penthouse",
+      "house": "Maisons",
+      "shoplot": "Local commercial",
+      "sharing": "Partage de maison / Appartement",
+      "others": "Autres"
+    },
+    "floorRange": {
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Bas"
+    },
+    "furnishings": {
+      "fullyFurnished": "Entièrement meublé",
+      "partiallyFurnished": "Partiellement meublé",
+      "notFurnished": "Non meublé"
+    },
+    "commercialPropertyType": {
+      "officeSpace": "Espace de bureau",
+      "retailSpace": "Espace de vente au détail",
+      "shopLot": "Local commercial",
+      "warehouseFactory": "Entrepôt / Usine",
+      "hotelResort": "Hôtel / Complexe hôtelier",
+      "sofo": "Sofo",
+      "soho": "Soho",
+      "sovo": "Sovo",
+      "others": "Autres"
+    },
+    "landPropertyType": {
+      "residential": "Résidentiel",
+      "industrial": "Industriel",
+      "agricultural": "Agricole",
+      "commercial": "Commercial",
+      "mixedDevelopment": "Développement mixte",
+      "others": "Autres"
+    },
+    "minimumRentalPeriod": {
+      "sixMonths": "6 Mois",
+      "oneYear": "1 An",
+      "oneAndHalfYears": "1,5 Ans",
+      "twoYears": "2 Ans",
+      "twoAndHalfYears": "2,5 Ans"
+    },
+    "dropdownDateFilter": {
+      "daily": "Quotidien",
+      "weekly": "Hebdomadaire",
+      "monthly": "Mensuel",
+      "yearly": "Annuel",
+      "custom": "Personnalisé"
+    },
+    "bungalowType": {
+      "modern": "Moderne",
+      "cottage": "Chalet",
+      "luxury": "Luxe",
+      "ecoSmart": "Éco / Intelligent",
+      "beachSide": "Bord de mer",
+      "others": "Autres"
+    }
+  }
+}
