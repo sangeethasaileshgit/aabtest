@@ -125,8 +125,16 @@ jobs:
           APP_STORE_CONNECT_API_KEY_ID: ${{ secrets.APP_STORE_CONNECT_API_KEY_ID }}
           APP_STORE_CONNECT_ISSUER_ID: ${{ secrets.APP_STORE_CONNECT_ISSUER_ID }}
           APP_STORE_CONNECT_API_PRIVATE_KEY_BASE64: ${{ secrets.APP_STORE_CONNECT_API_PRIVATE_KEY_BASE64 }}
+          APP_STORE_CONNECT_PROVIDER_SHORT_NAME: ${{ secrets.APP_STORE_CONNECT_PROVIDER_SHORT_NAME }}
         run: |
           mkdir -p ~/.appstoreconnect/private_keys
           echo -n "$APP_STORE_CONNECT_API_PRIVATE_KEY_BASE64" | openssl base64 -d -A > ~/.appstoreconnect/private_keys/AuthKey_${APP_STORE_CONNECT_API_KEY_ID}.p8
           IPA_PATH=$(ls -1 build/ios/ipa/*.ipa | head -n 1)
-          xcrun altool --upload-app --type ios --file "$IPA_PATH" --apiKey "$APP_STORE_CONNECT_API_KEY_ID" --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID"
+          echo "Uploading: $IPA_PATH"
+          if [ -n "$APP_STORE_CONNECT_PROVIDER_SHORT_NAME" ]; then
+            echo "Using provider short name: $APP_STORE_CONNECT_PROVIDER_SHORT_NAME"
+            xcrun altool --upload-app --type ios --file "$IPA_PATH" --apiKey "$APP_STORE_CONNECT_API_KEY_ID" --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID" --asc-provider "$APP_STORE_CONNECT_PROVIDER_SHORT_NAME"
+          else
+            echo "No provider short name set. Uploading with default provider."
+            xcrun altool --upload-app --type ios --file "$IPA_PATH" --apiKey "$APP_STORE_CONNECT_API_KEY_ID" --apiIssuer "$APP_STORE_CONNECT_ISSUER_ID"
+          fi
