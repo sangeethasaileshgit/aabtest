@@ -59,5 +59,16 @@
     <!-- URL Launcher -->
     <key>com.apple.security.network.client</key>
     <true/>
+    <!-- Privacy purpose strings required by App Store -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app requires access to your photo library to allow you to upload and share images.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app requires access to save images to your photo library.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires access to your camera to allow you to take photos.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app requires access to your microphone to record audio.</string>
+    <key>NSFileProviderDomainUsageDescription</key>
+    <string>This app requires access to files to allow you to upload documents.</string>
   </dict>
 </plist>
