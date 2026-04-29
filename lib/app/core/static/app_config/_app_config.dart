@@ -4,5 +4,5 @@ abstract class AppConfig {
   static const String baseUrl = 'https://masstasapp.com';
 
   // Purchase Code
-  static const String purchaseCode = 'YOUR_PURCHASE_CODE';
+  static const String purchaseCode = '52def379-6b43-4d51-8c37-7e6556463acc';
 }
