@@ -35,13 +35,6 @@ class LandlordSettingsView extends ConsumerWidget {
         route: LanguageRoute(getBack: true),
       ),
       SettingsNavTile(
-        // title: "Subscription Plan",
-        title: context.t.common.subscriptionPlan,
-        icon: IconlyBold.ticket,
-        color: DAppColors.kPendingColor,
-        route: SubscriptionListRoute(),
-      ),
-      SettingsNavTile(
         // title: "Contact Us",
         title: context.t.common.contactUs,
         icon: IconlyBold.message,
@@ -93,21 +86,13 @@ class LandlordSettingsView extends ConsumerWidget {
               const SizedBox.square(dimension: 20),
               Text.rich(
                 TextSpan(
-                  text: '${user.value?.name}\n',
-                  children: [
-                    TextSpan(
-                      text: user.valueOrNull?.subscriptionPlan?.subscriptionName ?? "N/A",
-                      style: _theme.textTheme.bodyLarge?.copyWith(
-                        color: _theme.colorScheme.onPrimary,
-                      ),
-                    ),
-                  ],
+                  text: '${user.value?.name}',
                   style: _theme.textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.w600,
                     color: _theme.colorScheme.onPrimary,
                   ),
                 ),
-                maxLines: 3,
+                maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),
             ],
