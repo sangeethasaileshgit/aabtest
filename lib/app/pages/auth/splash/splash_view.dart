@@ -108,7 +108,7 @@ class _SplashViewState extends ConsumerState<SplashView> {
         child: CircleAvatar(
           radius: 100,
           backgroundColor: Colors.white,
-          child: Image.asset(DAppImages.splashLogo).fMarginAll(28),
+          child: Image.asset(DAppImages.signInLogoIcon).fMarginAll(28),
         ),
       ),
     );
