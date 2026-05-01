@@ -33,8 +33,13 @@ class AboutUsView extends ConsumerWidget {
                 return HtmlWidget(
                   '''
                   ${data.image != null ? '<img src="${data.image?.remote}"></img>' : ''}
-                  <h1>${data.title ?? ''}</h1>
-                  <div>${data.description ?? ''}</div>
+                  <h1>About Us</h1>
+                  <p>Welcome to MassTAS, a modern property rental management platform designed to simplify the way landlords, property managers, and tenants handle rental operations.</p>
+                  <p>At MassTAS, our goal is to make property management easier, faster, and more organized. We provide tools to manage property listings, tenant applications, rent payments, maintenance requests, and important rental records all in one place.</p>
+                  <p>We believe that managing rental properties should not be complicated. That is why MassTAS is built to help users save time, reduce manual work, and improve communication between landlords and tenants.</p>
+                  <p>Whether you are managing a single property or multiple rental units, MassTAS is designed to support efficient day-to-day operations with a user-friendly experience.</p>
+                  <p>Our mission is to deliver a reliable and practical solution that helps property owners and managers stay in control while providing better service to tenants.</p>
+                  <p>Thank you for choosing MassTAS.</p>
                   ''',
                   onLoadingBuilder: (_, _, _) {
                     return _buildPlaceholder;
