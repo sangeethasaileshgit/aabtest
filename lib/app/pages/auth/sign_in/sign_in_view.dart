@@ -199,25 +199,25 @@ class _SignInViewState extends ConsumerState<SignInView> {
                           ).fSizedBox(size: Size.fromHeight(50.fH)),
                           const SizedBox.square(dimension: 20),
 
-                          // Sign Up Navigator
-                          Text.rich(
-                            context.t.pages.signIn.extra.signUpNavigator(
-                              getStarted: (getStarted) => TextSpan(
-                                text: getStarted,
-                                style: TextStyle(
-                                  color: _theme.colorScheme.primary,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                                recognizer: TapGestureRecognizer()
-                                  ..onTap = () {
-                                    context.router.push(const WelcomeRoute());
-                                  },
-                              ),
-                            ),
-                            style: _theme.textTheme.bodyMedium?.copyWith(
-                              color: _theme.colorScheme.secondary,
-                            ),
-                          ),
+                          // Sign Up Navigator (hidden)
+                          // Text.rich(
+                          //   context.t.pages.signIn.extra.signUpNavigator(
+                          //     getStarted: (getStarted) => TextSpan(
+                          //       text: getStarted,
+                          //       style: TextStyle(
+                          //         color: _theme.colorScheme.primary,
+                          //         fontWeight: FontWeight.w600,
+                          //       ),
+                          //       recognizer: TapGestureRecognizer()
+                          //         ..onTap = () {
+                          //           context.router.push(const WelcomeRoute());
+                          //         },
+                          //     ),
+                          //   ),
+                          //   style: _theme.textTheme.bodyMedium?.copyWith(
+                          //     color: _theme.colorScheme.secondary,
+                          //   ),
+                          // ),
                         ],
                       ),
                     ),
